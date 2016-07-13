@@ -1,0 +1,12 @@
+{
+	
+	"food": {
+		"oredict": [
+			"foodBuffedFeast"
+		],		
+		"items": [
+		]
+	},	
+	"name": "Buffed Feast",	
+	"color": "gold"
+}

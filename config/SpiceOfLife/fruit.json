@@ -1,0 +1,15 @@
+{
+	
+	"food": {
+		"oredict": [
+			"listAllfruit",
+			"listAllberry"
+		],		
+		"items": [
+			"minecraft:apple",
+			"minecraft:golden_apple:0"
+		]
+	},	
+	"name": "Fruit",	
+	"formula": "MAX(0, (1 - count/2))"
+}

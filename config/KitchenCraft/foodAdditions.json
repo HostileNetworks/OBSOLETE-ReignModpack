@@ -1,0 +1,765 @@
+{
+  "foods": [
+    {
+      "name": "basil",
+      "isMeat": false,
+      "color": 8112513,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "blocks": [
+        "minecraft:tallgrass"
+      ],
+      "minDropped": 0,
+      "maxDropped": 1,
+      "dropChance": 0.1,
+      "oreDictNames": [
+        "foodHerbBasil",
+        "listAllsavory"
+      ]
+    },
+    {
+      "name": "oregano",
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "blocks": [
+        "BiomesOPlenty:flowers"
+      ],
+      "minDropped": 0,
+      "maxDropped": 1,
+      "dropChance": 0.2,
+      "oreDictNames": [
+        "foodHerbOregano",
+        "listAllsavory"
+      ]
+    },
+    {
+      "name": "bayleaf",
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "blocks": [
+        "BiomesOPlenty:flowers2"
+      ],
+      "minDropped": 0,
+      "maxDropped": 1,
+      "dropChance": 0.2,
+      "oreDictNames": [
+        "foodHerbBayleaf",
+        "listAllsavory"
+      ]
+    },
+    {
+      "name": "dill",
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "blocks": [
+        "minecraft:double_plant"
+      ],
+      "minDropped": 0,
+      "maxDropped": 1,
+      "dropChance": 0.2,
+      "oreDictNames": [
+        "foodHerbDill",
+        "listAllsavory"
+      ]
+    },
+    {
+      "name": "fennel",
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "blocks": [
+        "minecraft:red_flower"
+      ],
+      "minDropped": 0,
+      "maxDropped": 1,
+      "dropChance": 0.1,
+      "oreDictNames": [
+        "foodHerbFennel",
+        "listAllsavory"
+      ]
+    },
+    {
+      "name": "chives",
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "blocks": [
+        "BiomesOPlenty:foliage"
+      ],
+      "minDropped": 0,
+      "maxDropped": 1,
+      "dropChance": 0.1,
+      "oreDictNames": [
+        "foodHerbChives",
+        "listAllsavory"
+      ]
+    },
+    {
+      "name": "rosemary",
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "blocks": [
+        "BiomesOPlenty:foliage"
+      ],
+      "minDropped": 0,
+      "maxDropped": 1,
+      "dropChance": 0.1,
+      "oreDictNames": [
+        "foodHerbRosemary",
+        "listAllsavory"
+      ]
+    },
+    {
+      "name": "thyme",
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "blocks": [
+        "Natura:Bluebells"
+      ],
+      "minDropped": 0,
+      "maxDropped": 1,
+      "dropChance": 0.1,
+      "oreDictNames": [
+        "foodHerbThyme",
+        "listAllsavory"
+      ]
+    },
+    {
+      "name": "choppedgarlic",
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "oreDictNames": [
+        "foodChoppedgarlic",
+        "listAllsavory"
+      ]
+    },
+    {
+      "name": "rennet",
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "oreDictNames": [
+        "listAllrennet"
+      ]
+    },
+    {
+      "name": "offal",
+      "isMeat": false,
+      "color": 8112513,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false,
+      "animals": [
+        "Sheep",
+        "Cow",
+        "Horse",
+        "Pig"
+      ],
+      "minDropped": 1,
+      "maxDropped": 1,
+      "dropChance": 0.1
+    },
+    {
+      "name": "casing",
+      "isMeat": false,
+      "color": 8112513,
+      "makeSeed": false,
+      "isEdible": false,
+      "seedRecipe": false
+    },
+    {
+      "name": "belly",
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllmeatraw"
+      ],
+      "effects": [
+        {
+          "name": "potion.poison",
+          "time": 30,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "name": "burgerpatty",
+      "isMeat": true,
+      "food": "10",
+      "saturation": 10,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllmeat"
+      ]
+    },
+    {
+      "name": "baconraw",
+      "isMeat": true,
+      "food": "1",
+      "saturation": 1,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllmeat"
+      ],
+      "effects": [
+        {
+          "name": "potion.poison",
+          "time": 30,
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "name": "bacon",
+      "isMeat": true,
+      "food": "10",
+      "saturation": 10,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllmeat"
+      ]
+    },
+    {
+      "name": "stewedfruit",
+      "food": "6",
+      "saturation": 4,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodStewedfruit"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 30,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "ungrilledcheese",
+      "food": "5",
+      "saturation": 3,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodUngrilledcheese"
+      ]
+    },
+    {
+      "name": "uncuredsausage",
+      "food": "8",
+      "saturation": 10,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllrawfood"
+      ],
+      "effects": [
+        {
+          "name": "potion.poison",
+          "time": 30,
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "name": "salami",
+      "food": "16",
+      "saturation": 10,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllmeat"
+      ]
+    },
+    {
+      "name": "rawveggiepizza",
+      "food": "16",
+      "saturation": 40,
+      "isMeat": false,
+      "color": 8112513,
+      "makeSeed": false,
+      "isEdible": true,
+      "seedRecipe": false,
+      "oreDictNames": [
+        "foodRaw"
+      ],
+      "effects": [
+        {
+          "name": "potion.weakness",
+          "time": 30,
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "name": "veggiepizza",
+      "food": "32",
+      "saturation": 60,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "seedRecipe": false,
+      "oreDictNames": [
+        "foodBuffedFeast"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 30,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "cheddarcheese",
+      "food": "16",
+      "saturation": 10,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllcheese"
+      ]
+    },
+    {
+      "name": "cottagecheese",
+      "food": "16",
+      "saturation": 10,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllcheese"
+      ]
+    },
+    {
+      "name": "driedfruit",
+      "food": "8",
+      "saturation": 10,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAlldriedfruit"
+      ]
+    },
+    {
+      "name": "Saladsandwich",
+      "food": "5",
+      "saturation": 5,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 30,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Simplesandwich",
+      "food": "7",
+      "saturation": 7,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 30,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "Sandwich",
+      "food": "9",
+      "saturation": 10,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 30,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "rawpotpie",
+      "food": "16",
+      "saturation": 10,
+      "isMeat": true,
+      "color": 8112513,
+      "makeSeed": false,
+      "isEdible": true,
+      "seedRecipe": false,
+      "oreDictNames": [
+        "foodPie",
+        "foodRaw"
+      ],
+      "effects": [
+        {
+          "name": "potion.poison",
+          "time": 30,
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "name": "potpie",
+      "food": "44",
+      "saturation": 60,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "seedRecipe": false,
+      "oreDictNames": [
+        "foodPie"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 30,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "rawquiche",
+      "food": "16",
+      "saturation": 10,
+      "isMeat": true,
+      "color": 8112513,
+      "makeSeed": false,
+      "isEdible": true,
+      "seedRecipe": false,
+      "oreDictNames": [
+        "foodRawfruitpie",
+        "foodRaw"
+      ],
+      "effects": [
+        {
+          "name": "potion.poison",
+          "time": 30,
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "name": "quiche",
+      "food": "20",
+      "saturation": 60,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "seedRecipe": false,
+      "oreDictNames": [
+        "foodFruitpie"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 300,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "uncuredhoneyham",
+      "food": "8",
+      "saturation": 10,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllrawfood"
+      ],
+      "effects": [
+        {
+          "name": "potion.poison",
+          "time": 30,
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "name": "honeyham",
+      "food": "16",
+      "saturation": 10,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllmeat"
+      ]
+    },
+    {
+      "name": "rawmeatpizza",
+      "food": "16",
+      "saturation": 40,
+      "isMeat": true,
+      "color": 8112513,
+      "makeSeed": false,
+      "isEdible": true,
+      "seedRecipe": false,
+      "oreDictNames": [
+        "foodRaw"
+      ],
+      "effects": [
+        {
+          "name": "potion.poison",
+          "time": 30,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "meatpizza",
+      "food": "44",
+      "saturation": 90,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "seedRecipe": false,
+      "oreDictNames": [
+        "foodBuffedFeast"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 30,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "RecoveryBrunch",
+      "food": "80",
+      "saturation": 88,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodBuffedFeast"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 30,
+          "chance": 1
+        },
+        {
+          "name": "potion.regeneration",
+          "time": 1800,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "heartystew",
+      "food": "36",
+      "saturation": 40,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodSoup",
+        "foodBuffedFeast"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 30,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "chowder",
+      "food": "28",
+      "saturation": 40,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodSoup",
+        "foodBuffedFeast"
+      ],
+      "effects": [
+        {
+          "name": "potion.digSpeed",
+          "time": 1800,
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "name": "seafoodchowder",
+      "food": "28",
+      "saturation": 40,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodSoup",
+        "foodBuffedFeast"
+      ],
+      "effects": [
+        {
+          "name": "potion.regeneration",
+          "time": 1800,
+          "level": 2,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "seafoodfeast",
+      "food": "48",
+      "saturation": 60,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodBuffedFeast"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 800,
+          "chance": 1
+        },
+        {
+          "name": "potion.waterBreathing",
+          "time": 1200,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "SurfnTurf",
+      "food": "48",
+      "saturation": 60,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodBuffedFeast"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 800,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "jpmorningsupreme",
+      "food": "40",
+      "saturation": 60,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodBuffedFeast"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 300,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "roastlambDinner",
+      "food": "44",
+      "saturation": 60,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodBuffedFeast"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 300,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "DinnerFor1",
+      "food": "30",
+      "saturation": 40,
+      "isMeat": true,
+      "makeSeed": false,
+      "isEdible": true,
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 300,
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "name": "rawsausage",
+      "food": "4",
+      "saturation": 4,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "listAllrawfood"
+      ],
+      "effects": [
+        {
+          "name": "potion.poison",
+          "time": 30,
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "name": "tomatosoupandgrilledcheese",
+      "food": "48",
+      "saturation": 60,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true
+    }
+  ]
+}

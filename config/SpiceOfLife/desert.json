@@ -1,0 +1,15 @@
+{
+	
+	"food": {
+		"oredict": [
+			"listAlldesert",
+			"listAllsoda"
+		],		
+		"items": [
+		]
+	},	
+	"name": "Desert",	
+	"enabled": true,	
+	"priority": 1,	
+	"formula": "MAX(0, 1 - count/6)"
+}

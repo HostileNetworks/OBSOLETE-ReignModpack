@@ -1,0 +1,365 @@
+{
+    "Cavetin": {
+        "template": "uniform",
+        "block": {
+            "name": "ElectriCraft:electricraft_block_ore",
+            "metadata": 1
+        },
+        "clusterSize": 20,
+        "numClusters": 6,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavesilver": {
+        "template": "uniform",
+        "block":  {
+            "name": "ImmersiveEngineering:ore",
+            "metadata": 3
+        },
+        "clusterSize": 24,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavelead": {
+        "template": "uniform",
+        "block": {
+            "name": "ImmersiveEngineering:ore",
+            "metadata": 2
+        },
+        "clusterSize": 22,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavenickel": {
+        "template": "uniform",
+        "block": {
+            "name": "ImmersiveEngineering:ore",
+            "metadata": 4
+        },
+        "clusterSize": 18,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Caveplatinum": {
+        "template": "uniform",
+        "block": {
+            "name": "ElectriCraft:electricraft_block_ore",
+            "metadata": 5
+        },
+        "clusterSize": 12,
+        "chunkChance": 1,
+        "numClusters": 6,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavecopper": {
+        "template": "uniform",
+        "block": {
+            "name": "ImmersiveEngineering:ore",
+            "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 25,
+        "numClusters": 6,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavealuminum": {
+        "template": "uniform",
+        "block": {
+            "name": "ImmersiveEngineering:ore",
+            "metadata": 1
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavecertusquartz": {
+        "template": "uniform",
+        "block": {
+            "name": "appliedenergistics2:tile.OreQuartz"
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavechargedcertusquartz": {
+        "template": "uniform",
+        "block": {
+            "name": "appliedenergistics2:tile.OreQuartzCharged"
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 15,
+        "numClusters": 2,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavecoal": {
+        "template": "uniform",
+        "block": "coal_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 24,
+        "numClusters": 8,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Caveiron": {
+        "template": "uniform",
+        "block": "iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 7,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavegold": {
+        "template": "uniform",
+        "block": "gold_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 20,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Caveredstone": {
+        "template": "uniform",
+        "block": "redstone_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 3,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavediamond": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 12,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "Cavelapis": {
+        "template": "uniform",
+        "block": "lapis_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 20,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+  "CaveOsmium": {
+    "template": "uniform",
+    "block": [
+	{
+      "name": "Mekanism:OreBlock",
+      "metadata": 0,
+      "weight": 70
+      },
+      {
+        "name": "Metallurgy:utility.ore",
+        "metadata": 3,
+        "weight": 10
+      },
+      {
+        "name": "Magneticraft:tungsten_ore",
+        "metadata": 0,
+        "weight": 20
+      }	  
+    ],
+    "material": "stone",
+    "clusterSize": 16,
+    "numClusters": 4,
+    "chunkChance": 16,
+    "minHeight": 4,
+    "maxHeight": 250,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  },
+  "Caveuranium": {
+    "template": "uniform",
+    "block": [
+      {
+        "name": "Magneticraft:uranium_ore",
+        "metadata": 0,
+        "weight": 30
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 1,
+        "weight": 30
+      },
+      {
+        "name": "Magneticraft:thorium_ore",
+        "metadata": 9,
+        "weight": 40
+      },
+      {
+        "name": "BiomesOPlenty:gemOre",
+        "metadata": 6,
+        "weight": 10
+      },
+      {
+        "name": "Magneticraft:tungsten_ore",
+        "metadata": 0,
+        "weight": 40
+      }
+    ],
+    "material": "stone",
+    "clusterSize": 20,
+    "numClusters": 2,
+    "chunkChance": 4,
+    "minHeight": 5,
+    "maxHeight": 250,
+    "retrogen": false,
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
+    ]
+  }	
+}

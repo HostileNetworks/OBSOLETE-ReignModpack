@@ -1,0 +1,13 @@
+{
+	
+	"food": {
+		"oredict": [
+			"listAlljuice",
+			"listAlljelly"
+		],		
+		"items": [
+		]
+	},	
+	"name": "Juice",	
+	"formula": "MAX(0, 1 - count/2)"
+}

@@ -1,0 +1,9 @@
+/*
+/*/
+
+!/config/
+!/mods/
+!/scripts/
+
+!.gitignore
+

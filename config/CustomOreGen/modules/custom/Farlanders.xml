@@ -1,0 +1,258 @@
+<!-- =================================================================
+     Custom Ore Generation "The Farlanders" Module: This
+     configuration covers Endumium and mountain Endumium.
+     ================================================================= -->
+
+
+<!-- The Farlanders is a mod focusing around villager
+     interactions.  However, it does introduce a new ore for "Rose
+     Gold."  Configuration by Reteo. -->
+
+
+
+
+<!-- Is the "The Farlanders" mod on the system?  Let's find
+     out! -->
+<IfModInstalled name="farlanders">
+
+  <!-- Starting Configuration for Custom Ore Generation. -->
+  <ConfigSection>
+
+
+
+
+
+    <!-- Setup Screen Configuration -->
+    <ConfigSection>
+      <OptionDisplayGroup name='groupfarlanders' displayName='The Farlanders' displayState='shown'>
+        <Description>
+          Distribution options for The farlanders Ores.
+        </Description>
+      </OptionDisplayGroup>
+      <OptionChoice name='enablefarlanders' displayName='Handle The Farlanders Setup?' default='true' displayState='shown_dynamic' displayGroup='groupfarlanders'>
+        <Description> Should Custom Ore Generation handle The Farlanders ore generation? </Description>
+        <Choice value=':= ?true' displayValue='Yes' description='Use Custom Ore Generation to handle The Farlanders ores.'/>
+        <Choice value=':= ?false' displayValue='No' description='The Farlanders ores will be handled by the mod itself.'/>
+      </OptionChoice>
+      <OptionChoice name='cleanUpfarlanders' displayName='Use The Farlanders Cleanup?' default='true' displayState='shown_dynamic' displayGroup='groupfarlanders'>
+        <Description> Should Custom Ore Generation use the Substitution Pass to remove all instances of The Farlanders ore from the world?  If the mod's oregen can be turned off in its configuration, then it's recommended to do so, as the substitution pass can slow the game significantly.  If this option is disabled without disabling the mod's own ore generation, you'll end up with two oregens working at once, flooding the world with ore.  Enabled by default to ensure the ores are completely removed. </Description>
+        <Choice value=':= ?true' displayValue='Yes' description='Use the substitution pass to clean up The Farlanders ores.'/>
+        <Choice value=':= ?false' displayValue='No' description='The Farlanders ores do not need to be cleaned up by a substitution pass.'/>
+      </OptionChoice>
+
+      <!-- Endumium Configuration UI Starting -->
+      <ConfigSection>
+        <OptionChoice name='farlandersEndumiumDist' default='none' displayState=':= if(?enablefarlanders, "shown", "hidden")' displayGroup='groupfarlanders'>
+          <Description> Controls how Endumium is generated </Description>
+          <DisplayName>The Farlanders Endumium</DisplayName>
+          <IfCondition condition=':= (?blockExists("farlanders:EndumiumOre")) '>
+
+		  <Choice value='LayeredVeins' displayValue='Layered Veins'>
+            <Description>
+              Small, fairly rare motherlodes with 2-4 horizontal veins each.
+            </Description>
+          </Choice>
+          </IfCondition>
+
+          <IfCondition condition=':= (?blockExists("farlanders:EndumiumOre")) '>
+
+          <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
+            <Description>
+              Large irregular clouds filled lightly with ore.
+            </Description>
+          </Choice>
+          </IfCondition>
+
+          <IfCondition condition=':= (?blockExists("farlanders:EndumiumOre")) '>
+
+          <Choice value='Vanilla' displayValue='Vanilla'>
+            <Description>
+              Simulates Vanilla Minecraft.
+            </Description>
+          </Choice>
+          </IfCondition>
+		  
+          <Choice value='none' displayValue='None' description='Endumium is not generated in the world.'/>
+        </OptionChoice>		  
+
+        <OptionNumeric name='farlandersFreq' default='1'  min='0' max='5' displayState=':= if(?enablefarlanders, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupfarlanders'>
+          <Description> Frequency multiplier for The Farlanders Endumium distributions </Description>
+          <DisplayName>The Farlanders Endumium Freq.</DisplayName>
+        </OptionNumeric>
+        <OptionNumeric name='farlandersSize' default='1'  min='0' max='5' displayState=':= if(?enablefarlanders, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupfarlanders'>
+          <Description> Size multiplier for The Farlanders Endumium distributions </Description>
+          <DisplayName>The Farlanders Endumium Size</DisplayName>
+        </OptionNumeric>
+      </ConfigSection>
+      <!-- Endumium Configuration UI Complete -->
+
+
+
+    </ConfigSection>
+    <!-- Setup Screen Complete -->
+
+    <IfCondition condition=':= ?enablefarlanders'>
+
+
+
+
+      <!-- Overworld Setup Beginning -->
+
+      <IfCondition condition=':= ?COGActive'>
+
+        <!-- Starting Original "Overworld" Block Removal -->
+
+        <IfCondition condition=':= ?cleanUpfarlanders'>
+          <IfCondition condition=':= ?blockExists("minecraft:stone")'>
+            <Substitute name='farlandersOverworldBlockSubstitute0' block='minecraft:stone'>
+              <Description>
+                Replace vanilla-generated ore clusters.
+              </Description>
+              <Comment>
+                The global option  deferredPopulationRange must be
+                large enough to catch all ore  clusters (>= 32).
+              </Comment>
+              <Replaces block='farlanders:EndumiumOre' weight='1.0' />
+            </Substitute>
+          </IfCondition>
+        </IfCondition>
+
+        <!-- Original "Overworld" Block Removal Complete -->
+
+        <!-- Adding blocks -->
+
+        <!-- Begin Endumium Generation -->
+
+        <!-- Starting LayeredVeins Preset for Endumium. -->
+        <ConfigSection>
+          <IfCondition condition=':= farlandersEndumiumDist = "LayeredVeins"'>
+            <Veins name='farlandersEndumiumVeins'  inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe='true' wireframeColor='0x60FFDDA2' drawBoundBox='false' boundBoxColor='0x60FFDDA2'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='farlanders:EndumiumOre' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='MotherlodeFrequency' avg=':= 0.969 * _default_ * farlandersEndiumFreq ' range=':= 0.969 * _default_ * farlandersEndiumFreq ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 0.995 * _default_ * farlandersEndumiumSize ' range=':= 0.995 * _default_ * farlandersEndumiumSize ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 26 ' range=':= 14 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 0.984 * _default_ ' range=':= 0.984 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * farlandersEndumiumSize ' range=':= _default_ * farlandersEndumiumSize ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 0.992 * _default_ * farlandersEndumiumSize ' range=':= 0.992 * _default_ * farlandersEndumiumSize ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+          </IfCondition>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Endumium is complete. -->
+
+
+        <!-- Starting StrategicClouds Preset for Endumium. -->
+        <ConfigSection>
+          <IfCondition condition=':= farlandersEndumiumDist = "StrategicClouds"'>
+            <Cloud name='farlandersEndumiumCloud'  inherits='PresetStrategicCloud' drawWireframe='true' wireframeColor='0x60FFDDA2' drawBoundBox='false' boundBoxColor='0x60FFDDA2'>
+              <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+              </Description>
+              <OreBlock block='farlanders:EndumiumOre' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='CloudRadius' avg=':= 1.052 * _default_ * farlandersEndumiumSize ' range=':= 1.052 * _default_ * farlandersEndumiumSize ' type='normal' />
+              <Setting name='CloudThickness' avg=':= 1.052 * _default_ * farlandersEndumiumSize ' range=':= 1.052 * _default_ * farlandersEndumiumSize ' type='normal' scaleTo='base' />
+              <Setting name='DistributionFrequency' avg=':= 1.107 * _default_ * farlandersEndumiumFreq ' range=':= 1.107 * _default_ * farlandersEndumiumFreq ' type='normal' scaleTo='base' />
+              <Setting name='CloudHeight' avg=':= 26 ' range=':= 14 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Veins name='farlandersEndumiumHintVeins' branchType='Bezier'  inherits='PresetHintVeins' drawWireframe='true' wireframeColor='0x60FFDDA2' drawBoundBox='false' boundBoxColor='0x60FFDDA2'>
+                <Description>
+                  Single blocks, generously  scattered through all
+                  heights  (density is about that of  vanilla iron
+                  ore). They will  replace dirt and sandstone  (but
+                  not grass or sand), so  they can be found nearer to
+                  the surface than most ores.  Intened to be used as a
+                  child  distribution for large, rare  strategic
+                  deposits that would  otherwise be very difficult  to
+                  find.  Note that the  frequency is multiplied by
+                  ground level to maintain a  constant density, but
+                  not by  ore frequency because it is  assumed that
+                  the frequency of  the parent distribution will
+                  already be scaled by that.
+                </Description>
+                <OreBlock block='farlanders:EndumiumOre' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Replaces block='minecraft:gravel' weight='1.0' />
+              </Veins>
+            </Cloud>
+          </IfCondition>
+        </ConfigSection>
+        <!-- StrategicClouds Preset for Endumium is complete. -->
+
+
+        <!-- Starting Vanilla Preset for Endumium. -->
+        <ConfigSection>
+          <IfCondition condition=':= farlandersEndumiumDist = "Vanilla"'>
+            <StandardGen name='farlandersEndumiumStandard'  inherits='PresetStandardGen' drawWireframe='true' wireframeColor='0x60FFDDA2' drawBoundBox='false' boundBoxColor='0x60FFDDA2'>
+              <Description>
+                A master preset for standardgen  ore distributions.
+              </Description>
+              <OreBlock block='farlanders:EndumiumOre' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*'  />
+              <Setting name='Size' avg=':= 4.0 * farlandersEndumiumSize ' range=':= 2.0 * farlandersEndumiumSize ' type='normal' />
+              <Setting name='Frequency' avg=':= 3.333 * farlandersEndumiumFreq ' range=':= 1.67 * farlandersEndumiumFreq ' type='normal' scaleTo='base' />
+              <Setting name='Height' avg=':= 26 ' range=':= 14 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </StandardGen>
+          </IfCondition>
+        </ConfigSection>
+        <!-- Vanilla Preset for Endumium is complete. -->
+
+        <!-- End Endumium Generation -->
+
+        <!-- Finished adding blocks -->
+
+      </IfCondition>
+      <!-- Overworld Setup Complete -->
+
+    </IfCondition>
+
+  </ConfigSection>
+  <!-- Configuration for Custom Ore Generation Complete! -->
+
+</IfModInstalled>
+<!-- The "The Farlanders" mod is now configured. -->
+
+
+
+
+
+<!-- =================================================================
+     This file was made using the Sprocket Advanced Configuration
+     Generator.  If you wish to make your own configurations for a mod
+     not currently supported by Custom Ore Generation, and you don't
+     want the hassle of writing XML, you can find the generator script
+     at its GitHub page: http://https://github.com/reteo/Sprocket
+     ================================================================= -->

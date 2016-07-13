@@ -1,0 +1,11 @@
+{
+    "food": {
+        "oredict": [
+            "listAllpbandj"
+        ],
+        "items": [
+        ]
+    },
+    "name": "PBandJ",
+	"formula": "MAX(0, (1 - count/12))^MIN(8, food_hunger_value)"
+}

@@ -1,0 +1,183 @@
+{
+  "Flourite1": {
+    "template": "uniform",
+    "block": [
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "metadata": 0,
+        "weight": 20
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "metadata": 1,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "metadata": 2,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "metadata": 3,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "metadata": 4,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "metadata": 5,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "metadata": 6,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "metadata": 7,
+        "weight": 10
+      }
+    ],
+    "material": "stone",
+    "clusterSize": 16,
+    "numClusters": 6,
+    "minHeight": 6,
+    "maxHeight": 160,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+      0,
+      -1,
+      1,
+      66
+    ]
+  },
+  "calcite": {
+    "template": "uniform",
+    "block": [
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 7
+      }
+    ],
+    "material": "stone",
+    "clusterSize": 12,
+    "numClusters": 4,
+    "minHeight": 1,
+    "maxHeight": 148,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -100,
+      -2,
+      -5024,
+      -29
+    ]
+  },
+  "magnetiteOffworld": {
+    "template": "uniform",
+    "block": [
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 8
+      }
+    ],
+    "material": "stone",
+    "clusterSize": 12,
+    "numClusters": 4,
+    "minHeight": 1,
+    "maxHeight": 248,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -100,
+      -2,
+      -5024,
+      -29
+    ]
+  },
+  "cadmium": {
+    "template": "uniform",
+    "block": [
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 2
+      }
+    ],
+    "material": "stone",
+    "clusterSize": 12,
+    "numClusters": 4,
+    "minHeight": 1,
+    "maxHeight": 148,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -100,
+      -2,
+      -5024,
+      -29
+    ]
+  },
+  "indium": {
+    "template": "uniform",
+    "block": [
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 3
+      }
+    ],
+    "material": "stone",
+    "clusterSize": 6,
+    "numClusters": 4,
+    "minHeight": 1,
+    "maxHeight": 48,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -100,
+      -2,
+      -5024,
+      -29
+    ]
+  },
+  "Dimthorite": {
+    "template": "uniform",
+    "block": [
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 7
+      }
+    ],
+    "material": "stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "chunkChance": 16,
+    "minHeight": 1,
+    "maxHeight": 48,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -100,
+      -2,
+      -5024,
+      -29
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[
+{
+	"name":"MagTungsten",
+	"nameid":"Magneticraft:tungsten_ore",
+	"texturepath":"Magneticraft:tungsten_overlay"
+	},
+	{
+		"name":"MagThorium",
+	"nameid":"Magneticraft:thorium_ore",
+	"texturepath":"Magneticraft:thorium_overlay"
+	}
+]

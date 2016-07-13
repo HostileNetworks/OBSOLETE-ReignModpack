@@ -1,0 +1,88 @@
+{"mods":
+	[
+	{
+            "item":"harvestcraft:whitemushroomItem",
+            "effects":[{
+                "name": "potion.poison",
+                "time": 60,
+               "chance": 0.3
+            }]
+        },
+			{
+           "item":"harvestcraft:softpretzelandmustardItem",
+           "food": 4
+        },
+			{
+           "item":"harvestcraft:spinachpieItem",
+           "food": 10,
+           "saturation": 1,
+           "effects": [
+                {
+                    "name": "potion.strengthPotion",
+                    "time": 600,
+                    "chance": 1
+				}
+            ]
+        },
+			{
+           "item":"harvestcraft:beetburgerItem",
+           "food": 10,
+           "saturation": 2,
+           "effects": [
+                {
+                    "name": "potion.wellfedPotion",
+                    "time": 600,
+                    "chance": 1
+				}
+            ]
+        },
+			{
+           "item":"harvestcraft:coleslawburgerItem",
+           "food": 12,
+           "saturation": 1,
+           "effects": [
+                {
+                    "name": "potion.wellfedPotion",
+                    "time": 600,
+                    "chance": 1
+				}
+            ]
+        },
+			{
+           "item":"harvestcraft:onionhamburgerItem",
+           "food": 8,
+           "saturation": 1,
+           "effects": [
+                {
+                    "name": "potion.wellfedPotion",
+                    "time": 600,
+                    "chance": 1
+				}
+            ]
+        },
+			{
+           "item":"harvestcraft:meatfeastpizzaItem",
+           "food": 20,
+           "saturation": 14,
+           "effects": [
+                {
+                    "name": "potion.wellfedPotion",
+                    "time": 600,
+                    "chance": 1
+				}
+            ]
+        },
+		{
+            "item":"harvestcraft:bangersandmashItem",
+           "food": 10,
+           "saturation": 1,
+           "effects": [
+                {
+                    "name": "potion.wellfedPotion",
+                    "time": 30,
+                    "chance": 1
+                }
+            ]
+        }
+    ]
+}

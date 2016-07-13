@@ -1,0 +1,634 @@
+{
+  "foods": [
+    {
+      "name": "harvestcraft:bangersandmashItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:bbqpulledporkItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "VeganOption:bbqTofu",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:beansontoastItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:beetburgerItem",
+      "meta": 0,
+      "hunger": 9,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:californiarollItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:chaoscookieItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:cheeseontoastItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.4
+    },
+    {
+      "name": "harvestcraft:chocolaterollItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.4
+    },
+    {
+      "name": "harvestcraft:chorizoItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:chickengumboItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:crackerItem",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:coffeeItem",
+      "meta": 0,
+      "hunger": 2,
+      "saturationModifier": 0.1
+    },
+    {
+      "name": "harvestcraft:coleslawburgerItem",
+      "meta": 0,
+      "hunger": 9,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:coleslawburgerItem",
+      "meta": 0,
+      "hunger": 9,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:damperItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.5
+    },
+	{
+      "name": "harvestcraft:deluxechickencurryItem",
+      "meta": 0,
+      "hunger": 20,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:dimsumItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.4
+    },
+    {
+      "name": "harvestcraft:gherkinItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:fairybreadItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:friedpecanokraItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:futomakiItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:generaltsochickenItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:gingersnapsItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 0.5
+    },	
+    {
+      "name": "harvestcraft:hamsweetpicklesandwichItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:honeysandwichItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.5
+    },	
+    {
+      "name": "harvestcraft:hushpuppiesItem",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "harvestcraft:kimchiItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "harvestcraft:lambkebabItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:lambwithmintsauceItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:marzipanItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:meatfeastpizzaItem",
+      "meta": 0,
+      "hunger": 18,
+      "saturationModifier": 0.7
+    },
+    {
+      "name": "harvestcraft:meatpieItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:mcpamItem",
+      "meta": 0,
+      "hunger": 11,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:mincepieItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:muselieItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:okracreoleItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:onionburgerItem",
+      "meta": 0,
+      "hunger": 9,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:onionsoupItem",
+      "meta": 0,
+      "hunger": 10,
+      "saturationModifier": 0.8
+    },
+    {
+      "name": "harvestcraft:paneerItem",
+      "meta": 0,
+      "hunger": 2,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:paneertikkamasalaItem",
+      "meta": 0,
+      "hunger": 11,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:pbandjItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:raspberryjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:applejellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:blackberryjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:blueberryjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:cherryjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:cranberryjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:kiwijellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:lemonjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:limejellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:orangejellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:papayajellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:peachjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:pomegranatejellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:starfruitjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:strawberryjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:watermelonjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:apricotjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:figjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:grapefruitjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:persimmonjellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:peaandhamsoupItem",
+      "meta": 0,
+      "hunger": 10,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:pickledbeetsItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:pickledonionsItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:ploughmanslunchItem",
+      "meta": 0,
+      "hunger": 12,
+      "saturationModifier": 0.7
+    },
+    {
+      "name": "harvestcraft:porklomeinItem",
+      "meta": 0,
+      "hunger": 10,
+      "saturationModifier": 0.4
+    },
+    {
+      "name": "harvestcraft:potatoandleeksoupItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:pumpkinmuffinItem",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.4
+    },	
+    {
+      "name": "harvestcraft:randomtacoItem",
+      "meta": 0,
+      "hunger": 11,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:roastchickenItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:roastpotatoesItem",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:salmonpattiesItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:sesameballItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.4
+    },
+    {
+      "name": "harvestcraft:sesamesnapsItem",
+      "meta": 0,
+      "hunger": 2,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:shrimpokrahushpuppiesItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:snickersbarItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "harvestcraft:spicebunItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.4
+    },
+    {
+      "name": "harvestcraft:spinachpieItem",
+      "meta": 0,
+      "hunger": 10,
+      "saturationModifier": 1.3
+    },
+    {
+      "name": "harvestcraft:steakandchipsItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:sundayroastItem",
+      "meta": 0,
+      "hunger": 20,
+      "saturationModifier": 0.8
+    },
+    {
+      "name": "harvestcraft:sweetpickleItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:timtamItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "harvestcraft:toadintheholeItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:tunapotatoItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.7
+    },
+    {
+      "name": "harvestcraft:vegemiteontoastItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:veggiestripsItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:vindalooItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:yorkshirepuddingItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "si.core:foodJPMorningSupreme",
+      "meta": 0,
+      "hunger": 20,
+      "saturationModifier": 1.6
+    },
+    {
+      "name": "si.core:foodSeafoodFeast",
+      "meta": 0,
+      "hunger": 20,
+      "saturationModifier": 1.6
+    },
+    {
+      "name": "si.core:foodSurfnTurf",
+      "meta": 0,
+      "hunger": 26,
+      "saturationModifier": 1.6
+    },
+    {
+      "name": "si.core:foodChowder",
+      "meta": 0,
+      "hunger": 20,
+      "saturationModifier": 1.6
+    },
+    {
+      "name": "si.core:foodSeafoodChowder",
+      "meta": 0,
+      "hunger": 20,
+      "saturationModifier": 1.6
+    },
+    {
+      "name": "si.core:foodHeartyStew",
+      "meta": 0,
+      "hunger": 30,
+      "saturationModifier": 1.6
+    },
+    {
+      "name": "si.core:foodRoastLambDinner",
+      "meta": 0,
+      "hunger": 20,
+      "saturationModifier": 1.6
+    },
+    {
+      "name": "si.core:foodRecoveryBrunch",
+      "meta": 0,
+      "hunger": 20,
+      "saturationModifier": 1.6
+    },
+    {
+      "name": "si.core:foodVeggiePizza",
+      "meta": 0,
+      "hunger": 20,
+      "saturationModifier": 1.6
+    },
+    {
+      "name": "si.core:foodDinnerFor1",
+      "meta": 0,
+      "hunger": 20,
+      "saturationModifier": 1
+    },
+    {
+      "name": "si.core:foodSaladsandwich",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "si.core:foodSimplesandwich",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "si.core:foodSandwich",
+      "meta": 0,
+      "hunger": 9,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "si.core:foodBaconraw",
+      "meta": 0,
+      "hunger": 1,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "si.core:foodBacon",
+      "meta": 0,
+      "hunger": 2,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "si.core:foodBurgerpatty",
+      "meta": 0,
+      "hunger": 2,
+      "saturationModifier": 0.5
+    }	
+  ]
+}

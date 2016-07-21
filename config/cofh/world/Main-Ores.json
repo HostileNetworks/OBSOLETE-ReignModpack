@@ -391,7 +391,11 @@
     "biomes": [
       {
         "type": "dictionary",
-        "entry": "WET"
+        "entry": "SWAMP"
+      },
+      {
+        "type": "dictionary",
+        "entry": "JUNGLE"
       }
     ],
     "dimensionRestriction": "blacklist",
@@ -445,9 +449,14 @@
         "weight": 90
       },
       {
-        "name": "BiomesOPlenty:gemOre",
-        "metadata": 8,
-        "weight": 5
+        "name": "appliedenergistics2:tile.OreQuartz",
+        "metadata": 0,
+        "weight": 4
+      },
+      {
+        "name": "appliedenergistics2:tile.OreQuartzCharged",
+        "metadata": 0,
+        "weight": 1
       }
     ],
     "clusterSize": 8,
@@ -482,23 +491,23 @@
         "weight": 90
       },
       {
-        "name": "BiomesOPlenty:gemOre",
-        "metadata": 8,
-        "weight": 5
+        "name": "appliedenergistics2:tile.OreQuartz",
+        "metadata": 0,
+        "weight": 4
       },
       {
-        "name": "Forestry:resources",
+        "name": "appliedenergistics2:tile.OreQuartzCharged",
         "metadata": 0,
-        "weight": 8
+        "weight": 1
       }
     ],
     "material": "stone",
     "clusterSize": 38,
-    "numClusters": 14,
-    "chunkChance": 256,
-    "minHeight": 24,
-    "veinHeight": 32,
-    "veinDiameter": 96,
+    "numClusters": 22,
+    "chunkChance": 192,
+    "minHeight": 14,
+    "veinHeight": 28,
+    "veinDiameter": 64,
     "verticalDensity": 16,
     "horizontalDensity": 16,
     "retrogen": false,
@@ -530,9 +539,6 @@
       -100,
       -112,
       -42,
-      -39,
-      -38,
-      -37,
       -17,
       -2,
       -1,
@@ -557,10 +563,10 @@
     "material": "stone",
     "clusterSize": 38,
     "numClusters": 14,
-    "chunkChance": 256,
+    "chunkChance": 192,
     "minHeight": 24,
     "veinHeight": 32,
-    "veinDiameter": 96,
+    "veinDiameter": 64,
     "verticalDensity": 16,
     "horizontalDensity": 16,
     "retrogen": false,
@@ -575,12 +581,6 @@
     "dimensions": [
       -100,
       -112,
-      -42,
-      -39,
-      -38,
-      -37,
-      -17,
-      -2,
       -1,
       1,
       2
@@ -629,7 +629,7 @@
       },
       {
         "name": "BiomesOPlenty:gemOre",
-        "metadata": 1,
+        "metadata": 0,
         "weight": 5
       }
     ],
@@ -639,7 +639,7 @@
     "chunkChance": 256,
     "minHeight": 4,
     "veinHeight": 32,
-    "veinDiameter": 96,
+    "veinDiameter": 64,
     "verticalDensity": 16,
     "horizontalDensity": 16,
     "retrogen": "false",
@@ -683,13 +683,13 @@
       },
       {
         "name": "BiomesOPlenty:gemOre",
-        "metadata": 1,
-        "weight": 10
+        "metadata": 13,
+        "weight": 5
       },
       {
         "name": "Magneticraft:thorium_ore",
-        "metadata": 1,
-        "weight": 5
+        "metadata": 0,
+        "weight": 2
       }
     ],
     "material": "stone",
@@ -1257,6 +1257,35 @@
       {
         "name": "NetherOres:tile.netherores.ore.0",
         "metadata": 2,
+        "weight": 20
+      }
+    ],
+    "material": "minecraft:netherrack",
+    "clusterSize": 4,
+    "numClusters": 3,
+    "minHeight": 35,
+    "maxHeight": 70,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [
+      "all"
+    ],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -1
+    ]
+  },
+  "nether2": {
+    "template": "uniform",
+    "block": [
+      {
+        "name": "NetherOres:tile.netherores.ore.0",
+        "metadata": 12,
+        "weight": 80
+      },
+      {
+        "name": "NetherOres:tile.netherores.ore.0",
+        "metadata": 3,
         "weight": 20
       }
     ],

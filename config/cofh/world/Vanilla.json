@@ -81,7 +81,7 @@
             "sparse": true
         },
         "block": "iron_ore",
-        "material": ["dirt", "stone", "gravel", "sand"],
+        "material": ["dirt", "stone", "gravel"],
         "clusterSize": 32,
         "numClusters": 16,
         "chunkChance": 128,
@@ -104,7 +104,7 @@
     "iron2": {
     "template": "uniform",
     "block": "iron_ore",
-    "material": ["dirt", "stone", "gravel", "sand"],
+    "material": ["dirt", "stone", "gravel"],
     "clusterSize": 8,
     "numClusters": 4,
 	"chunkChance": 16,	
@@ -137,11 +137,11 @@
         "weight": 6
       }
     ],
-    "material": ["dirt", "stone", "gravel", "sand"],
-    "clusterSize": 18,
-    "numClusters": 14,
-    "chunkChance": 300,
-    "minHeight": 150,
+    "material": ["dirt", "stone", "gravel"],
+    "clusterSize": 32,
+    "numClusters": 18,
+    "chunkChance": 256,
+    "minHeight": 15,
     "veinHeight": 32,
     "veinDiameter": 96,
     "verticalDensity": 15,

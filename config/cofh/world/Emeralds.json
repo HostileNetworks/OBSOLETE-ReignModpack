@@ -7,7 +7,7 @@
         },
         "block": "emerald_ore",
         "material": "minecraft:stone",
-        "clusterSize": 15,
+        "clusterSize": 8,
         "numClusters": 2,
         "chunkChance": 18,
         "minHeight": 4,

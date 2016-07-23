@@ -8,7 +8,7 @@ val copper = <Railcraft:part.plate:3>;
 val iron = <Railcraft:part.plate:0>;
 val steel = <Railcraft:part.plate:1>;
 val glass = <ore:blockGlass>;
-val plate = <bcadditions:heatPlating>;
+val plate = <Magneticraft:item.heatcoil_copper>;
 
 val goldGear = <Railcraft:part.gear:0>;
 val ironGear = <ore:gearIron>;

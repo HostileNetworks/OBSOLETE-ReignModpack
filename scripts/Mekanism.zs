@@ -53,6 +53,6 @@ mods.mekanism.Crusher.addRecipe(<minecraft:quartz_block>, <minecraft:quartz> * 4
 
 # additional crusher recipes
 # bronze
-for ingotBronze in <ore:ingotBronze>.items {
-    mods.mekanism.Crusher.addRecipe(ingotBronze, <ThermalFoundation:material:41>);
-}
+#for ingotBronze in <ore:ingotBronze>.items {
+#    mods.mekanism.Crusher.addRecipe(ingotBronze, <ThermalFoundation:material:41>);
+

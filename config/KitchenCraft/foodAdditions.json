@@ -8,31 +8,31 @@
       "isEdible": false,
       "seedRecipe": false,
       "blocks": [
-        "minecraft:tallgrass"
+        "BiomesOPlenty:foliage:4"
       ],
       "minDropped": 0,
       "maxDropped": 1,
-      "dropChance": 0.1,
+      "dropChance": 1,
       "oreDictNames": [
-        "foodHerbBasil",
-        "listAllsavory"
+        "herbBasil",
+        "listAllherb"
       ]
     },
     {
-      "name": "oregano",
+      "name": "mint",
       "isMeat": false,
       "makeSeed": false,
       "isEdible": false,
       "seedRecipe": false,
       "blocks": [
-        "BiomesOPlenty:flowers"
+        "BiomesOPlenty:flowers:6"
       ],
       "minDropped": 0,
       "maxDropped": 1,
-      "dropChance": 0.2,
+      "dropChance": 1,
       "oreDictNames": [
-        "foodHerbOregano",
-        "listAllsavory"
+        "herbMint",
+        "listAllherb"
       ]
     },
     {
@@ -42,14 +42,14 @@
       "isEdible": false,
       "seedRecipe": false,
       "blocks": [
-        "BiomesOPlenty:flowers2"
+        "BiomesOPlenty:foliage:9"
       ],
       "minDropped": 0,
       "maxDropped": 1,
-      "dropChance": 0.2,
+      "dropChance": 1,
       "oreDictNames": [
-        "foodHerbBayleaf",
-        "listAllsavory"
+        "herbBayleaf",
+        "listAllherb"
       ]
     },
     {
@@ -59,14 +59,14 @@
       "isEdible": false,
       "seedRecipe": false,
       "blocks": [
-        "minecraft:double_plant"
+        "BiomesOPlenty:foliage:3"
       ],
       "minDropped": 0,
       "maxDropped": 1,
-      "dropChance": 0.2,
+      "dropChance": 1,
       "oreDictNames": [
-        "foodHerbDill",
-        "listAllsavory"
+        "herbDill",
+        "listAllherb"
       ]
     },
     {
@@ -76,14 +76,14 @@
       "isEdible": false,
       "seedRecipe": false,
       "blocks": [
-        "minecraft:red_flower"
+        "BiomesOPlenty:flowers:6"
       ],
       "minDropped": 0,
       "maxDropped": 1,
-      "dropChance": 0.1,
+      "dropChance": 1,
       "oreDictNames": [
-        "foodHerbFennel",
-        "listAllsavory"
+        "herbFennel",
+        "listAllherb"
       ]
     },
     {
@@ -93,14 +93,14 @@
       "isEdible": false,
       "seedRecipe": false,
       "blocks": [
-        "BiomesOPlenty:foliage"
+        "BiomesOPlenty:foliage:11"
       ],
       "minDropped": 0,
       "maxDropped": 1,
-      "dropChance": 0.1,
+      "dropChance": 1,
       "oreDictNames": [
-        "foodHerbChives",
-        "listAllsavory"
+        "herbChives",
+        "listAllherb"
       ]
     },
     {
@@ -110,31 +110,31 @@
       "isEdible": false,
       "seedRecipe": false,
       "blocks": [
-        "BiomesOPlenty:foliage"
+        "BiomesOPlenty:flowers2:5"
       ],
       "minDropped": 0,
       "maxDropped": 1,
-      "dropChance": 0.1,
+      "dropChance": 1,
       "oreDictNames": [
-        "foodHerbRosemary",
-        "listAllsavory"
+        "herbRosemary",
+        "listAllherb"
       ]
     },
     {
-      "name": "thyme",
+      "name": "parsley",
       "isMeat": false,
       "makeSeed": false,
       "isEdible": false,
       "seedRecipe": false,
       "blocks": [
-        "Natura:Bluebells"
+        "BiomesOPlenty:foliage:5"
       ],
       "minDropped": 0,
       "maxDropped": 1,
-      "dropChance": 0.1,
+      "dropChance": 1,
       "oreDictNames": [
-        "foodHerbThyme",
-        "listAllsavory"
+        "herbParsley",
+        "listAllherb"
       ]
     },
     {
@@ -145,7 +145,7 @@
       "seedRecipe": false,
       "oreDictNames": [
         "foodChoppedgarlic",
-        "listAllsavory"
+        "listAllherb"
       ]
     },
     {
@@ -161,7 +161,6 @@
     {
       "name": "offal",
       "isMeat": false,
-      "color": 8112513,
       "makeSeed": false,
       "isEdible": false,
       "seedRecipe": false,
@@ -173,12 +172,11 @@
       ],
       "minDropped": 1,
       "maxDropped": 1,
-      "dropChance": 0.1
+      "dropChance": 0.5
     },
     {
       "name": "casing",
       "isMeat": false,
-      "color": 8112513,
       "makeSeed": false,
       "isEdible": false,
       "seedRecipe": false
@@ -218,7 +216,7 @@
       "makeSeed": false,
       "isEdible": true,
       "oreDictNames": [
-        "listAllmeat"
+        "listAllmeatraw"
       ],
       "effects": [
         {
@@ -240,21 +238,14 @@
       ]
     },
     {
-      "name": "stewedfruit",
-      "food": "6",
-      "saturation": 4,
+      "name": "steamedrice",
+      "food": "2",
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
       "oreDictNames": [
-        "foodStewedfruit"
-      ],
-      "effects": [
-        {
-          "name": "potion.wellfedPotion",
-          "time": 30,
-          "chance": 1
-        }
+        "foodSteamedrice"
       ]
     },
     {
@@ -265,14 +256,33 @@
       "makeSeed": false,
       "isEdible": true,
       "oreDictNames": [
-        "foodUngrilledcheese"
+        "foodUngrilledcheese",
+		"foodRaw"
       ]
     },
     {
-      "name": "uncuredsausage",
+      "name": "rawbeefwellington",
       "food": "8",
-      "saturation": 10,
+      "saturation": 2,
       "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodRaw"
+      ],
+      "effects": [
+        {
+          "name": "potion.poison",
+          "time": 30,
+          "chance": 0.7
+        }
+      ]
+    },	
+    {
+      "name": "uncuredsausage",
+      "food": "6",
+      "saturation": 10,
+      "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
       "oreDictNames": [
@@ -287,10 +297,29 @@
       ]
     },
     {
-      "name": "salami",
-      "food": "16",
-      "saturation": 10,
+      "name": "rawcottagepie",
+      "food": "36",
+      "saturation": 40,
       "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodRawcottagepie",
+        "foodRaw"
+      ],
+      "effects": [
+        {
+          "name": "potion.wellfedPotion",
+          "time": 30,
+          "chance": 1
+        }
+      ]
+    },	
+    {
+      "name": "salami",
+      "food": "6",
+      "saturation": 3,
+      "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
       "oreDictNames": [
@@ -319,14 +348,14 @@
     },
     {
       "name": "veggiepizza",
-      "food": "32",
-      "saturation": 60,
+      "food": "20",
+      "saturation": 20,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
       "seedRecipe": false,
       "oreDictNames": [
-        "foodBuffedFeast"
+        "foodPizza"
       ],
       "effects": [
         {
@@ -338,8 +367,8 @@
     },
     {
       "name": "cheddarcheese",
-      "food": "16",
-      "saturation": 10,
+      "food": "4",
+      "saturation": 3,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
@@ -349,19 +378,19 @@
     },
     {
       "name": "cottagecheese",
-      "food": "16",
-      "saturation": 10,
+      "food": "2",
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
       "oreDictNames": [
-        "listAllcheese"
+        "foodCottagecheese"
       ]
     },
     {
       "name": "driedfruit",
-      "food": "8",
-      "saturation": 10,
+      "food": "3",
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
@@ -376,6 +405,9 @@
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
+      "oreDictNames": [
+        "listAllsandwich"
+		],
       "effects": [
         {
           "name": "potion.wellfedPotion",
@@ -391,6 +423,9 @@
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
+      "oreDictNames": [
+        "listAllsandwich"
+		],
       "effects": [
         {
           "name": "potion.wellfedPotion",
@@ -406,6 +441,9 @@
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
+      "oreDictNames": [
+        "listAllsandwich"
+		],
       "effects": [
         {
           "name": "potion.wellfedPotion",
@@ -415,16 +453,16 @@
       ]
     },
     {
-      "name": "rawpotpie",
-      "food": "16",
-      "saturation": 10,
+      "name": "rawchickenpotpie",
+      "food": "6",
+      "saturation": 3,
       "isMeat": true,
       "color": 8112513,
       "makeSeed": false,
       "isEdible": true,
       "seedRecipe": false,
       "oreDictNames": [
-        "foodPie",
+        "foodRawchickenpie",
         "foodRaw"
       ],
       "effects": [
@@ -436,15 +474,16 @@
       ]
     },
     {
-      "name": "potpie",
-      "food": "44",
-      "saturation": 60,
+      "name": "rawmeatpie",
+      "food": "6",
+      "saturation": 3,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
       "seedRecipe": false,
       "oreDictNames": [
-        "foodPie"
+        "foodRawmeatpie",
+		"foodRaw"
       ],
       "effects": [
         {
@@ -456,15 +495,15 @@
     },
     {
       "name": "rawquiche",
-      "food": "16",
-      "saturation": 10,
+      "food": "6",
+      "saturation": 3,
       "isMeat": true,
       "color": 8112513,
       "makeSeed": false,
       "isEdible": true,
       "seedRecipe": false,
       "oreDictNames": [
-        "foodRawfruitpie",
+        "foodRawquiche",
         "foodRaw"
       ],
       "effects": [
@@ -484,7 +523,7 @@
       "isEdible": true,
       "seedRecipe": false,
       "oreDictNames": [
-        "foodFruitpie"
+        "foodQuiche"
       ],
       "effects": [
         {
@@ -496,13 +535,13 @@
     },
     {
       "name": "uncuredhoneyham",
-      "food": "8",
-      "saturation": 10,
+      "food": "4",
+      "saturation": 2,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
       "oreDictNames": [
-        "listAllrawfood"
+        "foodRaw"
       ],
       "effects": [
         {
@@ -525,15 +564,16 @@
     },
     {
       "name": "rawmeatpizza",
-      "food": "16",
-      "saturation": 40,
+      "food": "6",
+      "saturation": 3,
       "isMeat": true,
       "color": 8112513,
       "makeSeed": false,
       "isEdible": true,
       "seedRecipe": false,
       "oreDictNames": [
-        "foodRaw"
+        "foodRaw",
+		"foodRawmeatpizza"
       ],
       "effects": [
         {
@@ -545,8 +585,8 @@
     },
     {
       "name": "meatpizza",
-      "food": "44",
-      "saturation": 90,
+      "food": "20",
+      "saturation": 20,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -564,8 +604,8 @@
     },
     {
       "name": "RecoveryBrunch",
-      "food": "80",
-      "saturation": 88,
+      "food": "40",
+      "saturation": 40,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -587,8 +627,8 @@
     },
     {
       "name": "heartystew",
-      "food": "36",
-      "saturation": 40,
+      "food": "20",
+      "saturation": 20,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -645,8 +685,8 @@
     },
     {
       "name": "seafoodfeast",
-      "food": "48",
-      "saturation": 60,
+      "food": "28",
+      "saturation": 40,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -668,8 +708,8 @@
     },
     {
       "name": "SurfnTurf",
-      "food": "48",
-      "saturation": 60,
+      "food": "28",
+      "saturation": 30,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -732,18 +772,48 @@
           "name": "potion.wellfedPotion",
           "time": 300,
           "chance": 1
-        }
+        },
+        {
+          "name": "potion.heal",
+          "time": 20,
+		  "level": 4,
+          "chance": 1
+        },
+        {
+          "name": "potion.confusion",
+          "time": 300,
+          "chance": 1
+        },
+        {
+          "name": "potion.slippery",
+          "time": 300,
+		  "level": 2,
+          "chance": 1
+        }		
+      ]
+    },
+    {
+      "name": "rawspinachpie",
+      "food": "6",
+      "saturation": 2,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": true,
+      "oreDictNames": [
+        "foodRaw",
+		"foodRawspinachpie"
       ]
     },
     {
       "name": "rawsausage",
       "food": "4",
       "saturation": 4,
-      "isMeat": false,
+      "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
       "oreDictNames": [
-        "listAllrawfood"
+        "foodRaw",
+		"foodRawsausage"
       ],
       "effects": [
         {
@@ -754,9 +824,17 @@
       ]
     },
     {
+      "name": "mintsauce",
+      "food": "0",
+      "saturation": 0,
+      "isMeat": false,
+      "makeSeed": false,
+      "isEdible": false
+    },	
+    {
       "name": "tomatosoupandgrilledcheese",
-      "food": "48",
-      "saturation": 60,
+      "food": "20",
+      "saturation": 20,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true

@@ -5,9 +5,6 @@ recipes.addShaped(<Magneticraft:mg_tank>,
  [<ore:ingotCopper>, <ore:blockGlass>, <ore:ingotCopper>],
  [<ore:ingotCopper>, <ExtraUtilities:decorativeBlock2:5>, <ore:ingotCopper>]]);
 
-# add a less-crazy recipe for the plastic sheets (rubber in IC2 metal former rolling mode)
-# will be obsolete when MFR is installed
-mods.ic2.MetalFormer.addRollingRecipe(<Magneticraft:item.plastic>, <IC2:itemRubber>);
 
 # smelting compatibility
 # Aluminum dust

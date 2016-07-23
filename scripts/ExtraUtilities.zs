@@ -1,16 +1,5 @@
 #Extra Utilties
-#val survivalgen = <ExtraUtilities:generator>;
-#val furnacegen = <ExtraUtilities:generator:1>;
-#val lavagen = <ExtraUtilities:generator:2>;
-#val endergen = <ExtraUtilities:generator:3>;
-#val heatedgen = <ExtraUtilities:generator:4>;
-#val foodgen = <ExtraUtilities:generator:5>;
-#val potgen = <ExtraUtilities:generator:6>;
-#val solargen = <ExtraUtilities:generator:7>;
-#val tntgen = <ExtraUtilities:generator:8>;
-#val pinkgen = <ExtraUtilities:generator:9>;
-#val hightempgen = <ExtraUtilities:generator:10>;
-#val stargen = <ExtraUtilities:generator:11>;
+
 val quarry = <ExtraUtilities:enderQuarry>;
 val pump = <ExtraUtilities:enderThermicPump>;
 val enderObsidian = <ore:blockEnderObsidian>;
@@ -56,8 +45,8 @@ recipes.addShaped(quarry,[[enderObsidian,ray,enderObsidian],
 #								[ingot,dc,ingot],
 #								[redstone,furnace,redstone]]);
 #
-recipes.remove(furnacegen);
-#recipes.addShaped(furnacegen, [[iron,iron,iron],
+recipes.remove(<ExtraUtilities:generator:1>);
+#recipes.addShaped(<ExtraUtilities:generator:1>, [[iron,iron,iron],
 #								[iron,block,iron],
 #								[redstone,furnace,redstone]]);
 #

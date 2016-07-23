@@ -24,8 +24,9 @@ Reign is an advanced survival and tech progression sandbox world. The progressio
 You are not alone, however. Ancient Warfare 2 provides you with soldiers, farmers, lumberjacks, miners, couriers, traders and more. You will have to keep them housed, fed and protected as you strive to expand your reign.
 
 Credits: 
-@cosmicdan, who's contributed many hours of code, ideas and configuration
-@Dulciphi (myself), who has been working on this pack since the "Dulcified in a Hostile World" Journal and server.
-@Reteo, who's inspiration, productivity and professionalism taught me so much
-@Haggle, who's Revolution pack I was introduced to through Dan when he wanted to show me how Reika's tech mods *could* work in a modpack with other tech mods. 
-and @Reika, I'd long been inspired by Reika's work and dreamed of developing an integrated modpack that could be deployed in classrooms to teach concepts of maths, physics and enginnering, using the Subversive Learning style. 
+cosmicdan, who's contributed so many hours of code, ideas and configuration.
+Dulciphi (myself), who has been working on this pack since the "Dulcified in a Hostile World" Journal and server, back in 2014.
+Reteo, who's inspiration, productivity and professionalism taught me so much
+Haggle, who's Revolution pack I was introduced to through Dan when he wanted to show me how Reika's tech mods *could* work in a modpack with other tech mods. 
+Reika. I'd long been inspired by Reika's work and dreamed of developing an integrated modpack that could be deployed in classrooms to teach concepts of maths, physics and enginnering, using the Subversive Learning style. 
+The many individual modmakers who's years of combined work, dedication and inspiration make worlds like this possible.

@@ -19,11 +19,3 @@ vanilla.loot.addChestLoot("strongholdCrossing", ironScrap.weight(3),1,5);
 
 vanilla.loot.removeChestLoot("villageBlacksmith", ironScrap);
 vanilla.loot.addChestLoot("villageBlacksmith", ironScrap.weight(3),1,5);
-
-# Remove vanilla weapons and tools from chest loot
-val irons = <minecraft:iron_sword>
-vanilla.loot.removeChestLoot("dungeonChest", irons);
-vanilla.loot.removeChestLoot("mineshaftCorridor", irons);
-vanilla.loot.removeChestLoot("pyramidDesertyChest", irons);
-vanilla.loot.removeChestLoot("pyramidJungleChest", irons);
-#note to self. There must be a better way to do this using var and for loops to remove all vanilla weapons and tools from all chest loot.

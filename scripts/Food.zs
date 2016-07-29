@@ -4,6 +4,15 @@ import mods.nei.NEI;
 #Herbs and Spices
 <ore:listAllspice>.addAll(<ore:listAllsavory>);
 <ore:listAllherb>.addAll(<ore:listAllsavory>);
+#rename herb plants
+<BiomesOPlenty:foliage:4>.displayName = "Basil";
+<BiomesOPlenty:foliage:13>.displayName = "Mint";
+<BiomesOPlenty:foliage:9>.displayName = "Bay leaf";
+<BiomesOPlenty:flowers2:4>.displayName = "Dill";
+<BiomesOPlenty:flowers:1>.displayName = "Fennel";
+<BiomesOPlenty:foliage:11>.displayName = "Chives";
+<BiomesOPlenty:flowers:7>.displayName = "Rosemary";
+<BiomesOPlenty:foliage:5>.displayName = "Parsley";
 
 #Bread
 val bread = <ore:foodBread>;
@@ -81,13 +90,32 @@ val steak = <ore:listAllbeefcooked>;
 val pork = <ore:rawPork>;
 pork.add(<minecraft:porkchop>);
 val meat = <ore:listAllmeatraw>;
-meat.add(<MoCreatures:ostrichraw>);
-meat.add(<MoCreatures:turkeyraw>);
+meat.addAll(<ore:foodWhitemeat>);
 meat.add(<MoCreatures:ratraw>);
 meat.add(<exoticbirds:birdmeat_large>);
 meat.add(<HarderWildlife:chevonRaw>);
 val mutton = <ore:foodMuttonraw>;
 mutton.add(<HarderWildlife:chevonRaw>);
+
+# white meat
+val chicken = <ore:rawChicken>;
+chicken.add(<minecraft:chicken>);
+chicken.add(<MoCreatures:ostrichraw>);
+chicken.add(<MoCreatures:turkeyraw>);
+val whitemeat = <ore:foodWhitemeat>;
+whitemeat.add(<harvestcraft:rabbitrawItem>);
+whitemeat.add(<harvestcraft:turkeyrawItem>);
+whitemeat.add(<exoticbirds:birdmeat_large>);
+whitemeat.add(<harvestcraft:rabbitrawItem>);
+whitemeat.add(<harvestcraft:rabbitrawItem>);
+<ore:foodWhitemeat>.addAll(<ore:rawChicken>);
+<ore:foodCookedwhitemeat>.addAll(<ore:listAllchickencooked>);
+val cookedwhitemeat = <ore:foodCookedwhitemeat>;
+cookedwhitemeat.add(<harvestcraft:rabbitcookedItem>);
+cookedwhitemeat.add(<harvestcraft:turkeycookedItem>);
+cookedwhitemeat.add(<harvestcraft:rabbitcookedItem>);
+cookedwhitemeat.add(<harvestcraft:rabbitcookedItem>);
+cookedwhitemeat.add(<exoticbirds:cooked_birdmeat_large>);
 
 # sausage rename
 val porksausage = <ore:foodPorksausage>;
@@ -98,36 +126,39 @@ sausage.add(<harvestcraft:porksausageItem>);
 val groundmeat = <ore:foodGroundmeat>;
 groundmeat.add(<harvestcraft:sausageItem>);
 
-# white meat
-val chicken = <ore:rawChicken>;
-chicken.add(<minecraft:chicken>);
-chicken.add(<MoCreatures:ostrichraw>);
-chicken.add(<MoCreatures:turkeyraw>);
-val whitemeat = <ore:FoodWhitemeat>;
-whitemeat.add(<harvestcraft:rabbitrawItem>);
-whitemeat.add(<harvestcraft:turkeyrawItem>);
-whitemeat.add(<exoticbirds:birdmeat_large>);
-whitemeat.add(<harvestcraft:rabbitrawItem>);
-whitemeat.add(<harvestcraft:rabbitrawItem>);
-<ore:FoodWhitemeat>.addAll(<ore:rawChicken>);
+# seafood
+val rawSeafood = <ore:rawSeafood>;
+rawSeafood.add(<harvestcraft:shrimprawItem>);
+rawSeafood.add(<harvestcraft:octopusrawItem>);
+rawSeafood.add(<harvestcraft:crayfishrawItem>);
+rawSeafood.add(<harvestcraft:crabrawItem>);
+rawSeafood.add(<harvestcraft:clamrawItem>);
+rawSeafood.add(<harvestcraft:scalloprawItem>);
+rawSeafood.add(<harvestcraft:turtlerawItem>);
+rawSeafood.add(<harvestcraft:calamarirawItem>);
+val cookedSeafood = <ore:cookedSeafood>;
+cookedSeafood.add(<harvestcraft:clamcookedItem>);
+cookedSeafood.add(<harvestcraft:crabcookedItem>);
+cookedSeafood.add(<harvestcraft:crayfishcookedItem>);
+cookedSeafood.add(<harvestcraft:octopuscookedItem>);
+cookedSeafood.add(<harvestcraft:scallopcookedItem>);
+cookedSeafood.add(<harvestcraft:shrimpcookedItem>);
+cookedSeafood.add(<harvestcraft:snailcookedItem>);
+cookedSeafood.add(<harvestcraft:turtlecookedItem>);
 
 # cooked meat
 val cookedchicken = <ore:listAllchickencooked>;
 cookedchicken.add(<MoCreatures:turkeycooked>);
 cookedchicken.add(<MoCreatures:ostrichcooked>);
-cookedchicken.add(<MoCreatures:ratcooked>);
 cookedchicken.add(<exoticbirds:cooked_birdmeat_large>);
-cookedchicken.add(<exoticbirds:cooked_birdmeat_small>);
 val muttoncooked = <ore:foodMuttoncooked>;
 muttoncooked.add(<HarderWildlife:chevonCooked>);
 val cooked = <ore:listAllmeatcooked>;
 cooked.add(<kitchenCraftFoods:meat:1>);
-cooked.add(<MoCreatures:turkeycooked>);
-cooked.add(<MoCreatures:ostrichcooked>);
 cooked.add(<MoCreatures:ratcooked>);
-cooked.add(<exoticbirds:cooked_birdmeat_large>);
 cooked.add(<exoticbirds:cooked_birdmeat_small>);
 cooked.addAll(<ore:foodMuttoncooked>);
+<ore:listAllmeatcooked>.addAll(<ore:foodCookedwhitemeat>);
 
 ## Eggs
 
@@ -276,7 +307,7 @@ spice.add(<harvestcraft:blackpepperItem>);
 recipes.remove(<harvestcraft:ediblerootItem>);
 val roots = <ore:listAllroot>;
 roots.add(<BiomesOPlenty:plants:15>);
-#roots.add(<TwilightForest:tile.TFPlant:14>);
+
 
 # yougurt
 val yogurt = <ore:listAllfruityogurt>;
@@ -475,7 +506,6 @@ recipes.remove(<harvestcraft:deluxechickencurryItem>);
 recipes.remove(<harvestcraft:rainbowcurryItem>);
 recipes.remove(<harvestcraft:toastsandwichItem>);
 recipes.remove(<harvestcraft:porksausageItem>);
-recipes.remove(<harvestcraft:sausageItem>);
 recipes.remove(<harvestcraft:grilledcheeseItem>);
 recipes.remove(<harvestcraft:cottagepieItem>);
 recipes.remove(<harvestcraft:meatpieItem>);
@@ -484,8 +514,28 @@ recipes.remove(<harvestcraft:steakandchipsItem>);
 recipes.remove(<harvestcraft:maplesausageItem>);
 recipes.remove(<harvestcraft:cheeseItem>);
 recipes.remove(<harvestcraft:saladdressingItem>);
-
-
+recipes.remove(<harvestcraft:shrimpokrahushpuppiesItem>);
+recipes.remove(<harvestcraft:meatfeastpizzaItem>);
+recipes.remove(<harvestcraft:pizzaItem>);
+recipes.remove(<harvestcraft:supremepizzaItem>);
+recipes.remove(<harvestcraft:bakedhamItem>);
+recipes.remove(<harvestcraft:blueberrypieItem>);
+recipes.remove(<harvestcraft:cherrypieItem>);
+recipes.remove(<harvestcraft:gooseberrypieItem>);
+recipes.remove(<harvestcraft:peachcobblerItem>);
+recipes.remove(<harvestcraft:raspberrypieItem>);
+recipes.remove(<harvestcraft:strawberrypieItem>);
+recipes.remove(<harvestcraft:sweetpotatopieItem>);
+recipes.remove(<harvestcraft:applepieItem>);
+recipes.remove(<harvestcraft:keylimepieItem>);
+recipes.remove(<harvestcraft:pecanpieItem>);
+recipes.remove(<harvestcraft:fruitcrumbleItem>);
+recipes.remove(<harvestcraft:gingeredrhubarbtartItem>);
+recipes.remove(<harvestcraft:friesItem>);
+recipes.remove(<harvestcraft:zucchinifriesItem>);
+recipes.remove(<harvestcraft:heartybreakfastItem>);
+recipes.remove(<harvestcraft:stockItem>);
+recipes.remove(<harvestcraft:pineappleyogurtItem>);
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
 
@@ -512,21 +562,54 @@ furnace.addRecipe(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
 furnace.addRecipe(<harvestcraft:porksausageItem>,<kitchenCraftFoods:veggie:23>);
 # burger patties
 furnace.addRecipe(<kitchenCraftFoods:meat:1>,<harvestcraft:sausageItem>);
-#quiche
+# quiche
 furnace.addRecipe(<kitchenCraftFoods:meat:9>,<kitchenCraftFoods:meat:8>);
-#bacon
+# bacon
 furnace.addRecipe(<kitchenCraftFoods:meat:3>,<kitchenCraftFoods:meat:2>);
-#pizzas
+# pizzas
 furnace.addRecipe(<kitchenCraftFoods:veggie:17>,<kitchenCraftFoods:veggie:16>);
 furnace.addRecipe(<kitchenCraftFoods:meat:13>,<kitchenCraftFoods:meat:12>);
-#beef wellington
+furnace.addRecipe(<harvestcraft:supremepizzaItem>,<harvestcraft:pizzaItem>);
+furnace.addRecipe(<harvestcraft:meatfeastpizzaItem>,<kitchenCraftFoods:meat:27>);
+# ham
+furnace.addRecipe(<harvestcraft:bakedhamItem>,<kitchenCraftFoods:meat:11>);
+# stock
+furnace.addRecipe(<harvestcraft:stockItem>,<kitchenCraftFoods:veggie:42>);
+# rice
+furnace.addRecipe(<kitchenCraftFoods:veggie:12>,<kitchenCraftFoods:veggie:41>);
+# beef wellington
 furnace.addRecipe(<harvestcraft:beefwellingtonItem>,<kitchenCraftFoods:veggie:14>);
-#pies
+# pies
 furnace.addRecipe(<harvestcraft:spinachpieItem>,<kitchenCraftFoods:veggie:24>);
 furnace.addRecipe(<harvestcraft:cottagepieItem>,<kitchenCraftFoods:veggie:15>);
 furnace.addRecipe(<harvestcraft:chickenpotpieItem>,<kitchenCraftFoods:meat:6>);
 furnace.addRecipe(<harvestcraft:meatpieItem>,<kitchenCraftFoods:meat:7>);
+furnace.addRecipe(<harvestcraft:shepardspieItem>,<kitchenCraftFoods:meat:28>);
+# sweetpies
+furnace.addRecipe(<harvestcraft:blackberrycobblerItem>,<kitchenCraftFoods:veggie:27>);
+furnace.addRecipe(<harvestcraft:blueberrypieItem>,<kitchenCraftFoods:veggie:28>);
+furnace.addRecipe(<harvestcraft:cherrypieItem>,<kitchenCraftFoods:veggie:29>);
+furnace.addRecipe(<harvestcraft:gooseberrypieItem>,<kitchenCraftFoods:veggie:30>);
+furnace.addRecipe(<harvestcraft:peachcobblerItem>,<kitchenCraftFoods:veggie:31>);
+furnace.addRecipe(<harvestcraft:raspberrypieItem>,<kitchenCraftFoods:veggie:32>);
+furnace.addRecipe(<harvestcraft:strawberrypieItem>,<kitchenCraftFoods:veggie:33>);
+furnace.addRecipe(<harvestcraft:sweetpotatopieItem>,<kitchenCraftFoods:veggie:34>);
+furnace.addRecipe(<harvestcraft:applepieItem>,<kitchenCraftFoods:veggie:37>);
+furnace.addRecipe(<harvestcraft:keylimepieItem>,<kitchenCraftFoods:veggie:36>);
+furnace.addRecipe(<harvestcraft:pecanpieItem>,<kitchenCraftFoods:veggie:35>);
+furnace.addRecipe(<harvestcraft:fruitcrumbleItem>,<kitchenCraftFoods:veggie:38>);
+furnace.addRecipe(<harvestcraft:gingeredrhubarbtartItem>,<kitchenCraftFoods:veggie:39>);
+furnace.addRecipe(<harvestcraft:friesItem>,<kitchenCraftFoods:veggie:40>);
+furnace.addRecipe(<harvestcraft:zucchinifriesItem>,<kitchenCraftFoods:veggie:43>);
+furnace.addRecipe(<kitchenCraftFoods:veggie:12>,<kitchenCraftFoods:veggie:41>);
+# grilledcheese
 furnace.addRecipe(<harvestcraft:grilledcheeseItem>,<kitchenCraftFoods:veggie:13>);
+# chowder
+furnace.addRecipe(<kitchenCraftFoods:meat:16>,<kitchenCraftFoods:veggie:24>);
+furnace.addRecipe(<kitchenCraftFoods:meat:17>,<kitchenCraftFoods:veggie:25>);
+furnace.addRecipe(<kitchenCraftFoods:meat:15>,<kitchenCraftFoods:veggie:26>);
+# fishsticks
+furnace.addRecipe(<harvestcraft:fishsticksItem>,<kitchenCraftFoods:veggie:44>);
 
 # Yeast Dough
 recipes.addShapeless(<harvestcraft:doughItem> * 2, [<ore:toolMixingbowl>, <ore:foodSalt>, <ore:foodFlour>, <ore:listAllwater>, <RotaryCraft:rotarycraft_item_yeast>]);
@@ -538,16 +621,38 @@ recipes.addShapeless(<kitchenCraftFoods:veggie:11>, [<kitchenCraftFoods:veggie:1
 recipes.addShapeless(<kitchenCraftFoods:meat:0>, [<kitchenCraftFoods:veggie:10>, <ore:toolCuttingboard>]);
 
 # rennet
-recipes.addShapeless(<kitchenCraftFoods:veggie:9> *32, [<kitchenCraftFoods:meat:0>, <ore:toolCuttingboard>]);
+recipes.addShapeless(<kitchenCraftFoods:veggie:9> *16, [<kitchenCraftFoods:meat:0>, <ore:toolCuttingboard>, <ore:toolPot>]);
+
+# yogurt
+recipes.removeShapeless(<harvestcraft:plainyogurtItem> *4, [<ore:listAllmilk>, <minecraft:leather>]); 
+recipes.addShapeless(<harvestcraft:plainyogurtItem> *4, [<kitchenCraftFoods:meat:0>, <ore:listAllmilk>]);
+recipes.addShapeless(<harvestcraft:plainyogurtItem>, [<ore:listAllmilk>, <enviromine:spoiledMilk>]);
+recipes.addShapeless(<harvestcraft:pineappleyogurtItem>, [<harvestcraft:plainyogurtItem>, <ore:cropPineapple>]);
+recipes.addShapeless(<harvestcraft:gooseberryyogurtItem>, [<harvestcraft:plainyogurtItem>, <ore:cropGooseberry>]);
+
+# Uncooked rice
+recipes.addShapeless(<kitchenCraftFoods:veggie:41>, [<ore:toolSaucepan>, <ore:cropRice>, <ore:listAllwater>]);
+
+# One does not juice an egg to make mayonnaise
+recipes.addShapeless(<harvestcraft:mayoItem>, [<ore:toolMixingbowl>, <ore:foodEgg>, <ore:foodOliveoil>, <ore:foodSalt>]);
+
+#snickers
+recipes.addShapeless(<harvestcraft:snickersbarItem>, [<ore:toolSaucepan>, <ore:foodChocolatebar>, <ore:cropPeanut>, <ore:foodCaramel>]);
+
+# Shrimp pork okra Hushpuppies without the pork?
+recipes.addShapeless(<harvestcraft:shrimpokrahushpuppiesItem>, [<ore:toolPot>, <ore:foodCornmeal>, <ore:cropOnion>, <ore:foodOliveoil>, <ore:foodShrimpraw>, <ore:cropOkra>, <ore:listAllporkraw>]);
 
 ## Fish
 recipes.addShapeless(<minecraft:fish:0>, [<ore:listAllfishraw>]);
+<ore:listAllfishraw>.remove(<harvestcraft:firmtofuItem>);
+recipes.addShapeless(<kitchenCraftFoods:veggie:44>, [<ore:toolBakeware>, <ore:listAllfishraw>, <ore:foodFlour>]);
+
 
 # Milk
 #recipes.addShapeless(<MineFactoryReloaded:milkbottle>,
-#[<harvestcraft:freshmilkItem> * 4, <minecraft:glass_bottle>]);
+#[<harvestcraft:freshmilkItem>, <minecraft:glass_bottle>]);
 #clay milk bucket
-recipes.addShapeless(<harvestcraft:freshmilkItem> * 4,
+recipes.addShapeless(<harvestcraft:freshmilkItem> * 2,
 [<IguanaTweaksTConstruct:clayBucketMilk>]);
 
 ## Bread replacing sandwich recipes with cfm:ItemBreadSlice
@@ -605,11 +710,13 @@ recipes.addShapeless(<kitchenCraftFoods:veggie:23>, [<ore:toolCuttingboard>, <or
 
 recipes.addShapeless(<kitchenCraftFoods:veggie:23>,	[<ore:toolCuttingboard>, <ore:foodBread>, <ore:foodButter>, <ore:foodFirmtofu>, <ore:foodCheese>, <ore:listAllpickle>, <ore:foodBread>]);
 
-
 # toast sandwich
 recipes.remove(<harvestcraft:toastsandwichItem>);
 
 recipes.addShapeless(<harvestcraft:toastsandwichItem>,	[<ore:toolCuttingboard>, <cfm:ItemToast>, <ore:foodButter>, <ore:foodNutella>, <cfm:ItemToast>]);
+
+# cheese on toast
+recipes.addShapeless(<harvestcraft:cheeseontoastItem>,	[<ore:toolCuttingboard>, <cfm:ItemToast>, <ore:foodButter>, <harvestcraft:cheeseItem>]);
 
 # burgers
 recipes.remove(<harvestcraft:hamburgerItem>);
@@ -644,7 +751,7 @@ recipes.addShapeless(<harvestcraft:sundayroastItem>, [<harvestcraft:roastchicken
 
 # Curry
 recipes.remove(<harvestcraft:curryItem>);
-recipes.addShapeless(<harvestcraft:curryItem>, [<ore:foodBamboosteamedrice>, <ore:foodCurrypowder>, <ore:foodCoconutmilk>]);
+recipes.addShapeless(<harvestcraft:curryItem>, [<kitchenCraftFoods:veggie:12>, <ore:foodCurrypowder>, <ore:foodCoconutmilk>]);
 
 # Chicken Curry
 recipes.addShapeless(<harvestcraft:chickencurryItem>, [<harvestcraft:curryItem>, cookedchicken, <ore:foodButter>]);
@@ -653,26 +760,154 @@ recipes.addShapeless(<harvestcraft:chickencurryItem>, [<harvestcraft:curryItem>,
 recipes.addShapeless(<harvestcraft:deluxechickencurryItem>, [<ore:toolCuttingboard>, <ore:foodChickencurry>, <ore:cropSpiceleaf>, <ore:cropOnion>, <ore:foodNaan>]);
 
 # RainbowCurryRice
-recipes.addShapeless(<harvestcraft:rainbowcurryItem>, [<harvestcraft:cuttingboardItem>, <ore:foodChickencurry>, <ore:cropSpiceleaf>, <ore:cropBlueberry>, <ore:cropPineapple>, <ore:cropChilipepper>, <ore:cropOrange>, <ore:foodPlainyogurt>]);
+recipes.addShapeless(<harvestcraft:rainbowcurryItem>, [<ore:cuttingboardItem>, <ore:foodChickencurry>, <ore:cropSpiceleaf>, <ore:cropBlueberry>, <ore:cropPineapple>, <ore:cropChilipepper>, <ore:cropOrange>, <ore:foodPlainyogurt>]);
+
+# Paneer and Paneertikkamasala recipe fix
+recipes.addShapeless(<harvestcraft:paneerItem>, [<ore:toolPot>, <ore:listAllmilk>, <ore:foodVinegar>, <ore:foodSalt>]);
+recipes.addShapeless(<harvestcraft:paneertikkamasalaItem>, [<ore:toolSaucepan>, <ore:foodPaneer>, <ore:foodGarammasala>, <ore:listAllchickencooked>, <ore:cropChilipepper>, <ore:foodCoconutcream>]);
 
 # Stuffed Eggplant
-recipes.remove(<harvestcraft:stuffedeggplantItem>);
-recipes.addShapeless(<harvestcraft:stuffedeggplantItem>, [<ore:toolBakeware>, <ore:cropGarlic>, <ore:cropEggplant>, <ore:cropRice>, <ore:foodCheese>, <ore:listAllegg>]);
+recipes.addShapeless(<harvestcraft:stuffedeggplantItem>, [<ore:toolBakeware>, <ore:cropGarlic>, <ore:cropEggplant>, <ore:foodSteamedrice>, <ore:foodCheese>, <ore:listAllegg>]);
 
 # Spinach Pie Fix
 recipes.addShapeless(<kitchenCraftFoods:veggie:24>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropSpinach>, <ore:cropSpinach>, <ore:foodSteamedrice>, <ore:foodCheese>]);
 
-recipes.remove(<harvestcraft:zucchinibakeItem>);
 recipes.addShapeless(<harvestcraft:zucchinibakeItem>, [<ore:toolBakeware>, <ore:cropZucchini>, <ore:cropTomato>, <ore:foodCheese>, <ore:cropOnion>, <ore:cropPotato>]);
 
 # beef wellington
-recipes.addShapeless(<kitchenCraftFoods:veggie:14>, [<ore:toolBakeware>, <ore:listAllbeefraw>, <ore:foodDough>, <ore:cropSpinach>, <ore:listAllmushroom>, <ore:foodSausage>, <ore:listAllherb>]);
+recipes.addShapeless(<kitchenCraftFoods:veggie:14>, [<ore:toolBakeware>, <minecraft:beef>, <ore:foodDough>, <ore:cropSpinach>, <ore:listAllmushroom>, <ore:foodGroundmeat>, <ore:listAllherb>]);
 
 # tomato soup and grilled cheese
 recipes.addShapeless(<kitchenCraftFoods:veggie:25>, [<ore:foodTomatosoup>, <harvestcraft:grilledcheeseItem>]);
 
+# seafood chowder
+recipes.addShapeless(<kitchenCraftFoods:meat:25>, [<ore:toolPot>, <ore:foodStock>, <ore:foodHeavycream>, <ore:listAllfishraw>, <ore:foodCrop>, <ore:listAllgreenveggie>, <ore:foodChoppedgarlic>, <ore:foodChives>, <ore:foodToast>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:25>, [<ore:toolPot>, <ore:foodStock>, <ore:foodHeavycream>, <ore:cookedSeafood>, <ore:foodCrop>, <ore:listAllgreenveggie>, <ore:foodChoppedgarlic>, <ore:foodChives>, <ore:foodToast>]);
+
+# chowder
+recipes.addShapeless(<kitchenCraftFoods:meat:24>, [<ore:toolPot>, <ore:foodStock>, <ore:foodHeavycream>, <ore:foodWhitemeat>, <ore:foodCrop>, <ore:listAllgreenveggie>, <ore:foodGarlic>, <ore:foodChives>, <ore:foodToast>]);
+
+# Raw quiche
+recipes.addShapeless(<kitchenCraftFoods:meat:8>, [<ore:toolMixingbowl>, <ore:listAllmushroom>, <ore:listAllegg>, <ore:foodPeperoni>, <ore:listAllcheese>, <ore:herbParsley>]);
+
+# Hearty stew
+recipes.addShapeless(<kitchenCraftFoods:meat:26>, [<ore:toolPot>, <ore:foodGravy>, <ore:listAllmeatraw>, <ore:foodCrop>, <ore:listAllveggie>, <ore:cropTomato>, <ore:listAllherb>, <ore:herbBayleaf>]);
+
+# Roast lamb
+recipes.addShapeless(<kitchenCraftFoods:veggie:26>, [<ore:herbMint>, <harvestcraft:vinegarItem>, <minecraft:sugar>]);
+recipes.addShapeless(<harvestcraft:lambwithmintsauceItem>, [<ore:toolBakeware>, <ore:cookedMutton>, <kitchenCraftFoods:veggie:26>, <ore:herbRosemary>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:21>, [<ore:toolBakeware>, <harvestcraft:bakedsweetpotatoItem>, <ore:foodCornonthecob>, <ore:foodMuttoncooked>, <ore:herbRosemary>, <kitchenCraftFoods:veggie:26>, <ore:foodButter>, <ore:listAllsweetpie>]);
+
+# Surf and turf
+recipes.addShapeless(<kitchenCraftFoods:meat:19>, [<ore:listAllfishcooked>, <ore:foodLoadedbakedpotato>, <ore:listAllsalad>, <ore:listAllmilkshake>]);
+
+# Seafood feast
+recipes.addShapeless(<kitchenCraftFoods:meat:18>, [<ore:toolCuttingboard>, <ore:foodCookedfish>, <ore:foodCalamaricooked>, <ore:foodShrimpcooked>, <ore:herbDill>, <ore:listAllsalad>, <ore:desertIcecream>]);
+
+## PIES ##
+
+# Raw chicken pot pie
+recipes.addShapeless(<kitchenCraftFoods:meat:6>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropPeas>, <ore:cropPotato>, <ore:cropCarrot>, <ore:listAllgreenveggie>, <ore:foodGravy>, <ore:herbBayleaf>, <ore:rawChicken>]);
+
+# Shepherd's Pie
+recipes.addShapeless(<kitchenCraftFoods:meat:28>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropPeas>, <ore:cropPotato>, <ore:cropCarrot>, <ore:herbRosemary>, <ore:rawMutton>]);
+
+# Raw meat pie
+recipes.addShapeless(<kitchenCraftFoods:meat:7>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodGravy>, <ore:foodGroundmeat>]);
+
+# Raw cottage pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:15>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropPotato>, <ore:cropCarrot>, <ore:cropTomato>, <ore:foodGravy>, <ore:foodGroundmeat>]);
+
+# Raw Apple Pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:37>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropApple>]);
+
+# Raw Keylime pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:36>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropLime>, <ore:foodHeavycream>]);
+
+# Raw Pecan Pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:35>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropPecan>, <ore:foodButter>]);
+
+# Raw Blackberry Cobbler
+recipes.addShapeless(<kitchenCraftFoods:veggie:27>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropBlackberry>]);
+
+# Raw Blueberry pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:28>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropBlueberry>]);
+
+# Raw Cherry Pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:29>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropCherry>]);
+
+# Raw Gooseberry pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:30>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropGooseberry>]);
+
+# Raw Peach Cobbler Pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:31>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropPeach>]);
+
+# Raw Raspberry pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:32>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropRaspberry>]);
+
+# Raw Strawberry Pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:33>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropStrawberry>]);
+
+# Raw Fruit Crumble
+recipes.addShapeless(<kitchenCraftFoods:veggie:38>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:listAllfruit>, <ore:foodButter>, <ore:foodFlour>]);
+
+# Raw Gingered Rhubarb Tart
+recipes.addShapeless(<kitchenCraftFoods:veggie:39>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropRhubarb>, <ore:cropGinger>, <ore:foodButter>]);
+
+# Raw Sweet Potato pie
+recipes.addShapeless(<kitchenCraftFoods:veggie:34>, [<ore:toolBakeware>, <ore:foodDough>, <minecraft:sugar>, <ore:cropSweetpotato>]);
+
+#Uncooked Soup
+recipes.addShapeless(<kitchenCraftFoods:veggie:42>, [<ore:toolPot>, <ore:listAllveggie>, <ore:foodSalt>]);
+recipes.addShapeless(<kitchenCraftFoods:veggie:42> *2, [<ore:toolPot>, <ore:listAllrawmeat>, <ore:foodSalt>]);
+
+# Uncooked Fries
+recipes.addShapeless(<kitchenCraftFoods:veggie:40>, [<ore:toolBakeware>, <ore:toolCuttingboard>, <ore:cropPotato>, <ore:foodSalt>, <ore:foodOliveoil>]);
+
+# Uncooked Zucchini Fries
+recipes.addShapeless(<kitchenCraftFoods:veggie:43>, [<ore:toolBakeware>, <ore:toolCuttingboard>, <ore:cropZucchini>, <ore:foodSalt>, <ore:foodOliveoil>]);
+
+############ PIZZAS ##############
+
+# raw veggie pizza
+recipes.addShapeless(<kitchenCraftFoods:veggie:16>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodKetchup>, <ore:foodCheese>, <ore:cropSpinach>, <ore:foodFirmtofu>, <ore:cropOlive>, <ore:herbBasil>, <ore:listAllmushroom>]);
+
+# raw Hawaiian pizza
+recipes.addShapeless(<kitchenCraftFoods:meat:12>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodKetchup>, <ore:foodCheese>, <ore:cropPineapple>, <ore:foodHoneyham>, <ore:cropOnion>]);
+
+# raw meatfeast pizza
+recipes.addShapeless(<kitchenCraftFoods:meat:27>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodKetchup>, <ore:foodCheese>, <ore:listAllbeefcooked>, <ore:foodBacon>, <ore:foodPepperoni>]);
+
+# Pam's pizza
+<harvestcraft:pizzaItem>.displayName = "Raw Supreme Pizza";
+recipes.addShapeless(<harvestcraft:pizzaItem>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodKetchup>, <ore:foodCheese>, <ore:foodHoneyham>, <ore:cropOnion>, <ore:cropBellpepper>, <ore:listAllmushroom>, <ore:foodPepperoni>]);
+
+# dinner for 1
+recipes.addShapeless(<kitchenCraftFoods:meat:22>, [<kitchenCraftFoods:veggie:23>, <ore:listAlljunkfood>, <ore:listAllalcohol>]);
+
+# JP morning Supreme
+recipes.addShapeless(<kitchenCraftFoods:meat:20>, [<ore:toolCuttingboard>, <ore:foodSausage>, <ore:foodFriedegg>, <ore:foodBeansontoast>, <ore:herbMint>, <ore:foodCoffee>]);
+
+# Hearty Breakfast
+recipes.addShapeless(<harvestcraft:heartybreakfastItem>, [<ore:listAllporkcooked>, <ore:foodFriedegg>, <ore:foodToast>, <ore:foodPotatocakes>, <ore:foodCoffee>]);
+
+# Recovery Brunch
+recipes.addShapeless(<kitchenCraftFoods:meat:14>, [<ore:listAllfruit>, <ore:foodBacon>, <ore:foodScrambledegg>, <ore:foodVegemiteontoast>, <ore:herbParsley>, <ore:foodRootbeersoda>]);
+
+# Steak and chips
+recipes.addShapeless(<harvestcraft:steakandchipsItem>, [<ore:listAllbeefcooked>, <ore:foodFries>]);
+
+# Maple sausage
+recipes.addShapeless(<harvestcraft:maplesausageItem>, [<ore:toolCuttingboard>, <ore:foodSausage>, <ore:cropMaplesyrup>]);
+
+# Rotten Flesh block uncrafting
+recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<Thaumcraft:blockTaint:2>]);
+
+# pine nuts
+recipes.addShapeless(<ganyssurface:pineNuts>, [<BiomesOPlenty:fruitBop:4>]);
+
 # cheeses
-recipes.addShapeless(<kitchenCraftFoods:veggie:19>, [<ore:toolMixingbowl>, <ore:listAllrennet>, <ore:listAllmilk>, <Magneticraft:item.string_fabric>]);
+recipes.addShapeless(<kitchenCraftFoods:veggie:19>, [<ore:toolSaucepan>, <ore:listAllrennet>, <ore:listAllmilk>, <Magneticraft:item.string_fabric>]);
 
 recipes.addShapeless(<harvestcraft:cheeseItem> * 6, [<ore:toolCuttingboard>, <kitchenCraftFoods:veggie:18>]);
 
@@ -699,55 +934,23 @@ recipes.addShapeless(<kitchenCraftFoods:meat:23>, [<ore:toolMixingbowl>, <kitche
 # honey ham cure on rack
 recipes.addShapeless(<kitchenCraftFoods:meat:10>, [<ore:listAllporkraw>, <ore:dropHoney>, <ore:listAllspice>]);
 
-# seafood chowder
-recipes.addShapeless(<kitchenCraftFoods:meat:17>, [<ore:toolPot>, <ore:foodStock>, <ore:foodHeavycream>, <ore:listAllfishraw>, <ore:foodCrop>, <ore:listAllgreenveggie>, <ore:foodGarlic>, <ore:foodChives>, <ore:foodToast>]);
+# proper vegemite recipe - forgot the salt
+recipes.addShapeless(<harvestcraft:vegemiteItem>, [<ore:toolSaucepan>, <ore:foodSalt>, <ore:cropBarley>, <RotaryCraft:rotarycraft_item_yeast>, <ore:foodFlour>, <minecraft:sugar>]);
 
-# chowder
-recipes.addShapeless(<kitchenCraftFoods:meat:12>, [<ore:toolPot>, <ore:foodStock>, <ore:foodHeavycream>, <ore:foodWhitemeat>, <ore:foodCrop>, <ore:listAllgreenveggie>, <ore:foodGarlic>, <ore:foodChives>, <ore:foodToast>]);
+# Fix bacon recipes
+recipes.addShapeless(<harvestcraft:leekbaconsoupItem>, [<ore:toolPot>, <ore:foodStock>, <ore:cropLeek>, <ore:foodBacon>, <ore:foodHeavycream>]);
 
-# raw quiche
-recipes.addShapeless(<kitchenCraftFoods:meat:8>, [<ore:toolMixingbowl>, <ore:listAllmushroom>, <ore:listAllegg>, <ore:foodPeperoni>, <ore:listAllcheese>, <ore:herbParsley>]);
+recipes.addShapeless(<harvestcraft:baconwrappeddatesItem>, [<ore:toolBakeware>, <ore:cropDate>, <ore:foodBacon>]);
 
-# hearty stew
-recipes.addShapeless(<kitchenCraftFoods:meat:15>, [<ore:toolPot>, <ore:foodGravy>, <ore:listAllmeatraw>, <ore:foodCrop>, <ore:listAllveggie>, <ore:cropTomato>, <ore:listAllherb>, <ore:herbBayleaf>]);
+recipes.addShapeless(<harvestcraft:maplecandiedbaconItem>, [<ore:toolBakeware>, <ore:foodBacon>, <ore:cropMaplesyrup>]);
 
-# roast lamb
-recipes.addShapeless(<kitchenCraftFoods:veggie:26>, [<ore:herbMint>, <harvestcraft:vinegarItem>, <minecraft:sugar>]);
-recipes.addShapeless(<harvestcraft:lambwithmintsauceItem>, [<ore:toolBakeware>, <ore:cookedMutton>, <kitchenCraftFoods:veggie:26>, <ore:herbRosemary>]);
-recipes.addShapeless(<kitchenCraftFoods:meat:21>, [<ore:toolBakeware>, <harvestcraft:bakedsweetpotatoItem>, <ore:foodCornonthecob>, <ore:foodMuttoncooked>, <ore:herbRosemary>, <kitchenCraftFoods:veggie:26>, <ore:foodButter>, <ore:listAllsweetpie>]);
+recipes.addShapeless(<harvestcraft:baconcheeseburgerItem>, [<ore:foodCheeseburger>, <ore:foodBacon>]);
 
-# surf and turf
-recipes.addShapeless(<kitchenCraftFoods:meat:19>, [<ore:listAllfishcooked>, <ore:foodLoadedbakedpotato>, <ore:listAllsalad>, <ore:listAllmilkshake>]);
+recipes.addShapeless(<harvestcraft:baconmushroomburgerItem>, [<ore:foodBaconcheeseburger>, <ore:listAllmushroom>]);
 
-# seafood feast
-recipes.addShapeless(<kitchenCraftFoods:meat:18>, [<ore:toolCuttingboard>, <ore:foodCookedfish>, <ore:foodCalamaricooked>, <ore:foodShrimpcooked>, <ore:herbDill>, <ore:listAllsalad>, <ore:desertIcecream>]);
+recipes.addShapeless(<harvestcraft:epicbaconItem>, [<ore:toolBakeware>, <harvestcraft:maplecandiedbaconItem>, <harvestcraft:maplecandiedbaconItem>, <ore:dyeRed>, <ore:dyeBlue>, <ore:dyeYellow>, <ore:dyeGreen>, <ore:dyeMagenta>, <ore:dyePurple>]);
 
-# raw chicken pot pie
-recipes.addShapeless(<kitchenCraftFoods:meat:6>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropPeas>, <ore:cropPotato>, <ore:cropCarrot>, <ore:listAllgreenveggie>, <ore:foodGravy>, <ore:herbBayleaf>, <ore:rawChicken>]);
-
-# raw meat pie
-recipes.addShapeless(<kitchenCraftFoods:meat:7>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodGravy>, <ore:foodGroundmeat>]);
-
-# raw cottage pie
-recipes.addShapeless(<kitchenCraftFoods:veggie:15>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropPotato>, <ore:cropCarrot>, <ore:cropTomato>, <ore:foodGravy>, <ore:foodGroundmeat>]);
-
-# raw veggie pizza
-recipes.addShapeless(<kitchenCraftFoods:veggie:16>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodKetchup>, <ore:foodCheese>, <ore:cropSpinach>, <ore:foodFirmtofu>, <ore:cropOlive>, <ore:herbBasil>, <ore:listAllmushroom>]);
-
-# raw meat pizza
-recipes.addShapeless(<kitchenCraftFoods:meat:12>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodKetchup>, <ore:foodCheese>, <ore:cropPineapple>, <ore:foodPepperoni>, <ore:foodHoneyham>]);
-
-# dinner for 1
-recipes.addShapeless(<kitchenCraftFoods:meat:12>, [<kitchenCraftFoods:veggie:23>, <ore:listAlljunkfood>, <ore:listAllalcohol>]);
-
-# JP morning Supreme
-recipes.addShapeless(<kitchenCraftFoods:meat:20>, [<ore:toolCuttingboard>, <ore:foodSausage>, <ore:foodFriedegg>, <ore:foodBeansontoast>, <ore:herbMint>, <ore:foodCoffee>]);
-
-# Recovery Brunch
-recipes.addShapeless(<kitchenCraftFoods:meat:14>, [<ore:listAllfruit>, <ore:foodBacon>, <ore:foodScrambledegg>, <ore:foodVegemiteontoast>, <ore:herbParsley>, <ore:foodRootbeersoda>]);
-
-# Rotten Flesh block uncrafting
-recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<Thaumcraft:blockTaint:2>]);
+recipes.addShapeless(<harvestcraft:chocolatebaconItem>, [<ore:toolSaucepan>, <ore:foodBacon>, <ore:foodChocolatebar>]);
 
 ##================================================================================
 # Tinkers Drying Rack

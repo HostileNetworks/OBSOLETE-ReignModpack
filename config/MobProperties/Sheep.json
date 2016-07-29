@@ -1,6 +1,14 @@
 {
   "_name": "Sheep",
-  "drops": [],
+  "drops": [
+    {
+      "_comment": "Drop Offal",
+      "function": "add",
+      "id": "kitchenCraftFoods:veggie",
+      "damage": "10",
+      "count": 1
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }

@@ -9,13 +9,25 @@
             }]
         },
 			{
+           "item":"enviromine:rottenFood",
+           "food": 1,
+           "saturation": 1,
+           "effects": [
+                {
+                    "name": "potion.hunger",
+                    "time": 30,
+                    "chance": 1
+				}
+            ]
+        },		
+			{
            "item":"harvestcraft:softpretzelandmustardItem",
            "food": 4
         },
 			{
            "item":"harvestcraft:spinachpieItem",
-           "food": 10,
-           "saturation": 1,
+           "food": 40,
+           "saturation": 20,
            "effects": [
                 {
                     "name": "potion.strengthPotion",

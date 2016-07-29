@@ -1,32 +1,4 @@
 {
-    "dirt": {
-        "template": "uniform",
-    "block": [
-      {
-        "name": "minecraft:dirt",
-        "metadata": 0,
-        "weight": 80
-      },
-      {
-        "name": "minecraft:clay",
-        "metadata": 0,
-        "weight": 10
-      }
-    ],
-        "material": "stone",
-    "clusterSize": 12,
-        "numClusters": 1,
-        "minHeight": 40,
-        "maxHeight": 128,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [ ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            0,
-            30
-        ]
-    },
     "coal": {
         "template": {
             "type": "fractal",
@@ -282,6 +254,23 @@
         "entry": "SWAMP"
       }
     ],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+      -1,
+      1
+    ]
+  },
+  "clayall": {
+    "template": "uniform",
+    "block": "clay",
+    "material": "gravel",
+    "clusterSize": 5,
+    "numClusters": 3,
+    "minHeight": 2,
+    "maxHeight": 50,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
     "dimensionRestriction": "blacklist",
     "dimensions": [
       -1,

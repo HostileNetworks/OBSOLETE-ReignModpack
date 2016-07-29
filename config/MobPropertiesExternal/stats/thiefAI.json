@@ -1,0 +1,33 @@
+{
+  "function": "if_beyond_500",
+  "functions": [
+    {
+      "function": "nbt",
+      "tags": [
+        {
+          "function": "compound",
+          "name": "ForgeData",
+          "tags": [
+            {
+              "function": "compound",
+              "name": "sAI",
+              "tags": [
+                {
+                  "function": "compound",
+                  "name": "uAI",
+                  "tags": [
+                    {
+                      "function": "float",
+                      "name": "thief",
+                      "value": 16
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

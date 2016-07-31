@@ -2,13 +2,16 @@
 <config>
     <lines at="topleft">
         <line>
-            <str>Day {day}, {mctime} (</str>
+            <str>Day {day}, </str>
             <if>
                 <var>daytime</var>
-                <str>$eDay</str>
-                <str>$8Night</str>
+                <str>$e</str>
+                <str>$8</str>
             </if>
-            <str> time$f)</str>
+            <str>{mctime} $f</str>
+        </line>
+        <line>
+            <str>{biome}$f</str>
         </line>
     </lines>
     <lines at="middleleft">
@@ -85,12 +88,31 @@
             </max>
         </line>
     </lines>
-    <lines at="bottomleft">
-        <line>
-            <str>{biome}$f</str>
-        </line>
-    </lines>
     <lines at="bottomright">
+        <line>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>equippeddamageleft</var>
+                    <var>equippedmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>equippeddamageleft</var>
+                <num>0.5</num>
+                <str>{equippeddamageleft}$f / $e{equippedmaxdamage}</str>
+                <str/>
+            </max>
+            <str> </str>
+            <var>equippedicon</var>
+        </line>
         <line>
             <op>
                 <str>ge</str>

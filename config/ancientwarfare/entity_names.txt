@@ -20,7 +20,6 @@ AncientWarfareNpc.bandit.bard
 GalacticraftCore.ParaChest
 Arrow
 appliedenergistics2.EntityChargedQuartz
-securitycraft.IMSBomb
 SpecialMobs.FlyingSpider
 Thaumcraft.CultistCleric
 SpecialMobs.MiniGhast
@@ -280,7 +279,6 @@ Thaumcraft.TaintedVillager
 AncientWarfareNpc.custom_3.cavalry
 freshwatermobs.silex
 SpecialMobs.WitchCaveSpider
-securitycraft.BBetty
 exoticbirds.EB_Kingfisher
 GrimoireOfGaia.Sahuagin
 Wolf
@@ -526,6 +524,7 @@ AncientWarfareNpc.viking.leader
 farlanders.Ender Golem
 Silverfish
 SpecialMobs.SpecialZombie
+opensecurity.energybolt
 exoticbirds.OstrichEgg
 desertmobs.manticore
 AncientWarfareNpc.custom_2.soldier
@@ -569,7 +568,6 @@ CaveSpider
 TConstruct.LandmineFirework
 farlanders.Farlander
 Railcraft.ItemFireproof
-securitycraft.SecurityCamera
 GraveStone.GSWitherSkullCrawler
 TConstruct.SlimeExplosive
 AncientWarfareNpc.viking.soldier
@@ -780,7 +778,6 @@ SpecialMobs.ToughSpider
 demonmobs.hellfirebarrier
 SpecialMobs.WitchSpider
 GalacticraftCore.EvolvedBossWolf
-securitycraft.TazerBullet
 SpecialMobs.EnderCreeper
 shadowmobs.epion
 Railcraft.cart.undercutter

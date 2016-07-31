@@ -5,6 +5,7 @@
 !/local/
 !/modpack/
 !/mods/
+!/mods_*/
 !/scripts/
 !/resources/
 !.gitignore

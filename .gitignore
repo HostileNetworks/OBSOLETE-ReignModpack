@@ -2,6 +2,8 @@
 /*/
 
 !/config/
+!/local/
+!/modpack/
 !/mods/
 !/scripts/
 !/resources/

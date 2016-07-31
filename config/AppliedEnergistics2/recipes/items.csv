@@ -8477,390 +8477,6 @@ UndergroundBiomes:sedimentary_monsterStoneEgg:4, ligniteBlock
 UndergroundBiomes:sedimentary_monsterStoneEgg:5, dolomite
 UndergroundBiomes:sedimentary_monsterStoneEgg:6, greywacke
 UndergroundBiomes:sedimentary_monsterStoneEgg:7, chert
-UndergroundBiomes:igneous_metal.block.fantasy.ore.14:0, Red Granite Atlarus Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.14:1, Black Granite Atlarus Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.14:2, Rhyolite Atlarus Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.14:3, Andesite Atlarus Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.14:4, Gabbro Atlarus Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.14:5, Basalt Atlarus Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.14:6, Komatiite Atlarus Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.14:7, Dacite Atlarus Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:0, Gneiss Atlarus Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:1, Eclogite Atlarus Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:2, Marble Atlarus Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:3, Quartzite Atlarus Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:4, Blue Schist Atlarus Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:5, Green Schist Atlarus Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:6, Soapstone Atlarus Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:7, Migmatite Atlarus Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:0, Limestone Atlarus Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:1, Chalk Atlarus Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:2, Shale Atlarus Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:3, Siltstone Atlarus Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:4, Lignite Block Atlarus Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:5, Dolomite Atlarus Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:6, Greywacke Atlarus Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:7, Chert Atlarus Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.2:0, Red Granite Infuscolium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.2:1, Black Granite Infuscolium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.2:2, Rhyolite Infuscolium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.2:3, Andesite Infuscolium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.2:4, Gabbro Infuscolium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.2:5, Basalt Infuscolium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.2:6, Komatiite Infuscolium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.2:7, Dacite Infuscolium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:0, Gneiss Infuscolium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:1, Eclogite Infuscolium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:2, Marble Infuscolium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:3, Quartzite Infuscolium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:4, Blue Schist Infuscolium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:5, Green Schist Infuscolium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:6, Soapstone Infuscolium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:7, Migmatite Infuscolium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:0, Limestone Infuscolium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:1, Chalk Infuscolium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:2, Shale Infuscolium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:3, Siltstone Infuscolium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:4, Lignite Block Infuscolium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:5, Dolomite Infuscolium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:6, Greywacke Infuscolium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:7, Chert Infuscolium Ore
-UndergroundBiomes:igneous_oreIron:0, Red Granite Iron Ore
-UndergroundBiomes:igneous_oreIron:1, Black Granite Iron Ore
-UndergroundBiomes:igneous_oreIron:2, Rhyolite Iron Ore
-UndergroundBiomes:igneous_oreIron:3, Andesite Iron Ore
-UndergroundBiomes:igneous_oreIron:4, Gabbro Iron Ore
-UndergroundBiomes:igneous_oreIron:5, Basalt Iron Ore
-UndergroundBiomes:igneous_oreIron:6, Komatiite Iron Ore
-UndergroundBiomes:igneous_oreIron:7, Dacite Iron Ore
-UndergroundBiomes:metamorphic_oreIron:0, Gneiss Iron Ore
-UndergroundBiomes:metamorphic_oreIron:1, Eclogite Iron Ore
-UndergroundBiomes:metamorphic_oreIron:2, Marble Iron Ore
-UndergroundBiomes:metamorphic_oreIron:3, Quartzite Iron Ore
-UndergroundBiomes:metamorphic_oreIron:4, Blue Schist Iron Ore
-UndergroundBiomes:metamorphic_oreIron:5, Green Schist Iron Ore
-UndergroundBiomes:metamorphic_oreIron:6, Soapstone Iron Ore
-UndergroundBiomes:metamorphic_oreIron:7, Migmatite Iron Ore
-UndergroundBiomes:sedimentary_oreIron:0, Limestone Iron Ore
-UndergroundBiomes:sedimentary_oreIron:1, Chalk Iron Ore
-UndergroundBiomes:sedimentary_oreIron:2, Shale Iron Ore
-UndergroundBiomes:sedimentary_oreIron:3, Siltstone Iron Ore
-UndergroundBiomes:sedimentary_oreIron:4, Lignite Block Iron Ore
-UndergroundBiomes:sedimentary_oreIron:5, Dolomite Iron Ore
-UndergroundBiomes:sedimentary_oreIron:6, Greywacke Iron Ore
-UndergroundBiomes:sedimentary_oreIron:7, Chert Iron Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.13:0, Red Granite Adamantine Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.13:1, Black Granite Adamantine Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.13:2, Rhyolite Adamantine Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.13:3, Andesite Adamantine Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.13:4, Gabbro Adamantine Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.13:5, Basalt Adamantine Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.13:6, Komatiite Adamantine Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.13:7, Dacite Adamantine Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:0, Gneiss Adamantine Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:1, Eclogite Adamantine Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:2, Marble Adamantine Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:3, Quartzite Adamantine Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:4, Blue Schist Adamantine Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:5, Green Schist Adamantine Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:6, Soapstone Adamantine Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:7, Migmatite Adamantine Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:0, Limestone Adamantine Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:1, Chalk Adamantine Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:2, Shale Adamantine Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:3, Siltstone Adamantine Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:4, Lignite Block Adamantine Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:5, Dolomite Adamantine Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:6, Greywacke Adamantine Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:7, Chert Adamantine Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore:0, Red Granite Prometheum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore:1, Black Granite Prometheum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore:2, Rhyolite Prometheum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore:3, Andesite Prometheum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore:4, Gabbro Prometheum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore:5, Basalt Prometheum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore:6, Komatiite Prometheum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore:7, Dacite Prometheum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore:0, Gneiss Prometheum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore:1, Eclogite Prometheum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore:2, Marble Prometheum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore:3, Quartzite Prometheum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore:4, Blue Schist Prometheum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore:5, Green Schist Prometheum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore:6, Soapstone Prometheum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore:7, Migmatite Prometheum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore:0, Limestone Prometheum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore:1, Chalk Prometheum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore:2, Shale Prometheum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore:3, Siltstone Prometheum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore:4, Lignite Block Prometheum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore:5, Dolomite Prometheum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore:6, Greywacke Prometheum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore:7, Chert Prometheum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.5:0, Red Granite Astral Silver Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.5:1, Black Granite Astral Silver Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.5:2, Rhyolite Astral Silver Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.5:3, Andesite Astral Silver Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.5:4, Gabbro Astral Silver Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.5:5, Basalt Astral Silver Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.5:6, Komatiite Astral Silver Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.5:7, Dacite Astral Silver Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:0, Gneiss Astral Silver Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:1, Eclogite Astral Silver Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:2, Marble Astral Silver Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:3, Quartzite Astral Silver Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:4, Blue Schist Astral Silver Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:5, Green Schist Astral Silver Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:6, Soapstone Astral Silver Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:7, Migmatite Astral Silver Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:0, Limestone Astral Silver Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:1, Chalk Astral Silver Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:2, Shale Astral Silver Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:3, Siltstone Astral Silver Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:4, Lignite Block Astral Silver Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:5, Dolomite Astral Silver Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:6, Greywacke Astral Silver Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:7, Chert Astral Silver Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.1:0, Red Granite Deep Iron Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.1:1, Black Granite Deep Iron Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.1:2, Rhyolite Deep Iron Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.1:3, Andesite Deep Iron Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.1:4, Gabbro Deep Iron Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.1:5, Basalt Deep Iron Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.1:6, Komatiite Deep Iron Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.1:7, Dacite Deep Iron Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:0, Gneiss Deep Iron Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:1, Eclogite Deep Iron Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:2, Marble Deep Iron Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:3, Quartzite Deep Iron Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:4, Blue Schist Deep Iron Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:5, Green Schist Deep Iron Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:6, Soapstone Deep Iron Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:7, Migmatite Deep Iron Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:0, Limestone Deep Iron Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:1, Chalk Deep Iron Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:2, Shale Deep Iron Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:3, Siltstone Deep Iron Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:4, Lignite Block Deep Iron Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:5, Dolomite Deep Iron Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:6, Greywacke Deep Iron Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:7, Chert Deep Iron Ore
-UndergroundBiomes:igneous_metal.block.precious.ore:0, Red Granite Zinc Ore
-UndergroundBiomes:igneous_metal.block.precious.ore:1, Black Granite Zinc Ore
-UndergroundBiomes:igneous_metal.block.precious.ore:2, Rhyolite Zinc Ore
-UndergroundBiomes:igneous_metal.block.precious.ore:3, Andesite Zinc Ore
-UndergroundBiomes:igneous_metal.block.precious.ore:4, Gabbro Zinc Ore
-UndergroundBiomes:igneous_metal.block.precious.ore:5, Basalt Zinc Ore
-UndergroundBiomes:igneous_metal.block.precious.ore:6, Komatiite Zinc Ore
-UndergroundBiomes:igneous_metal.block.precious.ore:7, Dacite Zinc Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore:0, Gneiss Zinc Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore:1, Eclogite Zinc Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore:2, Marble Zinc Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore:3, Quartzite Zinc Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore:4, Blue Schist Zinc Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore:5, Green Schist Zinc Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore:6, Soapstone Zinc Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore:7, Migmatite Zinc Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore:0, Limestone Zinc Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore:1, Chalk Zinc Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore:2, Shale Zinc Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore:3, Siltstone Zinc Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore:4, Lignite Block Zinc Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore:5, Dolomite Zinc Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore:6, Greywacke Zinc Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore:7, Chert Zinc Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.3:0, Red Granite Magnesium Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.3:1, Black Granite Magnesium Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.3:2, Rhyolite Magnesium Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.3:3, Andesite Magnesium Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.3:4, Gabbro Magnesium Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.3:5, Basalt Magnesium Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.3:6, Komatiite Magnesium Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.3:7, Dacite Magnesium Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.3:0, Gneiss Magnesium Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.3:1, Eclogite Magnesium Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.3:2, Marble Magnesium Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.3:3, Quartzite Magnesium Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.3:4, Blue Schist Magnesium Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.3:5, Green Schist Magnesium Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.3:6, Soapstone Magnesium Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.3:7, Migmatite Magnesium Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.3:0, Limestone Magnesium Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.3:1, Chalk Magnesium Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.3:2, Shale Magnesium Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.3:3, Siltstone Magnesium Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.3:4, Lignite Block Magnesium Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.3:5, Dolomite Magnesium Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.3:6, Greywacke Magnesium Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.3:7, Chert Magnesium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.8:0, Red Granite Rubracium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.8:1, Black Granite Rubracium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.8:2, Rhyolite Rubracium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.8:3, Andesite Rubracium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.8:4, Gabbro Rubracium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.8:5, Basalt Rubracium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.8:6, Komatiite Rubracium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.8:7, Dacite Rubracium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:0, Gneiss Rubracium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:1, Eclogite Rubracium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:2, Marble Rubracium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:3, Quartzite Rubracium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:4, Blue Schist Rubracium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:5, Green Schist Rubracium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:6, Soapstone Rubracium Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:7, Migmatite Rubracium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:0, Limestone Rubracium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:1, Chalk Rubracium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:2, Shale Rubracium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:3, Siltstone Rubracium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:4, Lignite Block Rubracium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:5, Dolomite Rubracium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:6, Greywacke Rubracium Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:7, Chert Rubracium Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.7:0, Red Granite Mithril Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.7:1, Black Granite Mithril Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.7:2, Rhyolite Mithril Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.7:3, Andesite Mithril Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.7:4, Gabbro Mithril Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.7:5, Basalt Mithril Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.7:6, Komatiite Mithril Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.7:7, Dacite Mithril Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:0, Gneiss Mithril Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:1, Eclogite Mithril Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:2, Marble Mithril Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:3, Quartzite Mithril Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:4, Blue Schist Mithril Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:5, Green Schist Mithril Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:6, Soapstone Mithril Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:7, Migmatite Mithril Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:0, Limestone Mithril Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:1, Chalk Mithril Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:2, Shale Mithril Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:3, Siltstone Mithril Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:4, Lignite Block Mithril Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:5, Dolomite Mithril Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:6, Greywacke Mithril Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:7, Chert Mithril Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.4:0, Red Granite Bitumen Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.4:1, Black Granite Bitumen Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.4:2, Rhyolite Bitumen Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.4:3, Andesite Bitumen Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.4:4, Gabbro Bitumen Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.4:5, Basalt Bitumen Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.4:6, Komatiite Bitumen Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.4:7, Dacite Bitumen Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.4:0, Gneiss Bitumen Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.4:1, Eclogite Bitumen Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.4:2, Marble Bitumen Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.4:3, Quartzite Bitumen Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.4:4, Blue Schist Bitumen Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.4:5, Green Schist Bitumen Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.4:6, Soapstone Bitumen Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.4:7, Migmatite Bitumen Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.4:0, Limestone Bitumen Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.4:1, Chalk Bitumen Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.4:2, Shale Bitumen Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.4:3, Siltstone Bitumen Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.4:4, Lignite Block Bitumen Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.4:5, Dolomite Bitumen Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.4:6, Greywacke Bitumen Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.4:7, Chert Bitumen Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:0, Red Granite Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:1, Black Granite Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:2, Rhyolite Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:3, Andesite Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:4, Gabbro Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:5, Basalt Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:6, Komatiite Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:7, Dacite Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:0, Gneiss Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:1, Eclogite Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:2, Marble Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:3, Quartzite Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:4, Blue Schist Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:5, Green Schist Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:6, Soapstone Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:7, Migmatite Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:0, Limestone Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:1, Chalk Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:2, Shale Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:3, Siltstone Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:4, Lignite Block Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:5, Dolomite Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:6, Greywacke Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:7, Chert Tin Ore
-UndergroundBiomes:igneous_metal.block.base.ore.2:0, Red Granite Manganese Ore
-UndergroundBiomes:igneous_metal.block.base.ore.2:1, Black Granite Manganese Ore
-UndergroundBiomes:igneous_metal.block.base.ore.2:2, Rhyolite Manganese Ore
-UndergroundBiomes:igneous_metal.block.base.ore.2:3, Andesite Manganese Ore
-UndergroundBiomes:igneous_metal.block.base.ore.2:4, Gabbro Manganese Ore
-UndergroundBiomes:igneous_metal.block.base.ore.2:5, Basalt Manganese Ore
-UndergroundBiomes:igneous_metal.block.base.ore.2:6, Komatiite Manganese Ore
-UndergroundBiomes:igneous_metal.block.base.ore.2:7, Dacite Manganese Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore.2:0, Gneiss Manganese Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore.2:1, Eclogite Manganese Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore.2:2, Marble Manganese Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore.2:3, Quartzite Manganese Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore.2:4, Blue Schist Manganese Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore.2:5, Green Schist Manganese Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore.2:6, Soapstone Manganese Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore.2:7, Migmatite Manganese Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore.2:0, Limestone Manganese Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore.2:1, Chalk Manganese Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore.2:2, Shale Manganese Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore.2:3, Siltstone Manganese Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore.2:4, Lignite Block Manganese Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore.2:5, Dolomite Manganese Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore.2:6, Greywacke Manganese Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore.2:7, Chert Manganese Ore
-UndergroundBiomes:igneous_metal.block.precious.ore.2:0, Red Granite Platinum Ore
-UndergroundBiomes:igneous_metal.block.precious.ore.2:1, Black Granite Platinum Ore
-UndergroundBiomes:igneous_metal.block.precious.ore.2:2, Rhyolite Platinum Ore
-UndergroundBiomes:igneous_metal.block.precious.ore.2:3, Andesite Platinum Ore
-UndergroundBiomes:igneous_metal.block.precious.ore.2:4, Gabbro Platinum Ore
-UndergroundBiomes:igneous_metal.block.precious.ore.2:5, Basalt Platinum Ore
-UndergroundBiomes:igneous_metal.block.precious.ore.2:6, Komatiite Platinum Ore
-UndergroundBiomes:igneous_metal.block.precious.ore.2:7, Dacite Platinum Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore.2:0, Gneiss Platinum Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore.2:1, Eclogite Platinum Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore.2:2, Marble Platinum Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore.2:3, Quartzite Platinum Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore.2:4, Blue Schist Platinum Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore.2:5, Green Schist Platinum Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore.2:6, Soapstone Platinum Ore
-UndergroundBiomes:metamorphic_metal.block.precious.ore.2:7, Migmatite Platinum Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore.2:0, Limestone Platinum Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore.2:1, Chalk Platinum Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore.2:2, Shale Platinum Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore.2:3, Siltstone Platinum Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore.2:4, Lignite Block Platinum Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore.2:5, Dolomite Platinum Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore.2:6, Greywacke Platinum Ore
-UndergroundBiomes:sedimentary_metal.block.precious.ore.2:7, Chert Platinum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.3:0, Red Granite Copper Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.3:1, Black Granite Copper Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.3:2, Rhyolite Copper Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.3:3, Andesite Copper Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.3:4, Gabbro Copper Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.3:5, Basalt Copper Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.3:6, Komatiite Copper Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.3:7, Dacite Copper Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.3:0, Gneiss Copper Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.3:1, Eclogite Copper Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.3:2, Marble Copper Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.3:3, Quartzite Copper Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.3:4, Blue Schist Copper Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.3:5, Green Schist Copper Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.3:6, Soapstone Copper Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.3:7, Migmatite Copper Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.3:0, Limestone Copper Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.3:1, Chalk Copper Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.3:2, Shale Copper Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.3:3, Siltstone Copper Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.3:4, Lignite Block Copper Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.3:5, Dolomite Copper Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.3:6, Greywacke Copper Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.3:7, Chert Copper Ore
 UndergroundBiomes:igneous_metal.block.precious.ore.1:0, Red Granite Silver Ore
 UndergroundBiomes:igneous_metal.block.precious.ore.1:1, Black Granite Silver Ore
 UndergroundBiomes:igneous_metal.block.precious.ore.1:2, Rhyolite Silver Ore
@@ -8885,6 +8501,294 @@ UndergroundBiomes:sedimentary_metal.block.precious.ore.1:4, Lignite Block Silver
 UndergroundBiomes:sedimentary_metal.block.precious.ore.1:5, Dolomite Silver Ore
 UndergroundBiomes:sedimentary_metal.block.precious.ore.1:6, Greywacke Silver Ore
 UndergroundBiomes:sedimentary_metal.block.precious.ore.1:7, Chert Silver Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.2:0, Red Granite Saltpeter Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.2:1, Black Granite Saltpeter Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.2:2, Rhyolite Saltpeter Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.2:3, Andesite Saltpeter Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.2:4, Gabbro Saltpeter Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.2:5, Basalt Saltpeter Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.2:6, Komatiite Saltpeter Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.2:7, Dacite Saltpeter Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.2:0, Gneiss Saltpeter Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.2:1, Eclogite Saltpeter Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.2:2, Marble Saltpeter Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.2:3, Quartzite Saltpeter Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.2:4, Blue Schist Saltpeter Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.2:5, Green Schist Saltpeter Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.2:6, Soapstone Saltpeter Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.2:7, Migmatite Saltpeter Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.2:0, Limestone Saltpeter Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.2:1, Chalk Saltpeter Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.2:2, Shale Saltpeter Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.2:3, Siltstone Saltpeter Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.2:4, Lignite Block Saltpeter Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.2:5, Dolomite Saltpeter Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.2:6, Greywacke Saltpeter Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.2:7, Chert Saltpeter Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.1:0, Red Granite Deep Iron Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.1:1, Black Granite Deep Iron Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.1:2, Rhyolite Deep Iron Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.1:3, Andesite Deep Iron Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.1:4, Gabbro Deep Iron Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.1:5, Basalt Deep Iron Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.1:6, Komatiite Deep Iron Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.1:7, Dacite Deep Iron Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:0, Gneiss Deep Iron Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:1, Eclogite Deep Iron Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:2, Marble Deep Iron Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:3, Quartzite Deep Iron Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:4, Blue Schist Deep Iron Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:5, Green Schist Deep Iron Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:6, Soapstone Deep Iron Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.1:7, Migmatite Deep Iron Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:0, Limestone Deep Iron Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:1, Chalk Deep Iron Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:2, Shale Deep Iron Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:3, Siltstone Deep Iron Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:4, Lignite Block Deep Iron Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:5, Dolomite Deep Iron Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:6, Greywacke Deep Iron Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.1:7, Chert Deep Iron Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.5:0, Red Granite Astral Silver Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.5:1, Black Granite Astral Silver Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.5:2, Rhyolite Astral Silver Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.5:3, Andesite Astral Silver Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.5:4, Gabbro Astral Silver Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.5:5, Basalt Astral Silver Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.5:6, Komatiite Astral Silver Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.5:7, Dacite Astral Silver Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:0, Gneiss Astral Silver Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:1, Eclogite Astral Silver Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:2, Marble Astral Silver Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:3, Quartzite Astral Silver Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:4, Blue Schist Astral Silver Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:5, Green Schist Astral Silver Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:6, Soapstone Astral Silver Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.5:7, Migmatite Astral Silver Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:0, Limestone Astral Silver Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:1, Chalk Astral Silver Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:2, Shale Astral Silver Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:3, Siltstone Astral Silver Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:4, Lignite Block Astral Silver Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:5, Dolomite Astral Silver Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:6, Greywacke Astral Silver Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.5:7, Chert Astral Silver Ore
+UndergroundBiomes:igneous_metal.block.precious.ore:0, Red Granite Zinc Ore
+UndergroundBiomes:igneous_metal.block.precious.ore:1, Black Granite Zinc Ore
+UndergroundBiomes:igneous_metal.block.precious.ore:2, Rhyolite Zinc Ore
+UndergroundBiomes:igneous_metal.block.precious.ore:3, Andesite Zinc Ore
+UndergroundBiomes:igneous_metal.block.precious.ore:4, Gabbro Zinc Ore
+UndergroundBiomes:igneous_metal.block.precious.ore:5, Basalt Zinc Ore
+UndergroundBiomes:igneous_metal.block.precious.ore:6, Komatiite Zinc Ore
+UndergroundBiomes:igneous_metal.block.precious.ore:7, Dacite Zinc Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore:0, Gneiss Zinc Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore:1, Eclogite Zinc Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore:2, Marble Zinc Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore:3, Quartzite Zinc Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore:4, Blue Schist Zinc Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore:5, Green Schist Zinc Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore:6, Soapstone Zinc Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore:7, Migmatite Zinc Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore:0, Limestone Zinc Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore:1, Chalk Zinc Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore:2, Shale Zinc Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore:3, Siltstone Zinc Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore:4, Lignite Block Zinc Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore:5, Dolomite Zinc Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore:6, Greywacke Zinc Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore:7, Chert Zinc Ore
+UndergroundBiomes:igneous_metal.block.base.ore:0, Red Granite Copper Ore
+UndergroundBiomes:igneous_metal.block.base.ore:1, Black Granite Copper Ore
+UndergroundBiomes:igneous_metal.block.base.ore:2, Rhyolite Copper Ore
+UndergroundBiomes:igneous_metal.block.base.ore:3, Andesite Copper Ore
+UndergroundBiomes:igneous_metal.block.base.ore:4, Gabbro Copper Ore
+UndergroundBiomes:igneous_metal.block.base.ore:5, Basalt Copper Ore
+UndergroundBiomes:igneous_metal.block.base.ore:6, Komatiite Copper Ore
+UndergroundBiomes:igneous_metal.block.base.ore:7, Dacite Copper Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore:0, Gneiss Copper Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore:1, Eclogite Copper Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore:2, Marble Copper Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore:3, Quartzite Copper Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore:4, Blue Schist Copper Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore:5, Green Schist Copper Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore:6, Soapstone Copper Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore:7, Migmatite Copper Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore:0, Limestone Copper Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore:1, Chalk Copper Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore:2, Shale Copper Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore:3, Siltstone Copper Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore:4, Lignite Block Copper Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore:5, Dolomite Copper Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore:6, Greywacke Copper Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore:7, Chert Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:0, Red Granite Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:1, Black Granite Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:2, Rhyolite Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:3, Andesite Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:4, Gabbro Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:5, Basalt Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:6, Komatiite Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:7, Dacite Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:0, Gneiss Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:1, Eclogite Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:2, Marble Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:3, Quartzite Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:4, Blue Schist Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:5, Green Schist Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:6, Soapstone Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:7, Migmatite Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:0, Limestone Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:1, Chalk Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:2, Shale Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:3, Siltstone Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:4, Lignite Block Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:5, Dolomite Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:6, Greywacke Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:7, Chert Copper Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.11:0, Red Granite Orichalcum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.11:1, Black Granite Orichalcum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.11:2, Rhyolite Orichalcum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.11:3, Andesite Orichalcum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.11:4, Gabbro Orichalcum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.11:5, Basalt Orichalcum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.11:6, Komatiite Orichalcum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.11:7, Dacite Orichalcum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:0, Gneiss Orichalcum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:1, Eclogite Orichalcum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:2, Marble Orichalcum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:3, Quartzite Orichalcum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:4, Blue Schist Orichalcum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:5, Green Schist Orichalcum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:6, Soapstone Orichalcum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:7, Migmatite Orichalcum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:0, Limestone Orichalcum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:1, Chalk Orichalcum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:2, Shale Orichalcum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:3, Siltstone Orichalcum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:4, Lignite Block Orichalcum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:5, Dolomite Orichalcum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:6, Greywacke Orichalcum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:7, Chert Orichalcum Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.3:0, Red Granite Magnesium Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.3:1, Black Granite Magnesium Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.3:2, Rhyolite Magnesium Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.3:3, Andesite Magnesium Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.3:4, Gabbro Magnesium Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.3:5, Basalt Magnesium Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.3:6, Komatiite Magnesium Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.3:7, Dacite Magnesium Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.3:0, Gneiss Magnesium Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.3:1, Eclogite Magnesium Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.3:2, Marble Magnesium Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.3:3, Quartzite Magnesium Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.3:4, Blue Schist Magnesium Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.3:5, Green Schist Magnesium Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.3:6, Soapstone Magnesium Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.3:7, Migmatite Magnesium Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.3:0, Limestone Magnesium Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.3:1, Chalk Magnesium Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.3:2, Shale Magnesium Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.3:3, Siltstone Magnesium Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.3:4, Lignite Block Magnesium Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.3:5, Dolomite Magnesium Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.3:6, Greywacke Magnesium Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.3:7, Chert Magnesium Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.4:0, Red Granite Bitumen Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.4:1, Black Granite Bitumen Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.4:2, Rhyolite Bitumen Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.4:3, Andesite Bitumen Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.4:4, Gabbro Bitumen Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.4:5, Basalt Bitumen Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.4:6, Komatiite Bitumen Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.4:7, Dacite Bitumen Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.4:0, Gneiss Bitumen Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.4:1, Eclogite Bitumen Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.4:2, Marble Bitumen Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.4:3, Quartzite Bitumen Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.4:4, Blue Schist Bitumen Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.4:5, Green Schist Bitumen Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.4:6, Soapstone Bitumen Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.4:7, Migmatite Bitumen Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.4:0, Limestone Bitumen Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.4:1, Chalk Bitumen Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.4:2, Shale Bitumen Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.4:3, Siltstone Bitumen Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.4:4, Lignite Block Bitumen Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.4:5, Dolomite Bitumen Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.4:6, Greywacke Bitumen Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.4:7, Chert Bitumen Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.5:0, Red Granite Potash Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.5:1, Black Granite Potash Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.5:2, Rhyolite Potash Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.5:3, Andesite Potash Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.5:4, Gabbro Potash Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.5:5, Basalt Potash Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.5:6, Komatiite Potash Ore
+UndergroundBiomes:igneous_metal.block.utility.ore.5:7, Dacite Potash Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.5:0, Gneiss Potash Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.5:1, Eclogite Potash Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.5:2, Marble Potash Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.5:3, Quartzite Potash Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.5:4, Blue Schist Potash Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.5:5, Green Schist Potash Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.5:6, Soapstone Potash Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore.5:7, Migmatite Potash Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.5:0, Limestone Potash Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.5:1, Chalk Potash Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.5:2, Shale Potash Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.5:3, Siltstone Potash Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.5:4, Lignite Block Potash Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.5:5, Dolomite Potash Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.5:6, Greywacke Potash Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore.5:7, Chert Potash Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.6:0, Red Granite Carmot Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.6:1, Black Granite Carmot Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.6:2, Rhyolite Carmot Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.6:3, Andesite Carmot Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.6:4, Gabbro Carmot Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.6:5, Basalt Carmot Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.6:6, Komatiite Carmot Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.6:7, Dacite Carmot Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:0, Gneiss Carmot Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:1, Eclogite Carmot Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:2, Marble Carmot Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:3, Quartzite Carmot Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:4, Blue Schist Carmot Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:5, Green Schist Carmot Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:6, Soapstone Carmot Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:7, Migmatite Carmot Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:0, Limestone Carmot Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:1, Chalk Carmot Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:2, Shale Carmot Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:3, Siltstone Carmot Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:4, Lignite Block Carmot Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:5, Dolomite Carmot Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:6, Greywacke Carmot Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:7, Chert Carmot Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore:0, Red Granite Prometheum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore:1, Black Granite Prometheum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore:2, Rhyolite Prometheum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore:3, Andesite Prometheum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore:4, Gabbro Prometheum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore:5, Basalt Prometheum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore:6, Komatiite Prometheum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore:7, Dacite Prometheum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore:0, Gneiss Prometheum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore:1, Eclogite Prometheum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore:2, Marble Prometheum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore:3, Quartzite Prometheum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore:4, Blue Schist Prometheum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore:5, Green Schist Prometheum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore:6, Soapstone Prometheum Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore:7, Migmatite Prometheum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore:0, Limestone Prometheum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore:1, Chalk Prometheum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore:2, Shale Prometheum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore:3, Siltstone Prometheum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore:4, Lignite Block Prometheum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore:5, Dolomite Prometheum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore:6, Greywacke Prometheum Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore:7, Chert Prometheum Ore
 UndergroundBiomes:igneous_metal.block.base.ore.1:0, Red Granite Tin Ore
 UndergroundBiomes:igneous_metal.block.base.ore.1:1, Black Granite Tin Ore
 UndergroundBiomes:igneous_metal.block.base.ore.1:2, Rhyolite Tin Ore
@@ -8933,174 +8837,6 @@ UndergroundBiomes:sedimentary_metal.block.utility.ore.1:4, Lignite Block Phospho
 UndergroundBiomes:sedimentary_metal.block.utility.ore.1:5, Dolomite Phosphorite Ore
 UndergroundBiomes:sedimentary_metal.block.utility.ore.1:6, Greywacke Phosphorite Ore
 UndergroundBiomes:sedimentary_metal.block.utility.ore.1:7, Chert Phosphorite Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:0, Red Granite Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:1, Black Granite Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:2, Rhyolite Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:3, Andesite Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:4, Gabbro Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:5, Basalt Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:6, Komatiite Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:7, Dacite Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:0, Gneiss Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:1, Eclogite Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:2, Marble Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:3, Quartzite Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:4, Blue Schist Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:5, Green Schist Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:6, Soapstone Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:7, Migmatite Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:0, Limestone Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:1, Chalk Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:2, Shale Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:3, Siltstone Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:4, Lignite Block Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:5, Dolomite Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:6, Greywacke Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:7, Chert Aluminum Ore
-UndergroundBiomes:igneous_metal.block.utility.ore:0, Red Granite Sulfur Ore
-UndergroundBiomes:igneous_metal.block.utility.ore:1, Black Granite Sulfur Ore
-UndergroundBiomes:igneous_metal.block.utility.ore:2, Rhyolite Sulfur Ore
-UndergroundBiomes:igneous_metal.block.utility.ore:3, Andesite Sulfur Ore
-UndergroundBiomes:igneous_metal.block.utility.ore:4, Gabbro Sulfur Ore
-UndergroundBiomes:igneous_metal.block.utility.ore:5, Basalt Sulfur Ore
-UndergroundBiomes:igneous_metal.block.utility.ore:6, Komatiite Sulfur Ore
-UndergroundBiomes:igneous_metal.block.utility.ore:7, Dacite Sulfur Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore:0, Gneiss Sulfur Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore:1, Eclogite Sulfur Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore:2, Marble Sulfur Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore:3, Quartzite Sulfur Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore:4, Blue Schist Sulfur Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore:5, Green Schist Sulfur Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore:6, Soapstone Sulfur Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore:7, Migmatite Sulfur Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore:0, Limestone Sulfur Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore:1, Chalk Sulfur Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore:2, Shale Sulfur Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore:3, Siltstone Sulfur Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore:4, Lignite Block Sulfur Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore:5, Dolomite Sulfur Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore:6, Greywacke Sulfur Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore:7, Chert Sulfur Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.11:0, Red Granite Orichalcum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.11:1, Black Granite Orichalcum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.11:2, Rhyolite Orichalcum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.11:3, Andesite Orichalcum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.11:4, Gabbro Orichalcum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.11:5, Basalt Orichalcum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.11:6, Komatiite Orichalcum Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.11:7, Dacite Orichalcum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:0, Gneiss Orichalcum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:1, Eclogite Orichalcum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:2, Marble Orichalcum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:3, Quartzite Orichalcum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:4, Blue Schist Orichalcum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:5, Green Schist Orichalcum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:6, Soapstone Orichalcum Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.11:7, Migmatite Orichalcum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:0, Limestone Orichalcum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:1, Chalk Orichalcum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:2, Shale Orichalcum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:3, Siltstone Orichalcum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:4, Lignite Block Orichalcum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:5, Dolomite Orichalcum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:6, Greywacke Orichalcum Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.11:7, Chert Orichalcum Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.5:0, Red Granite Potash Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.5:1, Black Granite Potash Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.5:2, Rhyolite Potash Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.5:3, Andesite Potash Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.5:4, Gabbro Potash Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.5:5, Basalt Potash Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.5:6, Komatiite Potash Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.5:7, Dacite Potash Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.5:0, Gneiss Potash Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.5:1, Eclogite Potash Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.5:2, Marble Potash Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.5:3, Quartzite Potash Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.5:4, Blue Schist Potash Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.5:5, Green Schist Potash Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.5:6, Soapstone Potash Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.5:7, Migmatite Potash Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.5:0, Limestone Potash Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.5:1, Chalk Potash Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.5:2, Shale Potash Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.5:3, Siltstone Potash Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.5:4, Lignite Block Potash Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.5:5, Dolomite Potash Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.5:6, Greywacke Potash Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.5:7, Chert Potash Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.2:0, Red Granite Saltpeter Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.2:1, Black Granite Saltpeter Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.2:2, Rhyolite Saltpeter Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.2:3, Andesite Saltpeter Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.2:4, Gabbro Saltpeter Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.2:5, Basalt Saltpeter Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.2:6, Komatiite Saltpeter Ore
-UndergroundBiomes:igneous_metal.block.utility.ore.2:7, Dacite Saltpeter Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.2:0, Gneiss Saltpeter Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.2:1, Eclogite Saltpeter Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.2:2, Marble Saltpeter Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.2:3, Quartzite Saltpeter Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.2:4, Blue Schist Saltpeter Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.2:5, Green Schist Saltpeter Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.2:6, Soapstone Saltpeter Ore
-UndergroundBiomes:metamorphic_metal.block.utility.ore.2:7, Migmatite Saltpeter Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.2:0, Limestone Saltpeter Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.2:1, Chalk Saltpeter Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.2:2, Shale Saltpeter Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.2:3, Siltstone Saltpeter Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.2:4, Lignite Block Saltpeter Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.2:5, Dolomite Saltpeter Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.2:6, Greywacke Saltpeter Ore
-UndergroundBiomes:sedimentary_metal.block.utility.ore.2:7, Chert Saltpeter Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.6:0, Red Granite Carmot Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.6:1, Black Granite Carmot Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.6:2, Rhyolite Carmot Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.6:3, Andesite Carmot Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.6:4, Gabbro Carmot Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.6:5, Basalt Carmot Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.6:6, Komatiite Carmot Ore
-UndergroundBiomes:igneous_metal.block.fantasy.ore.6:7, Dacite Carmot Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:0, Gneiss Carmot Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:1, Eclogite Carmot Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:2, Marble Carmot Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:3, Quartzite Carmot Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:4, Blue Schist Carmot Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:5, Green Schist Carmot Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:6, Soapstone Carmot Ore
-UndergroundBiomes:metamorphic_metal.block.fantasy.ore.6:7, Migmatite Carmot Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:0, Limestone Carmot Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:1, Chalk Carmot Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:2, Shale Carmot Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:3, Siltstone Carmot Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:4, Lignite Block Carmot Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:5, Dolomite Carmot Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:6, Greywacke Carmot Ore
-UndergroundBiomes:sedimentary_metal.block.fantasy.ore.6:7, Chert Carmot Ore
-UndergroundBiomes:igneous_metal.block.base.ore:0, Red Granite Copper Ore
-UndergroundBiomes:igneous_metal.block.base.ore:1, Black Granite Copper Ore
-UndergroundBiomes:igneous_metal.block.base.ore:2, Rhyolite Copper Ore
-UndergroundBiomes:igneous_metal.block.base.ore:3, Andesite Copper Ore
-UndergroundBiomes:igneous_metal.block.base.ore:4, Gabbro Copper Ore
-UndergroundBiomes:igneous_metal.block.base.ore:5, Basalt Copper Ore
-UndergroundBiomes:igneous_metal.block.base.ore:6, Komatiite Copper Ore
-UndergroundBiomes:igneous_metal.block.base.ore:7, Dacite Copper Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore:0, Gneiss Copper Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore:1, Eclogite Copper Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore:2, Marble Copper Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore:3, Quartzite Copper Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore:4, Blue Schist Copper Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore:5, Green Schist Copper Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore:6, Soapstone Copper Ore
-UndergroundBiomes:metamorphic_metal.block.base.ore:7, Migmatite Copper Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore:0, Limestone Copper Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore:1, Chalk Copper Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore:2, Shale Copper Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore:3, Siltstone Copper Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore:4, Lignite Block Copper Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore:5, Dolomite Copper Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore:6, Greywacke Copper Ore
-UndergroundBiomes:sedimentary_metal.block.base.ore:7, Chert Copper Ore
 UndergroundBiomes:igneous_metal.block.fantasy.ore.4:0, Red Granite Oureclase Ore
 UndergroundBiomes:igneous_metal.block.fantasy.ore.4:1, Black Granite Oureclase Ore
 UndergroundBiomes:igneous_metal.block.fantasy.ore.4:2, Rhyolite Oureclase Ore
@@ -9125,6 +8861,270 @@ UndergroundBiomes:sedimentary_metal.block.fantasy.ore.4:4, Lignite Block Ourecla
 UndergroundBiomes:sedimentary_metal.block.fantasy.ore.4:5, Dolomite Oureclase Ore
 UndergroundBiomes:sedimentary_metal.block.fantasy.ore.4:6, Greywacke Oureclase Ore
 UndergroundBiomes:sedimentary_metal.block.fantasy.ore.4:7, Chert Oureclase Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.13:0, Red Granite Adamantine Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.13:1, Black Granite Adamantine Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.13:2, Rhyolite Adamantine Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.13:3, Andesite Adamantine Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.13:4, Gabbro Adamantine Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.13:5, Basalt Adamantine Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.13:6, Komatiite Adamantine Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.13:7, Dacite Adamantine Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:0, Gneiss Adamantine Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:1, Eclogite Adamantine Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:2, Marble Adamantine Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:3, Quartzite Adamantine Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:4, Blue Schist Adamantine Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:5, Green Schist Adamantine Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:6, Soapstone Adamantine Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.13:7, Migmatite Adamantine Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:0, Limestone Adamantine Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:1, Chalk Adamantine Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:2, Shale Adamantine Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:3, Siltstone Adamantine Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:4, Lignite Block Adamantine Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:5, Dolomite Adamantine Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:6, Greywacke Adamantine Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.13:7, Chert Adamantine Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:0, Red Granite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:1, Black Granite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:2, Rhyolite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:3, Andesite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:4, Gabbro Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:5, Basalt Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:6, Komatiite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:7, Dacite Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:0, Gneiss Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:1, Eclogite Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:2, Marble Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:3, Quartzite Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:4, Blue Schist Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:5, Green Schist Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:6, Soapstone Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:7, Migmatite Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:0, Limestone Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:1, Chalk Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:2, Shale Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:3, Siltstone Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:4, Lignite Block Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:5, Dolomite Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:6, Greywacke Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:7, Chert Aluminum Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.7:0, Red Granite Mithril Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.7:1, Black Granite Mithril Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.7:2, Rhyolite Mithril Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.7:3, Andesite Mithril Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.7:4, Gabbro Mithril Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.7:5, Basalt Mithril Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.7:6, Komatiite Mithril Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.7:7, Dacite Mithril Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:0, Gneiss Mithril Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:1, Eclogite Mithril Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:2, Marble Mithril Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:3, Quartzite Mithril Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:4, Blue Schist Mithril Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:5, Green Schist Mithril Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:6, Soapstone Mithril Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.7:7, Migmatite Mithril Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:0, Limestone Mithril Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:1, Chalk Mithril Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:2, Shale Mithril Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:3, Siltstone Mithril Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:4, Lignite Block Mithril Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:5, Dolomite Mithril Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:6, Greywacke Mithril Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.7:7, Chert Mithril Ore
+UndergroundBiomes:igneous_oreIron:0, Red Granite Iron Ore
+UndergroundBiomes:igneous_oreIron:1, Black Granite Iron Ore
+UndergroundBiomes:igneous_oreIron:2, Rhyolite Iron Ore
+UndergroundBiomes:igneous_oreIron:3, Andesite Iron Ore
+UndergroundBiomes:igneous_oreIron:4, Gabbro Iron Ore
+UndergroundBiomes:igneous_oreIron:5, Basalt Iron Ore
+UndergroundBiomes:igneous_oreIron:6, Komatiite Iron Ore
+UndergroundBiomes:igneous_oreIron:7, Dacite Iron Ore
+UndergroundBiomes:metamorphic_oreIron:0, Gneiss Iron Ore
+UndergroundBiomes:metamorphic_oreIron:1, Eclogite Iron Ore
+UndergroundBiomes:metamorphic_oreIron:2, Marble Iron Ore
+UndergroundBiomes:metamorphic_oreIron:3, Quartzite Iron Ore
+UndergroundBiomes:metamorphic_oreIron:4, Blue Schist Iron Ore
+UndergroundBiomes:metamorphic_oreIron:5, Green Schist Iron Ore
+UndergroundBiomes:metamorphic_oreIron:6, Soapstone Iron Ore
+UndergroundBiomes:metamorphic_oreIron:7, Migmatite Iron Ore
+UndergroundBiomes:sedimentary_oreIron:0, Limestone Iron Ore
+UndergroundBiomes:sedimentary_oreIron:1, Chalk Iron Ore
+UndergroundBiomes:sedimentary_oreIron:2, Shale Iron Ore
+UndergroundBiomes:sedimentary_oreIron:3, Siltstone Iron Ore
+UndergroundBiomes:sedimentary_oreIron:4, Lignite Block Iron Ore
+UndergroundBiomes:sedimentary_oreIron:5, Dolomite Iron Ore
+UndergroundBiomes:sedimentary_oreIron:6, Greywacke Iron Ore
+UndergroundBiomes:sedimentary_oreIron:7, Chert Iron Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.8:0, Red Granite Rubracium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.8:1, Black Granite Rubracium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.8:2, Rhyolite Rubracium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.8:3, Andesite Rubracium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.8:4, Gabbro Rubracium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.8:5, Basalt Rubracium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.8:6, Komatiite Rubracium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.8:7, Dacite Rubracium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:0, Gneiss Rubracium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:1, Eclogite Rubracium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:2, Marble Rubracium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:3, Quartzite Rubracium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:4, Blue Schist Rubracium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:5, Green Schist Rubracium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:6, Soapstone Rubracium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.8:7, Migmatite Rubracium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:0, Limestone Rubracium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:1, Chalk Rubracium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:2, Shale Rubracium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:3, Siltstone Rubracium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:4, Lignite Block Rubracium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:5, Dolomite Rubracium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:6, Greywacke Rubracium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.8:7, Chert Rubracium Ore
+UndergroundBiomes:igneous_metal.block.utility.ore:0, Red Granite Sulfur Ore
+UndergroundBiomes:igneous_metal.block.utility.ore:1, Black Granite Sulfur Ore
+UndergroundBiomes:igneous_metal.block.utility.ore:2, Rhyolite Sulfur Ore
+UndergroundBiomes:igneous_metal.block.utility.ore:3, Andesite Sulfur Ore
+UndergroundBiomes:igneous_metal.block.utility.ore:4, Gabbro Sulfur Ore
+UndergroundBiomes:igneous_metal.block.utility.ore:5, Basalt Sulfur Ore
+UndergroundBiomes:igneous_metal.block.utility.ore:6, Komatiite Sulfur Ore
+UndergroundBiomes:igneous_metal.block.utility.ore:7, Dacite Sulfur Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore:0, Gneiss Sulfur Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore:1, Eclogite Sulfur Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore:2, Marble Sulfur Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore:3, Quartzite Sulfur Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore:4, Blue Schist Sulfur Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore:5, Green Schist Sulfur Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore:6, Soapstone Sulfur Ore
+UndergroundBiomes:metamorphic_metal.block.utility.ore:7, Migmatite Sulfur Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore:0, Limestone Sulfur Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore:1, Chalk Sulfur Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore:2, Shale Sulfur Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore:3, Siltstone Sulfur Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore:4, Lignite Block Sulfur Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore:5, Dolomite Sulfur Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore:6, Greywacke Sulfur Ore
+UndergroundBiomes:sedimentary_metal.block.utility.ore:7, Chert Sulfur Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:0, Red Granite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:1, Black Granite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:2, Rhyolite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:3, Andesite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:4, Gabbro Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:5, Basalt Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:6, Komatiite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:7, Dacite Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:0, Gneiss Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:1, Eclogite Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:2, Marble Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:3, Quartzite Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:4, Blue Schist Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:5, Green Schist Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:6, Soapstone Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:7, Migmatite Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:0, Limestone Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:1, Chalk Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:2, Shale Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:3, Siltstone Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:4, Lignite Block Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:5, Dolomite Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:6, Greywacke Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:7, Chert Tin Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.2:0, Red Granite Infuscolium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.2:1, Black Granite Infuscolium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.2:2, Rhyolite Infuscolium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.2:3, Andesite Infuscolium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.2:4, Gabbro Infuscolium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.2:5, Basalt Infuscolium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.2:6, Komatiite Infuscolium Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.2:7, Dacite Infuscolium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:0, Gneiss Infuscolium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:1, Eclogite Infuscolium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:2, Marble Infuscolium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:3, Quartzite Infuscolium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:4, Blue Schist Infuscolium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:5, Green Schist Infuscolium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:6, Soapstone Infuscolium Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.2:7, Migmatite Infuscolium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:0, Limestone Infuscolium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:1, Chalk Infuscolium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:2, Shale Infuscolium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:3, Siltstone Infuscolium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:4, Lignite Block Infuscolium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:5, Dolomite Infuscolium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:6, Greywacke Infuscolium Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.2:7, Chert Infuscolium Ore
+UndergroundBiomes:igneous_metal.block.base.ore.2:0, Red Granite Manganese Ore
+UndergroundBiomes:igneous_metal.block.base.ore.2:1, Black Granite Manganese Ore
+UndergroundBiomes:igneous_metal.block.base.ore.2:2, Rhyolite Manganese Ore
+UndergroundBiomes:igneous_metal.block.base.ore.2:3, Andesite Manganese Ore
+UndergroundBiomes:igneous_metal.block.base.ore.2:4, Gabbro Manganese Ore
+UndergroundBiomes:igneous_metal.block.base.ore.2:5, Basalt Manganese Ore
+UndergroundBiomes:igneous_metal.block.base.ore.2:6, Komatiite Manganese Ore
+UndergroundBiomes:igneous_metal.block.base.ore.2:7, Dacite Manganese Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore.2:0, Gneiss Manganese Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore.2:1, Eclogite Manganese Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore.2:2, Marble Manganese Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore.2:3, Quartzite Manganese Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore.2:4, Blue Schist Manganese Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore.2:5, Green Schist Manganese Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore.2:6, Soapstone Manganese Ore
+UndergroundBiomes:metamorphic_metal.block.base.ore.2:7, Migmatite Manganese Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore.2:0, Limestone Manganese Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore.2:1, Chalk Manganese Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore.2:2, Shale Manganese Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore.2:3, Siltstone Manganese Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore.2:4, Lignite Block Manganese Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore.2:5, Dolomite Manganese Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore.2:6, Greywacke Manganese Ore
+UndergroundBiomes:sedimentary_metal.block.base.ore.2:7, Chert Manganese Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.14:0, Red Granite Atlarus Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.14:1, Black Granite Atlarus Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.14:2, Rhyolite Atlarus Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.14:3, Andesite Atlarus Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.14:4, Gabbro Atlarus Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.14:5, Basalt Atlarus Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.14:6, Komatiite Atlarus Ore
+UndergroundBiomes:igneous_metal.block.fantasy.ore.14:7, Dacite Atlarus Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:0, Gneiss Atlarus Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:1, Eclogite Atlarus Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:2, Marble Atlarus Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:3, Quartzite Atlarus Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:4, Blue Schist Atlarus Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:5, Green Schist Atlarus Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:6, Soapstone Atlarus Ore
+UndergroundBiomes:metamorphic_metal.block.fantasy.ore.14:7, Migmatite Atlarus Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:0, Limestone Atlarus Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:1, Chalk Atlarus Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:2, Shale Atlarus Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:3, Siltstone Atlarus Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:4, Lignite Block Atlarus Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:5, Dolomite Atlarus Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:6, Greywacke Atlarus Ore
+UndergroundBiomes:sedimentary_metal.block.fantasy.ore.14:7, Chert Atlarus Ore
+UndergroundBiomes:igneous_metal.block.precious.ore.2:0, Red Granite Platinum Ore
+UndergroundBiomes:igneous_metal.block.precious.ore.2:1, Black Granite Platinum Ore
+UndergroundBiomes:igneous_metal.block.precious.ore.2:2, Rhyolite Platinum Ore
+UndergroundBiomes:igneous_metal.block.precious.ore.2:3, Andesite Platinum Ore
+UndergroundBiomes:igneous_metal.block.precious.ore.2:4, Gabbro Platinum Ore
+UndergroundBiomes:igneous_metal.block.precious.ore.2:5, Basalt Platinum Ore
+UndergroundBiomes:igneous_metal.block.precious.ore.2:6, Komatiite Platinum Ore
+UndergroundBiomes:igneous_metal.block.precious.ore.2:7, Dacite Platinum Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore.2:0, Gneiss Platinum Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore.2:1, Eclogite Platinum Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore.2:2, Marble Platinum Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore.2:3, Quartzite Platinum Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore.2:4, Blue Schist Platinum Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore.2:5, Green Schist Platinum Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore.2:6, Soapstone Platinum Ore
+UndergroundBiomes:metamorphic_metal.block.precious.ore.2:7, Migmatite Platinum Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore.2:0, Limestone Platinum Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore.2:1, Chalk Platinum Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore.2:2, Shale Platinum Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore.2:3, Siltstone Platinum Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore.2:4, Lignite Block Platinum Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore.2:5, Dolomite Platinum Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore.2:6, Greywacke Platinum Ore
+UndergroundBiomes:sedimentary_metal.block.precious.ore.2:7, Chert Platinum Ore
 MTUtils:igneous_ten_ore:0, Red Granite MagTungsten
 MTUtils:igneous_ten_ore:1, Black Granite MagTungsten
 MTUtils:igneous_ten_ore:2, Rhyolite MagTungsten
@@ -9516,6 +9516,8 @@ RefinedRelocation:relocationPortal, tile.relocationPortal.name
 RefinedRelocation:relocationController, Player Relocator Base
 RefinedRelocation:powerLimiter:0, Power Limiter
 RefinedRelocation:sortingBarrel, Sorting Barrel
+reignadditionals:campfire, Campfire
+reignadditionals:campfireLit, Campfire
 rftools:machineFrame, Machine Frame
 rftools:machineBase, Machine Base
 rftools:rfMonitorBlock, RF Monitor
@@ -13989,390 +13991,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Silver Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Silver Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Silver Ore
@@ -14397,6 +14015,294 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Silver Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Silver Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Silver Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Deep Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Astral Silver Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Zinc Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Magnesium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Bitumen Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Prometheum Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
@@ -14445,174 +14351,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Phosphorite Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Phosphorite Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Phosphorite Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Phosphorite Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Orichalcum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Potash Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Saltpeter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Carmot Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Oureclase Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Oureclase Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Oureclase Ore
@@ -14637,6 +14375,270 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Oureclase Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Oureclase Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Oureclase Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Oureclase Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Adamantine Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Mithril Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Rubracium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Sulfur Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Infuscolium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Manganese Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Atlarus Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Platinum Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite MagTungsten
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite MagTungsten
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite MagTungsten
@@ -27188,6 +27190,7 @@ RefinedRelocation:relocatorModule:10, Multi Module
 RefinedRelocation:relocatorModule:11, Module Sneaky Extraction
 RefinedRelocation:relocatorModule:12, Module Crafting
 RefinedRelocation:toolbox, Toolbox
+reignadditionals:flintHandaxe, Flint Handaxe
 rftools:shapeCardItem:0, Shape Card
 rftools:shapeCardItem:1, Shape Card (Void)
 rftools:shapeCardItem:2, Shape Card (Quarry)

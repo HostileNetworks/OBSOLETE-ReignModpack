@@ -51,6 +51,9 @@ recipes.remove(<Mekanism:ArmoredJetpack:100>);
 # Quartz Block in Crusher > 4x Nether Quartz
 mods.mekanism.Crusher.addRecipe(<minecraft:quartz_block>, <minecraft:quartz> * 4);
 
+# Magneticraft Tungsten dust from RoC Tungsten ingot
+mods.mekanism.Crusher.addRecipe(<RotaryCraft:rotarycraft_item_compacts:5>, <Magneticraft:item.dust:4> *2);
+
 # additional crusher recipes
 # bronze
 #for ingotBronze in <ore:ingotBronze>.items {

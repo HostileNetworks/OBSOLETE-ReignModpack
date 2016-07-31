@@ -21,3 +21,6 @@ mods.magneticraft.Grinder.removeRecipe(<Magneticraft:item.rubble:16>);
 mods.magneticraft.Grinder.addRecipe(<Magneticraft:item.rubble:16>, <Magneticraft:item.pebbles:16>, <Mekanism:Dust:2>, 0.05, <Mekanism:Dust:3>, 0.05);
 mods.magneticraft.Sifter.removeRecipe(<Magneticraft:item.pebbles:16>);
 mods.magneticraft.Sifter.addRecipe(<Magneticraft:item.pebbles:16>, <Mekanism:Dust:2> * 3, <Mekanism:Dust:3>, 0.05);
+
+# Magneticraft Tungsten ingots craftable from Reika's Tungsten ingots (but not back the other way)
+recipes.addShapeless(<Magneticraft:item.ingotTungsten>, [<RotaryCraft:rotarycraft_item_compacts:5>]);

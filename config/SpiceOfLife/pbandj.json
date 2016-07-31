@@ -7,5 +7,5 @@
         ]
     },
     "name": "PBandJ",
-	"formula": "MAX(0, (1 - count/12))^MIN(8, food_hunger_value)"
+	"formula": "MAX(0, (1 - count/4))^MIN(2, food_hunger_value)"
 }

@@ -3,12 +3,14 @@
 	"food": {
 		"oredict": [
 			"listAlldesert",
-			"listAllsoda"
+			"listAllsoda",
+			"listAllsweetpie",
+			"listAlljunkfood",
 		],		
 		"items": [
 		]
 	},	
-	"name": "Desert",	
+	"name": "Junkfood",	
 	"enabled": true,	
 	"priority": 1,	
 	"formula": "MAX(0, 1 - count/6)"

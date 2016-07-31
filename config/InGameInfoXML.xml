@@ -14,6 +14,11 @@
             <str>{biome}$f</str>
         </line>
     </lines>
+    <lines at="topcenter">
+        <line>
+            <str>{directionhud}</str>
+        </line>
+    </lines>
     <lines at="middleleft">
         <line>
             <max>

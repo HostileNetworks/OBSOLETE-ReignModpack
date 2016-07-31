@@ -1,11 +1,16 @@
 import mods.nei.NEI;
 
-#fix logs
-#recipes.removeShaped(<minecraft:log>, [[<ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>]]);
+# fix logs
+
 recipes.remove(<minecraft:log:1>);
 #remove OP apples
 recipes.remove(<harvestcraft:pamappleSapling>);
 
+# Gravel in early game
+
+recipes.removeShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]);
+recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>]);
+recipes.addShapeless(<minecraft:flint>, [<CaveBiomes:sedimentarySand>, <CaveBiomes:sedimentarySand>, <CaveBiomes:sedimentarySand>]);
 
 ###MARKER sink/barrel/basin/jug/well
 recipes.remove(<harvestcraft:sink:*>);

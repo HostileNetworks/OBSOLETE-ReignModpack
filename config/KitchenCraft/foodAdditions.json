@@ -379,14 +379,10 @@
       "makeSeed": false,
       "isEdible": true,
       "seedRecipe": false,
-      "oreDictNames": [],
+      "oreDictNames": [
+        "foodBuffedFeast"
+	  ],
       "effects": [
-        {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
         {
           "name": "potion.invisibility",
           "time": 360,
@@ -555,12 +551,6 @@
       ],
       "effects": [
         {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
-        {
           "name": "potion.moveSpeed",
           "level": 0,
           "time": 360,
@@ -630,12 +620,6 @@
       ],
       "effects": [
         {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
-        {
           "name": "potion.digSpeed",
           "level": 0,
           "time": 360,
@@ -654,12 +638,6 @@
         "foodBuffedFeast"
       ],
       "effects": [
-        {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
         {
           "name": "potion.regeneration",
           "level": 0,
@@ -681,12 +659,6 @@
       ],
       "effects": [
         {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
-        {
           "name": "potion.healthBoost",
           "level": 0,
           "time": 360,
@@ -706,12 +678,6 @@
         "foodBuffedFeast"
       ],
       "effects": [
-        {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
         {
           "name": "potion.damageBoost",
           "level": 0,
@@ -733,12 +699,6 @@
       ],
       "effects": [
         {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
-        {
           "name": "potion.fireResistance",
           "time": 720,
           "level": 2,
@@ -758,12 +718,6 @@
       ],
       "effects": [
         {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
-        {
           "name": "potion.waterBreathing",
           "time": 360,
           "chance": 1
@@ -781,12 +735,6 @@
         "foodBuffedFeast"
       ],
       "effects": [
-        {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
         {
           "name": "potion.nightVision",
           "time": 360,
@@ -823,12 +771,6 @@
         "foodBuffedFeast"
       ],
       "effects": [
-        {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
         {
           "name": "potion.resistance",
           "level": 0,
@@ -917,12 +859,6 @@
       "makeSeed": false,
       "isEdible": true,
       "effects": [
-        {
-          "name": "potion.hunger",
-          "level": 129,
-          "time": 1800,
-          "chance": 1
-        },
         {
           "name": "potion.healthBoost",
           "level": 0,

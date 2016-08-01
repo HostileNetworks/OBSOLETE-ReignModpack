@@ -585,7 +585,7 @@
     "retrogen": false,
     "biomeRestriction": "whitelist",
     "biomes": [
-      {http://minetweaker3.powerofbytes.com/wiki/ModTweaker:Ex_Nihilo_Support
+      {
         "type": "dictionary",
         "entry": "FOREST"
       }

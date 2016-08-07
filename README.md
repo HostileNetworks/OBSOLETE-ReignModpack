@@ -18,9 +18,8 @@ You are not alone, however. Ancient Warfare 2 provides you with soldiers, farmer
 
 Credits: 
 -Cosmicdan, for his work on AW2, ReignAdditionals and for his many hours of code, ideas and configuration.
--Dulciphi, who has been working on this pack since the "Dulcified in a Hostile World" Journal and server, back in 2014.
--Reteo, who's inspiration, productivity and professionalism taught me so much
+-Reteo, who's inspiration, productivity and professionalism taught me so much.
 -Haggle, who's Revolution pack I was introduced to through Dan when he wanted to show me how Reika's tech mods *could* work in a modpack with other tech mods.
 -Zeno, who's mods and inspiration set me on this course.
 -Reika. I'd long been inspired by Reika's work and dreamed of developing an integrated modpack that could be deployed in classrooms to teach concepts of maths, physics and enginnering. 
--The many individual modmakers who's years of combined work, dedication and inspiration make worlds like this possible.
+-and the many individual modmakers who's years of combined work, dedication and inspiration make worlds like this possible. 

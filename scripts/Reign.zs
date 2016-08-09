@@ -8,7 +8,7 @@ recipes.remove(<harvestcraft:pamappleSapling>);
 
 # Gravel in early game
 
-recipes.addShapeless(<minecraft:flint>, [<CaveBiomes:sedimentarySand>, <CaveBiomes:sedimentarySand>, <CaveBiomes:sedimentarySand>]);
+recipes.addShapeless(<minecraft:flint>, [<CaveBiomes:sedimentarySand:*>, <CaveBiomes:sedimentarySand:*>, <CaveBiomes:sedimentarySand:*>]);
 
 ###MARKER sink/barrel/basin/jug/well
 recipes.remove(<harvestcraft:sink:*>);

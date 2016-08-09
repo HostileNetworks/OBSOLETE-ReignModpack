@@ -28,7 +28,7 @@ recipes.addShapeless(<reignadditionals:flintHandaxe>, [<minecraft:flint>, <minec
 ## Campfire
 recipes.addShaped(<reignadditionals:campfire>,
 	[[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-	[<minecraft:stick>, <reignadditionals:flintHandaxe>, <minecraft:stick>]]);
+	[<minecraft:stick>, <reignadditionals:flintHandaxe:*>, <minecraft:stick>]]);
 
 
 #### Ex Nihilo ####

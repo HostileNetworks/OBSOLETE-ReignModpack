@@ -79,6 +79,8 @@ red
 blue
 yellow
 green
+evil
+rotten
 
 adverb
 enchantedly
@@ -172,6 +174,8 @@ who wants some?
 get out of my face
 that's gotta hurt
 get ready to rumble
+hory cwap!
+by the power of greyskull
 
 noun.bodypart
 head
@@ -360,6 +364,7 @@ Gerald
 Gina
 Geraldine
 Gabby
+Harambe
 Hendrix
 Henry
 Hobbes
@@ -609,6 +614,7 @@ sheep
 mooshroom
 squid
 golem
+feminist
 
 noun.living.plural
 people
@@ -647,6 +653,7 @@ sheep
 mooshrooms
 squids
 golems
+feminists
 
 noun.object
 boat
@@ -718,6 +725,7 @@ arm
 leg
 body
 foot
+problem glasses
 
 noun.object.plural
 boats
@@ -817,6 +825,7 @@ dungeon
 stronghold
 mineshaft
 abandoned mineshaft
+safe space
 
 noun.place.plural
 oceans
@@ -845,16 +854,19 @@ dungeons
 strongholds
 mineshafts
 abandoned mineshafts
+safe spaces
 
 noun.pronoun
 he
 she
 it
+zhe
 
 noun.pronoun.possessive
 his
 her
 its
+zhe's
 
 verb
 boat
@@ -929,6 +941,7 @@ kick
 punch
 walk
 step
+lick
 
 verb.past
 boated
@@ -1003,6 +1016,7 @@ kicked
 punched
 walked
 stepped
+licked
 
 verb.present
 boating
@@ -1077,3 +1091,4 @@ kicking
 punching
 walking
 stepping
+licking

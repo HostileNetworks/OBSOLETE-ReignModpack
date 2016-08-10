@@ -904,7 +904,7 @@ recipes.addShapeless(<harvestcraft:maplesausageItem>, [<ore:toolCuttingboard>, <
 recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<Thaumcraft:blockTaint:2>]);
 
 # pine nuts
-recipes.addShapeless(<ganyssurface:pineNuts>, [<BiomesOPlenty:fruitBop:4>]);
+recipes.addShapeless(<ganyssurface:pineNuts>, [<BiomesOPlenty:misc:13>]);
 
 # cheeses
 recipes.addShapeless(<kitchenCraftFoods:veggie:19>, [<ore:toolSaucepan>, <ore:listAllrennet>, <ore:listAllmilk>, <Magneticraft:item.string_fabric>]);

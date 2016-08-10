@@ -550,7 +550,7 @@ recipes.addShaped(<harvestcraft:churn>,
 recipes.remove(<harvestcraft:quern>);
 recipes.addShaped(<harvestcraft:quern>,
 [[<ore:slabWood>, <ore:gearStone>, <appliedenergistics2:tile.BlockCrank>],
-  [<ore:slabkStone>, <ore:gearStone>, <ore:slabStone>],
+  [<ore:slabStone>, <ore:gearStone>, <ore:slabStone>],
   [<ore:slabStone>, <minecraft:stone_pressure_plate>, <ore:slabStone>]]);
 
 ### RECIPES

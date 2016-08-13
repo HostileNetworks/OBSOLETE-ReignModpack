@@ -35,7 +35,7 @@ minimapOpacity:100.0
 waypointsScale:1.0
 antiAliasing:true
 blockColours:0
-lighting:true
+lighting:false
 dotsScale:1.0
 compassOverWaypoints:true
 showBiome:false

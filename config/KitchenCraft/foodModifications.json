@@ -84,6 +84,18 @@
 				}
             ]
         },
+			{
+           "item":"harvestcraft:coffeeItem",
+           "food": 2,
+           "saturation": 1,
+           "effects": [
+                {
+                    "name": "potion.moveSpeed",
+                    "time": 600,
+                    "chance": 1
+				}
+            ]
+        },
 		{
             "item":"harvestcraft:bangersandmashItem",
            "food": 10,
@@ -91,7 +103,7 @@
            "effects": [
                 {
                     "name": "potion.wellfedPotion",
-                    "time": 30,
+                    "time": 600,
                     "chance": 1
                 }
             ]

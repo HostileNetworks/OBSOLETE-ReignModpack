@@ -69,6 +69,12 @@ NEI.hide(<exnihilo:doll_creepy>);
 NEI.hide(<exnihilo:ice_shard>);
 NEI.hide(<exnihilo:hammer_wood>);
 NEI.hide(<exnihilo:hammer_stone>);
+NEI.hide(<exnihilo:hammer_iron>);
+NEI.hide(<exnihilo:hammer_gold>);
+NEI.hide(<exnihilo:hammer_diamond>);
+NEI.hide(<exnihilo:crook>);
+NEI.hide(<exnihilo:crook_bone>);
+
 
 //Sieve
 //BlockStack, OutputStack OR OutputArray, Rarity OR RarityArray (Rarity goes in Fractions, 1 = 100Pe, 2 = 50Pe, 3 = 33Pe)
@@ -85,4 +91,4 @@ mods.exnihilo.Sieve.removeRecipe(<minecraft:sand>);
 mods.exnihilo.Sieve.addRecipe(<minecraft:sand>, [<exnihilo:exnihilo.copper_powdered>, <exnihilo:exnihilo.tin_powdered>, <exnihilo:exnihilo.gold_powdered>, <exnihilo:exnihilo.aluminum_powdered>], [15, 20, 36, 10]);
 
 mods.exnihilo.Sieve.removeRecipe(<minecraft:soul_sand>);
-mods.exnihilo.Sieve.addRecipe(<minecraft:soul_sand>, [<exnihilo:exnihilo.nether_gold_broken>, <exnihilo:exnihilo.nether_iron_broken>, <exnihilo:exnihilo.nether_copper_broken>, <GrimoireOfGaia:item.GrimoireOfGaia.Shard>], [25, 20, 20, 30]);
+mods.exnihilo.Sieve.addRecipe(<minecraft:soul_sand>, [<exnihilo:exnihilo.nether_gold_broken>, <exnihilo:exnihilo.nether_iron_broken>, <exnihilo:exnihilo.nether_copper_broken>, <GrimoireOfGaia:item.GrimoireOfGaia.Shard:6>], [25, 20, 20, 30]);

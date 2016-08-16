@@ -1,4 +1,4 @@
-minimapItemId:reignadditionals:flintHandaxe
+minimapItemId:GalacticraftCore:tile.telemetry
 ignoreUpdate:0
 updateNotification:false
 settingsButton:true

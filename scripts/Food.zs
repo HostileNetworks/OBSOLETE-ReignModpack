@@ -275,28 +275,28 @@ val grain = <ore:listAllgrain>;
 grain.add(<harvestcraft:riceItem>);
 grain.add(<harvestcraft:cornItem>);
 grain.add(<Natura:barleyFood>);
+oreDict.cropBarley.add(<BiomesOPlenty:plants:6>);
 
-# fruit
-val fruit = <ore:listAllfruit>;
-fruit.add(<harvestcraft:durianItem>);
-fruit.add(<minecraft:melon>);
-fruit.add(<Forestry:fruits>);
-fruit.add(<Natura:berry:0>);
-fruit.add(<Natura:berry:1>);
-fruit.add(<Natura:berry:2>);
-fruit.add(<Natura:berry:3>);
 val berry = <ore:listAllberry>;
 berry.add(<Natura:berry:0>);
 berry.add(<Natura:berry:1>);
 berry.add(<Natura:berry:2>);
 berry.add(<Natura:berry:3>);
 
+# fruit
+val fruit = <ore:listAllfruit>;
+fruit.add(<harvestcraft:durianItem>);
+fruit.add(<minecraft:melon>);
+fruit.add(<Forestry:fruits>);
+<ore:listAllfruit>.addAll(<ore:listAllcitrus>);
+<ore:listAllfruit>.addAll(<ore:listAllberry>);
+
 # nut
 val nut = <ore:listAllnut>;
 nut.add(<ganyssurface:pineNuts>);
 nut.add(<Forestry:fruits:2>);
 nut.add(<Forestry:fruits:1>);
-<ore:listAllfruit>.addAll(<ore:listAllcitrus>);
+
 # spice
 val spice = <ore:listAllspice>;
 spice.add(<harvestcraft:groundnutmegItem>);
@@ -307,7 +307,6 @@ spice.add(<harvestcraft:blackpepperItem>);
 recipes.remove(<harvestcraft:ediblerootItem>);
 val roots = <ore:listAllroot>;
 roots.add(<BiomesOPlenty:plants:15>);
-
 
 # yougurt
 val yogurt = <ore:listAllfruityogurt>;
@@ -552,6 +551,7 @@ recipes.addShaped(<harvestcraft:quern>,
 [[<ore:slabWood>, <ore:gearStone>, <appliedenergistics2:tile.BlockCrank>],
   [<ore:slabStone>, <ore:gearStone>, <ore:slabStone>],
   [<ore:slabStone>, <minecraft:stone_pressure_plate>, <ore:slabStone>]]);
+  
 
 ### RECIPES
 
@@ -559,7 +559,7 @@ recipes.addShaped(<harvestcraft:quern>,
 #bread
 furnace.addRecipe(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
 # sausage cooked
-furnace.addRecipe(<harvestcraft:porksausageItem>,<kitchenCraftFoods:veggie:23>);
+furnace.addRecipe(<harvestcraft:porksausageItem>,<kitchenCraftFoods:meat:23>);
 # burger patties
 furnace.addRecipe(<kitchenCraftFoods:meat:1>,<harvestcraft:sausageItem>);
 # quiche
@@ -649,8 +649,7 @@ recipes.addShapeless(<kitchenCraftFoods:veggie:44>, [<ore:toolBakeware>, <ore:li
 
 
 # Milk
-#recipes.addShapeless(<MineFactoryReloaded:milkbottle>,
-#[<harvestcraft:freshmilkItem>, <minecraft:glass_bottle>]);
+
 #clay milk bucket
 recipes.addShapeless(<harvestcraft:freshmilkItem> * 2,
 [<IguanaTweaksTConstruct:clayBucketMilk>]);
@@ -956,17 +955,18 @@ recipes.addShapeless(<harvestcraft:chocolatebaconItem>, [<ore:toolSaucepan>, <or
 # Tinkers Drying Rack
 
 # root
-for item in <ore:listAllroot>.items {mods.tconstruct.Drying.addRecipe((item), <harvestcraft:ediblerootItem>, 12000);}
-
-mods.tconstruct.Drying.addRecipe(<minecraft:melon>, <kitchenCraftFoods:veggie:20>, 6400);
+for item in <ore:listAllroot>.items {mods.tconstruct.Drying.addRecipe((item), <harvestcraft:ediblerootItem>, 6400);}
 
 # sausage
 mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:meat:4>, <kitchenCraftFoods:meat:5>, 12800);
 
 # ham
-mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:meat:10>, <kitchenCraftFoods:meat:11>,25600);
+mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:meat:10>, <kitchenCraftFoods:meat:11>,12800);
 
 for item in <ore:listAllfruit>.items {mods.tconstruct.Drying.addRecipe((item), <kitchenCraftFoods:veggie:20>, 6400);}
 
 # cheese
-mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:veggie:19>, <kitchenCraftFoods:veggie:18>, 12800);
+mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:veggie:19>, <kitchenCraftFoods:veggie:18>, 6400);
+
+# leather
+mods.tconstruct.Drying.addRecipe(<HarderWildlife:rawLeather>, <minecraft:leather>, 3200);

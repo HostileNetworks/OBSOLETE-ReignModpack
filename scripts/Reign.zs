@@ -6,6 +6,7 @@ recipes.remove(<minecraft:log:1>);
 #remove OP apples
 recipes.remove(<harvestcraft:pamappleSapling>);
 
+
 # Gravel in early game
 
 recipes.addShapeless(<minecraft:flint>, [<CaveBiomes:sedimentarySand:*>, <CaveBiomes:sedimentarySand:*>, <CaveBiomes:sedimentarySand:*>]);
@@ -28,8 +29,29 @@ recipes.addShapeless(<reignadditionals:flintHandaxe>, [<minecraft:flint>, <minec
 ## Campfire
 recipes.addShaped(<reignadditionals:campfire>,
 	[[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-	[<minecraft:stick>, <reignadditionals:flintHandaxe:*>, <minecraft:stick>]]);
+	[<minecraft:stick>, <reignadditionals:flintHandaxe:*>.transformDamage(2), <minecraft:stick>]]);
 
+## Rabbit skins -> hide -> leather
+recipes.remove(<minecraft:leather>);
+recipes.addShapeless(<HarderWildlife:rawLeather>,
+	[<etfuturum:rabbit_hide>, <etfuturum:rabbit_hide>, <ore:listAllsalt>]);
+recipes.addShapeless(<HarderWildlife:rawLeather>,
+	[<MoCreatures:hide>, <ore:listAllsalt>]);
+
+# Tinkers OP armour.
+recipes.remove(<TConstruct:travelGoggles>);
+recipes.remove(<TConstruct:travelVest>);
+recipes.remove(<TConstruct:travelWings>);
+recipes.remove(<TConstruct:travelBoots>);
+recipes.remove(<TConstruct:travelGlove>);
+recipes.remove(<TConstruct:travelBelt>);
+
+NEI.hide(<TConstruct:travelGoggles>);
+NEI.hide(<TConstruct:travelVest>);
+NEI.hide(<TConstruct:travelWings>);
+NEI.hide(<TConstruct:travelBoots>);
+NEI.hide(<TConstruct:travelGlove>);
+NEI.hide(<TConstruct:travelBelt>);
 
 #### Ex Nihilo ####
 

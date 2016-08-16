@@ -14,7 +14,9 @@ val goldGear = <Railcraft:part.gear:0>;
 val ironGear = <ore:gearIron>;
 val steelGear = <Railcraft:part.gear:2>;
 
+
 val piston = <minecraft:piston>;
+
 
 recipes.remove(hobbyist);
 recipes.addShaped(hobbyist, [[copper,copper,copper]
@@ -34,3 +36,4 @@ recipes.addShaped(industrial, [[steel,steel,steel]
 # Add IE's Coal Coke to Blast Furnace Fuel (first is single piece, second is the block)
 mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>);
 mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:stoneDecoration:3>);
+

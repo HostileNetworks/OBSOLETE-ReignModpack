@@ -55,6 +55,12 @@
       "saturationModifier": 0.4
     },
     {
+      "name": "harvestcraft:chickenparmesanItem",
+      "meta": 0,
+      "hunger": 14,
+      "saturationModifier": 0.8
+    },
+    {
       "name": "harvestcraft:chocolaterollItem",
       "meta": 0,
       "hunger": 5,
@@ -313,6 +319,12 @@
       "saturationModifier": 0.6
     },
     {
+      "name": "harvestcraft:peanutbuttercookiesItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.8
+    },
+    {
       "name": "harvestcraft:pecanpieItem",
       "meta": 0,
       "hunger": 8,
@@ -385,6 +397,12 @@
       "saturationModifier": 0.8
     },
     {
+      "name": "harvestcraft:marinatedcucumbersItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.8
+    },
+    {
       "name": "harvestcraft:papayajellysandwichItem",
       "meta": 0,
       "hunger": 7,
@@ -401,6 +419,12 @@
       "meta": 0,
       "hunger": 7,
       "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:raisincookiesItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.8
     },
     {
       "name": "harvestcraft:starfruitjellysandwichItem",

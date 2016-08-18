@@ -265,7 +265,7 @@
     "block": "clay",
     "material": "gravel",
     "clusterSize": 5,
-    "numClusters": 3,
+    "numClusters": 5,
     "minHeight": 2,
     "maxHeight": 50,
     "retrogen": "false",

@@ -1,5 +1,30 @@
 import mods.nei.NEI;
 
+var candle = <ore:listAllcandle>;
+candle.add(<harvestcraft:pamcandleDeco1>);
+candle.add(<harvestcraft:pamcandleDeco2>);
+candle.add(<harvestcraft:pamcandleDeco3>);
+candle.add(<harvestcraft:pamcandleDeco4>);
+candle.add(<harvestcraft:pamcandleDeco5>);
+candle.add(<harvestcraft:pamcandleDeco6>);
+candle.add(<harvestcraft:pamcandleDeco7>);
+candle.add(<harvestcraft:pamcandleDeco8>);
+candle.add(<harvestcraft:pamcandleDeco9>);
+candle.add(<harvestcraft:pamcandleDeco10>);
+candle.add(<harvestcraft:pamcandleDeco11>);
+candle.add(<harvestcraft:pamcandleDeco12>);
+candle.add(<harvestcraft:pamcandleDeco13>);
+candle.add(<harvestcraft:pamcandleDeco14>);
+candle.add(<harvestcraft:pamcandleDeco15>);
+candle.add(<harvestcraft:pamcandleDeco16>);
+candle.add(<GardenStuff:candle>);
+
+recipes.remove(<Railcraft:lantern.stone:9>);
+recipes.addShaped(<Railcraft:lantern.stone:9>
+				,[[null,<ore:slabStone>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<ore:slabStone>,null]]);
+
 # fix logs
 
 recipes.remove(<minecraft:log:1>);
@@ -34,9 +59,9 @@ recipes.addShaped(<reignadditionals:campfire>,
 ## Rabbit skins -> hide -> leather
 recipes.remove(<minecraft:leather>);
 recipes.addShapeless(<HarderWildlife:rawLeather>,
-	[<etfuturum:rabbit_hide>, <etfuturum:rabbit_hide>, <ore:listAllsalt>]);
+	[<etfuturum:rabbit_hide>, <etfuturum:rabbit_hide>, <ore:itemSalt>]);
 recipes.addShapeless(<HarderWildlife:rawLeather>,
-	[<MoCreatures:hide>, <ore:listAllsalt>]);
+	[<MoCreatures:hide>, <ore:itemSalt>]);
 
 # Tinkers OP armour.
 recipes.remove(<TConstruct:travelGoggles>);

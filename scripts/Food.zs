@@ -535,6 +535,7 @@ recipes.remove(<harvestcraft:zucchinifriesItem>);
 recipes.remove(<harvestcraft:heartybreakfastItem>);
 recipes.remove(<harvestcraft:stockItem>);
 recipes.remove(<harvestcraft:pineappleyogurtItem>);
+recipes.remove(<harvestcraft:fishsticksItem>);
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
 
@@ -551,7 +552,12 @@ recipes.addShaped(<harvestcraft:quern>,
 [[<ore:slabWood>, <ore:gearStone>, <appliedenergistics2:tile.BlockCrank>],
   [<ore:slabStone>, <ore:gearStone>, <ore:slabStone>],
   [<ore:slabStone>, <minecraft:stone_pressure_plate>, <ore:slabStone>]]);
-  
+# Presser
+recipes.remove(<harvestcraft:presser>);
+recipes.addShaped(<harvestcraft:presser>,
+[[<ore:ingotIron>, <ore:gearStone>, <appliedenergistics2:tile.BlockCrank>],
+  [<ore:plankWood>, <minecraft:stone_pressure_plate>, <ore:plankWood>],
+  [<ore:slabStone>, <minecraft:stone_pressure_plate>, <ore:slabStone>]]);
 
 ### RECIPES
 

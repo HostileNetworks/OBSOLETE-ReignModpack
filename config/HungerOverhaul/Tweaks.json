@@ -109,6 +109,18 @@
       "saturationModifier": 1.0
     },
     {
+      "name": "harvestcraft:croissantItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.7
+    },
+    {
+      "name": "harvestcraft:crackerItem",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.5
+    },
+    {
       "name": "harvestcraft:crackerItem",
       "meta": 0,
       "hunger": 4,

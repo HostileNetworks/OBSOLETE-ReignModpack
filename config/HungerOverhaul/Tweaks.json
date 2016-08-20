@@ -1,6 +1,48 @@
 {
   "foods": [
     {
+      "name": "minecraft:cooked_fished",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "minecraft:cooked_fished",
+      "meta": 1,
+      "hunger": 4,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "minecraft:cooked_porkchop",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "minecraft:cooked_beef",
+      "meta": 1,
+      "hunger": 4,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "minecraft:cooked_chicken",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:muttoncookedItem",
+      "meta": 1,
+      "hunger": 4,
+      "saturationModifier": 0.5
+    },
+    {
+      "name": "HarderWildlife:chevonCooked",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.5
+    },
+    {
       "name": "harvestcraft:applepieItem",
       "meta": 0,
       "hunger": 7,
@@ -117,19 +159,19 @@
     {
       "name": "harvestcraft:crackerItem",
       "meta": 0,
-      "hunger": 4,
+      "hunger": 3,
       "saturationModifier": 0.5
     },
     {
       "name": "harvestcraft:crackerItem",
       "meta": 0,
-      "hunger": 4,
+      "hunger": 3,
       "saturationModifier": 0.5
     },
     {
       "name": "harvestcraft:curryItem",
       "meta": 0,
-      "hunger": 5,
+      "hunger": 6,
       "saturationModifier": 0.5
     },
     {

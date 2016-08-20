@@ -36,7 +36,9 @@
     ],
     "starting_items": [
       "minecraft:apple 2 0",
-      "kitchenCraftFoods:veggie 1 1"
+      "kitchenCraftFoods:veggie 1 1",
+	  "SpiceOfLife:lunchbag 1 0",
+	  "kitchenCraftFoods:veggie 1 23"
     ]
   },
   "permissions_admin": {

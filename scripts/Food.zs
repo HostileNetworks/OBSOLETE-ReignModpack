@@ -538,6 +538,8 @@ recipes.remove(<harvestcraft:pineappleyogurtItem>);
 recipes.remove(<harvestcraft:fishsticksItem>);
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
+furnace.remove(<minecraft:bread>, <EnderIO:itemPowderIngot:8>);
+
 
 # Force Churn and Quern
 
@@ -956,23 +958,3 @@ recipes.addShapeless(<harvestcraft:baconmushroomburgerItem>, [<ore:foodBaconchee
 recipes.addShapeless(<harvestcraft:epicbaconItem>, [<ore:toolBakeware>, <harvestcraft:maplecandiedbaconItem>, <harvestcraft:maplecandiedbaconItem>, <ore:dyeRed>, <ore:dyeBlue>, <ore:dyeYellow>, <ore:dyeGreen>, <ore:dyeMagenta>, <ore:dyePurple>]);
 
 recipes.addShapeless(<harvestcraft:chocolatebaconItem>, [<ore:toolSaucepan>, <ore:foodBacon>, <ore:foodChocolatebar>]);
-
-##================================================================================
-# Tinkers Drying Rack
-
-# root
-for item in <ore:listAllroot>.items {mods.tconstruct.Drying.addRecipe((item), <harvestcraft:ediblerootItem>, 6400);}
-
-# sausage
-mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:meat:4>, <kitchenCraftFoods:meat:5>, 12800);
-
-# ham
-mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:meat:10>, <kitchenCraftFoods:meat:11>,12800);
-
-for item in <ore:listAllfruit>.items {mods.tconstruct.Drying.addRecipe((item), <kitchenCraftFoods:veggie:20>, 6400);}
-
-# cheese
-mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:veggie:19>, <kitchenCraftFoods:veggie:18>, 6400);
-
-# leather
-mods.tconstruct.Drying.addRecipe(<HarderWildlife:rawLeather>, <minecraft:leather>, 3200);

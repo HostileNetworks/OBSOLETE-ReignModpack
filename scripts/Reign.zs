@@ -1,5 +1,14 @@
 import mods.nei.NEI;
 
+# Tooltips
+var eggshell = <exoticbirds:eggshell>;
+eggshell.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
+var rotten = <enviromine:rottenFood>;
+rotten.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
+var fossil = <UndergroundBiomes:fossilPiece:*>;
+fossil.addTooltip(format.yellow("crafts into bonemeal"));
+
+# RC Lanterns use candles
 var candle = <ore:listAllcandle>;
 candle.add(<harvestcraft:pamcandleDeco1>);
 candle.add(<harvestcraft:pamcandleDeco2>);

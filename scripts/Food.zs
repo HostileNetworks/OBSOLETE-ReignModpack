@@ -98,7 +98,7 @@ val mutton = <ore:foodMuttonraw>;
 mutton.add(<HarderWildlife:chevonRaw>);
 
 # white meat
-val chicken = <ore:rawChicken>;
+val chicken = <ore:listAllchickenraw>;
 chicken.add(<minecraft:chicken>);
 chicken.add(<MoCreatures:ostrichraw>);
 chicken.add(<MoCreatures:turkeyraw>);
@@ -522,6 +522,7 @@ recipes.remove(<harvestcraft:blueberrypieItem>);
 recipes.remove(<harvestcraft:cherrypieItem>);
 recipes.remove(<harvestcraft:gooseberrypieItem>);
 recipes.remove(<harvestcraft:peachcobblerItem>);
+recipes.remove(<harvestcraft:blackberrycobblerItem>);
 recipes.remove(<harvestcraft:raspberrypieItem>);
 recipes.remove(<harvestcraft:strawberrypieItem>);
 recipes.remove(<harvestcraft:sweetpotatopieItem>);
@@ -801,9 +802,9 @@ recipes.addShapeless(<kitchenCraftFoods:meat:8>, [<ore:toolMixingbowl>, <ore:lis
 recipes.addShapeless(<kitchenCraftFoods:meat:26>, [<ore:toolPot>, <ore:foodGravy>, <ore:listAllmeatraw>, <ore:foodCrop>, <ore:listAllveggie>, <ore:cropTomato>, <ore:listAllherb>, <ore:herbBayleaf>]);
 
 # Roast lamb
-recipes.addShapeless(<kitchenCraftFoods:veggie:26>, [<ore:herbMint>, <harvestcraft:vinegarItem>, <minecraft:sugar>]);
-recipes.addShapeless(<harvestcraft:lambwithmintsauceItem>, [<ore:toolBakeware>, <ore:cookedMutton>, <kitchenCraftFoods:veggie:26>, <ore:herbRosemary>]);
-recipes.addShapeless(<kitchenCraftFoods:meat:21>, [<ore:toolBakeware>, <harvestcraft:bakedsweetpotatoItem>, <ore:foodCornonthecob>, <ore:foodMuttoncooked>, <ore:herbRosemary>, <kitchenCraftFoods:veggie:26>, <ore:foodButter>, <ore:listAllsweetpie>]);
+recipes.addShapeless(<kitchenCraftFoods:veggie:25>, [<ore:herbMint>, <harvestcraft:vinegarItem>, <minecraft:sugar>]);
+recipes.addShapeless(<harvestcraft:lambwithmintsauceItem>, [<ore:toolBakeware>, <ore:listAllmuttoncooked>, <kitchenCraftFoods:veggie:25>, <ore:foodChoppedgarlic>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:21>, [<ore:toolBakeware>, <harvestcraft:bakedsweetpotatoItem>, <ore:foodCornonthecob>, <ore:foodMuttoncooked>, <ore:foodChoppedgarlic>, <kitchenCraftFoods:veggie:25>, <ore:foodButter>, <ore:listAllsweetpie>]);
 
 # Surf and turf
 recipes.addShapeless(<kitchenCraftFoods:meat:19>, [<ore:listAllfishcooked>, <ore:foodLoadedbakedpotato>, <ore:listAllsalad>, <ore:listAllmilkshake>]);

@@ -350,3 +350,17 @@ recipes.remove(<customnpcs:npcHeart>);
 recipes.remove(<customnpcs:npcMoney>);
 recipes.remove(<customnpcs:npcNecklace>);
 recipes.remove(<customnpcs:npcUsbStick>);
+
+# Slingshot
+recipes.addShaped(<customnpcs:npcSlingshot>,
+	[[<minecraft:stick>, <Magneticraft:item.rubber>, <minecraft:stick>],
+	[null, <ore:ironRod>, null]]);
+# Bullets
+recipes.addShaped(<customnpcs:npcIronBullet>*16,
+	[[<ore:ingotIron>, <minecraft:gunpowder>]]);
+recipes.addShaped(<customnpcs:npcGoldenBullet>*16,
+	[[<ore:ingotGold>, <minecraft:gunpowder>]]);
+recipes.addShaped(<customnpcs:npcBronzeBullet>*16,
+	[[<ore:ingotBronze>, <minecraft:gunpowder>]]);
+recipes.addShaped(<customnpcs:npcBlackBullet>*32,
+	[[<ore:ingotTungsten>, <minecraft:gunpowder>]]);

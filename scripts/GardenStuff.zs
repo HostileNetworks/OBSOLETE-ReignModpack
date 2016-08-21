@@ -18,7 +18,7 @@ val darkoakLattice = <GardenStuff:lattice_wood:5>;
 val ironLattice = <GardenStuff:lattice:0>;
 
 recipes.remove(ironLattice * 16);
-recipes.addShaped(ironLattice * 16, [[null,iron,null],[iron,null,iron],[null,iron,null]]);
+recipes.addShaped(ironLattice * 16, [[null,iron,null],[iron,iron,iron],[null,iron,null]]);
 
 recipes.remove(oakLattice * 8);
 recipes.addShaped(oakLattice * 8, [[null,slab,null],[slab,slab,slab],[null,slab,null]]);

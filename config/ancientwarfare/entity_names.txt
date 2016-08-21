@@ -103,7 +103,6 @@ SpecialMobs.GiantPigZombie
 exoticbirds.FlamingoEgg
 ESM_Ghast
 GrimoireOfGaia.Swamper
-jaff.FishCod
 customnpcs.npcEnderman
 shadowmobs.geist
 Railcraft.cart.furnace
@@ -156,7 +155,6 @@ GrimoireOfGaia.Flesh Lich
 AncientWarfareNpc.viking.archer
 npcGolem
 GalacticraftCore.AlienVillager
-jaff.FishPuffer
 Railcraft.cart.loco.creative
 Railcraft.railcraft.cart.tnt
 BiblioCraft.SeatEntity
@@ -435,7 +433,6 @@ desertmobs.erepede
 TConstruct.EdibleSlime
 exoticbirds.PenguinEgg
 AncientWarfareNpc.native.soldier.elite
-jaff.FishSalmon
 mountainmobs.arcanelaser
 AncientWarfareNpc.custom_1.bard
 exoticbirds.GouldianfinchEgg
@@ -507,7 +504,6 @@ OpenBlocks.Player-Magnet
 GalacticraftMars.GrappleHookGC
 SpecialMobs.GhostSpider
 AncientWarfareNpc.aw_npc_priest
-jaff.FishClown
 customnpcs.npczombiemale
 BuildCraft|Silicon.bcPackageThrowable
 RotaryCraft.RailGun Shot
@@ -655,7 +651,6 @@ SpecialMobs.InfernoBlaze
 GraveStone.GSZombieCat
 Railcraft.railcraft.cart.bore
 demonmobs.doomfireball
-jaff.IronFishHook
 Railcraft.railcraft.cart.command.block
 ImmersiveEngineering.revolverShotHoming
 BiomesOPlenty.Wasp

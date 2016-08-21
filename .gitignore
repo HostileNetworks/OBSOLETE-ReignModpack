@@ -9,4 +9,5 @@
 !/scripts/
 !/resources/
 !.gitignore
+!options.txt
 

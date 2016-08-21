@@ -28,3 +28,27 @@ recipes.addShapeless(<Magneticraft:item.ingotTungsten>, [<RotaryCraft:rotarycraf
 # Prefer M4 stuff
 recipes.remove(<Magneticraft:item.dustBrass:0>);
 mods.nei.NEI.hide(<Magneticraft:item.dustBrass:0>);
+
+# Remove Iron Stick (pointless, Iron Tool Rod is a better equivalent)
+recipes.remove(<Magneticraft:item.stick_iron:0>);
+
+# Layout adjustment to the heat coils (prevent conflicts)
+recipes.remove(<Magneticraft:item.heatcoil_copper:0>);
+recipes.addShaped(<Magneticraft:item.heatcoil_copper:0>,[
+    [null,null,null],
+    [null,<ore:ingotCopper>,<ore:ingotCopper>],
+    [null,<ore:ingotCopper>,<ore:ingotCopper>]
+]);
+recipes.remove(<Magneticraft:item.heatcoil_iron:0>);
+recipes.addShaped(<Magneticraft:item.heatcoil_iron:0>,[
+    [null,null,null],
+    [null,<ore:ingotIron>,<ore:ingotIron>],
+    [null,<ore:ingotIron>,<ore:ingotIron>]
+]);
+recipes.remove(<Magneticraft:item.heatcoil_tungsten:0>);
+recipes.addShaped(<Magneticraft:item.heatcoil_tungsten:0>,[
+    [null,null,null],
+    [null,<ore:ingotTungsten>,<ore:ingotTungsten>],
+    [null,<ore:ingotTungsten>,<ore:ingotTungsten>]
+]);
+

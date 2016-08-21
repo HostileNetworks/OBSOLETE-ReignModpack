@@ -109,7 +109,6 @@ recipes.remove(<Railcraft:part.gear:2>);
 recipes.remove(<Railcraft:part.gear:0>);
 recipes.remove(<Railcraft:part.gear:1>);
 recipes.remove(<Railcraft:part.gear:3>);
-recipes.remove(<AncientWarfare:component:1>);
 recipes.remove(<RotaryCraft:rotarycraft_item_shaftcraft:4>);
 val woodgear = <ore:gearWood>;
 woodgear.add(<RotaryCraft:rotarycraft_item_enginecraft:9>);

@@ -12,7 +12,10 @@ val plate = <Magneticraft:item.heatcoil_copper>;
 
 val goldGear = <Railcraft:part.gear:0>;
 val ironGear = <ore:gearIron>;
-val steelGear = <Railcraft:part.gear:2>;
+val steelGear = <ore:gearSteel>;
+
+# Add Steel gear to oredict tag
+steelGear.add(<Railcraft:part.gear:2>);
 
 
 val piston = <minecraft:piston>;

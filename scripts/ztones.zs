@@ -774,3 +774,10 @@ mods.chisel.Groups.addVariation("ztyl", <Ztones:tile.ztylBlock:13>);
 mods.chisel.Groups.addVariation("ztyl", <Ztones:tile.ztylBlock:14>);
 mods.chisel.Groups.addVariation("ztyl", <Ztones:tile.ztylBlock:15>);
 recipes.addShapeless(<Ztones:stoneTile>, [<Ztones:tile.ztylBlock:*>]);
+
+# Conflict with Galacticraft Planets' "Fragmented Carbon"
+recipes.remove(<Ztones:minicoal>);
+recipes.remove(<Ztones:minicharcoal>);
+mods.nei.NEI.hide(<Ztones:minicoal>);
+mods.nei.NEI.hide(<Ztones:minicharcoal>);
+

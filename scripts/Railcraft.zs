@@ -37,3 +37,19 @@ recipes.addShaped(industrial, [[steel,steel,steel]
 mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>);
 mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:stoneDecoration:3>);
 
+# Prefer TiC Iron Nuggets
+recipes.remove(<Railcraft:nugget:0>);
+furnace.remove(<Railcraft:nugget:0>);
+furnace.addRecipe(<TConstruct:materials:19> * 2, <ore:orePoorIron>);
+mods.nei.NEI.hide(<Railcraft:nugget:0>);
+
+# Only use Railcraft's Lead Block
+for blockLead in <ore:blockLead>.items {
+    recipes.remove(blockLead);
+    #if blockLead.name.equals("tile.metallurgy.charcoal.block") {
+    #    mods.nei.NEI.hide(blockLead);
+    #}
+}
+recipes.addShapeless(<Railcraft:cube:11>, [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]);
+
+

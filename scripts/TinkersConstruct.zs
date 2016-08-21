@@ -184,5 +184,10 @@ mods.tconstruct.Casting.addTableRecipe(<chisel:diamondChisel>, <liquid:steel.mol
 ##================================================================================
 
 ##================================================================================
-#CosmicDan
+# No annoying alloys
 mods.tconstruct.Smeltery.removeAlloy(<liquid:angmallen.molten>);
+
+# Missing Molten Metals to Nuggets
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:19>, <liquid:iron.molten> * 16, <TConstruct:metalPattern:27>, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:20>, <liquid:copper.molten> * 16, <TConstruct:metalPattern:27>, false, 20);
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:21>, <liquid:tin.molten> * 16, <TConstruct:metalPattern:27>, false, 20);

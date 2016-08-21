@@ -6,3 +6,15 @@ recipes.remove(bell);
 mods.thaumcraft.Aspects.remove(<harvestcraft:cheeseItem>, "metallum 4");
 mods.thaumcraft.Aspects.remove(<harvestcraft:butterItem>, "metallum 3");
 mods.thaumcraft.Aspects.add(<harvestcraft:butterItem>, "aqua 1, sano 1, fames 1");
+
+# Prefer TiC Nuggets
+recipes.remove(<Thaumcraft:ItemNugget:0>);
+recipes.remove(<Thaumcraft:ItemNugget:1>);
+recipes.remove(<Thaumcraft:ItemNugget:2>);
+mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:0>);
+mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:1>);
+mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:2>);
+mods.nei.NEI.hide(<Thaumcraft:ItemNugget:0>);
+mods.nei.NEI.hide(<Thaumcraft:ItemNugget:1>);
+mods.nei.NEI.hide(<Thaumcraft:ItemNugget:2>);
+

@@ -165,3 +165,7 @@ recipes.addShaped(<GalacticraftCore:tile.oxygenDetector>,
 	[[bed,bed,bed],
 	 [vent,basicWafer,vent],
 	 [redstone,alumPlate,redstone]]);
+
+# Prefer AOBD's Meteoric Iron Block (has more uses)
+recipes.remove(<GalacticraftCore:tile.gcBlockCore:12>);
+mods.nei.NEI.hide(<GalacticraftCore:tile.gcBlockCore:12>);

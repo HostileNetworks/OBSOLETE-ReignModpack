@@ -37,3 +37,7 @@ recipes.addShaped(acaciaLattice * 8, [[null,acaciaSlab,null],[acaciaSlab,acaciaS
 
 recipes.remove(darkoakLattice * 8);
 recipes.addShaped(darkoakLattice * 8, [[null,darkoakSlab,null],[darkoakSlab,darkoakSlab,darkoakSlab],[null,darkoakSlab,null]]);
+
+# Prefer TiC Iron Nuggets
+recipes.remove(<GardenStuff:iron_nugget:0>);
+mods.nei.NEI.hide(<GardenStuff:iron_nugget:0>);

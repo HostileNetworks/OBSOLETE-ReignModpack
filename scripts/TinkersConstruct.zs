@@ -1,4 +1,5 @@
 #Tinkers Construct
+import mods.nei.NEI;
 
 #Golden Apples not smeltable
 val apple = <minecraft:golden_apple>;
@@ -160,6 +161,7 @@ recipes.remove(<Magneticraft:mirror>);
 mods.tconstruct.Casting.addTableRecipe(<Magneticraft:mirror>, <liquid:silver.molten>*288, <minecraft:glass_pane>, true, 20);
 recipes.remove(<RotaryCraft:rotarycraft_item_misccraft>);
 mods.tconstruct.Casting.addTableRecipe(<RotaryCraft:rotarycraft_item_misccraft>, <liquid:silver.molten>*360, <minecraft:glass>, true, 40);
+
 ##================================================================================
 # CHISELS
 #remove chisel recipes
@@ -181,7 +183,6 @@ recipes.addShaped(<chisel:diamondChisel>,
 [null, <TConstruct:chiselHead:16>, null],
 [<ore:rodBronze>,null, null]]);
 mods.tconstruct.Casting.addTableRecipe(<chisel:diamondChisel>, <liquid:steel.molten>*288, <minecraft:diamond>, true, 20);
-##================================================================================
 
 ##================================================================================
 # No annoying alloys
@@ -191,3 +192,42 @@ mods.tconstruct.Smeltery.removeAlloy(<liquid:angmallen.molten>);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:19>, <liquid:iron.molten> * 16, <TConstruct:metalPattern:27>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:20>, <liquid:copper.molten> * 16, <TConstruct:metalPattern:27>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:21>, <liquid:tin.molten> * 16, <TConstruct:metalPattern:27>, false, 20);
+
+##================================================================================
+# Tinkers Drying Rack
+# fruit
+val fruit = <ore:listAllfruit>;
+fruit.add(<harvestcraft:durianItem>);
+fruit.add(<minecraft:melon>);
+fruit.add(<Forestry:fruits>);
+<ore:listAllfruit>.addAll(<ore:listAllcitrus>);
+<ore:listAllfruit>.addAll(<ore:listAllberry>);
+
+# root
+for item in <ore:listAllroot>.items {mods.tconstruct.Drying.addRecipe((item), <harvestcraft:ediblerootItem>, 6400);}
+# sausage
+mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:meat:4>, <kitchenCraftFoods:meat:5>, 12800);
+# ham
+mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:meat:10>, <kitchenCraftFoods:meat:11>,12800);
+# Dried Fruit
+for item in <ore:listAllfruit>.items {mods.tconstruct.Drying.addRecipe((item), <kitchenCraftFoods:veggie:20>, 3200);}
+# cheese
+mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:veggie:19>, <kitchenCraftFoods:veggie:18>, 6400);
+# leather
+mods.tconstruct.Drying.addRecipe(<HarderWildlife:rawLeather>, <minecraft:leather>, 3200);
+
+##================================================================================
+# Tinkers OP armour.
+recipes.remove(<TConstruct:travelGoggles>);
+recipes.remove(<TConstruct:travelVest>);
+recipes.remove(<TConstruct:travelWings>);
+recipes.remove(<TConstruct:travelBoots>);
+recipes.remove(<TConstruct:travelGlove>);
+recipes.remove(<TConstruct:travelBelt>);
+
+NEI.hide(<TConstruct:travelGoggles>);
+NEI.hide(<TConstruct:travelVest>);
+NEI.hide(<TConstruct:travelWings>);
+NEI.hide(<TConstruct:travelBoots>);
+NEI.hide(<TConstruct:travelGlove>);
+NEI.hide(<TConstruct:travelBelt>);

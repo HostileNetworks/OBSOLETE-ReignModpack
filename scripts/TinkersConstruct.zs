@@ -61,6 +61,8 @@ recipes.addShaped(<RotaryCraft:rotarycraft_item_modingots:1> * 9, [[<ore:blockCo
 recipes.addShaped(<TConstruct:MetalBlock:3>, [[copper, copper, copper],[copper, copper, copper],[copper, copper, copper]]);
 mods.tconstruct.Casting.addTableRecipe(<RotaryCraft:rotarycraft_item_modingots:1>, <liquid:copper.molten> * 144, <TConstruct:metalPattern:0>, false, 60);
 recipes.addShaped(<RotaryCraft:rotarycraft_item_modingots:1>, [[coppern,coppern,coppern],[coppern,coppern,coppern],[coppern,coppern,coppern]]);
+#Malechite to copper smetlery recipe
+mods.tconstruct.Smeltery.addMelting(<BiomesOPlenty:gemOre:11>, <liquid:copper.molten> * 1296, 200, <BiomesOPlenty:gemOre:11>);
 
 #lead
 #furnace.remove(<ThermalFoundation:material:67>);

@@ -1,6 +1,14 @@
 {
   "_name": "MoCreatures.Bee",
-  "drops": [],
+  "drops": [
+    {
+      "_comment": "Drop Bee",
+      "function": "add",
+      "id": "harvestcraft:queenbeeItem",
+      "damage": "0",
+      "count": 1
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }

@@ -101,13 +101,6 @@ key_Mount Manager:0
 key_Familiar Manager:0
 key_Minion Manager:0
 key_Minion Selection:19
-key_key.stellarapi.focusgui.description:22
-key_key.photoptics.zoomin:13
-key_key.photoptics.zoomout:12
-key_key.photoptics.observe:33
-key_Swap Arrows Forward:0
-key_Swap Arrows Backward:0
-key_Toggle Ropes+ Arrows:0
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80

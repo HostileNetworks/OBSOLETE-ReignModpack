@@ -4,43 +4,37 @@
       "name": "minecraft:cooked_fished",
       "meta": 0,
       "hunger": 4,
-      "saturationModifier": 0.5
-    },
-    {
-      "name": "minecraft:cooked_fished",
-      "meta": 1,
-      "hunger": 4,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.25
     },
     {
       "name": "minecraft:cooked_porkchop",
       "meta": 0,
       "hunger": 4,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.25
     },
     {
       "name": "minecraft:cooked_beef",
-      "meta": 1,
+      "meta": 0,
       "hunger": 4,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.25
     },
     {
       "name": "minecraft:cooked_chicken",
       "meta": 0,
       "hunger": 4,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.25
     },
     {
       "name": "harvestcraft:muttoncookedItem",
-      "meta": 1,
+      "meta": 0,
       "hunger": 4,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.25
     },
     {
       "name": "HarderWildlife:chevonCooked",
       "meta": 0,
       "hunger": 4,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.25
     },
     {
       "name": "harvestcraft:applepieItem",

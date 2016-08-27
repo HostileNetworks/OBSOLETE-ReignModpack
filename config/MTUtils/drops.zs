@@ -8,5 +8,4 @@ MTUtils.setBlockDrops(null, <BiomesOPlenty:flowers:1>, [<kitchenCraftFoods:veggi
 MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:11>, [<kitchenCraftFoods:veggie:5>], [1.5], [<BiomesOPlenty:foliage:11>]);
 MTUtils.setBlockDrops(null, <BiomesOPlenty:flowers:7>, [<kitchenCraftFoods:veggie:6>], [1.5], [<BiomesOPlenty:flowers:7>]);
 MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:5>, [<kitchenCraftFoods:veggie:7>], [1.5], [<BiomesOPlenty:foliage:5>]);
-MTUtils.setBlockDrops(null, <minecraft:log:1>, [<kitchenCraftFoods:veggie:45>], [1.5], [<minecraft:log:1>]);
 

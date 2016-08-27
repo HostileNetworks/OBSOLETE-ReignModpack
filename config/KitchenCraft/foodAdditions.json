@@ -1076,14 +1076,6 @@
           "chance": 0.7
         }
       ]
-    },
-    {
-      "name": "treesap",
-      "food": "0",
-      "saturation": 0,
-      "isMeat": false,
-      "makeSeed": false,
-      "isEdible": false
     }
   ]
 }

@@ -72,8 +72,9 @@ recipes.addShapeless(<HarderWildlife:rawLeather>,
 	[<MoCreatures:hide>, <ore:itemSalt>]);
 
 ##================================================================================
-# Treesap to rubber and torches and furnace fuel
+# Treesap stuff
 
+<ore:slimeball>.add(<reignadditionals:treeSap>);
 furnace.setFuel(<reignadditionals:treeSap>, 100);
 furnace.addRecipe(<Magneticraft:item.rubber>, <reignadditionals:treeSap>);
 recipes.addShapeless(<minecraft:torch>,

@@ -5,10 +5,26 @@
             <str>Day {day}, </str>
             <if>
                 <var>daytime</var>
-                <str>$e</str>
-                <str>$8</str>
+                <var>yellow</var>
+                <var>darkgrey</var>
             </if>
-            <str>{mctime} $f</str>
+            <str>{mctime}</str>
+            <var>white</var>
+        </line>
+        <line>
+            <str>{xi}x{yfeeti}x{zi}</str>
+        </line>
+        <line>
+            <str>Light (No sun): </str>
+            <op>
+                <str>gt</str> <!-- >= -->
+                <var>lightnosunfeet</var>
+                <num>7</num>
+                <var>yellow</var>
+                <var>red</var>
+            </op>
+            <str>{lightnosunfeet}</str>
+            <var>white</var>
         </line>
         <line>
             <str>{biome}$f</str>

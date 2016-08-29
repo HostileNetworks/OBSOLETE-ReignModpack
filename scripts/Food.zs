@@ -537,6 +537,7 @@ recipes.remove(<harvestcraft:heartybreakfastItem>);
 recipes.remove(<harvestcraft:stockItem>);
 recipes.remove(<harvestcraft:pineappleyogurtItem>);
 recipes.remove(<harvestcraft:fishsticksItem>);
+recipes.remove(<harvestcraft:shepardspieItem>);
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
 furnace.remove(<minecraft:bread>, <EnderIO:itemPowderIngot:8>);

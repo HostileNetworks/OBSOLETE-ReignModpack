@@ -3,15 +3,15 @@
         "template": {
             "type": "fractal",
             "generator": "large-vein",
-            "sparse": true
+            "sparse": "true"
         },
         "block": "coal_ore",
         "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 16,
-        "chunkChance": 16,
+        "clusterSize": 10,
+        "numClusters": 10,
+        "chunkChance": 20,
         "minHeight": 35,
-        "veinHeight": 12,
+        "veinHeight": 22,
         "veinDiameter": 22,
         "verticalDensity": 16,
         "horizontalDensity": 16,
@@ -33,69 +33,90 @@
     "template": "uniform",
     "block": "coal_ore",
     "material": "stone",
-    "clusterSize": 8,
+    "clusterSize": 12,
     "numClusters": 4,
     "minHeight": 32,
     "maxHeight": 128,
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
-    "dimensionRestriction": "blacklist",
+    "dimensionRestriction": "whitelist",
     "dimensions": [
-      -1,
-      1
+      0
     ]
   },	
-    "iron": {
-        "template": {
-            "type": "fractal",
-            "generator": "large-vein",
-            "sparse": true
-        },
-        "block": "iron_ore",
-        "material": ["dirt", "stone", "gravel"],
-        "clusterSize": 32,
-        "numClusters": 16,
-        "chunkChance": 128,
-        "minHeight": 24,
-        "veinHeight": 20,
-        "veinDiameter": 26,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [ ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            0,
-			66,
-            1,
-			-1
-        ]
-    },
-    "iron2": {
-    "template": "uniform",
-    "block": "iron_ore",
-    "material": ["dirt", "stone", "gravel"],
-    "clusterSize": 8,
-    "numClusters": 4,
-	"chunkChance": 16,	
-    "minHeight": 5,
-    "maxHeight": 156,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-      -1,
-      1
-        ]
-    },	
-  "goldveins": {
+  "VeinIron": {
     "template": {
       "type": "fractal",
       "generator": "large-vein",
       "sparse": true
+    },
+    "block": [
+      {
+        "name": "minecraft:iron_ore",
+        "metadata": 0,
+        "weight": 88
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 8,
+        "weight": 2
+      },
+      {
+        "name": "Magneticraft:tungsten_ore",
+        "metadata": 0,
+        "weight": 8
+      },
+      {
+        "name": "Mekanism:OreBlock",
+        "metadata": 0,
+        "weight": 5
+      }
+    ],
+    "material": "stone",
+    "clusterSize": 16,
+    "numClusters": 16,
+    "minHeight": 20,
+    "veinHeight": 48,
+    "veinDiameter": 44,
+    "horizontalDensity": 16,
+    "verticalDensity": 16,
+    "chunkChance": 128,
+    "retrogen": "false",
+    "biomeRestriction": "whitelist",
+    "biomes": [
+      {
+        "type": "dictionary",
+        "entry": "SAVANNA"
+      },
+      {
+        "type": "dictionary",
+        "entry": "MESA"
+      },
+      {
+        "type": "dictionary",
+        "entry": "WASTELAND"
+      },
+      {
+        "type": "dictionary",
+        "entry": "OCEAN"
+      },  
+      {
+        "type": "dictionary",
+        "entry": "PLAINS"
+      }
+    ],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+      1,
+      -1
+    ]
+  },
+  "goldveins": {
+    "template": {
+      "type": "fractal",
+      "generator": "large-vein",
+      "sparse": "true"
     },
     "block": [
       {
@@ -109,7 +130,7 @@
         "weight": 6
       }
     ],
-    "material": ["dirt", "stone", "gravel"],
+    "material": ["stone"],
     "clusterSize": 32,
     "numClusters": 18,
     "chunkChance": 256,
@@ -118,7 +139,7 @@
     "veinDiameter": 96,
     "verticalDensity": 15,
     "horizontalDensity": 15,
-    "retrogen": false,
+    "retrogen": "false",
     "biomeRestriction": "whitelist",
     "biomes": [
       {
@@ -144,7 +165,7 @@
         "template": {
             "type": "fractal",
             "generator": "large-vein",
-            "sparse": true
+            "sparse": "true"
         },
         "block": [
             {
@@ -173,7 +194,10 @@
   "diamondVeins": {
     "template": {
 		"type": "underfluid",
-		"generator": "plate"
+		"generator": "plate",
+		"sizeVariance": "3",
+		"height": "1",
+		"slim": "true"
 	},
 	"block": [
 		{
@@ -189,11 +213,11 @@
 	],
     "genFluid": "lava",
 	"material": "stone",
-    "clusterSize": 14,
-    "numClusters": 2,
+    "clusterSize": 20,
+    "numClusters": 1,
     "minHeight": 5,
     "maxHeight": 22,
-	"chunkChance": 2,
+	"chunkChance": 16,
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
@@ -207,7 +231,7 @@
     "template": "uniform",
     "block": "minecraft:diamond_ore",
     "material": "stone",
-    "clusterSize": 2,
+    "clusterSize": 4,
     "numClusters": 4,
 	"chunkChance": 16,
     "minHeight": 2,
@@ -258,11 +282,11 @@
   "clayall": {
     "template": "uniform",
     "block": "clay",
-    "material": "gravel",
-    "clusterSize": 8,
+    "material": ["stone", "gravel"],
+    "clusterSize": 4,
     "numClusters": 5,
-    "minHeight": 2,
-    "maxHeight": 50,
+    "minHeight": 46,
+    "maxHeight": 70,
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
@@ -276,7 +300,7 @@
         "template": {
             "type": "fractal",
             "generator": "large-vein",
-            "sparse": true
+            "sparse": "true"
         },
         "block": "lapis_ore",
         "material": "stone",

@@ -15,6 +15,9 @@
             <str>{xi}x{yfeeti}x{zi}</str>
         </line>
         <line>
+            <str>Chunk: {chunkoffsetx}x{chunkoffsetz}</str>
+        </line>
+        <line>
             <str>Light (No sun): </str>
             <op>
                 <str>gt</str> <!-- >= -->

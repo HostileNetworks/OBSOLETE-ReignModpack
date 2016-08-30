@@ -61,8 +61,8 @@ recipes.addShapeless(<reignadditionals:flintHandaxe>, [<minecraft:flint>, <minec
 
 ## Campfire
 recipes.addShaped(<reignadditionals:campfire>,
-	[[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-	[<minecraft:stick>, <reignadditionals:flintHandaxe:*>.transformDamage(2), <minecraft:stick>]]);
+	[[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+	[<ore:stickWood>, <reignadditionals:flintHandaxe:*>.transformDamage(2), <ore:stickWood>]]);
 
 ## Rabbit skins -> hide -> leather
 recipes.remove(<minecraft:leather>);

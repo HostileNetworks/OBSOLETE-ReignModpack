@@ -99,6 +99,7 @@ meat.addAll(<ore:foodMuttonraw>);
 meat.remove(<MoCreatures:ratraw>);
 meat.remove(<harvestcraft:rabbitrawItem>);
 meat.remove(<kitchenCraftFoods:meat:0>);
+meat.remove(<kitchenCraftFoods:meat:2>);
 val mutton = <ore:foodMuttonraw>;
 mutton.add(<HarderWildlife:chevonRaw>);
 val morselmeat = <ore:foodMorselmeat>;
@@ -468,8 +469,6 @@ alcohol.add(<Forestry:beverage>);
 
 ##================================================================================
 
-###MARKER RECIPETWEAKS
-
 ## remove recipes
 recipes.remove(<minecraft:fish>);
 recipes.remove(<minecraft:bread>);
@@ -573,9 +572,7 @@ recipes.addShaped(<harvestcraft:presser>,
   [<ore:plankWood>, <minecraft:stone_pressure_plate>, <ore:plankWood>],
   [<ore:slabStone>, <minecraft:stone_pressure_plate>, <ore:slabStone>]]);
 
-### RECIPES
-
-## Furnace additions
+##==================== Furnace additions ====================##
 #bread
 furnace.addRecipe(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
 # sausage cooked
@@ -624,15 +621,18 @@ furnace.addRecipe(<harvestcraft:zucchinifriesItem>,<kitchenCraftFoods:veggie:43>
 furnace.addRecipe(<kitchenCraftFoods:veggie:12>,<kitchenCraftFoods:veggie:41>);
 # grilledcheese
 furnace.addRecipe(<harvestcraft:grilledcheeseItem>,<kitchenCraftFoods:veggie:13>);
-
 # chowder
 furnace.addRecipe(<kitchenCraftFoods:meat:16>,<kitchenCraftFoods:meat:24>);
 furnace.addRecipe(<kitchenCraftFoods:meat:17>,<kitchenCraftFoods:meat:25>);
-
 # hearty stew
 furnace.addRecipe(<kitchenCraftFoods:meat:15>,<kitchenCraftFoods:meat:26>);
 # fishsticks
 furnace.addRecipe(<harvestcraft:fishsticksItem>,<kitchenCraftFoods:veggie:44>);
+# Dried fruit
+furnace.addRecipe(<harvestcraft:fishsticksItem>,<kitchenCraftFoods:veggie:44>);
+for item in <ore:listAllfruit>.items {furnace.addRecipe(<kitchenCraftFoods:veggie:20>,(item));}
+
+##==================== Crafting Additions ====================##
 
 # Yeast Dough
 recipes.addShapeless(<harvestcraft:doughItem> * 2, [<ore:toolMixingbowl>, <ore:foodSalt>, <ore:foodFlour>, <ore:listAllwater>, <RotaryCraft:rotarycraft_item_yeast>]);

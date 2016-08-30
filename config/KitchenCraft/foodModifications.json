@@ -26,8 +26,8 @@
         },
 			{
            "item":"harvestcraft:spinachpieItem",
-           "food": 40,
-           "saturation": 20,
+           "food": 14,
+           "saturation": 9,
            "effects": [
                 {
                     "name": "potion.strengthPotion",

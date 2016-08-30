@@ -353,8 +353,8 @@ recipes.remove(<customnpcs:npcUsbStick>);
 
 # Slingshot
 recipes.addShaped(<customnpcs:npcSlingshot>,
-	[[<minecraft:stick>, <Magneticraft:item.rubber>, <minecraft:stick>],
-	[null, <ore:ironRod>, null]]);
+	[[<ore:stickWood>, <Magneticraft:item.rubber>, <ore:stickWood>],
+	[null, <ore:stickWood>, null]]);
 # Bullets
 recipes.addShaped(<customnpcs:npcIronBullet>*16,
 	[[<ore:ingotIron>, <minecraft:gunpowder>]]);

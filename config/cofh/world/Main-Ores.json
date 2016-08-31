@@ -360,7 +360,7 @@
     "template": {
       "type": "cave",
       "generator": "cluster",
-      "ceiling": false
+      "ceiling": true
     },
     "block": [
       {

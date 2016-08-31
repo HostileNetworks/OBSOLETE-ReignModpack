@@ -20,3 +20,6 @@ recipes.remove(<AncientWarfare:component:2>);
 mods.nei.NEI.hide(<AncientWarfare:component:2>);
 mods.tconstruct.Casting.removeTableRecipe(<AncientWarfare:component:2>);
 mods.immersiveengineering.MetalPress.removeRecipe(<AncientWarfare:component:2>);
+
+# Iron crafting recipe - DISABLED!!
+recipes.remove(<AncientWarfare:steel_ingot>);

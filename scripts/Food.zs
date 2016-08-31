@@ -947,8 +947,8 @@ recipes.addShapeless(<harvestcraft:sausageItem>*2, [<ore:toolCuttingboard>, <ore
 recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:toolCuttingboard>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodMeatMorsel>, <ore:foodSalt>]);
 recipes.addShapeless(<harvestcraft:sausageItem> * 2, [<ore:toolCuttingboard>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodMeat>, <ore:foodSalt>]);
 recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:blockMeatRaw>, <ore:toolCuttingboard>, <ore:foodSalt>]);
-recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:listAllmeatraw>, <ore:foodSalt>, <reignadditionals:flintHandaxe:*>]);
-recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:foodMorselmeat>, <ore:foodMorselmeat>, <ore:foodSalt>, <reignadditionals:flintHandaxe:*>]);
+recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:listAllmeatraw>, <ore:foodSalt>, <reignadditionals:flintHandaxe:*>.transformDamage(2)]);
+recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:foodMorselmeat>, <ore:foodMorselmeat>, <ore:foodSalt>, <reignadditionals:flintHandaxe:*>.transformDamage(2)]);
 
 # sausages
 recipes.addShapeless(<kitchenCraftFoods:meat:4>, [<ore:toolMixingbowl>, <kitchenCraftFoods:veggie:11>, <harvestcraft:sausageItem>, <ore:listAllsalt>, <ore:listAllherb>]);

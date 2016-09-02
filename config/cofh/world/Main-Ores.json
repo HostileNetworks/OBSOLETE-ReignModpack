@@ -13,11 +13,11 @@
         "weight": 70
       }
     ],
-    "material": ["gravel"],
+    "material": "gravel",
     "clusterSize": 16,
     "numClusters": 20,
     "chunkChance": 1,
-    "minHeight": 55,
+    "minHeight": 45,
     "maxHeight": 70,
     "retrogen": "true",
     "biomeRestriction": "blacklist",
@@ -29,10 +29,6 @@
       {
         "type": "dictionary",
         "entry": "RIVER"
-      },
-      {
-        "type": "dictionary",
-        "entry": "SWAMP"
       }
     ],
     "dimensionRestriction": "whitelist",
@@ -54,8 +50,8 @@
         "weight": 70
       }
     ],
-    "material": ["gravel"],
-    "clusterSize": 12,
+    "material": "gravel",
+    "clusterSize": 16,
     "numClusters": 20,
     "chunkChance": 1,
     "minHeight": 90,
@@ -82,8 +78,8 @@
         "weight": 70
       }
     ],
-    "material": ["gravel"],
-    "clusterSize": 12,
+    "material": "gravel",
+    "clusterSize": 16,
     "numClusters": 20,
     "chunkChance": 1,
     "minHeight": 35,
@@ -98,10 +94,6 @@
       {
         "type": "dictionary",
         "entry": "RIVER"
-      },
-      {
-        "type": "dictionary",
-        "entry": "SWAMP"
       }
     ],
     "dimensionRestriction": "whitelist",
@@ -151,8 +143,8 @@
         "weight": 70
       }
     ],
-    "material": ["gravel"],
-    "clusterSize": 12,
+    "material": "gravel",
+    "clusterSize": 16,
     "numClusters": 20,
     "chunkChance": 1,
     "minHeight": 45,
@@ -167,10 +159,6 @@
       {
         "type": "dictionary",
         "entry": "RIVER"
-      },
-      {
-        "type": "dictionary",
-        "entry": "SWAMP"
       }
     ],
     "dimensionRestriction": "whitelist",
@@ -192,13 +180,24 @@
         "weight": 70
       }
     ],
-    "material": ["gravel"],
+    "material": "gravel",
     "clusterSize": 12,
-    "numClusters": 2,
-    "chunkChance": 8,
+    "numClusters": 20,
+    "chunkChance": 1,
+    "minHeight": 90,
+    "maxHeight": 250,
     "retrogen": "true",
-    "biomeRestriction": "none",
-    "biomes": [],
+    "biomeRestriction": "blacklist",
+    "biomes": [
+      {
+        "type": "dictionary",
+        "entry": "OCEAN"
+      },
+      {
+        "type": "dictionary",
+        "entry": "RIVER"
+      }
+    ],
     "dimensionRestriction": "whitelist",
     "dimensions": [
       0
@@ -218,27 +217,14 @@
         "weight": 70
       }
     ],
-    "material": ["gravel"],
-    "clusterSize": 12,
+    "material": "gravel",
+    "clusterSize": 16,
     "numClusters": 20,
     "minHeight": 6,
-    "maxHeight": 32,
+    "maxHeight": 38,
     "retrogen": "true",
-    "biomeRestriction": "blacklist",
-    "biomes": [
-      {
-        "type": "dictionary",
-        "entry": "OCEAN"
-      },
-      {
-        "type": "dictionary",
-        "entry": "RIVER"
-      },
-      {
-        "type": "dictionary",
-        "entry": "SWAMP"
-      }
-    ],
+    "biomeRestriction": "none",
+    "biomes": [],
     "dimensionRestriction": "whitelist",
     "dimensions": [
       0
@@ -260,13 +246,11 @@
     ],
     "material": [
       "stone",
-      "sand",
-      "dirt",
       "gravel"
     ],
     "clusterSize": 6,
     "numClusters": 1,
-    "chunkChance": 16,
+    "chunkChance": 6,
     "minHeight": 40,
     "maxHeight": 62,
     "retrogen": "false",
@@ -281,10 +265,9 @@
         "entry": "BEACH"
       }
     ],
-    "dimensionRestriction": "blacklist",
+    "dimensionRestriction": "whitelist",
     "dimensions": [
-      -1,
-      1
+      0
     ]
   },
   "ironGravel1": {
@@ -301,8 +284,8 @@
         "weight": 75
       }
     ],
-    "material": ["gravel"],
-    "clusterSize": 12,
+    "material": "gravel",
+    "clusterSize": 16,
     "numClusters": 20,
     "chunkChance": 1,
     "minHeight": 40,
@@ -317,10 +300,6 @@
       {
         "type": "dictionary",
         "entry": "RIVER"
-      },
-      {
-        "type": "dictionary",
-        "entry": "SWAMP"
       }
     ],
     "dimensionRestriction": "whitelist",
@@ -342,43 +321,13 @@
         "weight": 75
       }
     ],
-    "material": ["gravel"],
-    "clusterSize": 18,
+    "material": "gravel",
+    "clusterSize": 12,
     "numClusters": 20,
     "chunkChance": 1,
     "minHeight": 90,
     "maxHeight": 250,
     "retrogen": "true",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "whitelist",
-    "dimensions": [
-      0
-    ]
-  },
-  "caveCopper": {
-    "template": {
-      "type": "cave",
-      "generator": "cluster",
-      "ceiling": true
-    },
-    "block": [
-      {
-        "name": "Metallurgy:base.ore",
-        "metadata": 0,
-        "weight": 40
-      },
-      {
-        "name": "BiomesOPlenty:gemOre",
-        "metadata": 10,
-        "weight": 60
-      }
-    ],
-    "material": ["stone"],
-    "clusterSize": 12,
-    "numClusters": 1,
-    "chunkChance": 1,
-    "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
     "dimensionRestriction": "whitelist",
@@ -414,7 +363,7 @@
     "verticalDensity": 24,
     "horizontalDensity": 24,
     "retrogen": false,
-    "biomeRestriction": "none",
+    "biomeRestriction": "whitelist",
     "biomes": [
       {
         "type": "dictionary",
@@ -425,41 +374,6 @@
         "entry": "FOREST"
       }
     ],
-    "dimensionRestriction": "whitelist",
-    "dimensions": [
-      0
-    ]
-  },
-  "caveTin": {
-    "template": {
-      "type": "cave",
-      "generator": "cluster",
-      "ceiling": true
-    },
-    "block": [
-      {
-        "name": "Metallurgy:base.ore",
-        "metadata": 1,
-        "weight": 90
-      },
-      {
-        "name": "appliedenergistics2:tile.OreQuartz",
-        "metadata": 0,
-        "weight": 9
-      },
-      {
-        "name": "appliedenergistics2:tile.OreQuartzCharged",
-        "metadata": 0,
-        "weight": 1
-      }
-    ],
-    "material": ["stone"],
-    "clusterSize": 12,
-    "numClusters": 1,
-    "chunkChance": 1,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
     "dimensionRestriction": "whitelist",
     "dimensions": [
       0
@@ -489,8 +403,8 @@
       }
     ],
     "material": "stone",
-    "clusterSize": 20,
-    "numClusters": 38,
+    "clusterSize": 24,
+    "numClusters": 28,
     "chunkChance": 128,
     "minHeight": 14,
     "veinHeight": 38,
@@ -506,12 +420,20 @@
       },
       {
         "type": "dictionary",
+        "entry": "COLD"
+      },
+      {
+        "type": "dictionary",
         "entry": "CONIFEROUS"
       },
       {
         "type": "dictionary",
         "entry": "HILLS"
       },
+      {
+        "type": "dictionary",
+        "entry": "MOUNTAIN"
+      },	  
       {
         "type": "dictionary",
         "entry": "SPOOKY"
@@ -552,7 +474,7 @@
       }
     ],
     "material": "stone",
-    "clusterSize": 28,
+    "clusterSize": 18,
     "numClusters": 24,
     "chunkChance": 128,
     "minHeight": 24,
@@ -561,17 +483,8 @@
     "verticalDensity": 19,
     "horizontalDensity": 19,
     "retrogen": "false",
-    "biomeRestriction": "whitelist",
-    "biomes": [
-      {
-        "type": "dictionary",
-        "entry": "FOREST"
-      },
-      {
-        "type": "dictionary",
-        "entry": "PLAINS"
-      }
-    ],
+    "biomeRestriction": "none",
+    "biomes": [],
     "dimensionRestriction": "blacklist",
     "dimensions": [
       -100,
@@ -581,7 +494,7 @@
       2
     ]
   },
-  "silverLoad": {
+  "silverVeins": {
     "template": {
       "type": "fractal",
       "generator": "large-vein",
@@ -605,7 +518,7 @@
       }
     ],
     "material": "stone",
-    "clusterSize": 22,
+    "clusterSize": 12,
     "numClusters": 18,
     "chunkChance": 128,
     "minHeight": 4,
@@ -626,6 +539,10 @@
       },
       {
         "type": "dictionary",
+        "entry": "DENSE"
+      },
+      {
+        "type": "dictionary",
         "entry": "MAGICAL"
       },
       {
@@ -639,7 +556,7 @@
       1
     ]
   },
-  "leadLoad": {
+  "leadVeins": {
     "template": {
       "type": "fractal",
       "generator": "large-vein",
@@ -658,7 +575,7 @@
       },
       {
         "name": "BiomesOPlenty:gemOre",
-        "metadata": 13,
+        "metadata": 12,
         "weight": 5
       },
       {
@@ -668,9 +585,9 @@
       }
     ],
     "material": "stone",
-    "clusterSize": 34,
+    "clusterSize": 12,
     "numClusters": 18,
-    "chunkChance": 128,
+    "chunkChance": 256,
     "minHeight": 4,
     "veinHeight": 24,
     "veinDiameter": 24,
@@ -693,6 +610,10 @@
       },
       {
         "type": "dictionary",
+        "entry": "HOT"
+      },
+      {
+        "type": "dictionary",
         "entry": "MAGICAL"
       }
     ],
@@ -709,15 +630,34 @@
       "metadata": 4
     },
     "material": "stone",
-    "clusterSize": 6,
+    "clusterSize": 16,
     "numClusters": 1,
-    "chunk chance": 5,
+    "chunk chance": 20,
     "minHeight": 5,
-    "maxHeight": 20,
+    "maxHeight": 30,
     "retrogen": "false",
-    "biomeRestriction": "none",
+    "biomeRestriction": "whitelist",
     "biomes": [
-      "all"
+      {
+        "type": "dictionary",
+        "entry": "DRY"
+      },
+      {
+        "type": "dictionary",
+        "entry": "MOUNTAIN"
+      },
+      {
+        "type": "dictionary",
+        "entry": "SANDY"
+      },
+      {
+        "type": "dictionary",
+        "entry": "HOT"
+      },	  
+      {
+        "type": "dictionary",
+        "entry": "MAGICAL"
+      }
     ],
     "dimensionRestriction": "blacklist",
     "dimensions": [
@@ -746,14 +686,32 @@
     "minHeight": 5,
     "maxHeight": 20,
     "retrogen": "false",
-    "biomeRestriction": "none",
+    "biomeRestriction": "whitelist",
     "biomes": [
-      "all"
+      {
+        "type": "dictionary",
+        "entry": "DEAD"
+      },
+      {
+        "type": "dictionary",
+        "entry": "DENSE"
+      },
+      {
+        "type": "dictionary",
+        "entry": "HOT"
+      },
+      {
+        "type": "dictionary",
+        "entry": "OCEAN"
+      },	  
+      {
+        "type": "dictionary",
+        "entry": "MAGICAL"
+      }
     ],
-    "dimensionRestriction": "blacklist",
+    "dimensionRestriction": "whitelist",
     "dimensions": [
-      -1,
-      1
+      0
     ]
   },
   "Osmium0": {
@@ -780,12 +738,12 @@
       }	  
     ],
     "material": "stone",
-    "clusterSize": 18,
-    "numClusters": 22,
-    "chunkChance": 128,
+    "clusterSize": 16,
+    "numClusters": 18,
+    "chunkChance": 256,
     "minHeight": 4,
     "veinHeight": 44,
-    "veinDiameter": 44,
+    "veinDiameter": 24,
     "verticalDensity": 16,
     "horizontalDensity": 16,
     "retrogen": "false",
@@ -795,6 +753,14 @@
         "type": "dictionary",
         "entry": "SPARSE"
       },
+      {
+        "type": "dictionary",
+        "entry": "HOT"
+      },
+      {
+        "type": "dictionary",
+        "entry": "DEAD"
+      },	  
       {
         "type": "dictionary",
         "entry": "HILLS"
@@ -824,7 +790,7 @@
     "clusterSize": 20,
     "numClusters": 2,
     "chunk chance": 2,
-    "minHeight": 86,
+    "minHeight": 90,
     "maxHeight": 250,
     "retrogen": "false",
     "biomeRestriction": "whitelist",
@@ -832,6 +798,10 @@
       {
         "type": "dictionary",
         "entry": "MOUNTAIN"
+      },
+      {
+        "type": "dictionary",
+        "entry": "COLD"
       },
       {
         "type": "dictionary",
@@ -859,7 +829,7 @@
     ],
     "clusterSize": 4,
     "numClusters": 3,
-	"chunkChance": 4,
+	"chunkChance": 2,
     "material": "stone",
     "minHeight": 6,
     "maxHeight": 55,
@@ -874,6 +844,10 @@
         "type": "dictionary",
         "entry": "MOUNTAIN"
       },
+      {
+        "type": "dictionary",
+        "entry": "HILLS"
+      },	  
       {
         "type": "dictionary",
         "entry": "SPOOKY"
@@ -900,7 +874,7 @@
     ],
     "clusterSize": 4,
     "numClusters": 3,
-	"chunkChance": 4,
+	"chunkChance": 2,
     "material": "stone",
     "minHeight": 6,
     "maxHeight": 55,
@@ -913,7 +887,7 @@
       },
       {
         "type": "dictionary",
-        "entry": "DESERT"
+        "entry": "DRY"
       },
       {
         "type": "dictionary",
@@ -941,7 +915,7 @@
     ],
     "clusterSize": 4,
     "numClusters": 3,
-	"chunkChance": 4,
+	"chunkChance": 2,
     "material": "stone",
     "minHeight": 6,
     "maxHeight": 55,
@@ -956,6 +930,10 @@
         "type": "dictionary",
         "entry": "JUNGLE"
       },
+      {
+        "type": "dictionary",
+        "entry": "DENSE"
+      },	  
       {
         "type": "dictionary",
         "entry": "SPOOKY"
@@ -982,7 +960,7 @@
     ],
     "clusterSize": 4,
     "numClusters": 3,
-	"chunkChance": 4,
+	"chunkChance": 2,
     "material": "stone",
     "minHeight": 6,
     "maxHeight": 55,
@@ -996,6 +974,10 @@
       {
         "type": "dictionary",
         "entry": "SWAMP"
+      },
+      {
+        "type": "dictionary",
+        "entry": "WET"
       },
       {
         "type": "dictionary",
@@ -1023,7 +1005,7 @@
     ],
     "clusterSize": 4,
     "numClusters": 3,
-	"chunkChance": 4,
+	"chunkChance": 2,
     "material": "stone",
     "minHeight": 6,
     "maxHeight": 55,
@@ -1064,7 +1046,7 @@
     ],
     "clusterSize": 4,
     "numClusters": 3,
-	"chunkChance": 4,
+	"chunkChance": 2,
     "material": "stone",
     "minHeight": 6,
     "maxHeight": 55,
@@ -1078,6 +1060,10 @@
       {
         "type": "dictionary",
         "entry": "COLD"
+      },
+      {
+        "type": "dictionary",
+        "entry": "SNOWY"
       },
       {
         "type": "dictionary",
@@ -1105,10 +1091,10 @@
     ],
     "clusterSize": 4,
     "numClusters": 2,
-	"chunkChance": 8,
+	"chunkChance": 4,
     "material": "stone",
     "minHeight": 6,
-    "maxHeight": 55,
+    "maxHeight": 35,
     "retrogen": "false",
     "biomeRestriction": "whitelist",
     "biomes": [
@@ -1142,7 +1128,7 @@
     ],
     "clusterSize": 6,
     "numClusters": 2,
-	"chunkChance": 4,
+	"chunkChance": 2,
     "material": "stone",
     "minHeight": 30,
     "maxHeight": 55,
@@ -1288,8 +1274,8 @@
       "name": "harvestcraft:salt"
     },
     "clusterSize": 7,
-    "numClusters": 1,
-    "chunkChance": 3,
+    "numClusters": 2,
+    "chunkChance": 1,
     "material": "stone",
     "minHeight": 55,
     "maxHeight": 67,
@@ -1321,12 +1307,12 @@
       {
         "name": "Forestry:resources",
         "metadata": 0,
-        "weight": 60
+        "weight": 70
       },
       {
         "name": "Metallurgy:utility.ore",
         "metadata": 3,
-        "weight": 40
+        "weight": 30
       }	  
     ],
     "material": [
@@ -1335,7 +1321,7 @@
     ],
     "clusterSize": 18,
     "numClusters": 2,
-    "chunkChance": 16,
+    "chunkChance": 10,
     "minHeight": 40,
     "maxHeight": 96,
     "retrogen": "false",
@@ -1344,6 +1330,10 @@
       {
         "type": "dictionary",
         "entry": "SWAMP"
+      },
+      {
+        "type": "dictionary",
+        "entry": "WET"
       },
       {
         "type": "dictionary",

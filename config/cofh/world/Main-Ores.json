@@ -512,8 +512,8 @@
         "weight": 15
       },
       {
-        "name": "BiomesOPlenty:gemOre",
-        "metadata": 0,
+        "name": "Metallurgy:precious.ore",
+        "metadata": 2,
         "weight": 5
       }
     ],

@@ -7,21 +7,25 @@
         },
         "block": "coal_ore",
         "material": "stone",
-        "clusterSize": 10,
+        "clusterSize": 20,
         "numClusters": 10,
         "chunkChance": 20,
         "minHeight": 35,
         "veinHeight": 22,
-        "veinDiameter": 22,
+        "veinDiameter": 32,
         "verticalDensity": 16,
-        "horizontalDensity": 16,
+        "horizontalDensity": 26,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
 		"biomes": [
       {
         "type": "dictionary",
         "entry": "WET"
-      }
+      },
+      {
+        "type": "dictionary",
+        "entry": "SANDY"
+      }	  
       ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
@@ -55,7 +59,7 @@
       {
         "name": "minecraft:iron_ore",
         "metadata": 0,
-        "weight": 88
+        "weight": 85
       },
       {
         "name": "ReactorCraft:reactorcraft_block_ore",
@@ -63,9 +67,9 @@
         "weight": 2
       },
       {
-        "name": "Magneticraft:tungsten_ore",
-        "metadata": 0,
-        "weight": 8
+        "name": "ImmersiveEngineering:ore",
+        "metadata": 4
+        "weight": 10
       },
       {
         "name": "Mekanism:OreBlock",
@@ -74,42 +78,20 @@
       }
     ],
     "material": "stone",
-    "clusterSize": 16,
-    "numClusters": 32,
+    "clusterSize": 26,
+    "numClusters": 38,
     "minHeight": 20,
     "veinHeight": 48,
     "veinDiameter": 56,
-    "horizontalDensity": 16,
-    "verticalDensity": 16,
+    "horizontalDensity": 24,
+    "verticalDensity": 24,
     "chunkChance": 128,
     "retrogen": "false",
-    "biomeRestriction": "whitelist",
-    "biomes": [
-      {
-        "type": "dictionary",
-        "entry": "SAVANNA"
-      },
-      {
-        "type": "dictionary",
-        "entry": "MESA"
-      },
-      {
-        "type": "dictionary",
-        "entry": "WASTELAND"
-      },
-      {
-        "type": "dictionary",
-        "entry": "OCEAN"
-      },  
-      {
-        "type": "dictionary",
-        "entry": "PLAINS"
-      }
-    ],
-    "dimensionRestriction": "blacklist",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
     "dimensions": [
-      1,
-      -1
+      0
     ]
   },
   "goldveins": {
@@ -131,7 +113,7 @@
       }
     ],
     "material": ["stone"],
-    "clusterSize": 32,
+    "clusterSize": 16,
     "numClusters": 18,
     "chunkChance": 128,
     "minHeight": 15,
@@ -144,11 +126,15 @@
     "biomes": [
       {
         "type": "dictionary",
-        "entry": "SAVANNA"
+        "entry": "PLAINS"
       },
       {
         "type": "dictionary",
         "entry": "DRY"
+      },
+      {
+        "type": "dictionary",
+        "entry": "DEAD"
       },
       {
         "type": "dictionary",
@@ -211,13 +197,13 @@
 			"weight": 20
 		}
 	],
-    "genFluid": "lava",
+	"genFluid": "lava",
 	"material": "stone",
-    "clusterSize": 20,
+    "clusterSize": 5,
     "numClusters": 1,
+	"chunkChance": 4,
     "minHeight": 5,
-    "maxHeight": 22,
-	"chunkChance": 16,
+    "maxHeight": 32,
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
@@ -231,9 +217,9 @@
     "template": "uniform",
     "block": "minecraft:diamond_ore",
     "material": "stone",
-    "clusterSize": 4,
-    "numClusters": 4,
-	"chunkChance": 10,
+    "clusterSize": 5,
+    "numClusters": 1,
+	"chunkChance": 4,
     "minHeight": 2,
     "maxHeight": 16,
     "retrogen": "false",
@@ -248,7 +234,7 @@
   "clay": {
     "template": "uniform",
     "block": "clay",
-    "material": ["dirt", "stone", "gravel", "sand"],
+    "material": ["dirt", "stone", "sand"],
     "clusterSize": 8,
     "numClusters": 3,
     "minHeight": 52,
@@ -273,16 +259,15 @@
         "entry": "SWAMP"
       }
     ],
-    "dimensionRestriction": "blacklist",
+    "dimensionRestriction": "whitelist",
     "dimensions": [
-      -1,
-      1
+      0
     ]
   },
   "clayall": {
     "template": "uniform",
     "block": "clay",
-    "material": ["stone", "gravel"],
+    "material": ["stone", "dirt"],
     "clusterSize": 4,
     "numClusters": 5,
     "minHeight": 46,
@@ -290,10 +275,9 @@
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
-    "dimensionRestriction": "blacklist",
+    "dimensionRestriction": "whitelist",
     "dimensions": [
-      -1,
-      1
+      0
     ]
   },
     "lapis": {

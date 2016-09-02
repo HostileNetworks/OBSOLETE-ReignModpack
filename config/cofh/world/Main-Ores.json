@@ -509,7 +509,7 @@
       {
         "name": "ImmersiveEngineering:ore",
         "metadata": 2,
-        "weight": 20
+        "weight": 15
       },
       {
         "name": "BiomesOPlenty:gemOre",
@@ -623,48 +623,6 @@
       1
     ]
   },
-  "nickel0": {
-    "template": "uniform",
-    "block": {
-      "name": "ImmersiveEngineering:ore",
-      "metadata": 4
-    },
-    "material": "stone",
-    "clusterSize": 16,
-    "numClusters": 1,
-    "chunk chance": 20,
-    "minHeight": 5,
-    "maxHeight": 30,
-    "retrogen": "false",
-    "biomeRestriction": "whitelist",
-    "biomes": [
-      {
-        "type": "dictionary",
-        "entry": "DRY"
-      },
-      {
-        "type": "dictionary",
-        "entry": "MOUNTAIN"
-      },
-      {
-        "type": "dictionary",
-        "entry": "SANDY"
-      },
-      {
-        "type": "dictionary",
-        "entry": "HOT"
-      },	  
-      {
-        "type": "dictionary",
-        "entry": "MAGICAL"
-      }
-    ],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-      -1,
-      1
-    ]
-  },
   "platinum0": {
     "template": "uniform",
     "generator": "sparse-cluster",
@@ -724,7 +682,7 @@
 	{
       "name": "Mekanism:OreBlock",
       "metadata": 0,
-      "weight": 80
+      "weight": 70
       },
       {
         "name": "ReactorCraft:reactorcraft_block_ore",
@@ -734,7 +692,7 @@
       {
         "name": "Magneticraft:tungsten_ore",
         "metadata": 0,
-        "weight": 10
+        "weight": 20
       }	  
     ],
     "material": "stone",

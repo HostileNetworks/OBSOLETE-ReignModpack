@@ -371,6 +371,10 @@
       },
       {
         "type": "dictionary",
+        "entry": "PLAINS"
+      },
+      {
+        "type": "dictionary",
         "entry": "FOREST"
       }
     ],
@@ -437,6 +441,10 @@
       {
         "type": "dictionary",
         "entry": "SPOOKY"
+      },
+      {
+        "type": "dictionary",
+        "entry": "PLAINS"
       },
       {
         "type": "dictionary",

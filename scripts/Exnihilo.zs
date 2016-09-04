@@ -45,3 +45,13 @@ mods.exnihilo.Sieve.addRecipe(<minecraft:sand>, [<exnihilo:exnihilo.copper_powde
 
 mods.exnihilo.Sieve.removeRecipe(<minecraft:soul_sand>);
 mods.exnihilo.Sieve.addRecipe(<minecraft:soul_sand>, [<exnihilo:exnihilo.gold_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.copper_crushed>, <GrimoireOfGaia:item.GrimoireOfGaia.Shard:6>], [25, 20, 20, 30]);
+
+# Sedimentary sands
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:0>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:1>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:2>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:3>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:4>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:5>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:6>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:7>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);

@@ -54,4 +54,10 @@ mods.mekanism.Crusher.addRecipe(<minecraft:quartz_block>, <minecraft:quartz> * 4
 # Magneticraft Tungsten dust from RoC Tungsten ingot
 mods.mekanism.Crusher.addRecipe(<RotaryCraft:rotarycraft_item_compacts:5>, <Magneticraft:item.dust:4> *2);
 
-
+# 
+recipes.remove(<Mekanism:MachineBlock:8>);
+recipes.addShaped(<Mekanism:MachineBlock:8>
+               ,[[<ore:ingotSteel>,<Magneticraft:item.heatcoil_tungsten>,<ore:ingotSteel>]
+			    ,[<ore:dustRedstone>,<ore:ingotOsmium>,<ore:dustRedstone>]
+				,[<ore:ingotSteel>,<minecraft:furnace>,<ore:ingotSteel>]]);
+				

@@ -115,6 +115,7 @@ val chicken = <ore:listAllchickenraw>;
 chicken.add(<minecraft:chicken>);
 chicken.add(<MoCreatures:ostrichraw>);
 chicken.add(<MoCreatures:turkeyraw>);
+chicken.add(<exoticbirds:birdmeat_large>);
 val whitemeat = <ore:foodWhitemeat>;
 whitemeat.add(<harvestcraft:turkeyrawItem>);
 whitemeat.add(<exoticbirds:birdmeat_large>);
@@ -124,6 +125,8 @@ whitemeat.add(<exoticbirds:birdmeat_large>);
 val cookedwhitemeat = <ore:foodCookedwhitemeat>;
 cookedwhitemeat.add(<harvestcraft:turkeycookedItem>);
 cookedwhitemeat.add(<exoticbirds:cooked_birdmeat_large>);
+val cookedchook = <ore:listAllchickencooked>;
+cookedchook.add(<exoticbirds:cooked_birdmeat_large>);
 
 # sausage rename
 val porksausage = <ore:foodPorksausage>;

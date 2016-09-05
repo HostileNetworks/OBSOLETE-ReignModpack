@@ -20,3 +20,10 @@ recipes.addShaped(<ImmersiveEngineering:metalDecoration:0> * 2,[
     [<ore:steelRod>,<ore:steelRod>,<ore:steelRod>],
     [null,null,null]
 ]);
+
+# Pipes use lead
+recipes.remove(<ImmersiveEngineering:metalDevice2:5>);
+recipes.addShaped(<ImmersiveEngineering:metalDevice2:5> * 8,
+    [[<ore:plateLead>,<ore:ingotIron>,<ore:plateLead>]
+	,[null,null,null]
+	,[<ore:plateLead>,<ore:ingotIron>,<ore:plateLead>]]);

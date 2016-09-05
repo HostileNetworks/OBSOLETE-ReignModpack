@@ -4,36 +4,41 @@ val hobbyist = <Railcraft:machine.beta:7>;
 val commercial = <Railcraft:machine.beta:8>;
 val industrial = <Railcraft:machine.beta:9>;
 
-val copper = <Railcraft:part.plate:3>;
-val iron = <Railcraft:part.plate:0>;
-val steel = <Railcraft:part.plate:1>;
+val plateIron = <Railcraft:part.plate:0>;
+val plateSteel = <Railcraft:part.plate:1>;
+val plateCopper = <Railcraft:part.plate:3>;
 val glass = <ore:blockGlass>;
-val plate = <Magneticraft:item.heatcoil_copper>;
+val heatcoil = <Magneticraft:item.heatcoil_copper>;
 
 val goldGear = <Railcraft:part.gear:0>;
 val ironGear = <ore:gearIron>;
 val steelGear = <ore:gearSteel>;
 
+val piston = <minecraft:piston>;
+
 # Add Steel gear to oredict tag
 steelGear.add(<Railcraft:part.gear:2>);
 
-
-val piston = <minecraft:piston>;
-
+# Add plates to oredict tag
+<ore:plateIron>.add(plateIron);
+<ore:plateSteel>.add(plateSteel);
+<ore:plateTin>.add(<Railcraft:part.plate:2>);
+<ore:plateCopper>.add(plateCopper);
+<ore:plateLead>.add(<Railcraft:part.plate:4>);
 
 recipes.remove(hobbyist);
-recipes.addShaped(hobbyist, [[copper,copper,copper]
-							,[plate,glass,plate]
+recipes.addShaped(hobbyist, [[plateCopper,plateCopper,plateCopper]
+							,[heatcoil,glass,heatcoil]
 							,[goldGear,piston,goldGear]]);
 
 recipes.remove(commercial);
-recipes.addShaped(commercial, [[iron,iron,iron]
-							,[plate,glass,plate]
+recipes.addShaped(commercial, [[plateIron,plateIron,plateIron]
+							,[heatcoil,glass,heatcoil]
 							,[ironGear,piston,ironGear]]);
 
 recipes.remove(industrial);
-recipes.addShaped(industrial, [[steel,steel,steel]
-							,[plate,glass,plate]
+recipes.addShaped(industrial, [[plateSteel,plateSteel,plateSteel]
+							,[heatcoil,glass,heatcoil]
 							,[steelGear,piston,steelGear]]);
 
 # Add IE's Coal Coke to Blast Furnace Fuel (first is single piece, second is the block)
@@ -54,5 +59,3 @@ for blockLead in <ore:blockLead>.items {
     #}
 }
 recipes.addShapeless(<Railcraft:cube:11>, [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]);
-
-

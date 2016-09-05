@@ -5,12 +5,12 @@
       {
         "name": "TConstruct:GravelOre",
         "metadata": 4,
-        "weight": 30
+        "weight": 20
       },
       {
         "name": "minecraft:gravel",
         "metadata": 0,
-        "weight": 70
+        "weight": 80
       }
     ],
     "material": "gravel",
@@ -70,12 +70,12 @@
       {
         "name": "TConstruct:GravelOre",
         "metadata": 3,
-        "weight": 30
+        "weight": 20
       },
       {
         "name": "minecraft:gravel",
         "metadata": 0,
-        "weight": 70
+        "weight": 80
       }
     ],
     "material": "gravel",
@@ -107,12 +107,12 @@
       {
         "name": "TConstruct:GravelOre",
         "metadata": 3,
-        "weight": 20
+        "weight": 30
       },
       {
         "name": "minecraft:gravel",
         "metadata": 0,
-        "weight": 80
+        "weight": 70
       }
     ],
     "material": ["gravel"],
@@ -135,12 +135,12 @@
       {
         "name": "TConstruct:GravelOre",
         "metadata": 2,
-        "weight": 30
+        "weight": 20
       },
       {
         "name": "minecraft:gravel",
         "metadata": 0,
-        "weight": 70
+        "weight": 80
       }
     ],
     "material": "gravel",
@@ -209,12 +209,12 @@
       {
         "name": "TConstruct:GravelOre",
         "metadata": 1,
-        "weight": 30
+        "weight": 20
       },
       {
         "name": "minecraft:gravel",
         "metadata": 0,
-        "weight": 70
+        "weight": 80
       }
     ],
     "material": "gravel",
@@ -345,7 +345,12 @@
       {
         "name": "Metallurgy:base.ore",
         "metadata": 0,
-        "weight": 94
+        "weight": 84
+      },
+      {
+        "name": "ImmersiveEngineering:ore",
+        "metadata": 2,
+        "weight": 10
       },
       {
         "name": "BiomesOPlenty:gemOre",
@@ -356,7 +361,7 @@
     "material": "stone",
     "clusterSize": 20,
     "numClusters": 28,
-    "chunkChance": 128,
+    "chunkChance": 256,
     "minHeight": 24,
     "veinHeight": 40,
     "veinDiameter": 44,
@@ -396,6 +401,11 @@
         "weight": 90
       },
       {
+        "name": "BiomesOPlenty:gemOre",
+        "metadata": 12,
+        "weight": 5
+      },
+      {
         "name": "appliedenergistics2:tile.OreQuartz",
         "metadata": 0,
         "weight": 4
@@ -409,7 +419,7 @@
     "material": "stone",
     "clusterSize": 24,
     "numClusters": 28,
-    "chunkChance": 128,
+    "chunkChance": 256,
     "minHeight": 14,
     "veinHeight": 38,
     "veinDiameter": 44,
@@ -484,10 +494,10 @@
     "material": "stone",
     "clusterSize": 16,
     "numClusters": 10,
-    "chunkChance": 128,
+    "chunkChance": 384,
     "minHeight": 24,
     "veinHeight": 22,
-    "veinDiameter": 44,
+    "veinDiameter": 32,
     "verticalDensity": 19,
     "horizontalDensity": 19,
     "retrogen": "false",
@@ -512,12 +522,17 @@
       {
         "name": "Metallurgy:precious.ore",
         "metadata": 1,
-        "weight": 80
+        "weight": 83
       },
       {
         "name": "ImmersiveEngineering:ore",
         "metadata": 2,
-        "weight": 15
+        "weight": 10
+      },
+      {
+        "name": "Magneticraft:thorium_ore",
+        "metadata": 0,
+        "weight": 2
       },
       {
         "name": "Metallurgy:precious.ore",
@@ -528,7 +543,7 @@
     "material": "stone",
     "clusterSize": 12,
     "numClusters": 18,
-    "chunkChance": 256,
+    "chunkChance": 384,
     "minHeight": 4,
     "veinHeight": 32,
     "veinDiameter": 44,
@@ -557,73 +572,6 @@
         "type": "dictionary",
         "entry": "OCEAN"
       }	  
-    ],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-      -1,
-      1
-    ]
-  },
-  "leadVeins": {
-    "template": {
-      "type": "fractal",
-      "generator": "large-vein",
-      "sparse": true
-    },
-    "block": [
-      {
-        "name": "Metallurgy:precious.ore",
-        "metadata": 1,
-        "weight": 10
-      },
-      {
-        "name": "ImmersiveEngineering:ore",
-        "metadata": 2,
-        "weight": 80
-      },
-      {
-        "name": "BiomesOPlenty:gemOre",
-        "metadata": 12,
-        "weight": 5
-      },
-      {
-        "name": "Magneticraft:thorium_ore",
-        "metadata": 0,
-        "weight": 2
-      }
-    ],
-    "material": "stone",
-    "clusterSize": 12,
-    "numClusters": 18,
-    "chunkChance": 256,
-    "minHeight": 4,
-    "veinHeight": 24,
-    "veinDiameter": 24,
-    "verticalDensity": 24,
-    "horizontalDensity": 16,
-    "retrogen": "false",
-    "biomeRestriction": "whitelist",
-    "biomes": [
-      {
-        "type": "dictionary",
-        "entry": "DRY"
-      },
-      {
-        "type": "dictionary",
-        "entry": "MOUNTAIN"
-      },
-      {
-        "type": "dictionary",
-        "entry": "SANDY"
-      },
-      {
-        "type": "dictionary",
-        "entry": "HOT"
-      },
-      {
-        "type": "dictionary",
-        "entry": "MAGICAL"
-      }
     ],
     "dimensionRestriction": "blacklist",
     "dimensions": [
@@ -706,7 +654,7 @@
     "material": "stone",
     "clusterSize": 16,
     "numClusters": 18,
-    "chunkChance": 256,
+    "chunkChance": 384,
     "minHeight": 4,
     "veinHeight": 44,
     "veinDiameter": 24,

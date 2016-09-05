@@ -52,3 +52,5 @@ recipes.addShaped(<Magneticraft:item.heatcoil_tungsten:0>,[
     [null,<ore:ingotTungsten>,<ore:ingotTungsten>]
 ]);
 
+# Disable Infinite Water Source block
+recipes.remove(<Magneticraft:InfiniteWater>);

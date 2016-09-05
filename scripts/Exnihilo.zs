@@ -35,7 +35,7 @@ NEI.hide(<exnihilo:crook_bone>);
 #mods.exnihilo.Sieve.addRecipe(<minecraft:mycelium>, [<minecraft:red_mushroom>, <minecraft:brown_mushroom>], [2, 2]);
 
 mods.exnihilo.Sieve.removeRecipe(<minecraft:dirt>);
-mods.exnihilo.Sieve.addRecipe(<minecraft:dirt>, [<minecraft:wheat_seeds>, <exnihilo:seed_grass>, <exnihilo:stone>, <exnihilo:seed_sugar_cane>, <minecraft:potato>, <minecraft:carrot>], [2, 10, 4, 10, 20, 20]);
+mods.exnihilo.Sieve.addRecipe(<minecraft:dirt>, [<minecraft:wheat_seeds>, <exnihilo:seed_grass>, <exnihilo:stone>, <exnihilo:seed_sugar_cane>, <minecraft:potato>, <minecraft:carrot>, <harvestcraft:riceseedItem>], [2, 10, 4, 10, 20, 20, 20]);
 
 mods.exnihilo.Sieve.removeRecipe(<minecraft:gravel>);
 mods.exnihilo.Sieve.addRecipe(<minecraft:gravel>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);

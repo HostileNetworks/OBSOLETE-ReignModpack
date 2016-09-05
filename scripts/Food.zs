@@ -137,6 +137,7 @@ sausage.add(<harvestcraft:porksausageItem>);
 val groundmeat = <ore:foodGroundmeat>;
 groundmeat.add(<harvestcraft:sausageItem>);
 
+
 # seafood
 val rawSeafood = <ore:rawSeafood>;
 rawSeafood.add(<harvestcraft:shrimprawItem>);
@@ -957,6 +958,8 @@ recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:foodMorselmeat>, <ore:foo
 recipes.addShapeless(<kitchenCraftFoods:meat:4>, [<ore:toolMixingbowl>, <kitchenCraftFoods:veggie:11>, <harvestcraft:sausageItem>, <ore:listAllsalt>, <ore:listAllherb>]);
 
 recipes.addShapeless(<kitchenCraftFoods:meat:23>, [<ore:toolMixingbowl>, <kitchenCraftFoods:veggie:11>, <harvestcraft:sausageItem>, <ore:listAllherb>]);
+
+recipes.addShapeless(<kitchenCraftFoods:meat:4>, [<ore:toolMixingbowl>, <kitchenCraftFoods:veggie:11>, <harvestcraft:sausageItem>, <ore:listAllspice>]);
 
 # honey ham cure on rack
 recipes.addShapeless(<kitchenCraftFoods:meat:10>, [<ore:listAllporkraw>, <ore:dropHoney>, <ore:listAllspice>]);

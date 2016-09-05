@@ -7,6 +7,12 @@ var rotten = <enviromine:rottenFood>;
 rotten.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
 var fossil = <UndergroundBiomes:fossilPiece:*>;
 fossil.addTooltip(format.yellow("crafts into bonemeal"));
+var newdirt = <ore:newdirt>;
+newdirt.add(<BiomesOPlenty:hardDirt>);
+newdirt.add(<BiomesOPlenty:driedDirt>);
+newdirt.add(<BiomesOPlenty:newBopDirt:*>);
+newdirt.add(<BiomesOPlenty:hardSand>);
+newdirt.add(<etfuturum:coarse_dirt>);
 
 # RC Lanterns use candles
 var candle = <ore:listAllcandle>;
@@ -73,9 +79,21 @@ recipes.addShapeless(<HarderWildlife:rawLeather>,
 
 ##================================================================================
 # Treesap stuff
-
 <ore:slimeball>.add(<reignadditionals:treeSap>);
 furnace.setFuel(<reignadditionals:treeSap>, 100);
 furnace.addRecipe(<Magneticraft:item.rubber>, <reignadditionals:treeSap>);
 recipes.addShapeless(<minecraft:torch>,
 	[<ore:stickWood>, <reignadditionals:treeSap>]);
+	
+##================================================================================
+# Compost/Fertiliser
+val humus = <ore:fertilizer>;
+humus.add(<GardenCore:compost_pile>);
+humus.add(<Botany:misc:5>);
+humus.add(<Forestry:fertilizerBio>);
+humus.add(<HarderWildlife:logRotting:12>);
+recipes.addShaped(<minecraft:dirt>*8,
+	[[newdirt, newdirt, newdirt]
+	,[newdirt, <ore:fertilizer>, newdirt]
+	,[newdirt, newdirt, newdirt]]);
+	

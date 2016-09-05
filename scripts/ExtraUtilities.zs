@@ -39,67 +39,8 @@ recipes.addShaped(quarry,[[enderObsidian,ray,enderObsidian],
 						[enderCore,matrix,enderCore],
 						[pump,bedpick,pump]]);
 
-##Make generators more expensive
-#recipes.remove(survivalgen);
-#recipes.addShaped(survivalgen, [[cobble,cobble,cobble],
-#								[ingot,dc,ingot],
-#								[redstone,furnace,redstone]]);
-#
-recipes.remove(<ExtraUtilities:generator:1>);
-#recipes.addShaped(<ExtraUtilities:generator:1>, [[iron,iron,iron],
-#								[iron,block,iron],
-#								[redstone,furnace,redstone]]);
-#
-#recipes.remove(lavagen);
-#recipes.addShaped(lavagen, [[gold,gold,gold],
-#								[gold,block,gold],
-#								[redstone,furnace,redstone]]);
-#
-#recipes.remove(endergen);
-#recipes.addShaped(endergen, [[pearl,pearl,pearl],
-#								[eye,block,eye],
-#								[redstone,furnace,redstone]]);
-#
-#recipes.remove(heatedgen);
-#recipes.addShaped(heatedgen, [[redstoneBlock,redstoneBlock,redstoneBlock],
-#								[redstoneBlock,lavagen,redstoneBlock],
-#								[redstone,furnace,redstone]]);
-#
-#recipes.remove(foodgen);
-#recipes.addShaped(foodgen, [[iron,iron,iron],
-#								[ingot,survivalgen,ingot],
-#								[redstone,furnace,redstone]]);
-#
-#recipes.remove(solargen);
-#recipes.addShaped(solargen, [[lapis,daylight,lapis],
-#								[copper,diamond,copper],
-#								[redstone,dc,redstone]]);
-#
-#recipes.remove(tntgen);
-#recipes.addShaped(tntgen, [[tnt,tnt,tnt],
-#								[tnt,block,tnt],
-#								[redstone,furnace,redstone]]);
-#
-#recipes.remove(pinkgen);
-#recipes.addShaped(pinkgen, [[pink,pink,pink],
-#								[pink,survivalgen,pink],
-#								[redstone,furnace,redstone]]);
-#
-#recipes.remove(hightempgen);
-#recipes.addShaped(hightempgen, [[ingot,ingot,ingot],
-#								[ingot,furnacegen,ingot],
-#								[redstone,furnace,redstone]]);
-#
-#recipes.remove(stargen);
-#recipes.addShaped(stargen, [[skull,star,skull],
-#								[skull,unstableblock,skull],
-#								[ingot,dc,ingot]]);
-
-#drums are expensive
+#drums are OP
 recipes.remove(drum);
-recipes.addShaped(drum,[[steel,pressure,steel],
-						[steel,cauldron,steel],
-						[steel,pressure,steel]]);
 
 #blackout curtains no longer conflict with malisis doors
 recipes.remove(<ExtraUtilities:curtains> * 12);

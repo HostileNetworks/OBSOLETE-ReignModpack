@@ -49,6 +49,12 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:batteredsausageItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.8
+    },
+    {
       "name": "harvestcraft:bbqpulledporkItem",
       "meta": 0,
       "hunger": 8,
@@ -416,6 +422,12 @@
     },
     {
       "name": "harvestcraft:kiwijellysandwichItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:lambbarleysoupItem",
       "meta": 0,
       "hunger": 7,
       "saturationModifier": 0.6

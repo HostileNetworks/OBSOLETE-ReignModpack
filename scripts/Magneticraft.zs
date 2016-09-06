@@ -54,3 +54,16 @@ recipes.addShaped(<Magneticraft:item.heatcoil_tungsten:0>,[
 
 # Disable Infinite Water Source block
 recipes.remove(<Magneticraft:InfiniteWater>);
+
+# Low Voltage Cable x4 instead of x2
+recipes.remove(<Magneticraft:item.cable_low>);
+recipes.addShaped(<Magneticraft:item.cable_low> * 4, [
+    [<ore:blockWool>,null,null],
+    [<ore:ingotCopper>,null, null],
+    [<ore:blockWool>,null,null]
+]);
+recipes.addShaped(<Magneticraft:item.cable_low> * 4, [
+    [<ore:itemRubber>,null,null],
+    [<ore:ingotCopper>,null, null],
+    [null,null,null]
+]);

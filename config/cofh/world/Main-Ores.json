@@ -335,6 +335,23 @@
       0
     ]
   },
+  "clayGravel": {
+    "template": "uniform",
+    "block": "clay",
+    "material": "gravel",
+    "clusterSize": 5,
+    "numClusters": 20,
+    "chunkChance": 1,
+    "minHeight": 4,
+    "maxHeight": 250,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },
   "copperVeins": {
     "template": {
       "type": "fractal",

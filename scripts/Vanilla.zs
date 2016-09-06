@@ -48,5 +48,14 @@ mods.railcraft.Rolling.addShaped(bars * 16, [[rod,rod,rod],[rod,rod,rod]]);
 recipes.remove(<RotaryCraft:rotarycraft_item_shaftcraft:10> * 3);
 
 //Chani
-#force proper bread making
+# force proper bread making
 recipes.remove(<minecraft:bread>);
+recipes.removeShaped(<minecraft:clay>);
+# clay from hardened clay
+recipes.addShaped(<minecraft:clay_ball> * 4,
+                [[<ore:gravel>, <ore:gravel>, <ore:gravel>]
+				,[<ore:dirt>, <ore:listAllwater>, <ore:dirt>]
+				,[<ore:gravel>, <ore:gravel>, <ore:gravel>]]);
+
+recipes.addShaped(<minecraft:clay> * 2,
+                [[<ore:clayHardened>, <ore:listAllwater>, <ore:clayHardened>]]);

@@ -86,7 +86,6 @@ mushroom.add(<Forestry:mushroom>);
 mushroom.add(<harvestcraft:whitemushroomItem>);
 
 ## Meat
-
 val beef = <ore:rawBeef>;
 beef.add(<minecraft:beef>);
 val steak = <ore:listAllbeefcooked>;
@@ -108,7 +107,6 @@ morselmeat.add(<exoticbirds:birdmeat_small>);
 morselmeat.add(<harvestcraft:rabbitrawItem>);
 morselmeat.add(<etfuturum:rabbit_raw>);
 morselmeat.add(<kitchenCraftFoods:meat:0>);
-
 
 # white meat
 val chicken = <ore:listAllchickenraw>;
@@ -136,7 +134,6 @@ sausage.remove(<harvestcraft:sausageItem>);
 sausage.add(<harvestcraft:porksausageItem>);
 val groundmeat = <ore:foodGroundmeat>;
 groundmeat.add(<harvestcraft:sausageItem>);
-
 
 # seafood
 val rawSeafood = <ore:rawSeafood>;
@@ -173,7 +170,6 @@ cooked.addAll(<ore:foodMuttoncooked>);
 <ore:listAllmeatcooked>.addAll(<ore:foodCookedwhitemeat>);
 
 ## Eggs
-
 val egg = <ore:listAllegg>;
 egg.add(<exoticbirds:kingfisher_egg>);
 egg.add(<exoticbirds:roadrunner_egg>);
@@ -189,6 +185,7 @@ egg.add(<exoticbirds:kiwi_egg>);
 egg.add(<exoticbirds:vulture_egg>);
 egg.add(<exoticbirds:flamingo_egg>);
 
+# Flour
 val flour = <ore:foodFlour>;
 flour.add(<appliedenergistics2:item.ItemMultiMaterial:4>);
 flour.add(<Natura:barleyFood:1>);
@@ -314,6 +311,12 @@ val spice = <ore:listAllspice>;
 spice.add(<harvestcraft:groundnutmegItem>);
 spice.add(<harvestcraft:groundcinnamonItem>);
 spice.add(<harvestcraft:blackpepperItem>);
+
+# honey
+val honey = <ore:dropHoney>;
+honey.add(<BiomesOPlenty:jarFilled>);
+val comb = <ore:materialHoneycomb>;
+comb.add(<BiomesOPlenty:food:9>);
 
 # Roots
 recipes.remove(<harvestcraft:ediblerootItem>);
@@ -550,6 +553,7 @@ recipes.remove(<harvestcraft:fishsticksItem>);
 recipes.remove(<harvestcraft:shepardspieItem>);
 recipes.remove(<harvestcraft:sweetpotatosouffleItem>);
 recipes.remove(<harvestcraft:mashedsweetpotatoesItem>);
+recipes.remove(<harvestcraft:pepperoniItem>);
 
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
@@ -635,14 +639,19 @@ furnace.addRecipe(<harvestcraft:fishsticksItem>,<kitchenCraftFoods:veggie:44>);
 # Dried fruit
 furnace.addRecipe(<harvestcraft:fishsticksItem>,<kitchenCraftFoods:veggie:44>);
 for item in <ore:listAllfruit>.items {furnace.addRecipe(<kitchenCraftFoods:veggie:20>,(item));}
+# Salt production in early game
+furnace.addRecipe(<harvestcraft:saltItem>,<ore:listAllwater>);
 
-##==================== Crafting Additions ====================##
+##================== Crafting Additions ==================##
 
 # Yeast Dough
 recipes.addShapeless(<harvestcraft:doughItem> * 2, [<ore:toolMixingbowl>, <ore:foodSalt>, <ore:foodFlour>, <ore:listAllwater>, <RotaryCraft:rotarycraft_item_yeast>]);
 
 # casings
 recipes.addShapeless(<kitchenCraftFoods:veggie:11>, [<kitchenCraftFoods:veggie:10>, <ore:toolPot>, <ore:toolCuttingboard>, <ore:listAllwater>]);
+
+# pepperoni
+recipes.addShapeless(<harvestcraft:pepperoniItem> * 2, [<ore:toolCuttingboard>, <ore:foodSalami>]);
 
 # belly
 recipes.addShapeless(<kitchenCraftFoods:meat:0>, [<kitchenCraftFoods:veggie:10>, <ore:toolCuttingboard>]);
@@ -673,7 +682,6 @@ recipes.addShapeless(<harvestcraft:shrimpokrahushpuppiesItem>, [<ore:toolPot>, <
 recipes.addShapeless(<minecraft:fish:0>, [<ore:listAllfishraw>]);
 <ore:listAllfishraw>.remove(<harvestcraft:firmtofuItem>);
 recipes.addShapeless(<kitchenCraftFoods:veggie:44>, [<ore:toolBakeware>, <ore:listAllfishraw>, <ore:foodFlour>]);
-
 
 # Milk
 
@@ -933,7 +941,7 @@ recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<Thaumcraft:blockTaint:2>]);
 recipes.addShapeless(<ganyssurface:pineNuts>, [<BiomesOPlenty:misc:13>]);
 
 # cheeses
-recipes.addShapeless(<kitchenCraftFoods:veggie:19>, [<ore:toolSaucepan>, <ore:listAllrennet>, <ore:listAllmilk>, <Magneticraft:item.string_fabric>]);
+recipes.addShapeless(<kitchenCraftFoods:veggie:19>, [<ore:toolSaucepan>, <ore:listAllrennet>, <ore:listAllmilk>, <harvestcraft:wovencottonItem>]);
 
 recipes.addShapeless(<harvestcraft:cheeseItem> * 6, [<ore:toolCuttingboard>, <kitchenCraftFoods:veggie:18>]);
 

@@ -637,6 +637,12 @@
       "saturationModifier": 0.4
     },
     {
+      "name": "harvestcraft:spinachpieItem",
+      "meta": 0,
+      "hunger": 14,
+      "saturationModifier": 0.7
+    },
+    {
       "name": "harvestcraft:steakandchipsItem",
       "meta": 0,
       "hunger": 6,

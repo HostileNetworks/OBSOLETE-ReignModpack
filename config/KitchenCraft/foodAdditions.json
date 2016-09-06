@@ -341,8 +341,8 @@
     },
     {
       "name": "salami",
-      "food": "6",
-      "saturation": 3,
+      "food": "5",
+      "saturation": 2,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -393,7 +393,7 @@
     {
       "name": "cheddarcheese",
       "food": "4",
-      "saturation": 3,
+      "saturation": 2,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
@@ -426,7 +426,7 @@
     {
       "name": "Saladsandwich",
       "food": "6",
-      "saturation": 5,
+      "saturation": 3,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
@@ -444,7 +444,7 @@
     {
       "name": "Simplesandwich",
       "food": "8",
-      "saturation": 7,
+      "saturation": 4,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
@@ -462,7 +462,7 @@
     {
       "name": "Sandwich",
       "food": "10",
-      "saturation": 10,
+      "saturation": 5,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
@@ -480,7 +480,7 @@
     {
       "name": "rawchickenpotpie",
       "food": "6",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -500,7 +500,7 @@
     {
       "name": "rawmeatpie",
       "food": "6",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -520,7 +520,7 @@
     {
       "name": "rawquiche",
       "food": "6",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": true,
       "color": 8112513,
       "makeSeed": false,
@@ -561,7 +561,7 @@
     {
       "name": "uncuredhoneyham",
       "food": "4",
-      "saturation": 2,
+      "saturation": 1,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -578,7 +578,7 @@
     },
     {
       "name": "honeyham",
-      "food": "7",
+      "food": "6",
       "saturation": 4,
       "isMeat": true,
       "makeSeed": false,
@@ -590,7 +590,7 @@
     {
       "name": "rawhawaiianpizza",
       "food": "10",
-      "saturation": 3,
+      "saturation": 2,
       "isMeat": true,
       "color": 8112513,
       "makeSeed": false,
@@ -814,7 +814,7 @@
     },
     {
       "name": "rawspinachpie",
-      "food": "6",
+      "food": "4",
       "saturation": 2,
       "isMeat": false,
       "makeSeed": false,
@@ -827,7 +827,7 @@
     {
       "name": "rawsausage",
       "food": "4",
-      "saturation": 4,
+      "saturation": 2,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -870,7 +870,7 @@
     {
       "name": "rawchowder",
       "food": "10",
-      "saturation": 4,
+      "saturation": 2,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true
@@ -878,7 +878,7 @@
     {
       "name": "rawseafoodchowder",
       "food": "10",
-      "saturation": 4,
+      "saturation": 2,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true
@@ -886,7 +886,7 @@
     {
       "name": "rawstew",
       "food": "10",
-      "saturation": 4,
+      "saturation": 2,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true
@@ -894,7 +894,7 @@
     {
       "name": "rawblackberrycobbler",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -902,7 +902,7 @@
     {
       "name": "rawblueberrypie",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -910,7 +910,7 @@
     {
       "name": "rawcherrypie",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -918,7 +918,7 @@
     {
       "name": "rawgooseberrypie",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -926,7 +926,7 @@
     {
       "name": "rawpeachcobbler",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -934,7 +934,7 @@
     {
       "name": "rawraspberrypie",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -942,7 +942,7 @@
     {
       "name": "rawstrawberrypie",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -950,7 +950,7 @@
     {
       "name": "rawsweetpotatopie",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -958,7 +958,7 @@
     {
       "name": "rawpecanpie",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -966,7 +966,7 @@
     {
       "name": "rawkeylimepie",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -974,7 +974,7 @@
     {
       "name": "rawapplepie",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -982,7 +982,7 @@
     {
       "name": "rawfruitcrumble",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -990,7 +990,7 @@
     {
       "name": "rawgingeredrhubarbtart",
       "food": "4",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -1006,7 +1006,7 @@
     {
       "name": "uncookedrice",
       "food": "2",
-      "saturation": 2,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -1014,7 +1014,7 @@
     {
       "name": "uncookedsoup",
       "food": "2",
-      "saturation": 2,
+      "saturation": 0,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -1022,7 +1022,7 @@
     {
       "name": "uncookedzucchinifries",
       "food": "3",
-      "saturation": 3,
+      "saturation": 1,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true
@@ -1065,7 +1065,7 @@
     {
       "name": "rawshepherdspie",
       "food": "8",
-      "saturation": 3,
+      "saturation": 2,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,

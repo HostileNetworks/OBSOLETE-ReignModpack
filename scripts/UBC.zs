@@ -18,5 +18,5 @@ mods.chisel.Groups.addVariation("granite", ubcGranite);
 
 # Vanilla Cobble exchange crafting recipe
 recipes.addShaped(<minecraft:cobblestone> * 4,
-    [[<ore:cobblestone>, <ore:cobblestone>, null]
-	,[<ore:cobblestone>, <ore:cobblestone>, null]]);
+    [[<ore:cobblestone>, <ore:cobblestone>]
+	,[<ore:cobblestone>, <ore:cobblestone>]]);

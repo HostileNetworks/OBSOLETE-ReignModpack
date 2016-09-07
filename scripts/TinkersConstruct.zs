@@ -233,3 +233,12 @@ NEI.hide(<TConstruct:travelWings>);
 NEI.hide(<TConstruct:travelBoots>);
 NEI.hide(<TConstruct:travelGlove>);
 NEI.hide(<TConstruct:travelBelt>);
+
+# Add missing ore smelting inputs
+for oreNickel in <ore:oreNickel>.items {
+    mods.tconstruct.Smeltery.addMelting(oreNickel, <liquid:nickel.molten> * 288, 200, oreNickel);
+}
+
+for oreLead in <ore:oreLead>.items {
+    mods.tconstruct.Smeltery.addMelting(oreLead, <liquid:lead.molten> * 288, 200, oreLead);
+}

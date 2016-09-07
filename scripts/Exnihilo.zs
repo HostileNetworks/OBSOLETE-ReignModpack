@@ -8,7 +8,7 @@ recipes.addShaped(<exnihilo:mesh>,
 	,[null, <minecraft:string>, null]
 	,[<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 
-recipes.removeShapeless(<minecraft:cobblestone>, [<exnihilo:stone>,<exnihilo:stone>,<exnihilo:stone>,<exnihilo:stone>]);
+#recipes.removeShapeless(<minecraft:cobblestone>, #[<exnihilo:stone>,<exnihilo:stone>,<exnihilo:stone>,<exnihilo:stone>]);
 
 recipes.remove(<exnihilo:doll>);
 recipes.remove(<exnihilo:doll_angry>);

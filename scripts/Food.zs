@@ -649,16 +649,19 @@ furnace.addRecipe(<harvestcraft:saltItem>,<ore:listAllwater>);
 recipes.addShapeless(<harvestcraft:doughItem> * 2, [<ore:toolMixingbowl>, <ore:foodSalt>, <ore:foodFlour>, <ore:listAllwater>, <RotaryCraft:rotarycraft_item_yeast>]);
 
 # casings
-recipes.addShapeless(<kitchenCraftFoods:veggie:11>, [<kitchenCraftFoods:veggie:10>, <ore:toolPot>, <ore:toolCuttingboard>, <ore:listAllwater>]);
+recipes.addShapeless(<kitchenCraftFoods:veggie:11> * 2, [<kitchenCraftFoods:veggie:10>, <ore:toolCuttingboard>, <ore:listAllwater>]);
+recipes.addShapeless(<kitchenCraftFoods:veggie:11>, [<kitchenCraftFoods:veggie:10>, <reignadditionals:flintHandaxe:*>.transformDamage(2), <ore:listAllwater>]);
 
 # pepperoni
 recipes.addShapeless(<harvestcraft:pepperoniItem> * 2, [<ore:toolCuttingboard>, <ore:foodSalami>]);
 
 # belly
 recipes.addShapeless(<kitchenCraftFoods:meat:0>, [<kitchenCraftFoods:veggie:10>, <ore:toolCuttingboard>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:0>, [<kitchenCraftFoods:veggie:10>, <reignadditionals:flintHandaxe:*>.transformDamage(2)]);
 
 # rennet
 recipes.addShapeless(<kitchenCraftFoods:veggie:9> *16, [<kitchenCraftFoods:meat:0>, <ore:toolCuttingboard>, <ore:toolPot>]);
+recipes.addShapeless(<kitchenCraftFoods:veggie:9>, [<kitchenCraftFoods:meat:0>, <reignadditionals:flintHandaxe:*>.transformDamage(2), <ore:toolMixingbowl>]);
 
 # yogurt
 recipes.removeShapeless(<harvestcraft:plainyogurtItem> *4, [<ore:listAllmilk>, <minecraft:leather>]); 

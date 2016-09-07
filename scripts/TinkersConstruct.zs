@@ -76,8 +76,6 @@ recipes.addShapeless(<RotaryCraft:rotarycraft_item_modingots:2> * 9, [<ore:block
 
 recipes.remove(<ImmersiveEngineering:storage:7>);
 recipes.remove(<ImmersiveEngineering:storage:6>);
-recipes.remove(<ImmersiveEngineering:storage:5>);
-recipes.remove(<ImmersiveEngineering:storage:4>);
 recipes.remove(<ImmersiveEngineering:storage:3>);
 recipes.remove(<ImmersiveEngineering:storage:2>);
 recipes.remove(<ImmersiveEngineering:storage:1>);
@@ -234,11 +232,23 @@ NEI.hide(<TConstruct:travelBoots>);
 NEI.hide(<TConstruct:travelGlove>);
 NEI.hide(<TConstruct:travelBelt>);
 
-# Add missing ore smelting inputs
-for oreNickel in <ore:oreNickel>.items {
-    mods.tconstruct.Smeltery.addMelting(oreNickel, <liquid:nickel.molten> * 288, 200, oreNickel);
-}
 
+####
+#  Smeltery - Lead Ore
 for oreLead in <ore:oreLead>.items {
     mods.tconstruct.Smeltery.addMelting(oreLead, <liquid:lead.molten> * 288, 200, oreLead);
 }
+# Molten > Ingot
+mods.tconstruct.Casting.addTableRecipe(<RotaryCraft:rotarycraft_item_modingots:2>, <liquid:lead.molten> * 144, <TConstruct:metalPattern:0>, false, 60);
+# Molten > Block
+mods.tconstruct.Casting.addBasinRecipe(<Railcraft:cube:11>, <liquid:lead.molten> * 1296, null, false, 180);
+
+####
+#  Smeltery - Nickel Ore
+for oreNickel in <ore:oreNickel>.items {
+    mods.tconstruct.Smeltery.addMelting(oreNickel, <liquid:nickel.molten> * 288, 200, oreNickel);
+}
+# Molten > Ingot
+mods.tconstruct.Casting.addTableRecipe(<RotaryCraft:rotarycraft_item_modingots:3>, <liquid:nickel.molten> * 144, <TConstruct:metalPattern:0>, false, 60);
+# Molten > Block
+mods.tconstruct.Casting.addBasinRecipe(<ImmersiveEngineering:storage:4>, <liquid:nickel.molten> * 1296, null, false, 180);

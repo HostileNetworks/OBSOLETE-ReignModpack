@@ -107,6 +107,7 @@ morselmeat.add(<exoticbirds:birdmeat_small>);
 morselmeat.add(<harvestcraft:rabbitrawItem>);
 morselmeat.add(<etfuturum:rabbit_raw>);
 morselmeat.add(<kitchenCraftFoods:meat:0>);
+morselmeat.add(<GrimoireOfGaia:item.GrimoireOfGaia.FoodMeatMorsel>);
 
 # white meat
 val chicken = <ore:listAllchickenraw>;
@@ -956,7 +957,7 @@ recipes.addShapeless(<kitchenCraftFoods:veggie:13>, [<ore:toolCuttingboard>, <or
 
 # ground meat
 recipes.addShapeless(<harvestcraft:sausageItem>*2, [<ore:toolCuttingboard>, <ore:listAllmeatraw>, <ore:foodSalt>]);
-recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:toolCuttingboard>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodMeatMorsel>, <ore:foodSalt>]);
+recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:toolCuttingboard>, <ore:foodMorselmeat>, <ore:foodSalt>]);
 recipes.addShapeless(<harvestcraft:sausageItem> * 2, [<ore:toolCuttingboard>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodMeat>, <ore:foodSalt>]);
 recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:blockMeatRaw>, <ore:toolCuttingboard>, <ore:foodSalt>]);
 recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:listAllmeatraw>, <ore:foodSalt>, <reignadditionals:flintHandaxe:*>.transformDamage(2)]);

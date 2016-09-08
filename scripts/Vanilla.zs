@@ -46,7 +46,8 @@ recipes.addShaped(<minecraft:clay> * 2,
                 [[<ore:clayHardened>, <ore:listAllwater>, <ore:clayHardened>]]);
 
 ## TOOLTIPS ##
-val lever = <minecraft:lever>;
+val lever = <ore:lever>;
+lever.add(<minecraft:lever>);
 lever.add(<CarpentersBlocks:blockCarpentersLever>);
 val button = <ore:button>;
 button.add(<minecraft:stone_button>);

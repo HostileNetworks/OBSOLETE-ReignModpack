@@ -555,6 +555,8 @@ recipes.remove(<harvestcraft:shepardspieItem>);
 recipes.remove(<harvestcraft:sweetpotatosouffleItem>);
 recipes.remove(<harvestcraft:mashedsweetpotatoesItem>);
 recipes.remove(<harvestcraft:pepperoniItem>);
+recipes.remove(<harvestcraft:peaandhamsoupItem>);
+recipes.remove(<harvestcraft:apricotglazedporkItem>);
 
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
@@ -976,6 +978,9 @@ recipes.addShapeless(<kitchenCraftFoods:meat:4>, [<ore:toolMixingbowl>, <kitchen
 
 # honey ham cure on rack
 recipes.addShapeless(<kitchenCraftFoods:meat:10>, [<ore:listAllporkraw>, <ore:dropHoney>, <ore:listAllspice>]);
+recipes.addShapeless(<harvestcraft:peaandhamsoupItem>, [<ore:toolPot>, <ore:cropPeas>, <ore:foodBakedham>, <ore:cropCarrot>, <ore:foodBlackpepper>, <ore:cropOnion>]);
+recipes.addShapeless(<harvestcraft:apricotglazedporkItem>, [<ore:foodBakedham>, <ore:foodApricotjelly>]);
+
 
 # proper vegemite recipe - forgot the salt
 recipes.addShapeless(<harvestcraft:vegemiteItem>, [<ore:toolSaucepan>, <ore:foodSalt>, <ore:cropBarley>, <RotaryCraft:rotarycraft_item_yeast>, <ore:foodFlour>, <minecraft:sugar>]);

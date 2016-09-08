@@ -756,11 +756,12 @@ recipes.addShapeless(<harvestcraft:toastsandwichItem>,	[<ore:toolCuttingboard>, 
 # cheese on toast
 recipes.addShapeless(<harvestcraft:cheeseontoastItem>,	[<ore:toolCuttingboard>, <cfm:ItemToast>, <ore:foodButter>, <harvestcraft:cheeseItem>]);
 
-# burgers
+## BURGERS ##
+
 recipes.remove(<harvestcraft:hamburgerItem>);
 recipes.addShapeless(<harvestcraft:hamburgerItem>, [<kitchenCraftFoods:meat:1>, <ore:toolCuttingboard>, <harvestcraft:toastItem>]);
 recipes.remove(<harvestcraft:cheeseburgerItem>);
-recipes.addShapeless(<harvestcraft:cheeseburgerItem>, [<ore:foodHamburger>, <ore:listAllcheese>]);
+recipes.addShapeless(<harvestcraft:cheeseburgerItem>, [<ore:foodHamburger>, <ore:foodCheese>]);
 recipes.addShapeless(<harvestcraft:deluxecheeseburgerItem>, [<harvestcraft:bbqpulledporkItem>, <ore:foodLettuce>, <ore:foodCheese>]);
 recipes.remove(<harvestcraft:beetburgerItem>);
 recipes.addShapeless(<harvestcraft:beetburgerItem>, [<ore:toolCuttingboard>, <ore:foodHamburger>, <ore:cropBeet>, <ore:foodFriedegg>, <ore:listAllporkcooked>, <ore:cropPineapple>]);
@@ -905,7 +906,7 @@ recipes.addShapeless(<kitchenCraftFoods:veggie:40>, [<ore:toolBakeware>, <ore:to
 # Uncooked Zucchini Fries
 recipes.addShapeless(<kitchenCraftFoods:veggie:43>, [<ore:toolBakeware>, <ore:toolCuttingboard>, <ore:cropZucchini>, <ore:foodSalt>, <ore:foodOliveoil>]);
 
-############ PIZZAS ##############
+## PIZZAS ##
 
 # raw veggie pizza
 recipes.addShapeless(<kitchenCraftFoods:veggie:16>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodKetchup>, <ore:foodCheese>, <ore:cropSpinach>, <ore:foodFirmtofu>, <ore:cropOlive>, <ore:herbBasil>, <ore:listAllmushroom>]);

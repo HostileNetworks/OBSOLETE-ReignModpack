@@ -1,3 +1,5 @@
+import mods.nei.NEI;
+
 # Vanilla
 val cauldron = <minecraft:cauldron>;
 val bucket = <minecraft:bucket>;
@@ -12,23 +14,7 @@ val rod = <RotaryCraft:rotarycraft_item_shaftcraft:2>;
 val base = <Railcraft:part.plate:1>;
 
 
-#remove all vanilla armor creation
-#recipes.remove(<minecraft:iron_boots>);
-#recipes.remove(<minecraft:iron_leggings>);
-#recipes.remove(<minecraft:iron_chestplate>);
-#recipes.remove(<minecraft:iron_helmet>);
-
-#recipes.remove(<minecraft:golden_boots>);
-#recipes.remove(<minecraft:golden_leggings>);
-#recipes.remove(<minecraft:golden_chestplate>);
-#recipes.remove(<minecraft:golden_helmet>);
-
-#recipes.remove(<minecraft:diamond_boots>);
-#recipes.remove(<minecraft:diamond_leggings>);
-#recipes.remove(<minecraft:diamond_chestplate>);
-#recipes.remove(<minecraft:diamond_helmet>);
-
-#Vanilla items should use Steel plates
+# Vanilla iron items use Steel plates instead
 recipes.remove(cauldron);
 recipes.addShaped(cauldron, [[base,null,base],[base,null,base],[base,base,base]]);
 
@@ -47,7 +33,6 @@ mods.railcraft.Rolling.addShaped(bars * 16, [[rod,rod,rod],[rod,rod,rod]]);
 
 recipes.remove(<RotaryCraft:rotarycraft_item_shaftcraft:10> * 3);
 
-//Chani
 # force proper bread making
 recipes.remove(<minecraft:bread>);
 
@@ -59,3 +44,21 @@ recipes.addShaped(<minecraft:clay_ball> * 4,
 
 recipes.addShaped(<minecraft:clay> * 2,
                 [[<ore:clayHardened>, <ore:listAllwater>, <ore:clayHardened>]]);
+
+## TOOLTIPS ##
+val lever = <minecraft:lever>;
+lever.add(<CarpentersBlocks:blockCarpentersLever>);
+val button = <ore:button>;
+button.add(<minecraft:stone_button>);
+button.add(<minecraft:wooden_button>);
+button.add(<ganyssurface:button1>);
+button.add(<ganyssurface:button2>);
+button.add(<ganyssurface:button3>);
+button.add(<ganyssurface:button4>);
+button.add(<ganyssurface:button5>);
+button.add(<CarpentersBlocks:blockCarpentersButton>);
+
+lever.addTooltip(format.yellow("Beware! Keep out of"));
+lever.addTooltip(format.yellow("reach of zombies!"));
+button.addTooltip(format.yellow("Beware! Keep out of"));
+button.addTooltip(format.yellow("reach of zombies!"));

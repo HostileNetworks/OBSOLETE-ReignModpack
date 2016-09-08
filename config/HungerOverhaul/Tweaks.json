@@ -730,31 +730,31 @@
       "name": "kitchenCraftFoods:meat",
       "meta": 18,
       "hunger": 20,
-      "saturationModifier": 1.6
+      "saturationModifier": 1.5
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 16,
       "hunger": 20,
-      "saturationModifier": 1.6
+      "saturationModifier": 1.5
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 17,
       "hunger": 20,
-      "saturationModifier": 1.6
+      "saturationModifier": 1.0
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 14,
       "hunger": 20,
-      "saturationModifier": 1.6
+      "saturationModifier": 1.5
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 15,
       "hunger": 20,
-      "saturationModifier": 1.6
+      "saturationModifier": 1.5
     },
     {
       "name": "kitchenCraftFoods:meat",
@@ -766,43 +766,43 @@
       "name": "kitchenCraftFoods:meat",
       "meta": 19,
       "hunger": 20,
-      "saturationModifier": 1.6
+      "saturationModifier": 1.5
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 12,
       "hunger": 8,
-      "saturationModifier": 1.6
+      "saturationModifier": 0.6
     },
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 17,
-      "hunger": 18,
-      "saturationModifier": 0.6
+      "hunger": 20,
+      "saturationModifier": 0.7
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 20,
       "hunger": 20,
-      "saturationModifier": 1.6
+      "saturationModifier": 1.0
     },
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 21,
       "hunger": 6,
-      "saturationModifier": 1.0
+      "saturationModifier": 0.5
     },
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 22,
       "hunger": 8,
-      "saturationModifier": 1.0
+      "saturationModifier": 0.6
     },
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 23,
       "hunger": 10,
-      "saturationModifier": 1.0
+      "saturationModifier": 0.7
     },
     {
       "name": "kitchenCraftFoods:meat",
@@ -813,26 +813,26 @@
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 3,
-      "hunger": 2,
-      "saturationModifier": 1.0
+      "hunger": 4,
+      "saturationModifier": 0.3
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 1,
-      "hunger": 2,
-      "saturationModifier": 0.5
+      "hunger": 4,
+      "saturationModifier": 0.3
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 4,
       "hunger": 3,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.1
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 5,
       "hunger": 5,
-      "saturationModifier": 1.0
+      "saturationModifier": 0.6
     },
     {
       "name": "kitchenCraftFoods:meat",
@@ -843,7 +843,7 @@
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 7,
-      "hunger": 6,
+      "hunger": 4,
       "saturationModifier": 0.2
     },
     {
@@ -856,13 +856,19 @@
       "name": "kitchenCraftFoods:meat",
       "meta": 11,
       "hunger": 5,
-      "saturationModifier": 1.0
+      "saturationModifier": 0.6
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 0,
       "hunger": 1,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.1
+    },
+    {
+      "name": "kitchenCraftFoods:meat",
+      "meta": 21,
+      "hunger": 20,
+      "saturationModifier": 1.5
     },
     {
       "name": "kitchenCraftFoods:meat",
@@ -873,19 +879,19 @@
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 24,
-      "hunger": 10,
+      "hunger": 8,
       "saturationModifier": 0.2
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 25,
-      "hunger": 10,
+      "hunger": 8,
       "saturationModifier": 0.2
     },
     {
       "name": "kitchenCraftFoods:meat",
       "meta": 26,
-      "hunger": 10,
+      "hunger": 7,
       "saturationModifier": 0.2
     },
     {
@@ -897,20 +903,20 @@
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 25,
-      "hunger": 20,
-      "saturationModifier": 0.5
+      "hunger": 1,
+      "saturationModifier": 0.2
     },	
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 24,
-      "hunger": 5,
+      "hunger": 4,
       "saturationModifier": 0.2
     },
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 20,
-      "hunger": 2,
-      "saturationModifier": 0.5
+      "hunger": 3,
+      "saturationModifier": 0.2
     },
     {
       "name": "kitchenCraftFoods:veggie",
@@ -921,13 +927,13 @@
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 18,
-      "hunger": 5,
+      "hunger": 4,
       "saturationModifier": 0.5
     },
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 16,
-      "hunger": 6,
+      "hunger": 7,
       "saturationModifier": 0.2
     },
     {
@@ -946,13 +952,13 @@
       "name": "kitchenCraftFoods:veggie",
       "meta": 13,
       "hunger": 6,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.2
     },
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 27,
       "hunger": 4,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.2
     },
     {
       "name": "kitchenCraftFoods:veggie",
@@ -994,7 +1000,7 @@
       "name": "kitchenCraftFoods:veggie",
       "meta": 34,
       "hunger": 4,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.2
     },
 	{
       "name": "kitchenCraftFoods:veggie",
@@ -1012,13 +1018,13 @@
       "name": "kitchenCraftFoods:veggie",
       "meta": 37,
       "hunger": 4,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.2
     },	
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 12,
       "hunger": 4,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.4
     }
   ]
 }

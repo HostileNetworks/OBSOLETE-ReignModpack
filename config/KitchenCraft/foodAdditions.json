@@ -579,7 +579,7 @@
     {
       "name": "honeyham",
       "food": "6",
-      "saturation": 4,
+      "saturation": 3,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,
@@ -827,7 +827,7 @@
     {
       "name": "rawsausage",
       "food": "4",
-      "saturation": 2,
+      "saturation": 1,
       "isMeat": true,
       "makeSeed": false,
       "isEdible": true,

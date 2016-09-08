@@ -43,6 +43,18 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:apricotglazedporkItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:bakedhamItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.6
+    },
+    {
       "name": "harvestcraft:bangersandmashItem",
       "meta": 0,
       "hunger": 8,
@@ -195,8 +207,8 @@
     {
       "name": "harvestcraft:fruitcrumbleItem",
       "meta": 0,
-      "hunger": 7,
-      "saturationModifier": 0.5
+      "hunger": 9,
+      "saturationModifier": 0.6
     },
     {
       "name": "harvestcraft:fairybreadItem",
@@ -551,6 +563,12 @@
       "meta": 0,
       "hunger": 12,
       "saturationModifier": 0.7
+    },
+    {
+      "name": "harvestcraft:porklettucewrapItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.4
     },
     {
       "name": "harvestcraft:porklomeinItem",

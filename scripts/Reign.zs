@@ -84,7 +84,9 @@ furnace.setFuel(<reignadditionals:treeSap>, 100);
 furnace.addRecipe(<Magneticraft:item.rubber>, <reignadditionals:treeSap>);
 recipes.addShapeless(<minecraft:torch>,
 	[<ore:stickWood>, <reignadditionals:treeSap>]);
-	
+
+recipes.addShapeless(<BuildCraft|Transport:pipeWaterproof>, [<Magneticraft:item.rubber>]);
+
 ##================================================================================
 # Compost/Fertiliser
 val humus = <ore:fertilizer>;
@@ -96,4 +98,6 @@ recipes.addShaped(<minecraft:dirt>*8,
 	[[newdirt, newdirt, newdirt]
 	,[newdirt, <ore:fertilizer>, newdirt]
 	,[newdirt, newdirt, newdirt]]);
+	
+
 	

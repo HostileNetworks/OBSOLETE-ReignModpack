@@ -781,3 +781,11 @@ recipes.remove(<Ztones:minicharcoal>);
 mods.nei.NEI.hide(<Ztones:minicoal>);
 mods.nei.NEI.hide(<Ztones:minicharcoal>);
 
+# Nerf lamp recipe
+recipes.remove(<Ztones:lampf>);
+recipes.addShapeless(<Ztones:lampf>, [<Ztones:lampt>]);
+recipes.addShaped(<Ztones:lampf> * 4, [
+	[<ore:ingotIron>, <ore:glass>, <ore:ingotIron>],
+	[<ore:glass>, <ore:dustGlowstone>, <ore:glass>],
+	[<ore:ingotIron>, <ore:glass>, <ore:ingotIron>]
+]);

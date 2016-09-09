@@ -1,4 +1,6 @@
-# Remove all recipes from Custom NPC's since it's an OP-only mod in thiis pack
+import mods.nei.NEI;
+
+# Remove all recipes from Custom NPC's
 
 recipes.remove(<customnpcs:npcWand>);
 recipes.remove(<customnpcs:npcMobCloner>);
@@ -354,7 +356,7 @@ recipes.remove(<customnpcs:npcUsbStick>);
 # Slingshot
 recipes.addShaped(<customnpcs:npcSlingshot>,
 	[[<ore:stickWood>, <Magneticraft:item.rubber>, <ore:stickWood>],
-	[null, <ore:stickWood>, null]]);
+	[null, <ore:rodWood>, null]]);
 # Bullets
 recipes.addShaped(<customnpcs:npcIronBullet>*16,
 	[[<ore:ingotIron>, <minecraft:gunpowder>]]);
@@ -364,3 +366,43 @@ recipes.addShaped(<customnpcs:npcBronzeBullet>*16,
 	[[<ore:ingotBronze>, <minecraft:gunpowder>]]);
 recipes.addShaped(<customnpcs:npcBlackBullet>*32,
 	[[<ore:ingotTungsten>, <minecraft:gunpowder>]]);
+
+# Guns
+recipes.addShaped(<customnpcs:npcIronGun>,
+	[[<openmodularturrets:barrelTierTwo>, <ore:ingotIron>]]);
+recipes.addShaped(<customnpcs:npcBronzeGun>,
+	[[<openmodularturrets:barrelTierThree>, <ore:ingotBronze>]]);
+recipes.addShaped(<customnpcs:npcGoldGun>,
+	[[<openmodularturrets:barrelTierFour>, <ore:ingotGold>]]);
+recipes.addShaped(<customnpcs:npcMachineGun>,
+	[[<openmodularturrets:barrelTierFive>, <ore:slabWood>, <ore:ingotIron>]]);
+recipes.addShaped(<customnpcs:npcGunChainsaw>,
+	[[<openmodularturrets:barrelTierFive>, <RotaryCraft:rotarycraft_item_misccraft:14>, <ore:ingotCarbide>]]);
+
+# Gun Repair
+recipes.addShaped(<customnpcs:npcIronGun>,
+	[[<customnpcs:npcIronGun>.anyDamage(), <ore:ingotIron>]]);
+recipes.addShaped(<customnpcs:npcBronzeGun>,
+	[[<customnpcs:npcBronzeGun>.anyDamage(), <ore:ingotBronze>]]);
+recipes.addShaped(<customnpcs:npcGoldGun>,
+	[[<customnpcs:npcGoldGun>.anyDamage(), <ore:ingotGold>]]);
+recipes.addShaped(<customnpcs:npcMachineGun>,
+	[[<customnpcs:npcMachineGun>.anyDamage(), <ore:ingotIron>]]);	
+recipes.addShaped(<customnpcs:npcGunChainsaw>,
+	[[<customnpcs:npcGunChainsaw>.anyDamage(), <ore:ingotCarbide>]]);
+
+
+NEI.hide(<customnpcs:npcWoodenGun>);
+NEI.hide(<customnpcs:npcStoneGun>);
+NEI.hide(<customnpcs:npcEmeraldGun>);
+NEI.hide(<customnpcs:npcDiamondGun>);
+NEI.hide(<customnpcs:npcWoodenBullet>);
+NEI.hide(<customnpcs:npcStoneBullet>);
+NEI.hide(<customnpcs:npcEmeraldBullet>);
+NEI.hide(<customnpcs:npcDiamondBullet>);
+	
+# Tom Foolery
+recipes.addShaped(<customnpcs:npcChickenSword>,
+    [[<Magneticraft:item.rubber>]
+	,[<Magneticraft:item.rubber>]
+	,[<ore:feather>]]);

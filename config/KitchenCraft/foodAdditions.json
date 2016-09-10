@@ -176,7 +176,8 @@
       "seedRecipe": false,
       "oreDictNames": [
         "foodChoppedgarlic",
-        "listAllherb"
+        "listAllherb",
+		"listAllspice"
       ]
     },
     {
@@ -216,7 +217,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 100,
           "chance": 0.5
         }
       ]
@@ -245,7 +246,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 100,
           "chance": 0.5
         }
       ]
@@ -297,7 +298,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 100,
           "chance": 0.7
         }
       ]
@@ -315,7 +316,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 100,
           "chance": 0.5
         }
       ]
@@ -334,7 +335,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 100,
           "chance": 0.5
         }
       ]
@@ -366,7 +367,7 @@
         {
           "name": "potion.weakness",
           "level": 0,
-          "time": 30,
+          "time": 200,
           "chance": 1
         }
       ]
@@ -385,7 +386,7 @@
       "effects": [
         {
           "name": "potion.invisibility",
-          "time": 360,
+          "time": 1200,
           "chance": 1
         }
       ]
@@ -436,7 +437,7 @@
       "effects": [
         {
           "name": "potion.wellfedPotion",
-          "time": 30,
+          "time": 300,
           "chance": 1
         }
       ]
@@ -454,7 +455,7 @@
       "effects": [
         {
           "name": "potion.wellfedPotion",
-          "time": 30,
+          "time": 300,
           "chance": 1
         }
       ]
@@ -472,7 +473,7 @@
       "effects": [
         {
           "name": "potion.wellfedPotion",
-          "time": 30,
+          "time": 300,
           "chance": 1
         }
       ]
@@ -492,7 +493,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 100,
           "chance": 0.5
         }
       ]
@@ -512,7 +513,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 100,
           "chance": 0.7
         }
       ]
@@ -533,8 +534,8 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
-          "chance": 0.2
+          "time": 100,
+          "chance": 0.7
         }
       ]
     },
@@ -553,7 +554,7 @@
         {
           "name": "potion.moveSpeed",
           "level": 0,
-          "time": 360,
+          "time": 3600,
           "chance": 1
         }
       ]
@@ -571,7 +572,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 100,
           "chance": 0.5
         }
       ]
@@ -602,7 +603,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 100,
           "chance": 0.4
         }
       ]
@@ -622,7 +623,7 @@
         {
           "name": "potion.digSpeed",
           "level": 0,
-          "time": 360,
+          "time": 3600,
           "chance": 1
         }
       ]
@@ -641,7 +642,7 @@
         {
           "name": "potion.regeneration",
           "level": 0,
-          "time": 360,
+          "time": 3600,
           "chance": 1
         }
       ]
@@ -661,7 +662,7 @@
         {
           "name": "potion.healthBoost",
           "level": 0,
-          "time": 360,
+          "time": 3600,
           "chance": 1
         }
       ]
@@ -681,7 +682,7 @@
         {
           "name": "potion.damageBoost",
           "level": 0,
-          "time": 360,
+          "time": 2400,
           "chance": 1
         }
       ]
@@ -700,7 +701,7 @@
       "effects": [
         {
           "name": "potion.fireResistance",
-          "time": 720,
+          "time": 3600,
           "level": 2,
           "chance": 1
         }
@@ -719,7 +720,7 @@
       "effects": [
         {
           "name": "potion.waterBreathing",
-          "time": 360,
+          "time": 3600,
           "chance": 1
         }
       ]
@@ -737,7 +738,7 @@
       "effects": [
         {
           "name": "potion.nightVision",
-          "time": 360,
+          "time": 3600,
           "chance": 1
         }
       ]
@@ -755,9 +756,15 @@
       "effects": [
         {
           "name": "potion.jump",
-          "time": 300,
+          "time": 3600,
           "chance": 1
-        }
+        },
+        {
+          "name": "potion.moveSpeed",
+          "level": 0,
+          "time": 3600,
+          "chance": 1
+        }		
       ]
     },
     {
@@ -774,7 +781,7 @@
         {
           "name": "potion.resistance",
           "level": 0,
-          "time": 300,
+          "time": 2400,
           "chance": 1
         }
       ]
@@ -790,23 +797,23 @@
         {
           "name": "potion.resistance",
           "level": 1,
-          "time": 60,
+          "time": 3600,
           "chance": 1
         },
         {
           "name": "potion.heal",
-          "time": 20,
+          "time": 200,
           "level": 4,
           "chance": 1
         },
         {
           "name": "potion.confusion",
-          "time": 60,
+          "time": 100,
           "chance": 1
         },
         {
           "name": "potion.slippery",
-          "time": 60,
+          "time": 100,
           "level": 2,
           "chance": 1
         }
@@ -838,7 +845,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 300,
           "chance": 0.7
         }
       ]
@@ -853,16 +860,17 @@
     },
     {
       "name": "tomatosoupandgrilledcheese",
-      "food": "20",
-      "saturation": 20,
+      "food": "12",
+      "saturation": 8,
       "isMeat": false,
       "makeSeed": false,
       "isEdible": true,
+      "oreDictNames": [],
       "effects": [
         {
           "name": "potion.healthBoost",
           "level": 0,
-          "time": 300,
+          "time": 1200,
           "chance": 1
         }
       ]
@@ -1057,7 +1065,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 300,
           "chance": 1
         }
       ]
@@ -1072,7 +1080,7 @@
       "effects": [
         {
           "name": "potion.poison",
-          "time": 30,
+          "time": 300,
           "chance": 0.7
         }
       ]

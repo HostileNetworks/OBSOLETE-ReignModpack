@@ -91,6 +91,18 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:beetsaladItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.7
+    },
+    {
+      "name": "harvestcraft:ceasarsaladItem",
+      "meta": 0,
+      "hunger": 10,
+      "saturationModifier": 0.8
+    },
+    {
       "name": "harvestcraft:californiarollItem",
       "meta": 0,
       "hunger": 6,
@@ -181,6 +193,12 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:cornishpastyItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.5
+    },
+    {
       "name": "harvestcraft:curryItem",
       "meta": 0,
       "hunger": 6,
@@ -205,6 +223,12 @@
       "saturationModifier": 0.4
     },
     {
+      "name": "harvestcraft:eggsaladItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.8
+    },
+    {
       "name": "harvestcraft:fruitcrumbleItem",
       "meta": 0,
       "hunger": 9,
@@ -215,6 +239,12 @@
       "meta": 0,
       "hunger": 6,
       "saturationModifier": 0.5
+    },
+	{
+      "name": "harvestcraft:fishlettucewrapItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.7
     },
 	{
       "name": "harvestcraft:fishdinnerItem",
@@ -559,6 +589,12 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:pistachiobakedsalmonItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.7
+    },
+    {
       "name": "harvestcraft:ploughmanslunchItem",
       "meta": 0,
       "hunger": 12,
@@ -667,10 +703,34 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:suummerradishsaladItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.8
+    },
+    {
       "name": "harvestcraft:sundayroastItem",
       "meta": 0,
       "hunger": 20,
       "saturationModifier": 0.8
+    },
+    {
+      "name": "harvestcraft:stuffedeggplantItem",
+      "meta": 0,
+      "hunger": 10,
+      "saturationModifier": 0.8
+    },
+    {
+      "name": "harvestcraft:stuffedmushroomItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.8
+    },
+    {
+      "name": "harvestcraft:stuffedpepperItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.7
     },
     {
       "name": "harvestcraft:sweetpickleItem",
@@ -1037,6 +1097,132 @@
       "meta": 12,
       "hunger": 2,
       "saturationModifier": 0.7
+    },
+    {
+      "name": "arcticmobs:yetimeatcooked",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "arcticmobs:palesoup",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "demonmobs:pinkymeatcooked",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "demonmobs:devillasagna",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "desertmobs:joustmeatcooked",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.3
+    },	
+    {
+      "name": "desertmobs:ambercake",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "forestmobs:arisaurmeatcooked",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "forestmobs:paleosalad",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "freshwatermobs:lapisfishandchips",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },	
+    {
+      "name": "infernomobs:cephignismeatcooked",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.3
+    },	
+    {
+      "name": "infernomobs:searingtaco",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "junglemobs:concapedemeatcooked",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "junglemobs:tropicalcurry",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "mountainmobs:yalemeatcooked",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "mountainmobs:peakskebab",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "saltwatermobs:ikameatcooked",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "saltwatermobs:seashellmaki",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "swampmobs:aspidmeatcooked",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.3
+    },
+    {
+      "name": "swampmobs:mosspie",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "lycanitesmobs:battleburito",
+      "meta": 0,
+      "hunger": 10,
+      "saturationModifier": 0.7
+    },	
+    {
+      "name": "lycanitesmobs:explorersrissoto",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
     }
   ]
 }

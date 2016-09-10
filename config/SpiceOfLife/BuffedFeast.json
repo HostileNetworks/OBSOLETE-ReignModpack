@@ -5,6 +5,7 @@
 			"foodBuffedFeast"
 		],		
 		"items": [
+			"harvestcraft:spinachpieItem"
 		]
 	},	
 	"name": "Buffed Feast",	

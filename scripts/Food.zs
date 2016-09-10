@@ -3,7 +3,6 @@ import mods.nei.NEI;
 ## Dictionary Stuffs
 NEI.hide(<harvestcraft:sweetpotatosouffleItem>);
 
-
 #Herbs and Spices
 <ore:listAllspice>.addAll(<ore:listAllsavory>);
 <ore:listAllherb>.addAll(<ore:listAllsavory>);
@@ -557,6 +556,14 @@ recipes.remove(<harvestcraft:mashedsweetpotatoesItem>);
 recipes.remove(<harvestcraft:pepperoniItem>);
 recipes.remove(<harvestcraft:peaandhamsoupItem>);
 recipes.remove(<harvestcraft:apricotglazedporkItem>);
+recipes.remove(<harvestcraft:pistachiobakedsalmonItem>);
+recipes.remove(<harvestcraft:fishsandwichItem>);
+recipes.remove(<harvestcraft:stuffedpepperItem>);
+recipes.remove(<harvestcraft:cornishpastyItem>);
+recipes.remove(<harvestcraft:icecreamItem>);
+recipes.remove(<freshwatermobs:lapisfishandchips>);
+recipes.remove(<saltwatermobs:seashellmaki>);
+recipes.remove(<swampmobs:mosspie>);
 
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
@@ -688,12 +695,20 @@ recipes.addShapeless(<harvestcraft:shrimpokrahushpuppiesItem>, [<ore:toolPot>, <
 recipes.addShapeless(<minecraft:fish:0>, [<ore:listAllfishraw>]);
 <ore:listAllfishraw>.remove(<harvestcraft:firmtofuItem>);
 recipes.addShapeless(<kitchenCraftFoods:veggie:44>, [<ore:toolBakeware>, <ore:listAllfishraw>, <ore:foodFlour>]);
+recipes.addShapeless(<harvestcraft:pistachiobakedsalmonItem>, [<ore:toolBakeware>, <minecraft:cooked_fished:1>, <ore:cropPistachio>]);
+recipes.addShapeless(<freshwatermobs:lapisfishandchips>, [<freshwatermobs:silexmeatcooked>, <ore:foodFries>]);
+recipes.addShapeless(<saltwatermobs:seashellmaki>, [<saltwatermobs:ikameatcooked>, <ore:foodSteamedrice>, <ore:cropSeaweed>]);
+recipes.addShapeless(<harvestcraft:fishandchipsItem>, [<ore:listAllfishcooked>, <ore:foodFries>]);
+recipes.addShapeless(<harvestcraft:fishandchipsItem>, [<ore:listAllfishcooked>, <ore:foodZucchinifries>]);
+recipes.addShapeless(<harvestcraft:fishsandwichItem>, [<ore:toolSkillet>, <ore:listAllfishcooked>, <ore:foodMayo>, <ore:foodBread>]);
 
-# Milk
-
-#clay milk bucket
+## Milk
 recipes.addShapeless(<harvestcraft:freshmilkItem> * 2,
 [<IguanaTweaksTConstruct:clayBucketMilk>]);
+
+# Icecream made with salt instead of sugar??
+recipes.addShapeless(<harvestcraft:icecreamItem>,
+[<ore:toolMixingbowl>, <ore:listAllmilk>, <ore:listAllsugar>, <minecraft:snowball>]);
 
 ## Bread replacing sandwich recipes with cfm:ItemBreadSlice
 
@@ -811,8 +826,11 @@ recipes.addShapeless(<harvestcraft:paneertikkamasalaItem>, [<ore:toolSaucepan>, 
 # Stuffed Eggplant
 recipes.addShapeless(<harvestcraft:stuffedeggplantItem>, [<ore:toolBakeware>, <ore:cropGarlic>, <ore:cropEggplant>, <ore:foodSteamedrice>, <ore:foodCheese>, <ore:listAllegg>]);
 
+# Stuffed Peppers
+recipes.addShapeless(<harvestcraft:stuffedpepperItem>, [<ore:toolBakeware>, <ore:cropBellpepper>, <ore:cropEggplant>, <ore:foodSteamedrice>, <ore:cropTomato>,]);
+
 # Spinach Pie Fix
-recipes.addShapeless(<kitchenCraftFoods:veggie:24>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropSpinach>, <ore:cropSpinach>, <ore:foodSteamedrice>, <ore:foodCheese>]);
+recipes.addShapeless(<kitchenCraftFoods:veggie:24>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodSteamedspinach>, <ore:foodSteamedrice>, <ore:foodCheese>]);
 
 recipes.addShapeless(<harvestcraft:zucchinibakeItem>, [<ore:toolBakeware>, <ore:cropZucchini>, <ore:cropTomato>, <ore:foodCheese>, <ore:cropOnion>, <ore:cropPotato>]);
 
@@ -907,6 +925,12 @@ recipes.addShapeless(<kitchenCraftFoods:veggie:40>, [<ore:toolBakeware>, <ore:to
 
 # Uncooked Zucchini Fries
 recipes.addShapeless(<kitchenCraftFoods:veggie:43>, [<ore:toolBakeware>, <ore:toolCuttingboard>, <ore:cropZucchini>, <ore:foodSalt>, <ore:foodOliveoil>]);
+
+# Lycanites moss pie
+recipes.addShapeless(<swampmobs:mosspie>, [<ore:toolBakeware>, <ore:foodDough>, <swampmobs:aspidmeatcooked>, <BiomesOPlenty:moss>, <ore:listAllmushroom>]);
+
+# Cornish Pasty
+recipes.addShapeless(<harvestcraft:cornishpastyItem>, [<ore:toolBakeware>, <ore:foodDough>, <ore:listAllbeefcooked>, <ore:cropPotato>, <ore:cropRutabaga>, <ore:foodBlackpepper>]);
 
 ## PIZZAS ##
 
@@ -1003,3 +1027,28 @@ recipes.addShapeless(<harvestcraft:baconmushroomburgerItem>, [<ore:foodBaconchee
 recipes.addShapeless(<harvestcraft:epicbaconItem>, [<ore:toolBakeware>, <harvestcraft:maplecandiedbaconItem>, <harvestcraft:maplecandiedbaconItem>, <ore:dyeRed>, <ore:dyeBlue>, <ore:dyeYellow>, <ore:dyeGreen>, <ore:dyeMagenta>, <ore:dyePurple>]);
 
 recipes.addShapeless(<harvestcraft:chocolatebaconItem>, [<ore:toolSaucepan>, <ore:foodBacon>, <ore:foodChocolatebar>]);
+
+# Bait
+recipes.addShapeless(<harvestcraft:fishtrapbaitItem>, [<minecraft:string>, <ore:grubBee>]);
+recipes.addShapeless(<harvestcraft:fishtrapbaitItem>, [<minecraft:string>, <ore:beeQueen>]);
+
+## Tooltips
+<ore:beeQueen>.addTooltip(format.yellow("Drops from bees found in plains biomes."));
+<ore:beeQueen>.addTooltip(format.yellow("Build her an apiary to make honey"));
+<ore:herbBasil>.addTooltip(format.yellow("Ingredient in Buffed Feasts."));
+<ore:herbBasil>.addTooltip(format.yellow("Keep some handy for emergencies."));
+<ore:herbMint>.addTooltip(format.yellow("Ingredient in Buffed Feasts."));
+<ore:herbMint>.addTooltip(format.yellow("Keep some handy for emergencies."));
+<ore:herbBayleaf>.addTooltip(format.yellow("Ingredient in Buffed Feasts."));
+<ore:herbBayleaf>.addTooltip(format.yellow("Keep some handy for emergencies."));
+<ore:herbDill>.addTooltip(format.yellow("Ingredient in Buffed Feasts."));
+<ore:herbDill>.addTooltip(format.yellow("Keep some handy for emergencies."));
+<ore:herbFennel>.addTooltip(format.yellow("Ingredient in Buffed Feasts."));
+<ore:herbFennel>.addTooltip(format.yellow("Keep some handy for emergencies."));
+<ore:herbChives>.addTooltip(format.yellow("Ingredient in Buffed Feasts."));
+<ore:herbChives>.addTooltip(format.yellow("Keep some handy for emergencies."));
+<ore:herbRosemary>.addTooltip(format.yellow("Ingredient in Buffed Feasts."));
+<ore:herbRosemary>.addTooltip(format.yellow("Keep some handy for emergencies."));
+<ore:herbParsley>.addTooltip(format.yellow("Ingredient in Buffed Feasts."));
+<ore:herbParsley>.addTooltip(format.yellow("Keep some handy for emergencies."));
+

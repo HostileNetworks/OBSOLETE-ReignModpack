@@ -728,6 +728,12 @@
     },
     {
       "name": "kitchenCraftFoods:meat",
+      "meta": 9,
+      "hunger": 20,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "kitchenCraftFoods:meat",
       "meta": 18,
       "hunger": 20,
       "saturationModifier": 1.5
@@ -956,6 +962,12 @@
     },
     {
       "name": "kitchenCraftFoods:veggie",
+      "meta": 26,
+      "hunger": 12,
+      "saturationModifier": 0.8
+    },
+    {
+      "name": "kitchenCraftFoods:veggie",
       "meta": 27,
       "hunger": 4,
       "saturationModifier": 0.2
@@ -1023,8 +1035,8 @@
     {
       "name": "kitchenCraftFoods:veggie",
       "meta": 12,
-      "hunger": 4,
-      "saturationModifier": 0.4
+      "hunger": 2,
+      "saturationModifier": 0.7
     }
   ]
 }

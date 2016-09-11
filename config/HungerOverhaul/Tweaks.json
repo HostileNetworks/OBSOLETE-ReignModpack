@@ -63,7 +63,7 @@
     {
       "name": "harvestcraft:batteredsausageItem",
       "meta": 0,
-      "hunger": 6,
+      "hunger": 8,
       "saturationModifier": 0.8
     },
     {
@@ -81,8 +81,8 @@
     {
       "name": "harvestcraft:beansontoastItem",
       "meta": 0,
-      "hunger": 8,
-      "saturationModifier": 0.5
+      "hunger": 9,
+      "saturationModifier": 0.6
     },
     {
       "name": "harvestcraft:beetburgerItem",
@@ -141,7 +141,7 @@
     {
       "name": "harvestcraft:chickengumboItem",
       "meta": 0,
-      "hunger": 8,
+      "hunger": 11,
       "saturationModifier": 0.5
     },
     {
@@ -251,6 +251,12 @@
       "meta": 0,
       "hunger": 8,
       "saturationModifier": 0.5
+    },
+	{
+      "name": "harvestcraft:fishsticksItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.7
     },	
     {
       "name": "harvestcraft:friedpecanokraItem",
@@ -747,8 +753,8 @@
     {
       "name": "harvestcraft:toadintheholeItem",
       "meta": 0,
-      "hunger": 7,
-      "saturationModifier": 0.5
+      "hunger": 9,
+      "saturationModifier": 0.8
     },
     {
       "name": "harvestcraft:tunapotatoItem",
@@ -777,7 +783,7 @@
     {
       "name": "harvestcraft:yorkshirepuddingItem",
       "meta": 0,
-      "hunger": 5,
+      "hunger": 8,
       "saturationModifier": 0.5
     },
     {

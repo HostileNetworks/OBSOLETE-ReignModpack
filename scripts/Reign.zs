@@ -2,12 +2,20 @@ import mods.nei.NEI;
 
 # Tooltips
 var eggshell = <exoticbirds:eggshell>;
-eggshell.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
 var rotten = <enviromine:rottenFood>;
-rotten.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
 var fossil = <UndergroundBiomes:fossilPiece:*>;
-fossil.addTooltip(format.yellow("crafts into bonemeal"));
 var newdirt = <ore:newdirt>;
+var candle = <ore:listAllcandle>;
+var treeSap = <reignadditionals:treeSap>;
+var rubber = <Magneticraft:item.rubber>;
+val humus = <ore:fertilizer>;
+
+eggshell.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
+
+rotten.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
+
+fossil.addTooltip(format.yellow("crafts into bonemeal"));
+
 newdirt.add(<BiomesOPlenty:hardDirt>);
 newdirt.add(<BiomesOPlenty:driedDirt>);
 newdirt.add(<BiomesOPlenty:newBopDirt:*>);
@@ -15,7 +23,7 @@ newdirt.add(<BiomesOPlenty:hardSand>);
 newdirt.add(<etfuturum:coarse_dirt>);
 
 # RC Lanterns use candles
-var candle = <ore:listAllcandle>;
+
 candle.add(<harvestcraft:pamcandleDeco1>);
 candle.add(<harvestcraft:pamcandleDeco2>);
 candle.add(<harvestcraft:pamcandleDeco3>);
@@ -79,17 +87,17 @@ recipes.addShapeless(<HarderWildlife:rawLeather>,
 
 ##================================================================================
 # Treesap stuff
-<ore:slimeball>.add(<reignadditionals:treeSap>);
-furnace.setFuel(<reignadditionals:treeSap>, 100);
-furnace.addRecipe(<Magneticraft:item.rubber>, <reignadditionals:treeSap>);
+<ore:slimeball>.add(treeSap);
+furnace.setFuel(treeSap, 100);
+furnace.addRecipe(rubber, treeSap);
 recipes.addShapeless(<minecraft:torch>,
-	[<ore:stickWood>, <reignadditionals:treeSap>]);
+	[<ore:stickWood>, treeSap]);
 
-recipes.addShapeless(<BuildCraft|Transport:pipeWaterproof>, [<Magneticraft:item.rubber>]);
+recipes.addShapeless(<BuildCraft|Transport:pipeWaterproof>, [rubber]);
 
 ##================================================================================
 # Compost/Fertiliser
-val humus = <ore:fertilizer>;
+
 humus.add(<GardenCore:compost_pile>);
 humus.add(<Botany:misc:5>);
 humus.add(<Forestry:fertilizerBio>);
@@ -99,5 +107,13 @@ recipes.addShaped(<minecraft:dirt>*8,
 	,[newdirt, <ore:fertilizer>, newdirt]
 	,[newdirt, newdirt, newdirt]]);
 	
-
+# Camelpack from rubber
+recipes.addShaped(<enviromine:camelPack>,
+    [[rubber, rubber, rubber]
+	,[rubber, <minecraft:glass_bottle>, rubber]
+	,[rubber, rubber, rubber]]);
 	
+recipes.addShaped(<enviromine:camelPack:75>,
+    [[rubber, rubber, rubber]
+	,[rubber, <minecraft:potion>.giveBack(<minecraft:glass_bottle>), rubber]
+	,[rubber, rubber, rubber]]);

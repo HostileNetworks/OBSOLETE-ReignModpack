@@ -561,6 +561,7 @@ recipes.remove(<harvestcraft:fishsandwichItem>);
 recipes.remove(<harvestcraft:stuffedpepperItem>);
 recipes.remove(<harvestcraft:cornishpastyItem>);
 recipes.remove(<harvestcraft:icecreamItem>);
+recipes.remove(<harvestcraft:vindalooItem>);
 recipes.remove(<freshwatermobs:lapisfishandchips>);
 recipes.remove(<saltwatermobs:seashellmaki>);
 recipes.remove(<swampmobs:mosspie>);
@@ -822,6 +823,9 @@ recipes.addShapeless(<harvestcraft:rainbowcurryItem>, [<ore:cuttingboardItem>, <
 # Paneer and Paneertikkamasala recipe fix
 recipes.addShapeless(<harvestcraft:paneerItem>, [<ore:toolPot>, <ore:listAllmilk>, <ore:foodVinegar>, <ore:foodSalt>]);
 recipes.addShapeless(<harvestcraft:paneertikkamasalaItem>, [<ore:toolSaucepan>, <ore:foodPaneer>, <ore:foodGarammasala>, <ore:listAllchickencooked>, <ore:cropChilipepper>, <ore:foodCoconutcream>]);
+
+# Vindaloo
+recipes.addShapeless(<harvestcraft:vindalooItem>, [<ore:toolSaucepan>, <ore:listAllmeatcooked>, <ore:foodCurrypowder>, <ore:foodButter>, <ore:foodBlackpepper>, <ore:cropOnion>]);
 
 # Stuffed Eggplant
 recipes.addShapeless(<harvestcraft:stuffedeggplantItem>, [<ore:toolBakeware>, <ore:cropGarlic>, <ore:cropEggplant>, <ore:foodSteamedrice>, <ore:foodCheese>, <ore:listAllegg>]);

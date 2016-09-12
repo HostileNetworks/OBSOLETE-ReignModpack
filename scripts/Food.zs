@@ -558,6 +558,7 @@ recipes.remove(<harvestcraft:peaandhamsoupItem>);
 recipes.remove(<harvestcraft:apricotglazedporkItem>);
 recipes.remove(<harvestcraft:pistachiobakedsalmonItem>);
 recipes.remove(<harvestcraft:fishsandwichItem>);
+recipes.remove(<harvestcraft:fishdinnerItem>);
 recipes.remove(<harvestcraft:stuffedpepperItem>);
 recipes.remove(<harvestcraft:cornishpastyItem>);
 recipes.remove(<harvestcraft:icecreamItem>);
@@ -702,6 +703,7 @@ recipes.addShapeless(<saltwatermobs:seashellmaki>, [<saltwatermobs:ikameatcooked
 recipes.addShapeless(<harvestcraft:fishandchipsItem>, [<ore:listAllfishcooked>, <ore:foodFries>]);
 recipes.addShapeless(<harvestcraft:fishandchipsItem>, [<ore:listAllfishcooked>, <ore:foodZucchinifries>]);
 recipes.addShapeless(<harvestcraft:fishsandwichItem>, [<ore:toolSkillet>, <ore:listAllfishcooked>, <ore:foodMayo>, <ore:foodBread>]);
+recipes.addShapeless(<harvestcraft:fishdinnerItem>, [<ore:toolSkillet>, <ore:cropLemon>, <ore:listAllfishcooked>, <ore:foodMayo>, <ore:foodFlour>]);
 
 ## Milk
 recipes.addShapeless(<harvestcraft:freshmilkItem> * 2,
@@ -865,7 +867,9 @@ recipes.addShapeless(<kitchenCraftFoods:meat:21>, [<ore:toolBakeware>, <harvestc
 recipes.addShapeless(<kitchenCraftFoods:meat:19>, [<ore:listAllfishcooked>, <ore:foodLoadedbakedpotato>, <ore:listAllsalad>, <ore:listAllmilkshake>]);
 
 # Seafood feast
-recipes.addShapeless(<kitchenCraftFoods:meat:18>, [<ore:toolCuttingboard>, <ore:foodCookedfish>, <ore:foodCalamaricooked>, <ore:foodShrimpcooked>, <ore:herbDill>, <ore:listAllsalad>, <ore:desertIcecream>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:18>, [<ore:toolCuttingboard>, <ore:listAllfishcooked>, <ore:foodCalamaricooked>, <ore:cookedSeafood>, <ore:herbDill>, <ore:listAllsalad>, <ore:desertIcecream>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:18>, [<ore:toolCuttingboard>, <ore:foodFishandchips>, <ore:herbDill>, <ore:listAllsalad>, <ore:desertIcecream>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:18>, [<ore:toolCuttingboard>, <ore:foodFishdinner>, <ore:herbDill>, <ore:listAllsalad>, <ore:desertIcecream>]);
 
 ## PIES ##
 

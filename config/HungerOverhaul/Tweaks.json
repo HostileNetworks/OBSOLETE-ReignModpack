@@ -944,6 +944,12 @@
     },
     {
       "name": "kitchenCraftFoods:meat",
+      "meta": 22,
+      "hunger": 20,
+      "saturationModifier": 1.5
+    },
+    {
+      "name": "kitchenCraftFoods:meat",
       "meta": 23,
       "hunger": 4,
       "saturationModifier": 0.5
@@ -1219,13 +1225,13 @@
       "saturationModifier": 0.6
     },
     {
-      "name": "lycanitesmobs:battleburito",
+      "name": "lycanitesmobs:battleburrito",
       "meta": 0,
       "hunger": 10,
       "saturationModifier": 0.7
     },	
     {
-      "name": "lycanitesmobs:explorersrissoto",
+      "name": "lycanitesmobs:explorersrisotto",
       "meta": 0,
       "hunger": 8,
       "saturationModifier": 0.5

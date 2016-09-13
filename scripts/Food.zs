@@ -493,7 +493,6 @@ recipes.remove(<harvestcraft:beefwellingtonItem>);
 recipes.remove(<harvestcraft:hamburgerItem>);
 recipes.remove(<harvestcraft:cheeseburgerItem>);
 recipes.remove(<harvestcraft:mcpamItem>);
-recipes.remove(<harvestcraft:delightedmealItem>);
 recipes.remove(<harvestcraft:beetburgerItem>);
 recipes.remove(<harvestcraft:baconcheeseburgerItem>);
 recipes.remove(<harvestcraft:baconmushroomburgerItem>);
@@ -563,6 +562,17 @@ recipes.remove(<harvestcraft:stuffedpepperItem>);
 recipes.remove(<harvestcraft:cornishpastyItem>);
 recipes.remove(<harvestcraft:icecreamItem>);
 recipes.remove(<harvestcraft:vindalooItem>);
+recipes.remove(<harvestcraft:lemonchickenItem>);
+recipes.remove(<harvestcraft:garlicchickenItem>);
+recipes.remove(<harvestcraft:gingerchickenItem>);
+recipes.remove(<harvestcraft:generaltsochickenItem>);
+recipes.remove(<harvestcraft:cashewchickenItem>);
+recipes.remove(<harvestcraft:orangechickenItem>);
+recipes.remove(<harvestcraft:chickengumboItem>);
+recipes.remove(<harvestcraft:chickensandwichItem>);
+recipes.remove(<harvestcraft:chickennoodlesoupItem>);
+recipes.remove(<harvestcraft:chickencelerycasseroleItem>);
+recipes.remove(<harvestcraft:friedchickenItem>);
 recipes.remove(<freshwatermobs:lapisfishandchips>);
 recipes.remove(<saltwatermobs:seashellmaki>);
 recipes.remove(<swampmobs:mosspie>);
@@ -802,12 +812,24 @@ recipes.addShapeless(<harvestcraft:mashedpotatoesItem>, [<ore:toolMixingbowl>, <
 recipes.addShapeless(<harvestcraft:mashedsweetpotatoesItem>, [<ore:toolMixingbowl>, <harvestcraft:bakedsweetpotatoItem>, <ore:listAllmilk>]);
 
 # Fix Roasts
-recipes.remove(<harvestcraft:roastchickenItem>);
-recipes.addShapeless(<harvestcraft:roastchickenItem>, [<ore:toolBakeware>, <ore:rawChicken>, <ore:foodSalt>, <ore:foodBread>, <ore:foodRosemary>, <ore:listAllegg>]);
+recipes.addShapeless(<harvestcraft:roastchickenItem>, [<ore:toolBakeware>, <ore:listAllchickencooked>, <ore:foodBread>, <ore:foodRosemary>, <ore:listAllegg>]);
+recipes.addShapeless(<harvestcraft:lemonchickenItem>, [<ore:toolBakeware>, <ore:listAllchickencooked>, <ore:cropLemon>, <ore:foodButter>, <ore:listAllherb>]);
+recipes.addShapeless(<harvestcraft:garlicchickenItem>, [<ore:toolBakeware>, <ore:listAllchickencooked>, <ore:cropGarlic>, <ore:foodButter>, <ore:listAllherb>]);
 recipes.remove(<harvestcraft:roastpotatoesItem>);
 recipes.addShapeless(<harvestcraft:roastpotatoesItem>, [<ore:toolBakeware>, <ore:cropPotato>, <ore:foodButter>, <ore:foodChives>]);
 recipes.remove(<harvestcraft:sundayroastItem>);
 recipes.addShapeless(<harvestcraft:sundayroastItem>, [<harvestcraft:roastchickenItem>, <harvestcraft:roastpotatoesItem>, <ore:foodGlazedcarrots>, <Forestry:beverage:0>]);
+
+# Pan Chicken meals
+recipes.addShapeless(<harvestcraft:orangechickenItem>, [<ore:toolSaucepan>, <ore:listAllchickencooked>, <ore:cropOrange>, <ore:foodSteamedrice>, <ore:listAllsugar>, <ore:cropBroccoli>]);
+recipes.addShapeless(<harvestcraft:generaltsochickenItem>, [<ore:toolSkillet>, <ore:listAllchickencooked>, <ore:cropBroccoli>, <ore:foodSteamedrice>, <ore:listAllsugar>, <ore:cropChilipepper>, <ore:foodFlour>]);
+recipes.addShapeless(<harvestcraft:gingerchickenItem>, [<ore:toolSaucepan>, <ore:listAllchickencooked>, <ore:cropGinger>, <ore:cropScalion>, <ore:dropHoney>]);
+recipes.addShapeless(<harvestcraft:cashewchickenItem>, [<ore:toolSaucepan>, <ore:listAllchickencooked>, <ore:cropCashew>, <ore:listAllpepper>, <ore:foodSteamedrice>]);
+recipes.addShapeless(<harvestcraft:chickengumboItem>, [<ore:toolPot>, <ore:listAllchickencooked>, <ore:cropOkra>, <ore:cropCelery>, <ore:listAllspice>, <ore:cropOnion>, <ore:cropBellpepper>, <ore:foodStock>]);
+recipes.addShapeless(<harvestcraft:chickensandwichItem>, [<ore:toolSkillet>, <ore:listAllchickencooked>, <ore:foodBread>, <ore:foodMayo>]);
+recipes.addShapeless(<harvestcraft:chickennoodlesoupItem>, [<ore:toolPot>, <ore:listAllchickencooked>, <ore:cropCarrot>, <ore:foodPasta>, <ore:foodStock>]);
+recipes.addShapeless(<harvestcraft:chickencelerycasseroleItem>, [<ore:toolBakeware>, <ore:listAllchickencooked>, <ore:cropCarrot>, <ore:cropCellery>, <ore:cropGarlic>, <ore:listAllMushroom>]);
+recipes.addShapeless(<harvestcraft:friedchickenItem>, [<ore:toolPot>, <ore:listAllchickencooked>, <ore:foodFlour>, <ore:cropSpiceleaf>, <ore:foodBlackpepper>, <ore:foodOliveoil>]);
 
 # Curry
 recipes.remove(<harvestcraft:curryItem>);

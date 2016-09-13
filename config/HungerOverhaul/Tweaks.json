@@ -87,7 +87,7 @@
     {
       "name": "harvestcraft:beetsaladItem",
       "meta": 0,
-      "hunger": 7,
+      "hunger": 6,
       "saturationModifier": 0.7
     },
     {
@@ -145,10 +145,10 @@
       "saturationModifier": 0.5
     },
     {
-      "name": "harvestcraft:chickorollItem",
+      "name": "harvestcraft:chikorollItem",
       "meta": 0,
-      "hunger": 7,
-      "saturationModifier": 0.5
+      "hunger": 8,
+      "saturationModifier": 1.0
     },
     {
       "name": "harvestcraft:chickengumboItem",
@@ -268,7 +268,7 @@
       "name": "harvestcraft:fishlettucewrapItem",
       "meta": 0,
       "hunger": 6,
-      "saturationModifier": 0.7
+      "saturationModifier": 0.4
     },
 	{
       "name": "harvestcraft:fishdinnerItem",
@@ -345,8 +345,8 @@
     {
       "name": "harvestcraft:hamsweetpicklesandwichItem",
       "meta": 0,
-      "hunger": 8,
-      "saturationModifier": 0.5
+      "hunger": 14,
+      "saturationModifier": 0.8
     },
     {
       "name": "harvestcraft:honeysandwichItem",
@@ -389,6 +389,18 @@
       "meta": 0,
       "hunger": 8,
       "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:maplesausageItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.8
+    },
+    {
+      "name": "harvestcraft:marinatedcucumbersItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.8
     },
     {
       "name": "harvestcraft:marzipanItem",
@@ -467,18 +479,6 @@
       "meta": 0,
       "hunger": 10,
       "saturationModifier": 0.5
-    },
-    {
-      "name": "harvestcraft:maplesausageItem",
-      "meta": 0,
-      "hunger": 7,
-      "saturationModifier": 0.8
-    },
-    {
-      "name": "harvestcraft:marinatedcucumbersItem",
-      "meta": 0,
-      "hunger": 7,
-      "saturationModifier": 0.8
     },
     {
       "name": "harvestcraft:papayajellysandwichItem",
@@ -625,16 +625,28 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:picklesItem",
+      "meta": 0,
+      "hunger": 4,
+      "saturationModifier": 0.7
+    },
+    {
       "name": "harvestcraft:pickledbeetsItem",
       "meta": 0,
-      "hunger": 5,
-      "saturationModifier": 0.5
+      "hunger": 4,
+      "saturationModifier": 0.7
     },
     {
       "name": "harvestcraft:pickledonionsItem",
       "meta": 0,
-      "hunger": 5,
-      "saturationModifier": 0.5
+      "hunger": 4,
+      "saturationModifier": 0.7
+    },
+    {
+      "name": "harvestcraft:pineapplehamItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.8
     },
     {
       "name": "harvestcraft:pistachiobakedsalmonItem",
@@ -651,7 +663,7 @@
     {
       "name": "harvestcraft:porklettucewrapItem",
       "meta": 0,
-      "hunger": 5,
+      "hunger": 6,
       "saturationModifier": 0.4
     },
     {
@@ -796,7 +808,7 @@
       "name": "harvestcraft:sweetpickleItem",
       "meta": 0,
       "hunger": 5,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.7
     },
     {
       "name": "harvestcraft:timtamItem",

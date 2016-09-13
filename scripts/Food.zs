@@ -21,6 +21,11 @@ val bread = <ore:foodBread>;
 bread.add(<cfm:ItemBreadSlice>);
 bread.add(<minecraft:bread>);
 
+#Yeast
+val yeast = <ore:yeast>;
+yeast.add(<RotaryCraft:rotarycraft_item_yeast>);
+yeast.add(<ExtraTrees:misc:6>);
+
 #Salt
 recipes.addShapeless(<harvestcraft:saltItem>, [<Magneticraft:item.dustSalt>]);
 recipes.addShapeless(<harvestcraft:saltItem>, [<Mekanism:Salt>]);
@@ -678,7 +683,7 @@ furnace.addRecipe(<harvestcraft:saltItem>,<ore:listAllwater>);
 ##================== Crafting Additions ==================##
 
 # Yeast Dough
-recipes.addShapeless(<harvestcraft:doughItem> * 2, [<ore:toolMixingbowl>, <ore:foodSalt>, <ore:foodFlour>, <ore:listAllwater>, <RotaryCraft:rotarycraft_item_yeast>]);
+recipes.addShapeless(<harvestcraft:doughItem> * 2, [<ore:toolMixingbowl>, <ore:foodSalt>, <ore:foodFlour>, <ore:listAllwater>, <ore:yeast>]);
 
 # casings
 recipes.addShapeless(<kitchenCraftFoods:veggie:11> * 2, [<kitchenCraftFoods:veggie:10>, <ore:toolCuttingboard>, <ore:listAllwater>]);
@@ -1048,7 +1053,7 @@ recipes.addShapeless(<harvestcraft:pineapplehamItem>, [<ore:toolSkillet>, <ore:f
 
 
 # proper vegemite recipe - forgot the salt
-recipes.addShapeless(<harvestcraft:vegemiteItem>, [<ore:toolSaucepan>, <ore:foodSalt>, <ore:cropBarley>, <RotaryCraft:rotarycraft_item_yeast>, <ore:foodFlour>, <minecraft:sugar>]);
+recipes.addShapeless(<harvestcraft:vegemiteItem>, [<ore:toolSaucepan>, <ore:foodSalt>, <ore:cropBarley>, <ore:yeast>, <ore:foodFlour>, <minecraft:sugar>]);
 
 # Fix bacon recipes
 

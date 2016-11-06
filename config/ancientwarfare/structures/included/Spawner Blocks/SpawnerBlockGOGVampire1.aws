@@ -1,0 +1,60 @@
+# Ancient Warfare Structure Template File
+# Auto-generated structure template file. created on: 3/31/2015 at: 10:27:44
+# Lines beginning with # denote comments
+
+header:
+version=2.1
+name=SpawnerBlockGOGVampire1
+size=1,2,1
+offset=0,0,0
+:endheader
+
+#### VALIDATION ####
+validation:
+type=ground
+survival=false
+worldGenEnabled=true
+unique=false
+preserveBlocks=false
+selectionWeight=0
+clusterValue=0
+minDuplicateDistance=0
+dimensionWhiteList=false
+dimensionList=
+biomeWhiteList=false
+biomeList=
+leveling=0
+fill=0
+border=0
+validTargetBlocks=
+blockSwap=false
+data:
+:enddata
+:endvalidation
+
+#### LAYERS ####
+layer: 0
+1
+:endlayer
+layer: 1
+2
+:endlayer
+
+#### RULES ####
+rule:
+plugin=vanillaBlocks
+number=1
+data:
+JSON:{{"val":{"blockName":{"val":"minecraft:stonebrick","id":"ss"},"meta":{"val":"2","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
+:enddata
+:endrule
+
+rule:
+plugin=awTownHall
+number=2
+data:
+JSON:{{"val":{"teData":{"val":{"id":{"val":"advanced_spawner_tile","id":"ss"},"spawnerSettings":{"val":{"spawnDelay":{"val":"1713","id":"pi"},"debugMode":{"val":"0","id":"pb"},"respondToRedstone":{"val":"0","id":"pb"},"minDelay":{"val":"100","id":"pi"},"inventory":{"val":{"itemList":{"val":[],"id":"ls"}},"id":"ct"},"lightSensitive":{"val":"0","id":"pb"},"playerRange":{"val":"2","id":"pi"},"maxNearbyMonsters":{"val":"30","id":"pi"},"maxDelay":{"val":"2400","id":"pi"},"transparent":{"val":"1","id":"pb"},"spawnGroups":{"val":[{"val":{"settingsList":{"val":[{"val":{"remainingSpawnCount":{"val":"1","id":"pi"},"entityId":{"val":"GrimoireOfGaia.Vampire","id":"ss"},"minToSpawn":{"val":"1","id":"pi"},"maxToSpawn":{"val":"1","id":"pi"}},"id":"ct"}],"id":"ls"},"groupWeight":{"val":"1","id":"pi"}},"id":"ct"}],"id":"ls"},"xpToDrop":{"val":"300","id":"pi"}},"id":"ct"},"z":{"val":"-379","id":"pi"},"y":{"val":"69","id":"pi"},"x":{"val":"497","id":"pi"}},"id":"ct"},"blockName":{"val":"AncientWarfareStructure:advanced_spawner","id":"ss"},"meta":{"val":"0","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
+:enddata
+:endrule
+
+#### ENTITIES ####

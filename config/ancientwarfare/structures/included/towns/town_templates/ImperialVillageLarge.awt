@@ -1,0 +1,104 @@
+### Ancient Warfare Town Template ###
+# a line beginning with # denotes a comment line, and is ignored during parsing
+# the line must -start- with # to be ignored, mid-line comments are not allowed
+header:
+name=ImperialVillageLarge
+minSize=6
+maxSize=8
+buildingExpansion=2
+selectionWeight=5
+clusterValue=100
+townBlockSize=44
+townPlotSize=3
+wallStyle=0
+wallSize=0
+exteriorSize=2
+exteriorPlotSize=3
+interiorEmptyPlotChance=0
+randomVillagersPerChunk=0
+roadBlock=minecraft:gravel
+roadMeta=0
+biomeWhiteList=true
+biomeList=shrubland,scrubland,extrabiomes.meadow,highlands_lowlands,plains,origin valley,highlands_valley,orchard,meadow,lavender fields,flower field,meadow forest,highlands_meadow,birch forest,birch forest m
+dimensionWhiteList=true
+dimensionList=0
+lamp=lamp_post
+:endheader
+
+#wall type registry
+#name:type:id:weight
+walls:
+:endwalls
+
+#wall patterns
+#size:pattern
+#patterns reference the wall id number from above.  enter a non-registered number in the pattern for an empty spot (used for large-sized wall corners)
+wallPatterns:
+:endWallPaterns
+
+#list of structures, one per line
+uniqueStructures:
+ImperialwatchTollGate
+ImperialInnTravellersRest
+ImperialInnSlaughteredLamb
+ImperialMerchantLarge
+ImperialChurchVillageChurch
+TownBlocksMarketAndShops
+TownBlocksBurgherTower
+:endUniqueStructures
+
+#list of structures, one per line
+mainStructures:
+ImperialBlacksmithsLarge
+ImperialMillOldFangled
+ImperialMillNewFangled
+ImperialBlacksmithSmall
+TownBlocksMCStyleBlacksmiths
+TownBlocksMCstyleLibrary
+ImperialChurchVillageChapel
+:endMainStructures
+
+#list of structure templates w/weight, to be used to fill in random positions post-generation
+#structure_name:weight
+houseStructures:
+ImperialChurchRoadsideShrine:1
+ImperialBlacksmithOpenForge:1
+ImperialMerchantSmall:2
+ImperialWell:1
+TownBlocksSingleHouse3:1
+TownBlocksSingleHouse4:1
+TownBlocksSingleHouse6:1
+:endHouseStructures
+
+#list of structure templates w/weight, to be used to fill in random positions post-generation
+#structure_name:weight
+cosmeticStructures:
+TownBlocksFillerSmallChickenCoup:3
+TownBlocksFillerSmallLogPile:2
+TownBlocksFillerSmallPigPen:3
+TownBlocksFillerSmallStables:2
+TownBlocksFillerSmallWorkshed:2
+TownBlocksFillerSmallLampPost:1
+:endCosmeticStructures
+
+#list of structure templates w/weight, to be used to fill in random positions post-generation
+#structure_name:weight
+exteriorStructures:
+ImperialWatchtower:2
+ExteriorFarmFieldGrainSmallMOH:4
+ExteriorFieldMixedSmallMOH:4
+ExteriorMelonPatchFieldMOH:3
+ImperialBarn:3
+ImperialFarmPeasantSmall:2
+ImperialFarmPeasant:2
+ImperialChickenFarmPeasant:3
+ImperialChickenFarmYeoman:3
+ImperialPigFarmPeasant:3
+ImperialPigFarmYeoman:3
+ImperialSheepFarmYeoman:3
+ImperialCowFarmYeoman:3
+ImperialCowField:2
+ImperialLumberjackGeneric:3
+ImperialCowshed:3
+ImperialMelonFarmYeoman:3
+:endExteriorStructures

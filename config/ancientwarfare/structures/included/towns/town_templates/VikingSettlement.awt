@@ -1,0 +1,100 @@
+### Ancient Warfare Town Template ###
+# a line beginning with # denotes a comment line, and is ignored during parsing
+# the line must -start- with # to be ignored, mid-line comments are not allowed
+header:
+name=VikingSettlement
+minSize=6
+maxSize=12
+buildingExpansion=2
+selectionWeight=30
+clusterValue=300
+townBlockSize=44
+townPlotSize=3
+wallStyle=2
+wallSize=3
+exteriorSize=0
+exteriorPlotSize=3
+interiorEmptyPlotChance=0
+randomVillagersPerChunk=0
+roadBlock=minecraft:clay
+roadMeta=0
+biomeWhiteList=True
+biomeList=tundra,frost forest,cold taiga m,ice plains spikes,mega taiga hills,taiga m,cold taiga,mega taiga,cold taiga hills,cold beach,glacier,taiga hills,arctic,mega spruce taiga,snowy coniferous forest,taiga,ice plains,alps forest
+dimensionWhiteList=true
+dimensionList=0
+lamp=lamp_post
+:endheader
+
+#wall type registry
+#name:type:id:weight
+walls:
+wall_bandit_corner:corner:0:10
+wall_bandit_straight:wall:1:10
+wall_bandit_gate:gate:2:10
+wall_bandit_rgate:rgate:3:10
+wall_bandit_lgate:lgate:4:10
+:endwalls
+
+#wall patterns
+#size:pattern
+#patterns reference the wall id number from above.  enter a non-registered number in the pattern for an empty spot (used for large-sized wall corners)
+wallPatterns:
+:endWallPaterns
+
+#list of structures, one per line
+uniqueStructures:
+VikingJarlsHall
+VikingBloodJarlsHall
+VikingThing
+VikingWeaponForgeLarge
+VikingTempleofOdin
+VikingTempleofThor
+VikingCouncilHall
+:endUniqueStructures
+
+#list of structures, one per line
+mainStructures:
+VikingBarracks
+VikingTower
+VikingBeaconTower
+VikingSmithyLarge
+:endMainStructures
+
+#list of structure templates w/weight, to be used to fill in random positions post-generation
+#structure_name:weight
+houseStructures:
+Viking Smithy Small:4
+Viking House 1:2
+Viking House 2:2
+Viking House 4:2
+Viking House 6:2
+Viking House Small:2
+Viking Farmhouse Small:2
+:endHouseStructures
+
+#list of structure templates w/weight, to be used to fill in random positions post-generation
+#structure_name:weight
+cosmeticStructures:
+Viking Stables:2
+Viking Workshed:2
+Viking Pigpen:2
+Viking Henhouse:2
+Viking Woodpile:1
+Viking lamppost:1
+Viking Field Large:1
+Viking Field Small:1
+Viking House Small 2:1
+Viking House Small 3:1
+Viking House Small 5:1
+Viking A Frame small house:1
+:endCosmeticStructures
+
+#list of structure templates w/weight, to be used to fill in random positions post-generation
+#structure_name:weight
+exteriorStructures:
+Viking Field Large:1
+Viking Field Small:1
+Viking Woodpile:1
+Viking Farm:2
+Viking Farmhouse Small:1
+:endExteriorStructures

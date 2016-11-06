@@ -93,6 +93,7 @@ exoticbirds.SwanEgg
 DragonAPI.Tumbling Block
 Skeleton
 SmallFireball
+Apocalypse.Ghost
 ReactorCraft.Plasma
 shadowmobs.shade
 Metallurgy.explosiveEntity
@@ -100,12 +101,12 @@ infernomobs.magma
 SpecialMobs.FaintGhast
 SpecialMobs.GiantPigZombie
 exoticbirds.FlamingoEgg
-ESM_Ghast
 GrimoireOfGaia.Swamper
 customnpcs.npcEnderman
 shadowmobs.geist
 Railcraft.cart.furnace
 Spider
+Apocalypse.SeekerFireball
 swampmobs.ettin
 swampmobs.ghoulzombie
 GrimoireOfGaia.Naga
@@ -156,6 +157,7 @@ Railcraft.cart.loco.creative
 Railcraft.railcraft.cart.tnt
 BiblioCraft.SeatEntity
 OpenComputers.Drone
+Apocalypse.Grump
 GrimoireOfGaia.Cyclops
 Thaumcraft.MindSpider
 Thaumcraft.FallingTaint
@@ -219,7 +221,6 @@ SpecialMobs.SMFishHook
 Forestry.butterflyGE
 freshwatermobs.strider
 SpecialMobs.FishingSilverfish
-NEAT_Zombie
 plainsmobs.makaalpha
 Thaumcraft.EldritchGolem
 exoticbirds.EB_Peafowl
@@ -294,6 +295,7 @@ exoticbirds.EB_Vulture
 SpecialMobs.DirtCreeper
 farlanders.Looter
 SpecialMobs.FireCreeper
+Apocalypse.DestroyerFireball
 GraveStone.GSSkullCrawler
 CarpentersBlocks.CarpentersTile
 lycanitesmobs.fear
@@ -334,6 +336,7 @@ infernomobs.cephignis
 npcdwarfmale
 Thaumcraft.ThaumSlime
 exoticbirds.HummingbirdEgg
+Apocalypse.Destroyer
 Railcraft.railcraft.cart.track.relayer
 SpecialMobs.SmolderBlaze
 chisel.BallOMoss
@@ -346,6 +349,7 @@ GrimoireOfGaia.Siren
 EntityHorse
 AncientWarfareNpc.pirate.leader
 farlanders.Wanderer
+MonsterSwarm.RocketEntity
 RotaryCraft.Ice Block
 MinecartTNT
 Villager
@@ -379,6 +383,7 @@ soundEntity
 SpecialMobs.BlindingSilverfish
 GrimoireOfGaia.Slime Girl
 SpecialMobs.HungryZombie
+Apocalypse.Seeker
 GalacticraftCore.EvolvedSkeletonBoss
 customnpcs.CustomNpc
 ZAMod.EntityScent
@@ -595,6 +600,7 @@ Railcraft.cart.loco.electric
 junglemobs.concapedesegment
 customnpcs.npcfurrymale
 BiomesOPlenty.Bird
+Apocalypse.FishHook
 Railcraft.railcraft.cart.basic
 Squid
 npcpony
@@ -758,6 +764,7 @@ etfuturum.snow_golem
 exnihilo.Broken Stone
 SpecialMobs.ToughSpider
 demonmobs.hellfirebarrier
+Apocalypse.Breecher
 SpecialMobs.WitchSpider
 GalacticraftCore.EvolvedBossWolf
 SpecialMobs.EnderCreeper

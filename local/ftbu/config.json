@@ -54,7 +54,6 @@
     "forced_explosions": "enabled",
     "max_claims": 0,
     "max_homes": 0,
-    "max_loaded_chunks": 30000,
     "show_rank": true
   },
   "permissions_player": {
@@ -72,7 +71,6 @@
     "forced_explosions": "enabled",
     "max_claims": 0,
     "max_homes": 0,
-    "max_loaded_chunks": 30000,
     "show_rank": true
   },
   "tops": {

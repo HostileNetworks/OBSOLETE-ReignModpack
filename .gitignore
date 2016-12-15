@@ -12,3 +12,6 @@
 !.gitignore
 !options.txt
 
+# individual "config" files that are client-generated
+config/AppliedEnergistics2/recipesitems.csv
+

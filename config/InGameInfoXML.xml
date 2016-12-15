@@ -1,38 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <config>
-    <lines at="topleft">
-        <line>
-            <str>Day {day}, </str>
-            <if>
-                <var>daytime</var>
-                <var>yellow</var>
-                <var>darkgrey</var>
-            </if>
-            <str>{mctime}</str>
-            <var>white</var>
-        </line>
-        <line>
-            <str>{xi}x{yfeeti}x{zi}</str>
-        </line>
-        <line>
-            <str>Chunk: {chunkoffsetx}x{chunkoffsetz}</str>
-        </line>
-        <line>
-            <str>Light (No sun): </str>
-            <op>
-                <str>gt</str> <!-- >= -->
-                <var>lightnosunfeet</var>
-                <num>7</num>
-                <var>yellow</var>
-                <var>red</var>
-            </op>
-            <str>{lightnosunfeet}</str>
-            <var>white</var>
-        </line>
-        <line>
-            <str>{biome}$f</str>
-        </line>
-    </lines>
     <lines at="topcenter">
         <line>
             <str>{directionhud}</str>

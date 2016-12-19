@@ -49,7 +49,7 @@ mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:stoneDecoration:3>);
 recipes.remove(<Railcraft:nugget:0>);
 furnace.remove(<Railcraft:nugget:0>);
 furnace.addRecipe(<TConstruct:materials:19> * 2, <ore:orePoorIron>);
-mods.nei.NEI.hide(<Railcraft:nugget:0>);
+# *** NEI hidden via InpureCore ReignModpack.js
 
 # Only use Railcraft's Lead Block
 for blockLead in <ore:blockLead>.items {

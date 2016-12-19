@@ -778,8 +778,7 @@ recipes.addShapeless(<Ztones:stoneTile>, [<Ztones:tile.ztylBlock:*>]);
 # Conflict with Galacticraft Planets' "Fragmented Carbon"
 recipes.remove(<Ztones:minicoal>);
 recipes.remove(<Ztones:minicharcoal>);
-mods.nei.NEI.hide(<Ztones:minicoal>);
-mods.nei.NEI.hide(<Ztones:minicharcoal>);
+# *** NEI hidden via InpureCore ReignModpack.js
 
 # Nerf lamp recipe
 recipes.remove(<Ztones:lampf>);

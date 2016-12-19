@@ -27,7 +27,7 @@ recipes.addShapeless(<Magneticraft:item.ingotTungsten>, [<RotaryCraft:rotarycraf
 
 # Prefer M4 stuff
 recipes.remove(<Magneticraft:item.dustBrass:0>);
-mods.nei.NEI.hide(<Magneticraft:item.dustBrass:0>);
+# *** NEI hidden via InpureCore ReignModpack.js
 
 # Remove Iron Stick (pointless, Iron Tool Rod is a better equivalent)
 recipes.remove(<Magneticraft:item.stick_iron:0>);

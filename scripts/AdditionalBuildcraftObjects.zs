@@ -1,4 +1,7 @@
-# Prefer OpenBlocks Big Button
-recipes.remove(<Additional-Buildcraft-Objects:largebuttonstone>);
-mods.nei.NEI.hide(<Additional-Buildcraft-Objects:largebuttonstone>);
+###############
+### REMOVALS
+###############
 
+# Big Button (prefer Open Blocks version)
+recipes.remove(<Additional-Buildcraft-Objects:largebuttonstone>);
+# *** NEI hidden via InpureCore ReignModpack.js

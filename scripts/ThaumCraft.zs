@@ -14,7 +14,5 @@ recipes.remove(<Thaumcraft:ItemNugget:2>);
 mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:0>);
 mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:1>);
 mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:2>);
-mods.nei.NEI.hide(<Thaumcraft:ItemNugget:0>);
-mods.nei.NEI.hide(<Thaumcraft:ItemNugget:1>);
-mods.nei.NEI.hide(<Thaumcraft:ItemNugget:2>);
+# *** NEI hidden via InpureCore ReignModpack.js
 

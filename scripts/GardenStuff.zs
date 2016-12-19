@@ -40,4 +40,4 @@ recipes.addShaped(darkoakLattice * 8, [[null,darkoakSlab,null],[darkoakSlab,dark
 
 # Prefer TiC Iron Nuggets
 recipes.remove(<GardenStuff:iron_nugget:0>);
-mods.nei.NEI.hide(<GardenStuff:iron_nugget:0>);
+# *** NEI hidden via InpureCore ReignModpack.js

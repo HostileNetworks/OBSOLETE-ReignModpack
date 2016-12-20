@@ -1,0 +1,4 @@
+2016-12-20
+
+ - Based on latest Unity pack for 1.7.10
+ - Updated RotaryCraft item textures, but disabled "modingots" texture sheets so originals are used (too much work to update)

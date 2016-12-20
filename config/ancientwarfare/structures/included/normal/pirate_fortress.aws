@@ -12,7 +12,7 @@ offset=13,1,26
 #### VALIDATION ####
 validation:
 type=ground
-survival=false
+survival=true
 worldGenEnabled=true
 unique=false
 preserveBlocks=false

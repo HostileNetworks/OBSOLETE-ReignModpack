@@ -592,6 +592,7 @@ recipes.remove(<harvestcraft:hamsweetpicklesandwichItem>);
 recipes.remove(<freshwatermobs:lapisfishandchips>);
 recipes.remove(<saltwatermobs:seashellmaki>);
 recipes.remove(<swampmobs:mosspie>);
+recipes.remove(<harvestcraft:wovencottonItem>);
 
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
@@ -1017,6 +1018,11 @@ recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<Thaumcraft:blockTaint:2>]);
 recipes.addShapeless(<ganyssurface:pineNuts>, [<BiomesOPlenty:misc:13>]);
 
 # cheeses
+recipes.addShaped(<harvestcraft:wovencottonItem>,[
+    [<minecraft:string>, null, <minecraft:string>],
+    [null, <minecraft:string>, null],
+    [<minecraft:string>, null, <minecraft:string>]]);
+
 recipes.addShapeless(<kitchenCraftFoods:veggie:19>, [<ore:toolSaucepan>, <ore:listAllrennet>, <ore:listAllmilk>, <harvestcraft:wovencottonItem>]);
 
 recipes.addShapeless(<harvestcraft:cheeseItem> * 6, [<ore:toolCuttingboard>, <kitchenCraftFoods:veggie:18>]);

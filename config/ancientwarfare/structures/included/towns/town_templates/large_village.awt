@@ -6,7 +6,7 @@ name=large_village
 minSize=4
 maxSize=7
 buildingExpansion=2
-selectionWeight=10
+selectionWeight=30
 clusterValue=100
 townBlockSize=24
 townPlotSize=3
@@ -39,6 +39,7 @@ wallPatterns:
 #list of structures, one per line
 uniqueStructures:
 village_church
+
 :endUniqueStructures
 
 #list of structures, one per line

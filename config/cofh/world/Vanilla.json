@@ -234,10 +234,10 @@
   "clay": {
     "template": "uniform",
     "block": "clay",
-    "material": ["dirt", "stone", "sand"],
-    "clusterSize": 8,
+    "material": ["dirt", "stone", "sand", "gravel"],
+    "clusterSize": 18,
     "numClusters": 3,
-    "minHeight": 52,
+    "minHeight": 48,
     "maxHeight": 70,
     "retrogen": "false",
     "biomeRestriction": "whitelist",
@@ -252,8 +252,33 @@
       },
       {
         "type": "dictionary",
+        "entry": "SWAMP"
+      }
+    ],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },
+  "clayOcean": {
+    "template": "underwater",
+    "block": "clay",
+    "material": ["stone", "sand", "gravel"],
+    "clusterSize": 5,
+    "sizeVariance":2,
+    "height":1,
+    "slim":"false",
+    "numClusters": 1,
+	"chunkChance": 2,
+    "minHeight": 40,
+    "maxHeight": 62,
+    "retrogen": "true",
+    "biomeRestriction": "whitelist",
+    "biomes": [
+      {
+        "type": "dictionary",
         "entry": "OCEAN"
-      },	  
+      },
       {
         "type": "dictionary",
         "entry": "SWAMP"
@@ -268,9 +293,9 @@
     "template": "uniform",
     "block": "clay",
     "material": ["stone", "dirt"],
-    "clusterSize": 4,
+    "clusterSize": 6,
     "numClusters": 5,
-    "minHeight": 46,
+    "minHeight": 38,
     "maxHeight": 70,
     "retrogen": "false",
     "biomeRestriction": "none",

@@ -27,3 +27,7 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice2:5> * 8,
     [[<ore:plateLead>,<ore:ingotIron>,<ore:plateLead>]
 	,[null,null,null]
 	,[<ore:plateLead>,<ore:ingotIron>,<ore:plateLead>]]);
+
+# string from hemp
+recipes.addShaped(<minecraft:string>,[
+    [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>]]);

@@ -18,7 +18,13 @@
           "time": 1,
           "level": 0,
           "chance": 1
-        }
+        },
+        {
+          "name": "potion.moveSpeed",
+          "time": 100,
+          "level": 0,
+          "chance": 1
+        }   
       ]
     },
     {
@@ -37,6 +43,12 @@
         {
           "name": "potion.heal",
           "time": 1,
+          "level": 0,
+          "chance": 1
+        },
+        {
+          "name": "potion.moveSpeed",
+          "time": 100,
           "level": 0,
           "chance": 1
         }
@@ -60,6 +72,12 @@
           "time": 1,
           "level": 0,
           "chance": 1
+        },
+        {
+          "name": "potion.moveSpeed",
+          "time": 100,
+          "level": 0,
+          "chance": 1
         }
       ]
     },
@@ -79,6 +97,12 @@
         {
           "name": "potion.heal",
           "time": 1,
+          "level": 0,
+          "chance": 1
+        },
+        {
+          "name": "potion.moveSpeed",
+          "time": 100,
           "level": 0,
           "chance": 1
         }
@@ -102,6 +126,12 @@
           "time": 1,
           "level": 0,
           "chance": 1
+        },
+        {
+          "name": "potion.moveSpeed",
+          "time": 100,
+          "level": 0,
+          "chance": 1
         }
       ]
     },
@@ -121,6 +151,12 @@
         {
           "name": "potion.heal",
           "time": 1,
+          "level": 0,
+          "chance": 1
+        },
+        {
+          "name": "potion.moveSpeed",
+          "time": 100,
           "level": 0,
           "chance": 1
         }
@@ -144,6 +180,12 @@
           "time": 1,
           "level": 0,
           "chance": 1
+        },
+        {
+          "name": "potion.moveSpeed",
+          "time": 100,
+          "level": 0,
+          "chance": 1
         }
       ]
     },
@@ -163,6 +205,12 @@
         {
           "name": "potion.heal",
           "time": 1,
+          "level": 0,
+          "chance": 1
+        },
+        {
+          "name": "potion.moveSpeed",
+          "time": 100,
           "level": 0,
           "chance": 1
         }

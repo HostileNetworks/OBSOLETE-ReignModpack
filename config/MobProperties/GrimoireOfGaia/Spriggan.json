@@ -1,6 +1,21 @@
 {
   "_name": "GrimoireOfGaia.Spriggan",
-  "drops": [],
+  "drops": [
+    {
+      "_comment": "Drop Stuff",
+      "function": "add",
+      "id": "GrimoireOfGaia:item.GrimoireOfGaia.Fragment",
+      "damage": "0",
+      "count": 1
+    },
+    {
+      "_comment": "Drop Stuff",
+      "function": "add",
+      "id": "TConstruct:heartCanister",
+      "damage": "1",
+      "count": 1
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }

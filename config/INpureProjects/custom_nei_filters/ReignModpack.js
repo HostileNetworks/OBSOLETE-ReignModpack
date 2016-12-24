@@ -36,6 +36,28 @@ NEI.override_invert("AncientWarfare:component", [0, 1, 2]);
 
 
 // *********************************
+// Extra Trees
+// *********************************
+
+// Vanilla-wood gates (Malisis Doors has better ones)
+NEI.override_invert("ExtraTrees:gate", [1, 2, 3, 4, 5]);
+
+
+
+// *********************************
+// Et Futurum
+// *********************************
+
+// Vanilla-wood gates (Malisis Doors has better ones)
+NEI.hide("etfuturum:fence_gate_birch");
+NEI.hide("etfuturum:fence_gate_spruce");
+NEI.hide("etfuturum:fence_gate_jungle");
+NEI.hide("etfuturum:fence_gate_acacia");
+NEI.hide("etfuturum:fence_gate_dark_oak");
+
+
+
+// *********************************
 // Galacticraft
 // *********************************
 

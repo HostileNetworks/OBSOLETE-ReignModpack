@@ -19,7 +19,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:false
-zoom:2
+zoom:0
 mapSize:0
 entityAmount:1
 chunkGrid:-5
@@ -55,16 +55,16 @@ interface::0:50:true:false:false
 interface::0:50:true:false:false
 interface::0:50:true:false:false
 interface::0:50:true:false:false
-interface:gui.xaero_minimap:0:0:false:false:true
+interface:gui.xaero_minimap:75:76:false:false:true
 #WAYPOINTS HAVE BEEN MOVED TO xaerowaypoints.txt!
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_grid:0
 key_gui.xaero_toggle_slime:0
 key_gui.xaero_toggle_waypoints:40
-key_gui.xaero_toggle_map:35
-key_gui.xaero_enlarge_map:44
-key_gui.xaero_waypoints_key:22
-key_gui.xaero_zoom_in:23
-key_gui.xaero_zoom_out:24
+key_gui.xaero_toggle_map:207
+key_gui.xaero_enlarge_map:0
+key_gui.xaero_waypoints_key:27
+key_gui.xaero_zoom_in:80
+key_gui.xaero_zoom_out:72
 key_gui.xaero_minimap_settings:199
-key_gui.xaero_new_waypoint:48
+key_gui.xaero_new_waypoint:13

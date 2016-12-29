@@ -67,3 +67,6 @@ recipes.addShaped(<Magneticraft:item.cable_low> * 4, [
     [<ore:ingotCopper>,null, null],
     [null,null,null]
 ]);
+
+# Add tooltip for Tungsten Ore
+<ore:oreTungsten>.addTooltip(format.yellow("Found in Osmium deposits"));

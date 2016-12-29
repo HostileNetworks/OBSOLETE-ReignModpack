@@ -31,3 +31,6 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice2:5> * 8,
 # string from hemp
 recipes.addShaped(<minecraft:string>,[
     [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>]]);
+    
+# Tooltip for pump
+<ImmersiveEngineering:metalDevice2:6>.addTooltip(format.yellow("Only useful for early-game pumping."));

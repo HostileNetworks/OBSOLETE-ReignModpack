@@ -318,6 +318,7 @@ val nut = <ore:listAllnut>;
 nut.add(<ganyssurface:pineNuts>);
 nut.add(<Forestry:fruits:2>);
 nut.add(<Forestry:fruits:1>);
+nut.add(<harvestcraft:toastedsesameseedsItem>);
 
 # spice
 val spice = <ore:listAllspice>;
@@ -381,6 +382,7 @@ soup.add(<harvestcraft:gardensoupItem>);
 
 #Olive oil
 val oliveoil = <ore:foodOliveoil>;
+
 
 ## Deserts
 
@@ -593,6 +595,8 @@ recipes.remove(<freshwatermobs:lapisfishandchips>);
 recipes.remove(<saltwatermobs:seashellmaki>);
 recipes.remove(<swampmobs:mosspie>);
 recipes.remove(<harvestcraft:wovencottonItem>);
+recipes.remove(<harvestcraft:oliveoilItem>);
+recipes.remove(<harvestcraft:honeylemonlambItem>);
 
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
@@ -704,9 +708,16 @@ recipes.addShapeless(<kitchenCraftFoods:veggie:9>, [<kitchenCraftFoods:meat:0>, 
 # yogurt
 recipes.removeShapeless(<harvestcraft:plainyogurtItem> *4, [<ore:listAllmilk>, <minecraft:leather>]); 
 recipes.addShapeless(<harvestcraft:plainyogurtItem> *4, [<kitchenCraftFoods:meat:0>, <ore:listAllmilk>]);
-recipes.addShapeless(<harvestcraft:plainyogurtItem>, [<ore:listAllmilk>, <enviromine:spoiledMilk>]);
+#recipes.addShapeless(<harvestcraft:plainyogurtItem>, [<ore:listAllmilk>, <enviromine:spoiledMilk>]);
 recipes.addShapeless(<harvestcraft:pineappleyogurtItem>, [<harvestcraft:plainyogurtItem>, <ore:cropPineapple>]);
 recipes.addShapeless(<harvestcraft:gooseberryyogurtItem>, [<harvestcraft:plainyogurtItem>, <ore:cropGooseberry>]);
+
+# oil
+recipes.addShapeless(<harvestcraft:oliveoilItem>, [<ore:tooljuicer>, <ore:cropOlive>, <ore:cropOlive>]);
+recipes.addShapeless(<harvestcraft:oliveoilItem>, [<ore:tooljuicer>, <ore:cropSesame>, <ore:cropSesame>]);
+recipes.addShapeless(<harvestcraft:oliveoilItem>, [<ore:tooljuicer>, <ore:cropSunflower>, <ore:cropSunflower>]);
+recipes.addShapeless(<harvestcraft:oliveoilItem>, [<ore:tooljuicer>, <ore:cropWalnut>, <ore:cropWalnut>]);
+recipes.addShapeless(<harvestcraft:oliveoilItem>, [<ore:tooljuicer>, <RotaryCraft:rotarycraft_item_canola>, <RotaryCraft:rotarycraft_item_canola>,<RotaryCraft:rotarycraft_item_canola>, <RotaryCraft:rotarycraft_item_canola>, <RotaryCraft:rotarycraft_item_canola>,<RotaryCraft:rotarycraft_item_canola>]);
 
 # Uncooked rice
 recipes.addShapeless(<kitchenCraftFoods:veggie:41>, [<ore:toolSaucepan>, <ore:cropRice>, <ore:listAllwater>]);
@@ -835,6 +846,9 @@ recipes.remove(<harvestcraft:roastpotatoesItem>);
 recipes.addShapeless(<harvestcraft:roastpotatoesItem>, [<ore:toolBakeware>, <ore:cropPotato>, <ore:foodButter>, <ore:foodChives>]);
 recipes.remove(<harvestcraft:sundayroastItem>);
 recipes.addShapeless(<harvestcraft:sundayroastItem>, [<ore:foodRoastchicken>, <ore:foodRoastveggie>, <ore:foodGlazedcarrots>, <Forestry:beverage:0>]);
+
+# Honey Lemon Lamb
+recipes.addShapeless(<harvestcraft:honeylemonlambItem>, [<ore:toolBakeware>, <ore:foodMuttoncooked>, <ore:dropHoney>, <ore:foodMustard>, <ore:cropLemon>]);
 
 # Pan Chicken meals
 recipes.addShapeless(<harvestcraft:orangechickenItem>, [<ore:toolSaucepan>, <ore:listAllchickencooked>, <ore:cropOrange>, <ore:foodSteamedrice>, <ore:listAllsugar>, <ore:cropBroccoli>]);

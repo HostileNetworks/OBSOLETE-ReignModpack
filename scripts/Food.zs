@@ -7,7 +7,7 @@ NEI.hide(<harvestcraft:sweetpotatosouffleItem>);
 <ore:listAllspice>.addAll(<ore:listAllsavory>);
 <ore:listAllherb>.addAll(<ore:listAllsavory>);
 #rename herb plants
-<BiomesOPlenty:foliage:4>.displayName = "Basil";
+<BiomesOPlenty:foliage:10>.displayName = "Basil";
 <BiomesOPlenty:foliage:13>.displayName = "Mint";
 <BiomesOPlenty:foliage:9>.displayName = "Bay leaf";
 <BiomesOPlenty:flowers2:4>.displayName = "Dill";
@@ -599,7 +599,7 @@ recipes.remove(<harvestcraft:oliveoilItem>);
 recipes.remove(<harvestcraft:honeylemonlambItem>);
 
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
-furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
+furnace.remove(<*>, <RotaryCraft:rotarycraft_item_powders:9>);
 furnace.remove(<minecraft:bread>, <EnderIO:itemPowderIngot:8>);
 
 

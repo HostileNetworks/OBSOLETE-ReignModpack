@@ -16,12 +16,13 @@ for i in woodMetas {
     recipes.addShapeless(<minecraft:stick>, [<Natura:natura.stick>.definition.makeStack(i)]);
 }
 
-# Fix pressure plate recipe (default conflicts with vanilla one)
+# Fix pressure plate recipe
 var pressurePlates = [<Natura:pressureplate.eucalyptus>, <Natura:pressureplate.sakura>, <Natura:pressureplate.ghostwood>, <Natura:pressureplate.redwood>, <Natura:pressureplate.bloodwood>, <Natura:pressureplate.hopseed>, <Natura:pressureplate.maple>, <Natura:pressureplate.amaranth>, <Natura:pressureplate.silverbell>, <Natura:pressureplate.tiger>, <Natura:pressureplate.willow>, <Natura:pressureplate.darkwood>, <Natura:pressureplate.fusewood>] as IItemStack[];
 for i, pressurePlate in pressurePlates {
     recipes.addShaped(pressurePlate, [
         [<Natura:planks>.definition.makeStack(i), <Natura:planks>.definition.makeStack(i)]
     ]);
+    recipes.addShapeless(<minecraft:wooden_pressure_plate>, [pressurePlate]);
 }
 
 # Fix stairs

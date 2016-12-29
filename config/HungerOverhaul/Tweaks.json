@@ -253,6 +253,12 @@
       "saturationModifier": 0.8
     },
     {
+      "name": "harvestcraft:eggnoggItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.8
+    },
+    {
       "name": "harvestcraft:fruitcrumbleItem",
       "meta": 0,
       "hunger": 9,
@@ -433,7 +439,7 @@
       "saturationModifier": 0.5
     },
     {
-      "name": "harvestcraft:muselieItem",
+      "name": "harvestcraft:museliItem",
       "meta": 0,
       "hunger": 8,
       "saturationModifier": 0.5

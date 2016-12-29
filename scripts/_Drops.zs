@@ -1,7 +1,7 @@
 import mods.MTUtils;
 #Basil
 MTUtils.clearDrops(); // Recreated HashMap drops
-MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:4>, [<kitchenCraftFoods:veggie:0>], [1.0], [<kitchenCraftFoods:veggie:0>]);
+MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:10>, [<kitchenCraftFoods:veggie:0>], [1.0], [<kitchenCraftFoods:veggie:0>]);
 #Mint
 MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:13>, [<kitchenCraftFoods:veggie:1>], [1.0], [<kitchenCraftFoods:veggie:1>]);
 #Bay leaf

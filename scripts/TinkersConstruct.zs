@@ -209,10 +209,12 @@ for item in <ore:listAllroot>.items {mods.tconstruct.Drying.addRecipe((item), <h
 mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:meat:4>, <kitchenCraftFoods:meat:5>, 12800);
 # ham
 mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:meat:10>, <kitchenCraftFoods:meat:11>,12800);
+# dried fruit
+for item in <ore:listAllfruit>.items {mods.tconstruct.Drying.addRecipe((item), <kitchenCraftFoods:veggie:20>, 6400);}
 # cheese
 mods.tconstruct.Drying.addRecipe(<kitchenCraftFoods:veggie:19>, <kitchenCraftFoods:veggie:18>, 12800);
 # leather
-mods.tconstruct.Drying.addRecipe(<HarderWildlife:rawLeather>, <minecraft:leather>, 6400);
+mods.tconstruct.Drying.addRecipe(<HarderWildlife:rawLeather>, <minecraft:leather>, 9200);
 
 ##================================================================================
 # Tinkers OP armour.

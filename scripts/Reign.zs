@@ -47,7 +47,82 @@ recipes.addShaped(<Railcraft:lantern.stone:9>
 				,[[null,<ore:slabStone>,null]
 				,[null,<ore:listAllcandle>,null]
 				,[null,<ore:slabStone>,null]]);
-
+recipes.remove(<Railcraft:lantern.stone:0>);
+recipes.addShaped(<Railcraft:lantern.stone:0>
+				,[[null,<Railcraft:slab:28>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:28>,null]]);
+recipes.remove(<Railcraft:lantern.stone:1>);
+recipes.addShaped(<Railcraft:lantern.stone:1>
+				,[[null,<Railcraft:slab:26>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:26>,null]]);
+recipes.remove(<Railcraft:lantern.stone:2>);
+recipes.addShaped(<Railcraft:lantern.stone:2>
+				,[[null,<Railcraft:slab:27>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:27>,null]]);
+recipes.remove(<Railcraft:lantern.stone:3>);
+recipes.addShaped(<Railcraft:lantern.stone:3>
+				,[[null,<Railcraft:slab:24>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:24>,null]]);
+recipes.remove(<Railcraft:lantern.stone:4>);
+recipes.addShaped(<Railcraft:lantern.stone:4>
+				,[[null,<Railcraft:slab:23>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:23>,null]]);
+recipes.remove(<Railcraft:lantern.stone:5>);
+recipes.addShaped(<Railcraft:lantern.stone:5>
+				,[[null,<Railcraft:slab:29>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:29>,null]]);
+recipes.remove(<Railcraft:lantern.stone:6>);
+recipes.addShaped(<Railcraft:lantern.stone:6>
+				,[[null,<Railcraft:slab:25>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:25>,null]]);   
+recipes.remove(<Railcraft:lantern.stone:7>);
+recipes.addShaped(<Railcraft:lantern.stone:7>
+				,[[null,<Railcraft:slab:22>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:22>,null]]);
+recipes.remove(<Railcraft:lantern.stone:8>);
+recipes.addShaped(<Railcraft:lantern.stone:8>
+				,[[null,<ore:slabSandtone>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<ore:slabSandstone>,null]]);
+recipes.remove(<Railcraft:lantern.metal:0>);
+recipes.addShaped(<Railcraft:lantern.metal:0>
+				,[[null,<Railcraft:slab:6>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:6>,null]]);                
+recipes.remove(<Railcraft:lantern.metal:1>);
+recipes.addShaped(<Railcraft:lantern.metal:1>
+				,[[null,<Railcraft:slab:7>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:7>,null]]);
+recipes.remove(<Railcraft:lantern.metal:2>);
+recipes.addShaped(<Railcraft:lantern.metal:2>
+				,[[null,<Railcraft:slab:40>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:40>,null]]);
+recipes.remove(<Railcraft:lantern.metal:3>);
+recipes.addShaped(<Railcraft:lantern.metal:3>
+				,[[null,<Railcraft:slab:41>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:41>,null]]);
+recipes.remove(<Railcraft:lantern.metal:4>);
+recipes.addShaped(<Railcraft:lantern.metal:4>
+				,[[null,<Railcraft:slab:42>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:42>,null]]);
+recipes.remove(<Railcraft:lantern.metal:5>);
+recipes.addShaped(<Railcraft:lantern.metal:5>
+				,[[null,<Railcraft:slab:43>,null]
+				,[null,<ore:listAllcandle>,null]
+				,[null,<Railcraft:slab:43>,null]]);
+                
 # fix logs
 
 recipes.remove(<minecraft:log:1>);

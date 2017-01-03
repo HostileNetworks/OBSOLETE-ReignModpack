@@ -32,14 +32,14 @@
   },
   "login": {
     "motd": [
-      "Welcome to your Reign"
+      "Welcome to a Hostile world"
     ],
     "starting_items": [
       "minecraft:apple 2 0",
       "kitchenCraftFoods:veggie 1 1",
       "SpiceOfLife:lunchbag 1 0",
       "kitchenCraftFoods:veggie 1 23",
-      "AncientWarfareNpc:town_hall"
+      "AncientWarfareNpc:town_hall 1 0"
     ]
   },
   "permissions_admin": {

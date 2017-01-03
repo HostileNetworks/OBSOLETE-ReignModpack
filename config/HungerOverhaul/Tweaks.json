@@ -33,7 +33,7 @@
     {
       "name": "harvestcraft:applepieItem",
       "meta": 0,
-      "hunger": 7,
+      "hunger": 6,
       "saturationModifier": 0.5
     },
     {
@@ -195,7 +195,7 @@
     {
       "name": "harvestcraft:cottagepieItem",
       "meta": 0,
-      "hunger": 16,
+      "hunger": 12,
       "saturationModifier": 1.0
     },
     {
@@ -261,7 +261,7 @@
     {
       "name": "harvestcraft:fruitcrumbleItem",
       "meta": 0,
-      "hunger": 9,
+      "hunger": 8,
       "saturationModifier": 0.6
     },
     {
@@ -345,7 +345,7 @@
     {
       "name": "harvestcraft:gooseberrypieItem",
       "meta": 0,
-      "hunger": 8,
+      "hunger": 7,
       "saturationModifier": 0.7
     },	
     {
@@ -615,7 +615,7 @@
     {
       "name": "harvestcraft:pecanpieItem",
       "meta": 0,
-      "hunger": 8,
+      "hunger": 7,
       "saturationModifier": 0.6
     },
     {
@@ -816,6 +816,12 @@
       "hunger": 5,
       "saturationModifier": 0.7
     },
+    {
+      "name": "harvestcraft:sweetpotatopieItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.7
+    },    
     {
       "name": "harvestcraft:timtamItem",
       "meta": 0,
@@ -1293,8 +1299,8 @@
     {
       "name": "swampmobs:mosspie",
       "meta": 0,
-      "hunger": 7,
-      "saturationModifier": 0.6
+      "hunger": 5,
+      "saturationModifier": 0.7
     },
     {
       "name": "lycanitesmobs:battleburrito",

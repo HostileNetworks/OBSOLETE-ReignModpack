@@ -53,7 +53,7 @@
     "dimension_blacklist": [],
     "forced_chunk_security": "-",
     "forced_explosions": "enabled",
-    "max_claims": 0,
+    "max_claims": 30000,
     "max_homes": 0,
     "show_rank": true
   },
@@ -70,7 +70,7 @@
     ],
     "forced_chunk_security": "-",
     "forced_explosions": "enabled",
-    "max_claims": 0,
+    "max_claims": 30000,
     "max_homes": 0,
     "show_rank": true
   },

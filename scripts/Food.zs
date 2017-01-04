@@ -597,6 +597,7 @@ recipes.remove(<swampmobs:mosspie>);
 recipes.remove(<harvestcraft:wovencottonItem>);
 recipes.remove(<harvestcraft:oliveoilItem>);
 recipes.remove(<harvestcraft:honeylemonlambItem>);
+recipes.remove(<harvestcraft:veggiestirfryItem>);
 
 furnace.remove(<minecraft:bread>, <appliedenergistics2:item.ItemMultiMaterial:4>);
 furnace.remove(<*>, <RotaryCraft:rotarycraft_item_powders:9>);
@@ -886,6 +887,9 @@ recipes.addShapeless(<harvestcraft:stuffedeggplantItem>, [<ore:toolBakeware>, <o
 
 # Stuffed Peppers
 recipes.addShapeless(<harvestcraft:stuffedpepperItem>, [<ore:toolBakeware>, <ore:cropBellpepper>, <ore:cropEggplant>, <ore:foodSteamedrice>, <ore:cropTomato>,]);
+
+# Veggie Stir Fry
+recipes.addShapeless(<harvestcraft:veggiestirfryItem>, [<ore:toolSkillet>, <ore:foodSteamedrice>, <ore:foodFirmtofu>, <ore:cropCarrot>, <ore:cropOnion>, <ore:cropBellpepper>, <ore:listAllmushroom>]);
 
 # Spinach Pie Fix
 recipes.addShapeless(<kitchenCraftFoods:veggie:24>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodSteamedspinach>, <ore:foodSteamedrice>, <ore:foodCheese>]);

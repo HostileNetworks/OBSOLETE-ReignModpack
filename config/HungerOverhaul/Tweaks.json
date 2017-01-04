@@ -631,6 +631,12 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:pepperoniItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 0.8
+    },
+    {
       "name": "harvestcraft:picklesItem",
       "meta": 0,
       "hunger": 4,

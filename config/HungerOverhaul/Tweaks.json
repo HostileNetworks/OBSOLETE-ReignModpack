@@ -103,6 +103,12 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:carrotsoupItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.7
+    },
+    {
       "name": "harvestcraft:cashewchickenItem",
       "meta": 0,
       "hunger": 10,
@@ -129,7 +135,7 @@
     {
       "name": "harvestcraft:chickennoodlesoupItem",
       "meta": 0,
-      "hunger": 12,
+      "hunger": 8,
       "saturationModifier": 1.0
     },	
     {
@@ -211,11 +217,12 @@
       "saturationModifier": 0.5
     },
     {
-      "name": "harvestcraft:crackerItem",
+      "name": "harvestcraft:creamedbroccolisoupItem",
       "meta": 0,
-      "hunger": 3,
-      "saturationModifier": 0.5
+      "hunger": 6,
+      "saturationModifier": 0.8
     },
+    
     {
       "name": "harvestcraft:cornishpastyItem",
       "meta": 0,
@@ -388,13 +395,13 @@
       "name": "harvestcraft:lambwithmintsauceItem",
       "meta": 0,
       "hunger": 8,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.7
     },
     {
       "name": "harvestcraft:leekbaconsoupItem",
       "meta": 0,
       "hunger": 8,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.7
     },
     {
       "name": "harvestcraft:maplesausageItem",
@@ -455,6 +462,12 @@
       "meta": 0,
       "hunger": 7,
       "saturationModifier": 0.5
+    },
+    {
+      "name": "harvestcraft:oldworldsoupItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.8
     },
     {
       "name": "harvestcraft:onionburgerItem",
@@ -627,14 +640,8 @@
     {
       "name": "harvestcraft:peaandhamsoupItem",
       "meta": 0,
-      "hunger": 10,
-      "saturationModifier": 0.5
-    },
-    {
-      "name": "harvestcraft:pepperoniItem",
-      "meta": 0,
-      "hunger": 3,
-      "saturationModifier": 0.8
+      "hunger": 8,
+      "saturationModifier": 0.7
     },
     {
       "name": "harvestcraft:picklesItem",
@@ -694,7 +701,13 @@
       "name": "harvestcraft:potatoandleeksoupItem",
       "meta": 0,
       "hunger": 8,
-      "saturationModifier": 0.5
+      "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:potatosoupItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.7
     },
     {
       "name": "harvestcraft:pumpkinmuffinItem",
@@ -703,9 +716,15 @@
       "saturationModifier": 0.4
     },
     {
+      "name": "harvestcraft:pumpkinsoupItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.7
+    },
+    {
       "name": "harvestcraft:raisincookiesItem",
       "meta": 0,
-      "hunger": 7,
+      "hunger": 6,
       "saturationModifier": 0.8
     },
     {
@@ -778,6 +797,12 @@
       "name": "harvestcraft:spinachpieItem",
       "meta": 0,
       "hunger": 14,
+      "saturationModifier": 0.7
+    },
+    {
+      "name": "harvestcraft:splitpeasoupItem",
+      "meta": 0,
+      "hunger": 6,
       "saturationModifier": 0.7
     },
     {

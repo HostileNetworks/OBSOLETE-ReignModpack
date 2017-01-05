@@ -896,6 +896,198 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:plainyogurtItem",
+      "meta": 0,
+      "hunger": 2,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:pineappleyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:papayayogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:starfruityogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:pearyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:plumyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:bananayogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:coconutyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:orangeyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:peachyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:limeyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:mangoyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:pomegranateyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:vanillayogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:blueberryyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:lemonyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:cherryyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:strawberryyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:grapeyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:chocolateyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:blackberryyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:pumpkinyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:rasberryyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:melonyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:kiwiyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:appleyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:apricotyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:figyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:grapefruityogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:persimmonyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:gooseberryyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
+      "name": "harvestcraft:cranberryyogurtItem",
+      "meta": 0,
+      "hunger": 3,
+      "saturationModifier": 1.0
+    },
+    {
       "name": "harvestcraft:zucchinifriesItem",
       "meta": 0,
       "hunger": 6,

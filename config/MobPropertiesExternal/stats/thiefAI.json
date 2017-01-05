@@ -1,5 +1,5 @@
 {
-  "function": "if_beyond_500",
+  "function": "if_beyond_100",
   "functions": [
     {
       "function": "nbt",

@@ -1043,7 +1043,7 @@ recipes.addShaped(<harvestcraft:wovencottonItem>,[
 
 recipes.addShapeless(<kitchenCraftFoods:veggie:19>, [<ore:toolSaucepan>, <ore:listAllrennet>, <ore:listAllmilk>, <harvestcraft:wovencottonItem>]);
 
-recipes.addShapeless(<harvestcraft:cheeseItem> * 6, [<ore:toolCuttingboard>, <kitchenCraftFoods:veggie:18>]);
+recipes.addShapeless(<harvestcraft:cheeseItem> * 3, [<ore:toolCuttingboard>, <kitchenCraftFoods:veggie:18>]);
 
 # Salad Dressing
 recipes.addShapeless(<harvestcraft:saladdressingItem>, [<kitchenCraftFoods:veggie:8>, <ore:foodVinegar>, <ore:foodOliveoil>, <ore:foodBasil>, <ore:foodSalt>]);

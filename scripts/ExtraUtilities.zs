@@ -39,8 +39,6 @@ recipes.addShaped(quarry,[[enderObsidian,ray,enderObsidian],
 						[enderCore,matrix,enderCore],
 						[pump,bedpick,pump]]);
 
-#drums are OP
-recipes.remove(drum);
 
 #blackout curtains no longer conflict with malisis doors
 recipes.remove(<ExtraUtilities:curtains> * 12);

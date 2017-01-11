@@ -10,14 +10,14 @@ val plateCopper = <Railcraft:part.plate:3>;
 val glass = <ore:blockGlass>;
 val heatcoil = <Magneticraft:item.heatcoil_copper>;
 
-val goldGear = <Railcraft:part.gear:0>;
-val ironGear = <ore:gearIron>;
-val steelGear = <ore:gearSteel>;
+val gearCopper = <Forestry:gearCopper>;
+val gearIron = <BuildCraft|Core:ironGearItem>;
+val gearSteel = <Railcraft:part.gear:2>;
 
 val piston = <minecraft:piston>;
 
-# Add Steel gear to oredict tag
-steelGear.add(<Railcraft:part.gear:2>);
+# Add gearSteel oredict tag to Railcraft steel gear
+<ore:gearSteel>.add(gearSteel);
 
 # Add plates to oredict tag
 <ore:plateIron>.add(plateIron);
@@ -29,17 +29,17 @@ steelGear.add(<Railcraft:part.gear:2>);
 recipes.remove(hobbyist);
 recipes.addShaped(hobbyist, [[plateCopper,plateCopper,plateCopper]
 							,[heatcoil,glass,heatcoil]
-							,[goldGear,piston,goldGear]]);
+							,[gearCopper,piston,gearCopper]]);
 
 recipes.remove(commercial);
 recipes.addShaped(commercial, [[plateIron,plateIron,plateIron]
 							,[heatcoil,glass,heatcoil]
-							,[ironGear,piston,ironGear]]);
+							,[gearIron,piston,gearIron]]);
 
 recipes.remove(industrial);
 recipes.addShaped(industrial, [[plateSteel,plateSteel,plateSteel]
 							,[heatcoil,glass,heatcoil]
-							,[steelGear,piston,steelGear]]);
+							,[gearSteel,piston,gearSteel]]);
 
 # Add IE's Coal Coke to Blast Furnace Fuel (first is single piece, second is the block)
 mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>);

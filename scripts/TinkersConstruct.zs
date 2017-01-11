@@ -142,6 +142,7 @@ mods.tconstruct.Casting.addTableRecipe(<Forestry:gearCopper>, <liquid:copper.mol
 mods.tconstruct.Casting.addTableRecipe(<Forestry:gearTin>, <liquid:tin.molten>*576, <RotaryCraft:rotarycraft_item_modinterface:2>, false, 80);
 mods.tconstruct.Casting.addTableRecipe(<Railcraft:part.gear:0>, <liquid:gold.molten>*80, <Railcraft:part.gear:2>, true, 80);
 
+
 # Utensils
 mods.tconstruct.Casting.addTableRecipe(<harvestcraft:potItem>, <liquid:aluminum.molten>*288, <IguanaTweaksTConstruct:clayBucketFired>, true, 80);
 mods.tconstruct.Casting.addTableRecipe(<harvestcraft:saucepanItem>, <liquid:aluminum.molten>*288, <IguanaTweaksTConstruct:clayBucketUnfired>, true, 80);
@@ -200,7 +201,7 @@ mods.tconstruct.Casting.addTableRecipe(<chisel:diamondChisel>, <liquid:steel.mol
 ##================================================================================
 # No annoying alloys
 mods.tconstruct.Smeltery.removeAlloy(<liquid:angmallen.molten>);
-
+mods.tconstruct.Smeltery.removeAlloy(<liquid:hepatizon.molten>);
 # Missing Molten Metals to Nuggets
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:19>, <liquid:iron.molten> * 16, <TConstruct:metalPattern:27>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:20>, <liquid:copper.molten> * 16, <TConstruct:metalPattern:27>, false, 20);

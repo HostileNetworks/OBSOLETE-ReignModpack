@@ -38,7 +38,7 @@
     "block": "coal_ore",
     "material": "stone",
     "clusterSize": 12,
-    "numClusters": 4,
+    "numClusters": 8,
     "minHeight": 32,
     "maxHeight": 128,
     "retrogen": "false",
@@ -60,11 +60,6 @@
         "name": "minecraft:iron_ore",
         "metadata": 0,
         "weight": 85
-      },
-      {
-        "name": "ReactorCraft:reactorcraft_block_ore",
-        "metadata": 8,
-        "weight": 2
       },
       {
         "name": "ImmersiveEngineering:ore",

@@ -6,7 +6,6 @@ val enderObsidian = <ore:blockEnderObsidian>;
 val matrix = <ExtraUtilities:decorativeBlock1:12>;
 val enderCore = <ore:blockEnderCore>;
 
-val drum = <ExtraUtilities:drum>;
 val cauldron = <minecraft:cauldron>;
 val pressure = <minecraft:heavy_weighted_pressure_plate>;
 

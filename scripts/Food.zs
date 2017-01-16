@@ -151,6 +151,8 @@ rawSeafood.add(<harvestcraft:clamrawItem>);
 rawSeafood.add(<harvestcraft:scalloprawItem>);
 rawSeafood.add(<harvestcraft:turtlerawItem>);
 rawSeafood.add(<harvestcraft:calamarirawItem>);
+rawSeafood.add(<MoCreatures:turtleraw>);
+rawSeafood.add(<MoCreatures:crabraw>);
 val cookedSeafood = <ore:cookedSeafood>;
 cookedSeafood.add(<harvestcraft:clamcookedItem>);
 cookedSeafood.add(<harvestcraft:crabcookedItem>);
@@ -197,6 +199,8 @@ egg.add(<exoticbirds:magpie_egg>);
 egg.add(<exoticbirds:kiwi_egg>);
 egg.add(<exoticbirds:vulture_egg>);
 egg.add(<exoticbirds:flamingo_egg>);
+egg.add(<MoCreatures:mocegg>);
+egg.add(<MoCreatures:mocegg:*>);
 
 # Flour
 val flour = <ore:foodFlour>;

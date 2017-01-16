@@ -11,16 +11,16 @@ val bars = <minecraft:iron_bars>;
 val block = <RotaryCraft:rotarycraft_block_deco:0>;
 val ingot = <RotaryCraft:rotarycraft_item_shaftcraft:1>;
 val rod = <RotaryCraft:rotarycraft_item_shaftcraft:2>;
-val steelPlate = <Railcraft:part.plate:1>;
+val ironPlate = <Railcraft:part.plate:0>;
 
 
 # Vanilla iron items use Steel plates instead
 recipes.remove(cauldron);
-recipes.addShaped(cauldron, [[steelPlate,null,steelPlate],[steelPlate,null,steelPlate],[steelPlate,steelPlate,steelPlate]]);
+recipes.addShaped(cauldron, [[ironPlate,null,ironPlate],[ironPlate,null,ironPlate],[ironPlate,ironPlate,ironPlate]]);
 
 recipes.remove(bucket);
-recipes.addShaped(bucket * 1, [[steelPlate,null,steelPlate], [null,steelPlate,null]]);
-bucket.addTooltip(format.white("Use clay buckets until you develop steel."));
+recipes.addShaped(bucket * 1, [[ironPlate,null,ironPlate], [null,ironPlate,null]]);
+bucket.addTooltip(format.white("Use clay buckets until you get a rolling machine."));
 
 recipes.remove(hopper);
 recipes.addShaped(hopper * 1, [[ingot,null,ingot],[ingot,chest,ingot],[null,ingot,null]]);

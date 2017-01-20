@@ -1,6 +1,18 @@
 #Tinkers Construct
 import mods.nei.NEI;
 
+# Ore-dicted grout recipe
+recipes.remove(<TConstruct:CraftedSoil:1>);
+recipes.addShapeless(<TConstruct:CraftedSoil:1> * 8, [
+    <minecraft:clay>, <ore:sand>, <ore:sand>,
+    <ore:sand>, <ore:sand>, <ore:gravel>,
+    <ore:gravel>, <ore:gravel>, <ore:gravel>
+]);
+recipes.addShapeless(<TConstruct:CraftedSoil:1> * 2, [
+    <minecraft:clay_ball>, <ore:sand>, <ore:gravel>
+]);
+
+
 #Golden Apples not smeltable
 val apple = <minecraft:golden_apple>;
 val gapple = <minecraft:golden_apple:1>;

@@ -38,20 +38,20 @@ mods.exnihilo.Sieve.removeRecipe(<minecraft:dirt>);
 mods.exnihilo.Sieve.addRecipe(<minecraft:dirt>, [<minecraft:wheat_seeds>, <exnihilo:seed_grass>, <exnihilo:stone>, <exnihilo:seed_sugar_cane>, <minecraft:potato>, <minecraft:carrot>, <harvestcraft:riceseedItem>], [2, 10, 4, 10, 20, 20, 20]);
 
 mods.exnihilo.Sieve.removeRecipe(<minecraft:gravel>);
-mods.exnihilo.Sieve.addRecipe(<minecraft:gravel>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
+mods.exnihilo.Sieve.addRecipe(<minecraft:gravel>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>,<minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 15]);
 
 mods.exnihilo.Sieve.removeRecipe(<minecraft:sand>);
-mods.exnihilo.Sieve.addRecipe(<minecraft:sand>, [<exnihilo:exnihilo.copper_powdered>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.gold_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [15, 20, 36, 10]);
+mods.exnihilo.Sieve.addRecipe(<minecraft:sand>, [<exnihilo:exnihilo.copper_powdered>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.gold_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [15, 20, 36, 10, 50, 15]);
 
 mods.exnihilo.Sieve.removeRecipe(<minecraft:soul_sand>);
-mods.exnihilo.Sieve.addRecipe(<minecraft:soul_sand>, [<exnihilo:exnihilo.gold_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.copper_crushed>, <GrimoireOfGaia:item.GrimoireOfGaia.Shard:6>], [25, 20, 20, 30]);
+mods.exnihilo.Sieve.addRecipe(<minecraft:soul_sand>, [<exnihilo:exnihilo.gold_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.copper_crushed>, <GrimoireOfGaia:item.GrimoireOfGaia.Shard:6>, <minecraft:dye:4>, <minecraft:coal>], [25, 20, 20, 30, 50, 15]);
 
 # Sedimentary sands
-mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:0>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
-mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:1>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
-mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:2>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
-mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:3>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
-mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:4>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
-mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:5>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
-mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:6>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
-mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:7>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>], [2, 15, 20, 30, 10]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:0>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 15]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:1>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 15]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:2>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 15]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:3>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 15]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:4>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 5]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:5>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 35]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:6>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 15]);
+mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:7>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 15]);

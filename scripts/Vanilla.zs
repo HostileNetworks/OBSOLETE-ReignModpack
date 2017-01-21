@@ -66,3 +66,10 @@ lever.addTooltip(format.yellow("Beware! Keep out of"));
 lever.addTooltip(format.yellow("reach of zombies!"));
 button.addTooltip(format.yellow("Beware! Keep out of"));
 button.addTooltip(format.yellow("reach of zombies!"));
+
+anvil.addTooltip(format.yellow("place in empty crafting grid"));
+anvil.addTooltip(format.yellow("to craft into Better Anvil"));
+anvil.addTooltip(format.yellow("-must be undamaged-"));
+anvil2.addTooltip(format.yellow("craft back into Vanilla Anvil"));
+anvil2.addTooltip(format.yellow("for use in crafting recipes"));
+anvil2.addTooltip(format.yellow("-must be undamaged-"));

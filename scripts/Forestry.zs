@@ -15,6 +15,8 @@ recipes.addShaped(<Forestry:stamps:1> * 9,
 	[<harvestcraft:waxItem>, <harvestcraft:waxItem>, <harvestcraft:waxItem>]]);
 print("Added 1n stamps from iron nuggets paper and wax");
 
-//#MARKER PAM'S HONEY
+//#PAM'S HONEY
 mods.forestry.Centrifuge.addRecipe([<Forestry:honeyDrop:0> % 100, <harvestcraft:waxcombItem:0> % 100, <harvestcraft:royaljellyItem> % 1], <harvestcraft:honeycombItem>, 20);
 mods.forestry.Centrifuge.addRecipe([<harvestcraft:royaljellyItem> % 15], <harvestcraft:grubItem>, 200);
+
+<ore:materialPressedwax>.add(<Forestry:beeswax>);

@@ -6,6 +6,7 @@ val bucket = <minecraft:bucket>;
 val hopper = <minecraft:hopper>;
 val chest = <minecraft:chest>;
 val anvil = <minecraft:anvil>;
+val anvil2 = <BetterAnvil:anvilba>;
 val bars = <minecraft:iron_bars>;
 
 val block = <RotaryCraft:rotarycraft_block_deco:0>;
@@ -26,8 +27,10 @@ recipes.remove(hopper);
 recipes.addShaped(hopper * 1, [[ingot,null,ingot],[ingot,chest,ingot],[null,ingot,null]]);
 
 recipes.remove(anvil);
-recipes.addShaped(anvil * 1, [[block,block,block],[null,ingot,null],[ingot,ingot,ingot]]);
-
+recipes.remove(anvil2);
+recipes.addShaped(anvil2 * 1, [[block,block,block],[null,ingot,null],[ingot,ingot,ingot]]);
+recipes.addShapeless(anvil * 1, [anvil2]);
+recipes.addShapeless(anvil2 * 1, [anvil]);
 recipes.remove(bars * 16);
 mods.railcraft.Rolling.addShaped(bars * 16, [[rod,rod,rod],[rod,rod,rod]]);
 

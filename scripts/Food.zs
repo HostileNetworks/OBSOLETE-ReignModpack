@@ -201,6 +201,9 @@ egg.add(<exoticbirds:vulture_egg>);
 egg.add(<exoticbirds:flamingo_egg>);
 egg.add(<MoCreatures:mocegg>);
 egg.add(<MoCreatures:mocegg:*>);
+egg.addAll(<ore:foodEgg>);
+<ore:foodEgg>.addAll(<ore:listAllegg>);
+
 
 # Flour
 val flour = <ore:foodFlour>;

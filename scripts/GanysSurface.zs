@@ -1,2 +1,2 @@
-# Add tooltip to Organic Matter Compressor
-<ganyssurface:organicMatterCompressor>.addTooltip(format.yellow("Must be placed below Y-level 15!"));
+# Remove Organic Matter Compressor
+recipes.remove(<ganyssurface:organicMatterCompressor>);

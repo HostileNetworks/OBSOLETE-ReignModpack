@@ -67,15 +67,6 @@ NEI.override_invert("GalacticraftCore:tile.gcBlockCore", [12]);
 
 
 // *********************************
-// Gany's Surface
-// *********************************
-
-// Organic Matter Compressor
-NEI.hide("ganyssurface:organicMatterCompressor");
-
-
-
-// *********************************
 // Garden Stuff
 // *********************************
 

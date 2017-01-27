@@ -1,5 +1,11 @@
 import mods.nei.NEI;
 
+# Advanced Camelpack
+recipes.addShaped(<enviromine:camelPackDeluxe>
+				,[[<Natura:barleyFood:6>,<minecraft:potion:0>,<Natura:barleyFood:6>]
+				,[<minecraft:potion:0>,<enviromine:camelPack>,<minecraft:potion:0>]
+				,[<Natura:barleyFood:6>,<minecraft:potion:0>,<Natura:barleyFood:6>]]);
+
 # Tooltips
 var eggshell = <exoticbirds:eggshell>;
 var rotten = <enviromine:rottenFood>;
@@ -158,7 +164,7 @@ recipes.remove(<minecraft:leather>);
 recipes.addShapeless(<HarderWildlife:rawLeather>,
 	[<etfuturum:rabbit_hide>, <etfuturum:rabbit_hide>, <ore:itemSalt>]);
 recipes.addShapeless(<HarderWildlife:rawLeather>,
-	[<MoCreatures:hide>, <ore:itemSalt>]);
+	[<MoCreatures:hide>, <ore:itemSalt>]);   
 
 ##================================================================================
 # Treesap stuff

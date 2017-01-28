@@ -100,6 +100,7 @@ val meat = <ore:listAllmeatraw>;
 meat.addAll(<ore:foodWhitemeat>);
 meat.add(<exoticbirds:birdmeat_large>);
 meat.addAll(<ore:foodMuttonraw>);
+meat.addAll(<ore:listAllmuttonraw>);
 meat.remove(<MoCreatures:ratraw>);
 meat.remove(<harvestcraft:rabbitrawItem>);
 meat.remove(<kitchenCraftFoods:meat:0>);
@@ -1062,12 +1063,12 @@ recipes.addShapeless(<kitchenCraftFoods:veggie:8>, [<ore:toolCuttingboard>, <ore
 recipes.addShapeless(<kitchenCraftFoods:veggie:13>, [<ore:toolCuttingboard>, <ore:foodToast>, <ore:foodButter>, <harvestcraft:cheeseItem>]);
 
 # ground meat
-recipes.addShapeless(<harvestcraft:sausageItem>*2, [<ore:toolCuttingboard>, <ore:listAllmeatraw>, <ore:foodSalt>]);
-recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:toolCuttingboard>, <ore:foodMorselmeat>, <ore:foodSalt>]);
-recipes.addShapeless(<harvestcraft:sausageItem> * 2, [<ore:toolCuttingboard>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodMeat>, <ore:foodSalt>]);
-recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:blockMeatRaw>, <ore:toolCuttingboard>, <ore:foodSalt>]);
-recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:listAllmeatraw>, <ore:foodSalt>, <reignadditionals:flintHandaxe:*>.transformDamage(2)]);
-recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:foodMorselmeat>, <ore:foodMorselmeat>, <ore:foodSalt>, <reignadditionals:flintHandaxe:*>.transformDamage(2)]);
+recipes.addShapeless(<harvestcraft:sausageItem>*2, [<ore:toolCuttingboard>, <ore:listAllmeatraw>]);
+recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:toolCuttingboard>, <ore:foodMorselmeat>]);
+recipes.addShapeless(<harvestcraft:sausageItem> * 2, [<ore:toolCuttingboard>, <GrimoireOfGaia:item.GrimoireOfGaia.FoodMeat>]);
+recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:blockMeatRaw>, <ore:toolCuttingboard>]);
+recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:listAllmeatraw>, <reignadditionals:flintHandaxe:*>.transformDamage(2)]);
+recipes.addShapeless(<harvestcraft:sausageItem>, [<ore:foodMorselmeat>, <ore:foodMorselmeat>, <reignadditionals:flintHandaxe:*>.transformDamage(2)]);
 
 # sausages
 recipes.addShapeless(<kitchenCraftFoods:meat:4>, [<ore:toolMixingbowl>, <kitchenCraftFoods:veggie:11>, <harvestcraft:sausageItem>, <ore:listAllsalt>, <ore:listAllherb>]);
@@ -1088,8 +1089,8 @@ recipes.addShapeless(<harvestcraft:vegemiteItem>, [<ore:toolSaucepan>, <ore:food
 
 # Fix bacon recipes
 
-recipes.addShapeless(<kitchenCraftFoods:meat:2>*2, [<ore:toolCuttingboard>, <ore:rawPork>, <ore:foodSalt>]);
-recipes.addShapeless(<kitchenCraftFoods:meat:2>, [<reignadditionals:flintHandaxe:*>, <ore:rawPork>, <ore:foodSalt>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:2>*2, [<ore:toolCuttingboard>, <ore:listAllporkraw>, <ore:foodSalt>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:2>, [<reignadditionals:flintHandaxe:*>, <ore:listAllporkraw>, <ore:foodSalt>]);
 
 recipes.addShapeless(<harvestcraft:leekbaconsoupItem>, [<ore:toolPot>, <ore:foodStock>, <ore:cropLeek>, <ore:foodBacon>, <ore:foodHeavycream>]);
 

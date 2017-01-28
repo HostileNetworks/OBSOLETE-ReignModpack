@@ -35,3 +35,7 @@ recipes.remove(c3);
 AssemblyTable.addRecipe(c1, 10000, [copper, gold * 4, redstone * 2]);
 AssemblyTable.addRecipe(c2, 100000, [coal, c1 * 2, energetic * 6]);
 AssemblyTable.addRecipe(c3, 1000000, [glowstone, c2 * 2, phased * 6]);
+
+# Mob Head Interchange
+recipes.addShapeless(<EnderIO:blockEndermanSkull>,[<IguanaTweaksTConstruct:skullItem>]);
+recipes.addShapeless(<IguanaTweaksTConstruct:skullItem>,[<EnderIO:blockEndermanSkull>]);

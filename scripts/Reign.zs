@@ -1,20 +1,20 @@
 import mods.nei.NEI;
-
-# Advanced Camelpack
-recipes.addShaped(<enviromine:camelPackDeluxe>
-				,[[<Natura:barleyFood:6>,<minecraft:potion:0>,<Natura:barleyFood:6>]
-				,[<minecraft:potion:0>,<enviromine:camelPack>,<minecraft:potion:0>]
-				,[<Natura:barleyFood:6>,<minecraft:potion:0>,<Natura:barleyFood:6>]]);
-
+              
 # Tooltips
 var eggshell = <exoticbirds:eggshell>;
 var rotten = <enviromine:rottenFood>;
 var fossil = <UndergroundBiomes:fossilPiece:*>;
 var newdirt = <ore:newdirt>;
 var candle = <ore:listAllcandle>;
-var treeSap = <reignadditionals:treeSap>;
+var treeSap = ;
 var rubber = <Magneticraft:item.rubber>;
 val humus = <ore:fertilizer>;
+val milkbottle = <reignadditionals:milkBottle>;
+val freshmilk = <harvestcraft:freshmilkItem>;
+
+# Milk Bottle
+recipes.addShapeless(milkbottle,
+	[freshmilk, <minecraft:glass_bottle>]);
 
 eggshell.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
 
@@ -198,3 +198,9 @@ recipes.addShaped(<enviromine:camelPack:75>,
     [[rubber, rubber, rubber]
 	,[rubber, <minecraft:potion>.giveBack(<minecraft:glass_bottle>), rubber]
 	,[rubber, rubber, rubber]]);
+    
+# Advanced Camelpack
+recipes.addShaped(<enviromine:camelPackDeluxe>
+				,[[<Natura:barleyFood:6>,<minecraft:potion:0>,<Natura:barleyFood:6>]
+				,[<minecraft:potion:0>,<enviromine:camelPack>,<minecraft:potion:0>]
+				,[<Natura:barleyFood:6>,<minecraft:potion:0>,<Natura:barleyFood:6>]]);

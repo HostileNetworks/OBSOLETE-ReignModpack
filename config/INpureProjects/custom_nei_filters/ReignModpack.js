@@ -36,6 +36,16 @@ NEI.override_invert("AncientWarfare:component", [0, 1, 2]);
 
 
 // *********************************
+// Chisel
+// *********************************
+
+// Cloud in a bottle (recipe removed. It's a physics exploit)
+NEI.hide("chisel:cloud");
+NEI.hide("chisel:cloudinabottle");
+
+
+
+// *********************************
 // Enhanced Inventories
 // *********************************
 

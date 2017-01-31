@@ -36,11 +36,11 @@ NEI.override_invert("AncientWarfare:component", [0, 1, 2]);
 
 
 // *********************************
-// Extra Trees
+// Enhanced Inventories
 // *********************************
 
-// Vanilla-wood gates (Malisis Doors has better ones)
-NEI.override_invert("ExtraTrees:gate", [1, 2, 3, 4, 5]);
+// Auto Assembler (buggy and OP)
+NEI.hide("EnhancedInventories:blockAutoAssembler");
 
 
 
@@ -54,6 +54,15 @@ NEI.hide("etfuturum:fence_gate_spruce");
 NEI.hide("etfuturum:fence_gate_jungle");
 NEI.hide("etfuturum:fence_gate_acacia");
 NEI.hide("etfuturum:fence_gate_dark_oak");
+
+
+
+// *********************************
+// Extra Trees
+// *********************************
+
+// Vanilla-wood gates (Malisis Doors has better ones)
+NEI.override_invert("ExtraTrees:gate", [1, 2, 3, 4, 5]);
 
 
 

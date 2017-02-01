@@ -25,6 +25,9 @@ mods.magneticraft.Sifter.addRecipe(<Magneticraft:item.pebbles:16>, <Mekanism:Dus
 # Magneticraft Tungsten ingots craftable from Reika's Tungsten ingots (but not back the other way)
 recipes.addShapeless(<Magneticraft:item.ingotTungsten>, [<RotaryCraft:rotarycraft_item_compacts:5>]);
 
+# Oredicted tungsten dust > Magneticraft tungsten dust (compatibility)
+recipes.addShapeless(<Magneticraft:item.dust:4>, [<ore:dustTungsten>]);
+
 # Prefer M4 stuff
 recipes.remove(<Magneticraft:item.dustBrass:0>);
 # *** NEI hidden via InpureCore ReignModpack.js

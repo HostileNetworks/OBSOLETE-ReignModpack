@@ -23,12 +23,12 @@
   },
   "general": {
     "blocked_entities": [],
+    "no_explosions_or_mobs_in_spawn_and_commonwealth": true,
+    "pvp_allowed_in_spawn_and_commonwealth": false,
     "restart_timer": 0.0,
-    "safe_spawn": false,
     "server_info_difficulty": true,
-    "server_info_mode": false,
-    "spawn_area_in_sp": false,
-    "spawn_pvp": true
+    "server_info_mode": true,
+    "spawn_area_in_sp": false
   },
   "login": {
     "motd": [

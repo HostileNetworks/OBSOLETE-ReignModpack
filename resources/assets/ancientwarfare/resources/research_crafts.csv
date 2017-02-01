@@ -83,7 +83,7 @@ command,AncientWarfareNpc:stone_command_baton,0,1,__m,_i_,s__,m,stone,s,stickWoo
 command,AncientWarfareNpc:iron_command_baton,0,1,__i,_i_,s__,s,stickWood,i,ingotIron
 command,AncientWarfareNpc:gold_command_baton,0,1,__m,_i_,s__,m,ingotGold,s,stickWood,i,ingotIron
 command,AncientWarfareNpc:diamond_command_baton,0,1,__m,_i_,s__,m,gemDiamond,s,stickWood,i,ingotIron
-leadership,foodBundle,0,1,ap,bf,wc,a,apple,b,bread,c,cooked_chicken,f,cooked_beef,p,cooked_porkchop,w,potion
+leadership,foodBundle,0,1,ap,bf,wc,a,cropApple,b,bread,c,listAllchickencooked,f,listAllbeefcooked,p,listAllporkcooked,w,potion
 #Orders use dictionary names for dyes
 leadership,AncientWarfareNpc:upkeep_order,0,1,d,p,w,d,dyeBlack,w,plankWood,p,paper
 leadership,AncientWarfareNpc:work_order,0,1,d,p,w,d,dyeGray,w,plankWood,p,paper

@@ -13,7 +13,8 @@ mods.chisel.Groups.addVariation("andesite", ubcAndesite);
 <ore:blockGranite>.add(ubcGranite);
 mods.chisel.Groups.addVariation("granite", ubcGranite);
 
-
+# Allow sedimentary sands to be crafted into sand, 1 for 1 shapeless.
+recipes.addShapeless(<minecraft:sand>, [<CaveBiomes:sedimentarySand:*>]);
 
 # Allow sedimentary stone to be crafted into cobble, 2x2 shapeless (but not back again, since that'd be free-ish smoothstone)
 <ore:sedimentaryStone>.add(<UndergroundBiomes:sedimentaryStone:0>);

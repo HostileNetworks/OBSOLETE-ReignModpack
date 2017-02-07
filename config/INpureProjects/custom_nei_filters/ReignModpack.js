@@ -75,6 +75,14 @@ NEI.hide("etfuturum:fence_gate_dark_oak");
 NEI.override_invert("ExtraTrees:gate", [1, 2, 3, 4, 5]);
 
 
+// *********************************
+// Exotic Birds
+// *********************************
+
+// Hide Phoenix egg (Massively OP and terrible for performance)
+NEI.hide("exoticbirds:phoenix_egg");
+
+
 
 // *********************************
 // Galacticraft

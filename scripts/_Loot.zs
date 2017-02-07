@@ -19,3 +19,12 @@ vanilla.loot.addChestLoot("villageBlacksmith", ironScrap.weight(3),1,5);
 # Remove Ztones Minicoal
 vanilla.loot.removeChestLoot("villageBlacksmith", <Ztones:minicoal>);
 vanilla.loot.removeChestLoot("villageBlacksmith", <Ztones:minicharcoal>);
+
+# Remove Phoenix Egg
+vanilla.loot.removeChestLoot("dungeonChest", <exoticbirds:phoenix_egg>);
+vanilla.loot.removeChestLoot("mineshaftCorridor", <exoticbirds:phoenix_egg>);
+vanilla.loot.removeChestLoot("strongholdCorridor", <exoticbirds:phoenix_egg>);
+vanilla.loot.removeChestLoot("strongholdCrossing", <exoticbirds:phoenix_egg>);
+vanilla.loot.removeChestLoot("villageBlacksmith", <exoticbirds:phoenix_egg>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <exoticbirds:phoenix_egg>);
+vanilla.loot.removeChestLoot("pyramidJungleChest", <exoticbirds:phoenix_egg>);

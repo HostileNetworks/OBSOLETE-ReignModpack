@@ -34,6 +34,8 @@ recipes.addShapeless(<harvestcraft:saltItem>, [<Mekanism:Salt>]);
 
 #Water
 recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<IguanaTweaksTConstruct:clayBucketWater>]);
+recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>]);
+
 ##Veggies
 
 #crop

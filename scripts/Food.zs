@@ -33,9 +33,7 @@ recipes.addShapeless(<harvestcraft:saltItem>, [<Mekanism:Salt>]);
 <ore:foodSalt>.addAll(<ore:dustSalt>);
 
 #Water
-recipes.add
-recipes.addShapeless(<harvestcraft:freshwaterItem>*4, [<minecraft:water_bucket>]);
-recipes.addShapeless(<harvestcraft:freshwaterItem>*4, [<IguanaTweaksTConstruct:clayBucketWater>]);
+recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<IguanaTweaksTConstruct:clayBucketWater>]);
 ##Veggies
 
 #crop
@@ -921,7 +919,7 @@ recipes.addShapeless(<kitchenCraftFoods:meat:25>, [<ore:toolPot>, <ore:foodStock
 recipes.addShapeless(<kitchenCraftFoods:meat:24>, [<ore:toolPot>, <ore:foodStock>, <ore:foodHeavycream>, <ore:foodWhitemeat>, <ore:foodCrop>, <ore:listAllgreenveggie>, <ore:foodChoppedgarlic>, <ore:foodChives>, <ore:foodToast>]);
 
 # Raw quiche
-recipes.addShapeless(<kitchenCraftFoods:meat:8>, [<ore:toolMixingbowl>, <ore:listAllmushroom>, <ore:listAllegg>, <ore:foodPeperoni>, <ore:listAllcheese>, <ore:herbParsley>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:8>, [<ore:toolMixingbowl>, <ore:listAllmushroom>, <ore:listAllegg>, <ore:foodPepperoni>, <ore:foodCheese>, <ore:herbParsley>]);
 
 # Hearty stew
 recipes.addShapeless(<kitchenCraftFoods:meat:26>, [<ore:toolPot>, <ore:foodGravy>, <ore:listAllmeatraw>, <ore:foodCrop>, <ore:listAllveggie>, <ore:cropTomato>, <ore:listAllherb>, <ore:herbBayleaf>]);

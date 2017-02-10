@@ -8,13 +8,13 @@ NEI.hide(<harvestcraft:sweetpotatosouffleItem>);
 <ore:listAllherb>.addAll(<ore:listAllsavory>);
 #rename herb plants
 <BiomesOPlenty:foliage:10>.displayName = "Basil";
-<BiomesOPlenty:foliage:13>.displayName = "Mint";
+<BiomesOPlenty:foliage:2>.displayName = "Mint";
 <BiomesOPlenty:foliage:9>.displayName = "Bay leaf";
 <BiomesOPlenty:flowers2:4>.displayName = "Dill";
 <BiomesOPlenty:flowers:1>.displayName = "Fennel";
 <BiomesOPlenty:foliage:11>.displayName = "Chives";
 <BiomesOPlenty:flowers:7>.displayName = "Rosemary";
-<BiomesOPlenty:foliage:5>.displayName = "Parsley";
+<BiomesOPlenty:foliage:4>.displayName = "Parsley";
 
 #Bread
 val bread = <ore:foodBread>;

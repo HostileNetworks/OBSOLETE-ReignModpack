@@ -33,9 +33,14 @@ recipes.addShapeless(<harvestcraft:saltItem>, [<Mekanism:Salt>]);
 <ore:foodSalt>.addAll(<ore:dustSalt>);
 
 #Water
+recipes.remove(<minecraft:fire>);
+recipes.remove(<minechem:minechemMolecule:1>);
 recipes.remove(<harvestcraft:freshwaterItem>);
-recipes.addShapeless(<harvestcraft:freshwaterItem>*4, [<IguanaTweaksTConstruct:clayBucketWater>]);
 recipes.addShapeless(<harvestcraft:freshwaterItem>*4, [<minecraft:water_bucket>]);
+recipes.addShaped(<harvestcraft:freshwaterItem>*4,[
+[<minecraft:water_bucket>]]);
+recipes.addShapeless(<harvestcraft:freshwaterItem>*4, [<IguanaTweaksTConstruct:clayBucketWater>]);
+
 
 ##Veggies
 

@@ -121,6 +121,45 @@ NEI.hide("Magneticraft:item.dustBrass");
 
 
 // *********************************
+// Metallurgy
+// *********************************
+
+// Hide Manganese
+NEI.override_invert("Metallurgy:base.ore", [2]);
+NEI.override_invert("Metallurgy:base.dust", [2]);
+NEI.override_invert("Metallurgy:base.brick", [2]);
+NEI.override_invert("Metallurgy:base.block", [2]);
+NEI.override_invert("Metallurgy:molten.bucket", [6]);
+NEI.override_invert("Magneticraft:item.chunks", [22]);
+NEI.override_invert("Magneticraft:item.rubble", [22]);
+NEI.override_invert("Magneticraft:item.pebbles", [22]);
+NEI.override_invert("Magneticraft:item.dust", [22]);
+
+NEI.hide("Metallurgy:manganese.molten");
+NEI.hide("Metallurgy:manganese.ingot");
+NEI.hide("aobd:oreSandManganese");
+NEI.hide("aobd:oreDustManganese");
+NEI.hide("aobd:oreGravelManganese");
+NEI.hide("aobd:oreNetherGravelManganese");
+NEI.hide("aobd:crushedManganese");
+NEI.hide("aobd:clumpManganese");
+NEI.hide("aobd:crystalManganese");
+NEI.hide("aobd:shardManganese");
+NEI.hide("aobd:dustDirtyManganese");
+NEI.hide("aobd:clusterManganese");
+NEI.hide("aobd:nuggetManganese");
+NEI.hide("aobd:orePowderedManganese");
+NEI.hide("aobd:oreBrokenManganese");
+NEI.hide("aobd:oreNetherBrokenManganese");
+NEI.hide("aobd:oreCrushedManganese");
+NEI.hide("aobd:bottle_manganese");
+NEI.hide("UndergroundBiomes:igneous_metal.block.base.ore.2");
+NEI.hide("UndergroundBiomes:metamorphic_metal.block.base.ore.2");
+NEI.hide("UndergroundBiomes:sedimentary_metal.block.base.ore.2");
+
+
+
+// *********************************
 // Railcraft
 // *********************************
 

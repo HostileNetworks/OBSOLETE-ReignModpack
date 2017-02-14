@@ -776,6 +776,12 @@
       "saturationModifier": 0.5
     },
     {
+      "name": "harvestcraft:shepardspieItem",
+      "meta": 0,
+      "hunger": 10,
+      "saturationModifier": 0.9
+    },
+    {
       "name": "harvestcraft:shrimpokrahushpuppiesItem",
       "meta": 0,
       "hunger": 8,

@@ -133,6 +133,7 @@ chicken.add(<exoticbirds:birdmeat_large>);
 val whitemeat = <ore:foodWhitemeat>;
 whitemeat.add(<harvestcraft:turkeyrawItem>);
 whitemeat.add(<exoticbirds:birdmeat_large>);
+whitemeat.add(<ore:listAllchickenraw>);
 <ore:foodWhitemeat>.remove(<harvestcraft:rabbitrawItem>);
 <ore:foodWhitemeat>.addAll(<ore:rawChicken>);
 <ore:foodCookedwhitemeat>.addAll(<ore:listAllchickencooked>);
@@ -947,10 +948,10 @@ recipes.addShapeless(<kitchenCraftFoods:meat:18>, [<ore:toolCuttingboard>, <ore:
 ## PIES ##
 
 # Raw chicken pot pie
-recipes.addShapeless(<kitchenCraftFoods:meat:6>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropPeas>, <ore:cropPotato>, <ore:cropCarrot>, <ore:listAllgreenveggie>, <ore:foodGravy>, <ore:herbBayleaf>, <ore:rawChicken>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:6>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropPeas>, <ore:cropPotato>, <ore:cropCarrot>, <ore:listAllgreenveggie>, <ore:foodGravy>, <ore:herbBayleaf>, <ore:listAllchickenraw>]);
 
 # Shepherd's Pie
-recipes.addShapeless(<kitchenCraftFoods:meat:28>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropPeas>, <ore:cropPotato>, <ore:cropCarrot>, <ore:herbRosemary>, <ore:rawMutton>]);
+recipes.addShapeless(<kitchenCraftFoods:meat:28>, [<ore:toolBakeware>, <ore:foodDough>, <ore:cropPeas>, <ore:foodMashedpotatoes>, <ore:cropCarrot>, <ore:herbRosemary>, <ore:foodMuttonraw>]);
 
 # Raw meat pie
 recipes.addShapeless(<kitchenCraftFoods:meat:7>, [<ore:toolBakeware>, <ore:foodDough>, <ore:foodGravy>, <ore:foodGroundmeat>]);

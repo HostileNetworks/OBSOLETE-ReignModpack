@@ -366,7 +366,13 @@
       "meta": 0,
       "hunger": 5,
       "saturationModifier": 0.5
-    },	
+    },
+    {
+      "name": "harvestcraft:honeylemonlambItem",
+      "meta": 0,
+      "hunger": 7,
+      "saturationModifier": 0.8
+    },
     {
       "name": "harvestcraft:hushpuppiesItem",
       "meta": 0,

@@ -3,7 +3,7 @@ import mods.MTUtils;
 MTUtils.clearDrops(); // Recreated HashMap drops
 MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:10>, [<kitchenCraftFoods:veggie:0>], [1.0], [<kitchenCraftFoods:veggie:0>]);
 #Mint
-MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:13>, [<kitchenCraftFoods:veggie:1>], [1.0], [<kitchenCraftFoods:veggie:1>]);
+MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:2>, [<kitchenCraftFoods:veggie:1>], [1.0], [<kitchenCraftFoods:veggie:1>]);
 #Bay leaf
 MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:9>, [<kitchenCraftFoods:veggie:2>], [1.0], [<kitchenCraftFoods:veggie:2>]);
 #Dill
@@ -15,4 +15,4 @@ MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:11>, [<kitchenCraftFoods:vegg
 #Rosemary
 MTUtils.setBlockDrops(null, <BiomesOPlenty:flowers:7>, [<kitchenCraftFoods:veggie:6>], [1.0], [<kitchenCraftFoods:veggie:6>]);
 #Parsley
-MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:5>, [<kitchenCraftFoods:veggie:7>], [1.0], [<kitchenCraftFoods:veggie:7>]);
+MTUtils.setBlockDrops(null, <BiomesOPlenty:foliage:4>, [<kitchenCraftFoods:veggie:7>], [1.0], [<kitchenCraftFoods:veggie:7>]);

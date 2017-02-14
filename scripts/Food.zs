@@ -133,7 +133,7 @@ chicken.add(<exoticbirds:birdmeat_large>);
 val whitemeat = <ore:foodWhitemeat>;
 whitemeat.add(<harvestcraft:turkeyrawItem>);
 whitemeat.add(<exoticbirds:birdmeat_large>);
-whitemeat.add(<ore:listAllchickenraw>);
+whitemeat.addAll(<ore:listAllchickenraw>);
 <ore:foodWhitemeat>.remove(<harvestcraft:rabbitrawItem>);
 <ore:foodWhitemeat>.addAll(<ore:rawChicken>);
 <ore:foodCookedwhitemeat>.addAll(<ore:listAllchickencooked>);

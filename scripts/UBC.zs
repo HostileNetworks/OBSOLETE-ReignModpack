@@ -27,6 +27,9 @@ recipes.addShapeless(<minecraft:sand>, [<CaveBiomes:sedimentarySand:*>]);
 <ore:sedimentaryStone>.add(<UndergroundBiomes:sedimentaryStone:7>);
 recipes.addShapeless(<minecraft:cobblestone> * 4, [<ore:sedimentaryStone>, <ore:sedimentaryStone>, <ore:sedimentaryStone>, <ore:sedimentaryStone>]);
 
+# Readd vanilla button recipe manually.
+recipes.addShapeless(<minecraft:stone_button>, [<minecraft:stone>]);
+
 # Painfully add each button to oredict by hand, since nothing else would work.
 val button = <ore:button>;
 button.add(<UndergroundBiomes:button>);

@@ -16,3 +16,8 @@ mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:1>);
 mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:2>);
 # *** NEI hidden via InpureCore ReignModpack.js
 
+# No free blaze powder
+recipes.removeShapeless(<minecraft:blaze_powder>,
+    [<Thaumcraft:blockCustomPlant:3>]);
+recipes.addShapeless(<minecraft:coal>,
+    [<Thaumcraft:blockCustomPlant:3>]);

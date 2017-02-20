@@ -214,7 +214,7 @@
     "template": "uniform",
     "block": "minecraft:diamond_ore",
     "material": "stone",
-    "clusterSize": 5,
+    "clusterSize": 8,
     "numClusters": 1,
     "chunkChance": 4,
     "minHeight": 2,

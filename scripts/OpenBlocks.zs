@@ -9,3 +9,12 @@ recipes.addShaped(<OpenBlocks:xpdrain>,
 
 # Remove "Big Metal Bar" (useless, recipe is used for Iron Trapdoor)
 recipes.remove(<OpenBlocks:wrench>);
+
+# Glider Balance
+recipes.remove(<OpenBlocks:generic>);
+recipes.addShaped(<OpenBlocks:generic>,
+ [[null, <TConstruct:toughRod:15>, <ImmersiveEngineering:material:4>],
+ [<TConstruct:toughRod:15>, <ImmersiveEngineering:material:4>, <ImmersiveEngineering:material:4>],
+ [<ImmersiveEngineering:material:4>, <ImmersiveEngineering:material:4>, <ImmersiveEngineering:material:4>]]);
+
+ 

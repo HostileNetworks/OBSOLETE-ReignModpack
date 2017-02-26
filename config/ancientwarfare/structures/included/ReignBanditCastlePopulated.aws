@@ -18,14 +18,14 @@ unique=true
 preserveBlocks=false
 selectionWeight=100
 clusterValue=150
-minDuplicateDistance=50
+minDuplicateDistance=100
 dimensionWhiteList=true
-dimensionList=
+dimensionList=0
 biomeWhiteList=true
 biomeList=savanna,scrubland,steppe
 leveling=10
 fill=8
-border=0
+border=3
 validTargetBlocks=minecraft:gravel,minecraft:stone,minecraft:gold_ore,minecraft:sand,minecraft:clay,minecraft:redstone_ore,minecraft:grass,minecraft:stained_hardened_clay,minecraft:dirt,minecraft:iron_ore,minecraft:coal_ore
 blockSwap=false
 data:

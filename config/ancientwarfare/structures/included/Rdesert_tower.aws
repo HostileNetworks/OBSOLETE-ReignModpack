@@ -12,7 +12,7 @@ offset=7,2,12
 #### VALIDATION ####
 validation:
 type=ground
-survival=false
+survival=true
 worldGenEnabled=true
 unique=false
 preserveBlocks=false
@@ -22,7 +22,7 @@ minDuplicateDistance=40
 dimensionWhiteList=true
 dimensionList=0
 biomeWhiteList=true
-biomeList=desert,deserthills,savanna,savanna plateau m,savanna plateau,desert oil field,desert m,savanna m
+biomeList=desert,deserthills,savanna,savanna plateau m,savanna plateau,desert m,savanna m
 leveling=3
 fill=3
 border=3

@@ -6,20 +6,20 @@ name=small_town
 minSize=7
 maxSize=12
 buildingExpansion=2
-selectionWeight=60
-clusterValue=100
-townBlockSize=30
+selectionWeight=100
+clusterValue=170
+townBlockSize=52
 townPlotSize=3
 wallStyle=2
 wallSize=8
-exteriorSize=0
-exteriorPlotSize=3
-interiorEmptyPlotChance=10
-randomVillagersPerChunk=1.5
-roadBlock=minecraft:gravel
+exteriorSize=1
+exteriorPlotSize=1
+interiorEmptyPlotChance=0
+randomVillagersPerChunk=1
+roadBlock=minecraft:cobblestone
 roadMeta=0
 biomeWhiteList=false
-biomeList=ocean,beach,river
+biomeList=ocean,beach,river,swamp
 dimensionWhiteList=true
 dimensionList=0
 lamp=lamp_post
@@ -43,47 +43,58 @@ wallPatterns:
 
 #list of structures, one per line
 uniqueStructures:
-unique_mayors_mansion
-unique_barracks_pelirow
+ReignDungeonChurch
+ReignThaumCouncil
+ManorDulci
+ReignDungeonChurch
 unique_creeper_church_dulciphi
-unique_tavern_pelirow
 :endUniqueStructures
 
 #list of structures, one per line
 mainStructures:
-unique_ranchhouse_pelirow
+ReignVillageSubstituteRealty
 unique_waterwheel_dulciphi
-village_smith
-village_church
-unique_mayoral_manor_dulciphi
+ReignVillageBetterSmith
+ReignVillageCafe
+ReignVillageLoftLibrary
 unique_giant_oak
 :endMainStructures
 
 #list of structure templates w/weight, to be used to fill in random positions post-generation
 #structure_name:weight
 houseStructures:
-house_officer_house:2
-house_tinkers_house:1
-house_empty_lot:1
 village_house_garden:1
 village_house:2
-village_hut1:3
-village_hut2:3
-village_library:1
+village_hut1:2
+village_hut2:2
+village_library:2
+ReignVillageBetterButcher:1
+ReignVillageTinkersHut:2
+house_empty_lot:3
+ReignVillageBetterChurch:1
+ReignVillageTinkersHut:2
+ReignVillageUndiesTaker:2
+ExteriorMelonPatchFieldMOH:1
+ExteriorLargeHouseandFieldsMOH:1
+cosmetic_stable:1
 :endHouseStructures
 
 #list of structure templates w/weight, to be used to fill in random positions post-generation
 #structure_name:weight
 cosmeticStructures:
-village_garden_large:2
-village_garden_small:2
+village_garden_large:1
+village_garden_small:3
 cosmetic_fountain_dulciphi:1
-cosmetic_log_pile:1
-cosmetic_outhouse_pelirow:1
-cosmetic_pavillion_dulciphi:1
+cosmetic_pavillion_dulciphi:2
 cosmetic_rubble_pile:1
-cosmetic_stable:1
-cosmetic_tree_swing_dulciphi:1
+cosmetic_tree_swing_dulciphi:2
+cosmetic_outhouse_pelirow:1
+cosmetic_log_pile:1
+ReignVillageWell:1
+TownBlocksFillerSmallStables:1
+ExteriorSmallHutandFieldMOH:1
+TownBlocksFillerSmallChickenCoup:1
+TownBlocksFillerSmallLampPost:2
 :endCosmeticStructures
 
 #list of structure templates w/weight, to be used to fill in random positions post-generation

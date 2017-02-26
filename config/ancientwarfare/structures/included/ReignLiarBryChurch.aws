@@ -20,12 +20,12 @@ selectionWeight=100
 clusterValue=130
 minDuplicateDistance=50
 dimensionWhiteList=true
-dimensionList=
+dimensionList=0
 biomeWhiteList=true
 biomeList=forest,roofed forest,dead forest,taiga,arctic,dense forest,frost forest,ice plains,ominous woods
 leveling=10
 fill=8
-border=0
+border=6
 validTargetBlocks=minecraft:stained_hardened_clay,minecraft:dirt,minecraft:coal_ore,minecraft:lapis_ore,minecraft:diamond_ore,minecraft:gravel,minecraft:stone,minecraft:sand,minecraft:clay,minecraft:gold_ore,minecraft:redstone_ore,minecraft:grass,minecraft:iron_ore
 blockSwap=false
 data:
@@ -2799,7 +2799,7 @@ rule:
 plugin=vanillaInventory
 number=10
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1591","id":"pi"},"y":{"val":"3","id":"pi"},"z":{"val":"-716","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"3","id":"pi"},"item":{"val":"Thaumcraft:ItemBaubleBlanks","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"10","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:paper","id":"ss"},"quantity":{"val":"7","id":"pi"},"slot":{"val":"14","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:book","id":"ss"},"quantity":{"val":"2","id":"pi"},"slot":{"val":"18","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"4","id":"pi"},"item":{"val":"OpenComputers:item","id":"ss"},"quantity":{"val":"1","id":"pi"},"stackTag":{"val":{"oc:data":{"val":{"oc:fs.label":{"val":"network","id":"ss"}},"id":"ct"},"oc:color":{"val":"10","id":"pi"},"oc:lootFactory":{"val":"OpenComputers:network","id":"ss"}},"id":"ct"},"slot":{"val":"25","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"3","id":"pi"},"teData":{"val":{"x":{"val":"-1591","id":"pi"},"y":{"val":"3","id":"pi"},"z":{"val":"-716","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 

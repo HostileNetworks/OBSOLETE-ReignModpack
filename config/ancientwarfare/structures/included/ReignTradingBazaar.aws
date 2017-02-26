@@ -17,15 +17,15 @@ worldGenEnabled=true
 unique=false
 preserveBlocks=false
 selectionWeight=100
-clusterValue=40
-minDuplicateDistance=30
-dimensionWhiteList=true
+clusterValue=100
+minDuplicateDistance=50
+dimensionWhiteList=false
 dimensionList=
 biomeWhiteList=true
-biomeList=tundra,shield,canyon,grove,mesa,savanna,xeric shrubland,outback,steppe,prairie
+biomeList=tundra,shield,canyon,grove,mesa,savanna,xeric shrubland,outback,steppe,prairie,plains,forest
 leveling=10
 fill=6
-border=0
+border=2
 validTargetBlocks=minecraft:stained_hardened_clay,minecraft:dirt,minecraft:coal_ore,minecraft:diamond_ore,minecraft:lapis_ore,minecraft:gravel,minecraft:stone,minecraft:clay,minecraft:sand,minecraft:gold_ore,minecraft:redstone_ore,minecraft:grass,minecraft:log2,minecraft:iron_ore,minecraft:sapling
 blockSwap=false
 data:
@@ -1263,7 +1263,7 @@ rule:
 plugin=vanillaInventory
 number=70
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1793","id":"pi"},"y":{"val":"4","id":"pi"},"z":{"val":"-1094","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:gunpowder","id":"ss"},"quantity":{"val":"2","id":"pi"},"slot":{"val":"1","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"openmodularturrets:disposeItemTurret","id":"ss"},"quantity":{"val":"2","id":"pi"},"slot":{"val":"4","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:sundayroastItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"8","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:beefwellingtonItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"9","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:bangersandmashItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"10","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:sausageinbreadItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"15","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:chickencelerycasseroleItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"18","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:mcpamItem","id":"ss"},"quantity":{"val":"2","id":"pi"},"slot":{"val":"24","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1793","id":"pi"},"y":{"val":"4","id":"pi"},"z":{"val":"-1094","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1447,7 +1447,7 @@ rule:
 plugin=vanillaLogic
 number=93
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"BiblioCraft:BiblioStuffs","id":"ss"},"meta":{"val":"2","id":"pi"},"teData":{"val":{"Angle":{"val":"2","id":"pi"},"id":{"val":"dinnerPlateTile","id":"ss"},"plateInventory":{"val":[{"val":{"Slot":{"val":"0","id":"pb"},"id":{"val":"7339","id":"ps"},"Count":{"val":"1","id":"pb"},"tag":{"val":{"EM_ROT_DATE":{"val":"336000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"Damage":{"val":"0","id":"ps"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"BiblioCraft:BiblioStuffs","id":"ss"},"meta":{"val":"2","id":"pi"},"teData":{"val":{"Angle":{"val":"2","id":"pi"},"id":{"val":"dinnerPlateTile","id":"ss"},"plateInventory":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1463,7 +1463,7 @@ rule:
 plugin=vanillaLogic
 number=95
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"BiblioCraft:BiblioStuffs","id":"ss"},"meta":{"val":"2","id":"pi"},"teData":{"val":{"Angle":{"val":"0","id":"pi"},"id":{"val":"dinnerPlateTile","id":"ss"},"plateInventory":{"val":[{"val":{"Slot":{"val":"0","id":"pb"},"id":{"val":"4290","id":"ps"},"Count":{"val":"1","id":"pb"},"tag":{"val":{"EM_ROT_DATE":{"val":"336000","id":"pl"},"EM_ROT_TIME":{"val":"288000","id":"pl"}},"id":"ct"},"Damage":{"val":"3","id":"ps"}},"id":"ct"},{"val":{"Slot":{"val":"1","id":"pb"},"id":{"val":"260","id":"ps"},"Count":{"val":"1","id":"pb"},"tag":{"val":{"EM_ROT_DATE":{"val":"240000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"Damage":{"val":"0","id":"ps"}},"id":"ct"},{"val":{"Slot":{"val":"2","id":"pb"},"id":{"val":"4290","id":"ps"},"Count":{"val":"1","id":"pb"},"tag":{"val":{"EM_ROT_DATE":{"val":"336000","id":"pl"},"EM_ROT_TIME":{"val":"288000","id":"pl"}},"id":"ct"},"Damage":{"val":"2","id":"ps"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"BiblioCraft:BiblioStuffs","id":"ss"},"meta":{"val":"2","id":"pi"},"teData":{"val":{"Angle":{"val":"0","id":"pi"},"id":{"val":"dinnerPlateTile","id":"ss"},"plateInventory":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1487,7 +1487,7 @@ rule:
 plugin=vanillaLogic
 number=98
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"BiblioCraft:BiblioStuffs","id":"ss"},"meta":{"val":"2","id":"pi"},"teData":{"val":{"Angle":{"val":"0","id":"pi"},"id":{"val":"dinnerPlateTile","id":"ss"},"plateInventory":{"val":[{"val":{"Slot":{"val":"0","id":"pb"},"id":{"val":"6663","id":"ps"},"Count":{"val":"1","id":"pb"},"tag":{"val":{"EM_ROT_DATE":{"val":"240000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"Damage":{"val":"0","id":"ps"}},"id":"ct"},{"val":{"Slot":{"val":"1","id":"pb"},"id":{"val":"360","id":"ps"},"Count":{"val":"1","id":"pb"},"tag":{"val":{"EM_ROT_DATE":{"val":"240000","id":"pl"},"EM_ROT_TIME":{"val":"168000","id":"pl"}},"id":"ct"},"Damage":{"val":"0","id":"ps"}},"id":"ct"},{"val":{"Slot":{"val":"2","id":"pb"},"id":{"val":"260","id":"ps"},"Count":{"val":"1","id":"pb"},"tag":{"val":{"EM_ROT_DATE":{"val":"240000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"Damage":{"val":"0","id":"ps"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"BiblioCraft:BiblioStuffs","id":"ss"},"meta":{"val":"2","id":"pi"},"teData":{"val":{"Angle":{"val":"0","id":"pi"},"id":{"val":"dinnerPlateTile","id":"ss"},"plateInventory":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1535,7 +1535,7 @@ rule:
 plugin=vanillaInventory
 number=104
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1776","id":"pi"},"y":{"val":"5","id":"pi"},"z":{"val":"-1090","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:deluxechickencurryItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"openmodularturrets:disposeItemTurret","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"1","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"openmodularturrets:baseTierWood","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"2","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:mcpamItem","id":"ss"},"quantity":{"val":"2","id":"pi"},"slot":{"val":"6","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:onionsoupItem","id":"ss"},"quantity":{"val":"2","id":"pi"},"slot":{"val":"7","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:iron_horse_armor","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"8","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:deluxecheeseburgerItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"9","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:cottagepieItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"10","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"rftools:unknownDimlet","id":"ss"},"quantity":{"val":"3","id":"pi"},"slot":{"val":"14","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:bucket","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"15","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"4","id":"pi"},"item":{"val":"enhancedportals:portal_module","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"19","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:peaandhamsoupItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"20","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:quartz","id":"ss"},"quantity":{"val":"5","id":"pi"},"slot":{"val":"22","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:cottagepieItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"24","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"1","id":"pi"},"teData":{"val":{"x":{"val":"-1776","id":"pi"},"y":{"val":"5","id":"pi"},"z":{"val":"-1090","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1551,7 +1551,7 @@ rule:
 plugin=vanillaInventory
 number=106
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1777","id":"pi"},"y":{"val":"5","id":"pi"},"z":{"val":"-1088","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:porklomeinItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"rftools:unknownDimlet","id":"ss"},"quantity":{"val":"2","id":"pi"},"slot":{"val":"10","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:friedchickenItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"15","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"6","id":"pi"},"item":{"val":"EnderIO:itemAlloy","id":"ss"},"quantity":{"val":"3","id":"pi"},"slot":{"val":"18","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"Forestry:beeDroneGE","id":"ss"},"quantity":{"val":"1","id":"pi"},"stackTag":{"val":{"MaxH":{"val":"40","id":"pi"},"Health":{"val":"40","id":"pi"},"IsAnalyzed":{"val":"0","id":"pb"},"Genome":{"val":{"Chromosomes":{"val":[{"val":{"UID1":{"val":"forestry.speciesSteadfast","id":"ss"},"UID0":{"val":"forestry.speciesSteadfast","id":"ss"},"Slot":{"val":"0","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.speedSlower","id":"ss"},"UID0":{"val":"forestry.speedSlower","id":"ss"},"Slot":{"val":"1","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.lifespanNormal","id":"ss"},"UID0":{"val":"forestry.lifespanNormal","id":"ss"},"Slot":{"val":"2","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.fertilityNormal","id":"ss"},"UID0":{"val":"forestry.fertilityNormal","id":"ss"},"Slot":{"val":"3","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.toleranceNone","id":"ss"},"UID0":{"val":"forestry.toleranceNone","id":"ss"},"Slot":{"val":"4","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.boolTrue","id":"ss"},"UID0":{"val":"forestry.boolTrue","id":"ss"},"Slot":{"val":"5","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.toleranceNone","id":"ss"},"UID0":{"val":"forestry.toleranceNone","id":"ss"},"Slot":{"val":"7","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.boolFalse","id":"ss"},"UID0":{"val":"forestry.boolFalse","id":"ss"},"Slot":{"val":"8","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.boolTrue","id":"ss"},"UID0":{"val":"forestry.boolTrue","id":"ss"},"Slot":{"val":"9","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.flowersVanilla","id":"ss"},"UID0":{"val":"forestry.flowersVanilla","id":"ss"},"Slot":{"val":"10","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.floweringSlowest","id":"ss"},"UID0":{"val":"forestry.floweringSlowest","id":"ss"},"Slot":{"val":"11","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.territoryAverage","id":"ss"},"UID0":{"val":"forestry.territoryAverage","id":"ss"},"Slot":{"val":"12","id":"pb"}},"id":"ct"},{"val":{"UID1":{"val":"forestry.effectNone","id":"ss"},"UID0":{"val":"forestry.effectNone","id":"ss"},"Slot":{"val":"13","id":"pb"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"},"slot":{"val":"23","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"harvestcraft:generaltsochickenItem","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"26","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"1","id":"pi"},"teData":{"val":{"x":{"val":"-1777","id":"pi"},"y":{"val":"5","id":"pi"},"z":{"val":"-1088","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1751,7 +1751,7 @@ rule:
 plugin=vanillaInventory
 number=131
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1793","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_porkchop","id":"ss"},"quantity":{"val":"7","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"0","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"8230","id":"pi"},"item":{"val":"minecraft:potion","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"1","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:bread","id":"ss"},"quantity":{"val":"4","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"17","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cookie","id":"ss"},"quantity":{"val":"5","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"2400000","id":"pl"}},"id":"ct"},"slot":{"val":"21","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"1","id":"pi"},"teData":{"val":{"x":{"val":"-1793","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1759,7 +1759,7 @@ rule:
 plugin=vanillaInventory
 number=132
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1792","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:apple","id":"ss"},"quantity":{"val":"14","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"12","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cookie","id":"ss"},"quantity":{"val":"5","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"2400000","id":"pl"}},"id":"ct"},"slot":{"val":"24","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1792","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1767,7 +1767,7 @@ rule:
 plugin=vanillaInventory
 number=133
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1790","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:apple","id":"ss"},"quantity":{"val":"6","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"0","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:bread","id":"ss"},"quantity":{"val":"11","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"13","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_chicken","id":"ss"},"quantity":{"val":"4","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"26","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1790","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1775,7 +1775,7 @@ rule:
 plugin=vanillaInventory
 number=134
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1789","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_porkchop","id":"ss"},"quantity":{"val":"12","id":"pi"},"slot":{"val":"1","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_fished","id":"ss"},"quantity":{"val":"9","id":"pi"},"slot":{"val":"3","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cookie","id":"ss"},"quantity":{"val":"10","id":"pi"},"slot":{"val":"24","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1789","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1783,7 +1783,7 @@ rule:
 plugin=vanillaInventory
 number=135
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1787","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:bread","id":"ss"},"quantity":{"val":"18","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_porkchop","id":"ss"},"quantity":{"val":"8","id":"pi"},"slot":{"val":"1","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_fished","id":"ss"},"quantity":{"val":"11","id":"pi"},"slot":{"val":"3","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"3","id":"pi"},"item":{"val":"minecraft:dye","id":"ss"},"quantity":{"val":"14","id":"pi"},"slot":{"val":"20","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1787","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1791,7 +1791,7 @@ rule:
 plugin=vanillaInventory
 number=136
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1786","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cookie","id":"ss"},"quantity":{"val":"11","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"2400000","id":"pl"}},"id":"ct"},"slot":{"val":"10","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"3","id":"pi"},"lootLevel":{"val":"1","id":"pi"},"teData":{"val":{"x":{"val":"-1786","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1799,7 +1799,7 @@ rule:
 plugin=vanillaInventory
 number=137
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1784","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:potion","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_chicken","id":"ss"},"quantity":{"val":"13","id":"pi"},"slot":{"val":"11","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"1","id":"pi"},"teData":{"val":{"x":{"val":"-1784","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1107","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}}
 :enddata
 :endrule
 
@@ -1807,7 +1807,7 @@ rule:
 plugin=vanillaInventory
 number=138
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1784","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1106","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_porkchop","id":"ss"},"quantity":{"val":"8","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"0","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"1","id":"pi"},"teData":{"val":{"x":{"val":"-1784","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1106","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1831,7 +1831,7 @@ rule:
 plugin=vanillaInventory
 number=141
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1784","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1104","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:potion","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:bread","id":"ss"},"quantity":{"val":"4","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"11","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_porkchop","id":"ss"},"quantity":{"val":"15","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"13","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_chicken","id":"ss"},"quantity":{"val":"3","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"18","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1784","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1104","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1839,7 +1839,7 @@ rule:
 plugin=vanillaInventory
 number=142
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1793","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_fished","id":"ss"},"quantity":{"val":"13","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"0","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_porkchop","id":"ss"},"quantity":{"val":"4","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"1","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cookie","id":"ss"},"quantity":{"val":"5","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"2400000","id":"pl"}},"id":"ct"},"slot":{"val":"2","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:bread","id":"ss"},"quantity":{"val":"5","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"16","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:apple","id":"ss"},"quantity":{"val":"7","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"19","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1793","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1847,7 +1847,7 @@ rule:
 plugin=vanillaInventory
 number=143
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1792","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:apple","id":"ss"},"quantity":{"val":"7","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"1","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_chicken","id":"ss"},"quantity":{"val":"8","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"4","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:apple","id":"ss"},"quantity":{"val":"1","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"12","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1792","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1855,7 +1855,7 @@ rule:
 plugin=vanillaInventory
 number=144
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1790","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_chicken","id":"ss"},"quantity":{"val":"8","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_porkchop","id":"ss"},"quantity":{"val":"3","id":"pi"},"slot":{"val":"1","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"8225","id":"pi"},"item":{"val":"minecraft:potion","id":"ss"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"2","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_fished","id":"ss"},"quantity":{"val":"9","id":"pi"},"slot":{"val":"20","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:bread","id":"ss"},"quantity":{"val":"2","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"26","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1790","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1863,7 +1863,7 @@ rule:
 plugin=vanillaInventory
 number=145
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1789","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_fished","id":"ss"},"quantity":{"val":"9","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"2","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_fished","id":"ss"},"quantity":{"val":"1","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"13","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1789","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1871,7 +1871,7 @@ rule:
 plugin=vanillaInventory
 number=146
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1787","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_chicken","id":"ss"},"quantity":{"val":"8","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"0","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:bread","id":"ss"},"quantity":{"val":"10","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"2","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cookie","id":"ss"},"quantity":{"val":"11","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"2400000","id":"pl"}},"id":"ct"},"slot":{"val":"4","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_fished","id":"ss"},"quantity":{"val":"12","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"21","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1787","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1879,7 +1879,7 @@ rule:
 plugin=vanillaInventory
 number=147
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1786","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"3","id":"pi"},"item":{"val":"minecraft:dye","id":"ss"},"quantity":{"val":"7","id":"pi"},"slot":{"val":"1","id":"pi"}},"id":"ct"},{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:apple","id":"ss"},"quantity":{"val":"16","id":"pi"},"stackTag":{"val":{"EM_ROT_DATE":{"val":"192000","id":"pl"},"EM_ROT_TIME":{"val":"336000","id":"pl"}},"id":"ct"},"slot":{"val":"14","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"2","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1786","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -1887,7 +1887,7 @@ rule:
 plugin=vanillaInventory
 number=148
 data:
-JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1784","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"damage":{"val":"0","id":"pi"},"item":{"val":"minecraft:cooked_porkchop","id":"ss"},"quantity":{"val":"3","id":"pi"},"slot":{"val":"11","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"lootLevel":{"val":"0","id":"pi"},"teData":{"val":{"x":{"val":"-1784","id":"pi"},"y":{"val":"8","id":"pi"},"z":{"val":"-1103","id":"pi"},"id":{"val":"Chest","id":"ss"}},"id":"ct"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[],"id":"ls"}},"id":"ct"}},"id":"ct"}}
 :enddata
 :endrule
 

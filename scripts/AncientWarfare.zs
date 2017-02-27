@@ -14,6 +14,9 @@ mods.immersiveengineering.MetalPress.removeRecipe(<AncientWarfare:component:2>);
 ### RECIPE - CONFLICTS
 ###############
 
+# Steel ingot craftable from any steel
+recipe.addShapeless(<AncientWarfare:steel_ingot>, [<ore:ingotSteel>]);
+
 # Iron Bushing
 recipes.remove(<AncientWarfare:component:4>);
 recipes.addShaped(<AncientWarfare:component:4>, [
@@ -29,4 +32,10 @@ recipes.addShaped(<AncientWarfare:component:5>, [
 	[null, null, null],
 	[<ore:ingotSteel>, null, <ore:ingotSteel>]
 ]);
-    
+
+recipes.remove(<AncientWarfare:component:5>);
+recipes.remove(<AncientWarfare:component:5>); 
+recipes.remove(<AncientWarfare:component:5>);
+recipes.remove(<AncientWarfare:component:5>);
+
+

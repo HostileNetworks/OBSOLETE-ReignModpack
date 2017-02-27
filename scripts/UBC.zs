@@ -13,10 +13,24 @@ mods.chisel.Groups.addVariation("andesite", ubcAndesite);
 <ore:blockGranite>.add(ubcGranite);
 mods.chisel.Groups.addVariation("granite", ubcGranite);
 
-# Allow sedimentary sands to be crafted into sand, 1 for 1 shapeless.
-recipes.addShapeless(<minecraft:sand>, [<CaveBiomes:sedimentarySand:*>]);
+#Oredict entries for UBC stone types
 
-# Allow sedimentary stone to be crafted into cobble, 2x2 shapeless (but not back again, since that'd be free-ish smoothstone)
+<ore:igneousStone>.add(<UndergroundBiomes:igneousStone:0>);
+<ore:igneousStone>.add(<UndergroundBiomes:igneousStone:1>);
+<ore:igneousStone>.add(<UndergroundBiomes:igneousStone:2>);
+<ore:igneousStone>.add(<UndergroundBiomes:igneousStone:3>);
+<ore:igneousStone>.add(<UndergroundBiomes:igneousStone:4>);
+<ore:igneousStone>.add(<UndergroundBiomes:igneousStone:5>);
+<ore:igneousStone>.add(<UndergroundBiomes:igneousStone:6>);
+<ore:igneousStone>.add(<UndergroundBiomes:igneousStone:7>);
+<ore:metamorphicStone>.add(<UndergroundBiomes:metamorphicStone:0>);
+<ore:metamorphicStone>.add(<UndergroundBiomes:metamorphicStone:1>);
+<ore:metamorphicStone>.add(<UndergroundBiomes:metamorphicStone:2>);
+<ore:metamorphicStone>.add(<UndergroundBiomes:metamorphicStone:3>);
+<ore:metamorphicStone>.add(<UndergroundBiomes:metamorphicStone:4>);
+<ore:metamorphicStone>.add(<UndergroundBiomes:metamorphicStone:5>);
+<ore:metamorphicStone>.add(<UndergroundBiomes:metamorphicStone:6>);
+<ore:metamorphicStone>.add(<UndergroundBiomes:metamorphicStone:7>);
 <ore:sedimentaryStone>.add(<UndergroundBiomes:sedimentaryStone:0>);
 <ore:sedimentaryStone>.add(<UndergroundBiomes:sedimentaryStone:1>);
 <ore:sedimentaryStone>.add(<UndergroundBiomes:sedimentaryStone:2>);
@@ -25,6 +39,12 @@ recipes.addShapeless(<minecraft:sand>, [<CaveBiomes:sedimentarySand:*>]);
 <ore:sedimentaryStone>.add(<UndergroundBiomes:sedimentaryStone:5>);
 <ore:sedimentaryStone>.add(<UndergroundBiomes:sedimentaryStone:6>);
 <ore:sedimentaryStone>.add(<UndergroundBiomes:sedimentaryStone:7>);
+
+# Allow sedimentary sands to be crafted into sand, 1 for 1 shapeless.
+recipes.addShapeless(<minecraft:sand>, [<CaveBiomes:sedimentarySand:*>]);
+
+# Allow sedimentary stone to be crafted into cobble, 2x2 shapeless (but not back again, since that'd be free-ish smoothstone)
+
 recipes.addShapeless(<minecraft:cobblestone> * 4, [<ore:sedimentaryStone>, <ore:sedimentaryStone>, <ore:sedimentaryStone>, <ore:sedimentaryStone>]);
 
 # Readd vanilla button recipe manually.

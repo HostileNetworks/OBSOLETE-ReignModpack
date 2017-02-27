@@ -1,5 +1,6 @@
 #### Ex Nihilo ####
 import mods.nei.NEI;
+
 # Silk Mesh
 
 recipes.remove(<exnihilo:mesh>);
@@ -29,7 +30,7 @@ NEI.hide(<exnihilo:crook>);
 NEI.hide(<exnihilo:crook_bone>);
 
 
-//Sieve
+## Sieve ##
 //BlockStack, OutputStack OR OutputArray, Rarity OR RarityArray (Rarity goes in Fractions, 1 = 100Pe, 2 = 50Pe, 3 = 33Pe)
 #mods.exnihilo.Sieve.addRecipe(<minecraft:clay>, <minecraft:waterlily>, 5);
 #mods.exnihilo.Sieve.addRecipe(<minecraft:mycelium>, [<minecraft:red_mushroom>, <minecraft:brown_mushroom>], [2, 2]);
@@ -55,3 +56,40 @@ mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:4>, [<minecraft:flint>
 mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:5>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 35]);
 mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:6>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 15]);
 mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:7>, [<minecraft:flint>, <exnihilo:exnihilo.copper_crushed>, <exnihilo:exnihilo.tin_crushed>, <exnihilo:exnihilo.iron_crushed>, <exnihilo:exnihilo.aluminum_crushed>, <minecraft:dye:4>, <minecraft:coal>], [2, 15, 20, 30, 10, 50, 15]);
+
+## Crucible ##
+//BlockStack, OutputFluid
+#mods.exnihilo.Crucible.addRecipe(<minecraft:packed_ice>, <liquid:water> * 1000);
+//OutputFluid
+#mods.exnihilo.Crucible.removeRecipe(<liquid:lava>);
+//BlockStack, HeatValue
+#mods.exnihilo.Crucible.addHeatSource(<minecraft:coal_block>, 0.1);
+//BlockStack
+mods.exnihilo.Crucible.removeHeatSource(<minecraft:torch>);
+mods.exnihilo.Crucible.removeHeatSource(<minecraft:fire>);
+mods.exnihilo.Crucible.removeHeatSource(<minecraft:lava>);
+mods.exnihilo.Crucible.addHeatSource(<minecraft:lava>, 0.03);
+mods.exnihilo.Crucible.addHeatSource(<minecraft:fire>, 0.01);
+mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:6>, 0.03);
+mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:5>, 0.025);
+mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:4>, 0.02);
+mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:3>, 0.017);
+mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:2>, 0.015);
+mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:1>, 0.01);
+
+
+
+mods.exnihilo.Crucible.removeRecipe(<liquid:lava>);
+
+for oreStone in <ore:stone>.items {
+mods.exnihilo.Crucible.addRecipe(oreStone, <liquid:lava> * 100);
+}
+for oresedimentaryStone in <ore:sedimentaryStone>.items {
+mods.exnihilo.Crucible.addRecipe(oresedimentaryStone, <liquid:lava> * 100);
+}
+for oremetamorphicStone in <ore:metamorphicStone>.items {
+mods.exnihilo.Crucible.addRecipe(oremetamorphicStone, <liquid:lava> * 250);
+}
+for oreigneousStone in <ore:igneousStone>.items {
+mods.exnihilo.Crucible.addRecipe(oreigneousStone, <liquid:lava> * 500);
+}

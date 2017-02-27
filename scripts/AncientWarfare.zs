@@ -33,9 +33,5 @@ recipes.addShaped(<AncientWarfare:component:5>, [
 	[<ore:ingotSteel>, null, <ore:ingotSteel>]
 ]);
 
-recipes.remove(<AncientWarfare:component:5>);
-recipes.remove(<AncientWarfare:component:5>); 
-recipes.remove(<AncientWarfare:component:5>);
-recipes.remove(<AncientWarfare:component:5>);
 
 

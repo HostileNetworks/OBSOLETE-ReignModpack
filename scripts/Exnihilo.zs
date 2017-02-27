@@ -68,16 +68,16 @@ mods.exnihilo.Sieve.addRecipe(<CaveBiomes:sedimentarySand:7>, [<minecraft:flint>
 mods.exnihilo.Crucible.removeHeatSource(<minecraft:torch>);
 mods.exnihilo.Crucible.removeHeatSource(<minecraft:fire>);
 mods.exnihilo.Crucible.removeHeatSource(<minecraft:lava>);
+mods.exnihilo.Crucible.removeHeatSource(<minecraft:lit_furnace>);
 mods.exnihilo.Crucible.addHeatSource(<minecraft:lava>, 0.03);
 mods.exnihilo.Crucible.addHeatSource(<minecraft:fire>, 0.01);
+mods.exnihilo.Crucible.addHeatSource(<minecraft:lit_furnace>, 0.015);
 mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:6>, 0.03);
 mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:5>, 0.025);
 mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:4>, 0.02);
 mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:3>, 0.017);
 mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:2>, 0.015);
 mods.exnihilo.Crucible.addHeatSource(<reignadditionals:campfireLit:1>, 0.01);
-
-
 
 mods.exnihilo.Crucible.removeRecipe(<liquid:lava>);
 
@@ -93,3 +93,5 @@ mods.exnihilo.Crucible.addRecipe(oremetamorphicStone, <liquid:lava> * 250);
 for oreigneousStone in <ore:igneousStone>.items {
 mods.exnihilo.Crucible.addRecipe(oreigneousStone, <liquid:lava> * 500);
 }
+mods.exnihilo.Crucible.addRecipe(<minecraft:netherrack>, <liquid:lava> * 250);
+

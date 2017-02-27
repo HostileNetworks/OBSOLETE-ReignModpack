@@ -15,7 +15,7 @@ mods.immersiveengineering.MetalPress.removeRecipe(<AncientWarfare:component:2>);
 ###############
 
 # Steel ingot craftable from any steel
-recipe.addShapeless(<AncientWarfare:steel_ingot>, [<ore:ingotSteel>]);
+recipes.addShapeless(<AncientWarfare:steel_ingot>, [<ore:ingotSteel>]);
 
 # Iron Bushing
 recipes.remove(<AncientWarfare:component:4>);

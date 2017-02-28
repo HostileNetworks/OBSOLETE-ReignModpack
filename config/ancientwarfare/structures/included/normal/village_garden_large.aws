@@ -1,12 +1,12 @@
 # Ancient Warfare Structure Template File
-# Auto-generated structure template file. created on: 11/12/2014 at: 17:13:56
+# Auto-generated structure template file. created on: 2/27/2017 at: 16:18:23
 # Lines beginning with # denote comments
 
 header:
 version=2.1
 name=village_garden_large
-size=13,2,9
-offset=6,0,8
+size=13,8,9
+offset=6,2,8
 :endheader
 
 #### VALIDATION ####
@@ -35,24 +35,90 @@ data:
 #### LAYERS ####
 layer: 0
 1,1,1,1,1,1,1,1,1,1,1,1,1
-1,2,2,3,2,2,1,4,2,3,2,2,1
-1,2,2,3,2,2,1,2,2,3,2,2,1
-1,2,2,3,2,4,1,2,2,3,2,2,1
-1,2,2,3,2,4,1,2,2,3,4,2,1
-1,2,2,3,2,4,1,2,2,3,2,2,1
-1,2,2,3,2,2,1,2,2,3,2,2,1
-1,2,2,3,2,2,1,4,2,3,2,2,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1
 :endlayer
 layer: 1
+2,2,2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2,2,2
+:endlayer
+layer: 2
+3,3,3,3,3,3,3,3,3,3,3,3,3
+3,4,4,5,4,4,3,4,4,5,4,4,3
+3,4,4,5,4,4,3,4,4,5,4,4,3
+3,4,4,5,4,4,3,4,4,5,4,4,3
+3,4,4,5,4,4,3,4,4,5,4,4,3
+3,4,4,5,4,4,3,4,4,5,4,4,3
+3,4,4,5,4,4,3,4,4,5,4,4,3
+3,4,4,5,4,4,3,4,4,5,4,4,3
+3,3,3,3,3,3,3,3,3,3,3,3,3
+:endlayer
+layer: 3
+6,0,0,0,0,0,6,0,0,0,0,0,6
+0,7,7,0,7,8,0,9,9,0,10,11,0
+0,8,12,0,7,7,0,9,9,0,11,10,0
+0,7,12,0,13,7,0,14,9,0,11,11,0
+0,12,12,0,7,13,0,15,15,0,10,16,0
+0,8,8,0,12,8,0,15,14,0,17,10,0
+0,18,18,0,12,18,0,15,15,0,17,17,0
+0,8,13,0,7,7,0,15,15,0,19,11,0
+6,0,0,0,0,0,6,0,0,0,0,0,6
+:endlayer
+layer: 4
 0,0,0,0,0,0,0,0,0,0,0,0,0
-0,9,10,0,10,9,0,13,16,0,21,21,0
-0,5,8,0,6,8,0,11,12,0,20,20,0
-0,8,9,0,7,10,0,13,13,0,21,17,0
-0,7,6,0,10,7,0,11,11,0,20,22,0
-0,5,10,0,6,5,0,12,15,0,19,20,0
-0,6,8,0,8,8,0,12,14,0,18,18,0
-0,5,6,0,7,10,0,11,11,0,17,21,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+:endlayer
+layer: 5
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+:endlayer
+layer: 6
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+:endlayer
+layer: 7
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0
 :endlayer
 
@@ -61,7 +127,7 @@ rule:
 plugin=vanillaBlocks
 number=1
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:log","id":"ss"},"meta":{"val":"0","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:dirt","id":"ss"},"meta":{"val":"0","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -69,7 +135,7 @@ rule:
 plugin=vanillaBlocks
 number=2
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:farmland","id":"ss"},"meta":{"val":"7","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:grass","id":"ss"},"meta":{"val":"0","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -77,7 +143,7 @@ rule:
 plugin=vanillaBlocks
 number=3
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:water","id":"ss"},"meta":{"val":"0","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:log","id":"ss"},"meta":{"val":"0","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -85,7 +151,7 @@ rule:
 plugin=vanillaBlocks
 number=4
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:farmland","id":"ss"},"meta":{"val":"0","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:farmland","id":"ss"},"meta":{"val":"7","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -93,7 +159,7 @@ rule:
 plugin=vanillaBlocks
 number=5
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"7","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"0","id":"pi"},"blockName":{"val":"minecraft:water","id":"ss"},"meta":{"val":"0","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -101,7 +167,7 @@ rule:
 plugin=vanillaBlocks
 number=6
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"2","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:torch","id":"ss"},"meta":{"val":"5","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -109,7 +175,7 @@ rule:
 plugin=vanillaBlocks
 number=7
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"3","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"6","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -117,7 +183,7 @@ rule:
 plugin=vanillaBlocks
 number=8
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"4","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"7","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -125,7 +191,7 @@ rule:
 plugin=vanillaBlocks
 number=9
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"5","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:potatoes","id":"ss"},"meta":{"val":"6","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -133,7 +199,7 @@ rule:
 plugin=vanillaBlocks
 number=10
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"6","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"5","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -141,7 +207,7 @@ rule:
 plugin=vanillaBlocks
 number=11
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:potatoes","id":"ss"},"meta":{"val":"5","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"4","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -149,7 +215,7 @@ rule:
 plugin=vanillaBlocks
 number=12
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:potatoes","id":"ss"},"meta":{"val":"4","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"5","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -157,7 +223,7 @@ rule:
 plugin=vanillaBlocks
 number=13
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:potatoes","id":"ss"},"meta":{"val":"6","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"3","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -165,7 +231,7 @@ rule:
 plugin=vanillaBlocks
 number=14
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:potatoes","id":"ss"},"meta":{"val":"2","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:potatoes","id":"ss"},"meta":{"val":"7","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -173,7 +239,7 @@ rule:
 plugin=vanillaBlocks
 number=15
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:potatoes","id":"ss"},"meta":{"val":"7","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:potatoes","id":"ss"},"meta":{"val":"5","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -181,7 +247,7 @@ rule:
 plugin=vanillaBlocks
 number=16
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:potatoes","id":"ss"},"meta":{"val":"3","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"6","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -189,7 +255,7 @@ rule:
 plugin=vanillaBlocks
 number=17
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"2","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"7","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -197,7 +263,7 @@ rule:
 plugin=vanillaBlocks
 number=18
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"7","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:carrots","id":"ss"},"meta":{"val":"4","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -205,31 +271,7 @@ rule:
 plugin=vanillaBlocks
 number=19
 data:
-JSON:{{"val":{"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"6","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
-:enddata
-:endrule
-
-rule:
-plugin=vanillaBlocks
-number=20
-data:
-JSON:{{"val":{"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"3","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
-:enddata
-:endrule
-
-rule:
-plugin=vanillaBlocks
-number=21
-data:
-JSON:{{"val":{"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"4","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
-:enddata
-:endrule
-
-rule:
-plugin=vanillaBlocks
-number=22
-data:
-JSON:{{"val":{"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"5","id":"pi"},"buildPass":{"val":"2","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"buildPass":{"val":"2","id":"pi"},"blockName":{"val":"minecraft:wheat","id":"ss"},"meta":{"val":"3","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 

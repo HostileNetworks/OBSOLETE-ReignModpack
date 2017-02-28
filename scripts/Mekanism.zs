@@ -10,7 +10,7 @@ val core = <Mekanism:TeleportationCore:0>;
 val miner = <Mekanism:MachineBlock:4>;
 val tablet = <Mekanism:EnergyTablet:100>;
 val chest = <Mekanism:MachineBlock:13>;
-val ingot = <ore:ingotOsmium>;
+val ingot = <Mekanism:Ingot:0>;
 val glass = <ore:glass>;
 val steel = <Railcraft:part.plate:1>;
 
@@ -22,11 +22,6 @@ val c1 = <Mekanism:ControlCircuit:0>;
 val c2 = <Mekanism:ControlCircuit:1>;
 val c3 = <Mekanism:ControlCircuit:2>;
 val c4 = <Mekanism:ControlCircuit:3>;
-
-recipes.remove(robit);
-recipes.addShaped(robit,[[null,bedrock,null],
-						 [tablet,a3,tablet],
-						 [ingot,chest,ingot]]);
 
 #circuits must be made on the AssemblyTable
 mods.mekanism.Infuser.removeRecipe(c1);
@@ -60,4 +55,10 @@ recipes.addShaped(<Mekanism:MachineBlock:8>
                ,[[<ore:ingotSteel>,<Magneticraft:item.heatcoil_tungsten>,<ore:ingotSteel>]
 			    ,[<ore:dustRedstone>,<ore:ingotOsmium>,<ore:dustRedstone>]
 				,[<ore:ingotSteel>,<minecraft:furnace>,<ore:ingotSteel>]]);
-				
+
+# Tablet gating
+recipes.remove(<Mekanism:EnergyTablet>);
+recipes.addShaped(<Mekanism:EnergyTablet>,
+    [[a1,<ore:chipsetGold>,a1]]);
+
+                

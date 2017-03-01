@@ -8,7 +8,7 @@ val robit = <Mekanism:Robit:100>;
 val casing = <Mekanism:BasicBlock:8>;
 val core = <Mekanism:TeleportationCore:0>;
 val miner = <Mekanism:MachineBlock:4>;
-val tablet = <Mekanism:EnergyTablet:100>;
+val tablet = <Mekanism:EnergyTablet>;
 val chest = <Mekanism:MachineBlock:13>;
 val ingot = <Mekanism:Ingot:0>;
 val glass = <ore:glass>;
@@ -61,4 +61,10 @@ recipes.remove(<Mekanism:EnergyTablet>);
 recipes.addShaped(<Mekanism:EnergyTablet>,
     [[a1,<ore:chipsetGold>,a1]]);
 
-                
+# Osmium Compressor
+recipes.remove(<Mekanism:MachineBlock:1>);
+recipes.addShaped(<Mekanism:MachineBlock:1>
+               ,[[a1,tablet,a1]
+			    ,[<minecraft:bucket>,casing,<minecraft:bucket>]
+				,[a1,tablet,a1]]);
+    

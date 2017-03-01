@@ -18,7 +18,7 @@ NEI.hide(<minechem:minechemPolytool>);
 recipes.remove(<minechem:minechemOpticalMicroscopeLens:0>);
 recipes.remove(<minechem:minechemOpticalMicroscopeLens:1>);
 AssemblyTable.addRecipe(<minechem:minechemOpticalMicroscopeLens:0>, 200, [<ore:dustSapphire>, <ore:sand>]);
-AssemblyTable.addRecipe(<minechem:minechemOpticalMicroscopeLens:1>, 200, [<ore:sand>, <ore:dustSapphire>]);
+AssemblyTable.addRecipe(<minechem:minechemOpticalMicroscopeLens:1>, 200, [<ore:sand>, <ore:gemSapphire>]);
 
 # atomic manipulator
 recipes.remove(<minechem:minechemAtomicManipulator>);

@@ -12,12 +12,12 @@ offset=9,2,15
 #### VALIDATION ####
 validation:
 type=ground
-survival=false
+survival=true
 worldGenEnabled=true
 unique=false
 preserveBlocks=false
 selectionWeight=30
-clusterValue=5
+clusterValue=50
 minDuplicateDistance=40
 dimensionWhiteList=false
 dimensionList=

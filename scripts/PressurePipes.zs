@@ -64,7 +64,7 @@ recipes.addShaped(mgInput, [[iron,alloy,iron]
 							,[iron,pressure,iron]]);
 
 recipes.remove(source);
-source.addTooltip(format.red("REMOVED: ") + format.white("Use Ender IO Reservoirs"));
+source.addTooltip(format.red("REMOVED: ") + format.white("Use Railcraft water tanks"));
 					      source.addTooltip(format.white("for low-flow infinite water"));
 						  source.addTooltip(format.white("or RotaryCraft Dew Point"));
 						  source.addTooltip(format.white("Aggregator for high-flow."));

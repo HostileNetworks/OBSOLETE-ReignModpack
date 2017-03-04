@@ -2,9 +2,9 @@
   "_name": "farlanders.Fanmade Enderman",
   "drops": [
   {
-      "_comment": "Drop EnderEye",
+      "_comment": "Drop EnderPearl",
       "function": "add",
-      "id": "minecraft:ender_eye",
+      "id": "minecraft:ender_pearl",
       "damage": "0",
       "count": 1
     }

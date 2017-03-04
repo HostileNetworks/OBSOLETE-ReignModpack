@@ -12,17 +12,17 @@ offset=31,7,39
 #### VALIDATION ####
 validation:
 type=ground
-survival=false
+survival=true
 worldGenEnabled=true
 unique=false
 preserveBlocks=false
 selectionWeight=150
-clusterValue=50
-minDuplicateDistance=32
+clusterValue=150
+minDuplicateDistance=132
 dimensionWhiteList=false
 dimensionList=
 biomeWhiteList=true
-biomeList=junglehills,jungle,jungleedge m,jungleedge,jungle m
+biomeList=junglehills,jungle,jungle m,tropics,rainforest
 leveling=12
 fill=8
 border=6

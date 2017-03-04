@@ -22,3 +22,7 @@ recipes.addShapeless(<ProjRed|Core:projectred.core.part:31> * 2, [<ore:dustGlows
 recipes.addShapeless(<ProjRed|Core:projectred.core.part:32> * 2, [<ore:dustGlowstone>, <ore:dyeGreen>]);
 recipes.addShapeless(<ProjRed|Core:projectred.core.part:33> * 2, [<ore:dustGlowstone>, <ore:dyeRed>]);
 recipes.addShapeless(<ProjRed|Core:projectred.core.part:34> * 2, [<ore:dustGlowstone>, <ore:dyeBlack>]);
+
+# Nikolite for Blue Alloy
+recipes.addShapeless(<ProjRed|Core:projectred.core.part:56>, [<ore:dustNikolite>]);
+

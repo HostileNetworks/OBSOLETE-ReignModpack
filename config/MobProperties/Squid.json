@@ -13,7 +13,7 @@
       "function": "add",
       "id": "harvestcraft:calamarirawItem",
       "damage": "0",
-      "count": 1
+      "count": 2
     }
   ],
   "pre_stats": [],

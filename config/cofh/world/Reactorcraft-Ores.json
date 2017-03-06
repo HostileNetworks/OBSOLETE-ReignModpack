@@ -44,8 +44,8 @@
       }
     ],
     "material": "stone",
-    "clusterSize": 16,
-    "numClusters": 2,
+    "clusterSize": 12,
+    "numClusters": 12,
     "minHeight": 6,
     "maxHeight": 160,
     "retrogen": "false",
@@ -68,15 +68,16 @@
     ],
     "material": "stone",
     "clusterSize": 12,
-    "numClusters": 2,
-    "minHeight": 1,
-    "maxHeight": 148,
+    "numClusters": 12,
+    "minHeight": 12,
+    "maxHeight": 80,
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
     "dimensionRestriction": "whitelist",
     "dimensions": [
-      -2
+      -2,
+      -1
     ]
   },
   "magnetiteOffworld": {
@@ -89,15 +90,16 @@
     ],
     "material": "stone",
     "clusterSize": 12,
-    "numClusters": 2,
-    "minHeight": 1,
-    "maxHeight": 248,
+    "numClusters": 12,
+    "minHeight": 10,
+    "maxHeight": 148,
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
     "dimensionRestriction": "whitelist",
     "dimensions": [
-      -2
+      -2,
+      -1
     ]
   },
   "cadmium": {
@@ -110,15 +112,16 @@
     ],
     "material": "stone",
     "clusterSize": 12,
-    "numClusters": 1,
-    "minHeight": 1,
+    "numClusters": 10,
+    "minHeight": 10,
     "maxHeight": 148,
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
     "dimensionRestriction": "whitelist",
     "dimensions": [
-      -2
+      -2,
+      -1
     ]
   },
   "indium": {
@@ -131,7 +134,7 @@
     ],
     "material": "stone",
     "clusterSize": 6,
-    "numClusters": 4,
+    "numClusters": 8,
     "minHeight": 1,
     "maxHeight": 48,
     "retrogen": "false",
@@ -139,7 +142,8 @@
     "biomes": [],
     "dimensionRestriction": "whitelist",
     "dimensions": [
-      -2
+      -2,
+      -1
     ]
   },
   "Dimthorite": {
@@ -152,8 +156,7 @@
     ],
     "material": "stone",
     "clusterSize": 6,
-    "numClusters": 2,
-    "chunkChance": 16,
+    "numClusters": 10,
     "minHeight": 1,
     "maxHeight": 48,
     "retrogen": "false",
@@ -161,7 +164,9 @@
     "biomes": [],
     "dimensionRestriction": "whitelist",
     "dimensions": [
-      -2
+      -1,
+      -2,
+      -100
     ]
   }
 }

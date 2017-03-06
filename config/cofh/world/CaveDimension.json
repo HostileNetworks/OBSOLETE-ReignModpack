@@ -354,7 +354,7 @@
     ],
     "material": "stone",
     "clusterSize": 20,
-    "numClusters": 2,
+    "numClusters": 20,
     "chunkChance": 4,
     "minHeight": 5,
     "maxHeight": 250,

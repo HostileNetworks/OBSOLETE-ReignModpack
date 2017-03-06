@@ -33,14 +33,14 @@
       -1
     ]
   },
-  "coal2": {
+  "coalLow": {
     "template": "uniform",
     "block": "coal_ore",
     "material": "stone",
-    "clusterSize": 12,
-    "numClusters": 8,
-    "minHeight": 32,
-    "maxHeight": 128,
+    "clusterSize": 16,
+    "numClusters": 16,
+    "minHeight": 11,
+    "maxHeight": 70,
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
@@ -49,6 +49,22 @@
       0
     ]
   },
+  "coalHigh": {
+    "template": "uniform",
+    "block": "coal_ore",
+    "material": "stone",
+    "clusterSize": 16,
+    "numClusters": 16,
+    "minHeight": 70,
+    "maxHeight": 228,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },  
   "VeinIron": {
     "template": {
       "type": "fractal",
@@ -144,7 +160,7 @@
       1
     ]
   },
-  "redstone": {
+  "redstonelapis": {
     "template": {
       "type": "fractal",
       "generator": "large-vein",
@@ -153,15 +169,19 @@
     "block": [
       {
         "name": "redstone_ore",
-        "weight": 80
+        "weight": 60
+      },
+      {
+        "name": "lapis_ore",
+        "weight": 40
       }
     ],
     "material": "stone",
     "clusterSize": 10,
-    "numClusters": 10,
+    "numClusters": 20,
     "chunkChance": 128,
     "minHeight": 10,
-    "veinHeight": 16,
+    "veinHeight": 20,
     "veinDiameter": 12,
     "verticalDensity": 18,
     "horizontalDensity": 16,
@@ -312,49 +332,6 @@
     "dimensionRestriction": "whitelist",
     "dimensions": [
       0
-    ]
-  },
-  "lapis": {
-    "template": {
-      "type": "fractal",
-      "generator": "large-vein",
-      "sparse": "true"
-    },
-    "block": "lapis_ore",
-    "material": "stone",
-    "clusterSize": 10,
-    "numClusters": 10,
-    "chunkChance": 20,
-    "minHeight": 10,
-    "veinHeight": 16,
-    "veinDiameter": 12,
-    "verticalDensity": 16,
-    "horizontalDensity": 16,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-      1,
-      -1
-    ]
-  },
-  "lapis2": {
-    "template": "uniform",
-    "block": "minecraft:diamond_ore",
-    "material": "stone",
-    "clusterSize": 5,
-    "numClusters": 1,
-    "chunkChance": 4,
-    "minHeight": 2,
-    "maxHeight": 16,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-      1,
-      -1
     ]
   }
 }

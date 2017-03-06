@@ -7,6 +7,13 @@
       "id": "kitchenCraftFoods:veggie",
       "damage": "10",
       "count": 1
+    },
+    {
+      "_comment": "Drop Extra Beef",
+      "function": "add",
+      "id": "minecraft:beef",
+      "damage": "0",
+      "count": 1
     }
   ],
   "pre_stats": [],

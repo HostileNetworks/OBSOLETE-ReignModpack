@@ -7,6 +7,13 @@
       "id": "kitchenCraftFoods:veggie",
       "damage": "10",
       "count": 1
+    },
+    {
+      "_comment": "Drop extra Chalk Pops",
+      "function": "add",
+      "id": "minecraft:porkchop",
+      "damage": "0",
+      "count": 1
     }
   ],
   "pre_stats": [],

@@ -1,6 +1,21 @@
 {
   "_name": "Squid",
-  "drops": [],
+  "drops": [
+    {
+      "_comment": "Drop Extra Ink",
+      "function": "add",
+      "id": "minecraft:dye",
+      "damage": "0",
+      "count": 1
+    },
+    {
+      "_comment": "Drop Extra Calamari",
+      "function": "add",
+      "id": "harvestcraft:calamarirawItem",
+      "damage": "0",
+      "count": 1
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }

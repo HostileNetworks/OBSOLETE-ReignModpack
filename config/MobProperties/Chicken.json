@@ -1,6 +1,14 @@
 {
   "_name": "Chicken",
-  "drops": [],
+  "drops": [
+    {
+      "_comment": "Drop Moar Chicken",
+      "function": "add",
+      "id": "minecraft:chicken",
+      "damage": "0",
+      "count": 1
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }

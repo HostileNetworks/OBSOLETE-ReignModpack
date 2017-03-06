@@ -169,11 +169,11 @@
     "block": [
       {
         "name": "redstone_ore",
-        "weight": 60
+        "weight": 80
       },
       {
         "name": "lapis_ore",
-        "weight": 40
+        "weight": 20
       }
     ],
     "material": "stone",

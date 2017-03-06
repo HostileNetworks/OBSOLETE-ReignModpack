@@ -176,11 +176,27 @@ recipes.addShaped(<harvestcraft:skilletItem>,
 [[null, <TConstruct:frypanHead:2>],
 [<ore:rodWood>]]);
 
-# Heart canisters
-recipes.removeShaped(<TConstruct:heartCanister:2>, [[<TConstruct:diamondApple>, <TConstruct:materials:8>], [<TConstruct:heartCanister>, <TConstruct:heartCanister:1>]]);
-recipes.addShaped(<TConstruct:heartCanister:6>, [[<minecraft:emerald>, <TConstruct:heartCanister:5>], [<TConstruct:heartCanister:4>, null]]);
-recipes.addShaped(<TConstruct:heartCanister:4>, [[<minecraft:gold_ingot>, <TConstruct:heartCanister:3>], [<TConstruct:heartCanister:2>, null]]);
-recipes.addShaped(<TConstruct:heartCanister:2>, [[<TConstruct:materials:8>, <TConstruct:heartCanister:1>], [<TConstruct:heartCanister>, null]]);
+## Heart canisters ##
+
+# removed due to bug. Extra hearts not being applied. Hunger speeds up instead.
+recipes.remove(<TConstruct:heartCanister:2>);
+recipes.remove(<TConstruct:heartCanister:4>);
+recipes.remove(<TConstruct:heartCanister:6>);
+
+val heart = <ore:canister>;
+heart.add(<TConstruct:heartCanister:2>);
+heart.add(<TConstruct:heartCanister:4>);
+heart.add(<TConstruct:heartCanister:6>);
+
+heart.addTooltip(format.yellow("Removed. It's not working, sorry"));
+heart.addTooltip(format.yellow("Extra hearts aren't applied and"));
+heart.addTooltip(format.yellow("hunger drains rapidly."));
+
+#recipes.removeShaped(<TConstruct:heartCanister:2>, [[<TConstruct:diamondApple>, <TConstruct:materials:8>], [<TConstruct:heartCanister>, <TConstruct:heartCanister:1>]]);
+#recipes.addShaped(<TConstruct:heartCanister:6>, [[<minecraft:emerald>, <TConstruct:heartCanister:5>], [<TConstruct:heartCanister:4>, null]]);
+#recipes.addShaped(<TConstruct:heartCanister:4>, [[<minecraft:gold_ingot>, <TConstruct:heartCanister:3>], [<TConstruct:heartCanister:2>, null]]);
+#recipes.addShaped(<TConstruct:heartCanister:2>, [[<TConstruct:materials:8>, <TConstruct:heartCanister:1>], [<TConstruct:heartCanister>, null]]);
+
 
 # Mirrors
 recipes.remove(<Magneticraft:mirror>);

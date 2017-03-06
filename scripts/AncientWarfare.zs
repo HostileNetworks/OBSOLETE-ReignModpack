@@ -14,8 +14,12 @@ mods.immersiveengineering.MetalPress.removeRecipe(<AncientWarfare:component:2>);
 ### RECIPE - CONFLICTS
 ###############
 
+# Remove AW2 Steel ingot
+
+recipes.remove(<AncientWarfare:steel_ingot>);
 # Steel ingot craftable from any steel
 recipes.addShapeless(<AncientWarfare:steel_ingot>, [<ore:ingotSteel>]);
+
 
 # Iron Bushing
 recipes.remove(<AncientWarfare:component:4>);

@@ -5,12 +5,13 @@ NEI.hide(<weather2:WeatherMachine>);
 
 recipes.remove(<weather2:WeatherForecast>);
 recipes.addShaped(<weather2:WeatherForecast>,
-    [[<Magneticraft:item.thermometer>, <ProjRed|Integration:projectred.integration.gate:3>, <minecraft:light_weighted_pressure_plate>],
-    [<ore:projredInsulatedWire>, <ore:circuitElite>, <ore:projredInsulatedWire>],
+    [[null, <ProjRed|Integration:projectred.integration.gate:3>, null],
+    [<ore:projredInsulatedWire>, <weather2:TornadoSensor>, <ore:projredInsulatedWire>],
     [<ore:ingotIron>, <BuildCraft|Silicon:redstoneChipset:5>, <ore:ingotIron>]]);
 
 recipes.remove(<weather2:TornadoSensor>);
-recipes.addShapeless(<weather2:TornadoSensor>, [<weather2:WeatherForecast>, <RotaryCraft:rotarycraft_item_borecraft:2>]);
+recipes.addShapeless(<weather2:TornadoSensor>,
+    [<minecraft:light_weighted_pressure_plate>, <weather2:WindVane>, <Magneticraft:item.thermometer>]);
 
 recipes.remove(<weather2:WeatherDeflector>);
 recipes.addShaped(<weather2:WeatherDeflector>,

@@ -32,6 +32,9 @@ NEI.hide("Additional-Buildcraft-Objects:largebuttonstone");
 
 // Gear Sets (oredicted eqivalents provided by other mods)
 NEI.override_invert("AncientWarfare:component", [0, 1, 2]);
+NEI.hide("AncientWarfareAutomation:chunk_loader_simple");
+NEI.hide("AncientWarfareAutomation:chunk_loader_deluxe");
+NEI.override_invert("AncientWarfareAutomation:worksite_upgrade", [9, 10]);
 
 
 

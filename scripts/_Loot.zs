@@ -1,4 +1,8 @@
-# Remove Chaff, the Milk and Honey
+# vanilla.loot.addChestLoot("dungeonChest", <minecraft:diamond>.weight(100));
+# vanilla.loot.addChestLoot("dungeonChest", <minecraft:stick>.weight(100), 1, 5);
+# vanilla.loot.removeChestLoot("dungeonChest", <minecraft:enchanted_book>);
+
+# Remove Canola
 vanilla.loot.removeChestLoot("dungeonChest", <RotaryCraft:rotarycraft_item_canola:*>);
 vanilla.loot.removeChestLoot("mineshaftCorridor", <RotaryCraft:rotarycraft_item_canola:*>);
 vanilla.loot.removeChestLoot("pyramidDesertyChest", <RotaryCraft:rotarycraft_item_canola:*>);
@@ -54,3 +58,13 @@ vanilla.loot.removeChestLoot("strongholdCrossing", <minecraft:blaze_powder>);
 vanilla.loot.removeChestLoot("villageBlacksmith", <minecraft:blaze_powder>);
 vanilla.loot.removeChestLoot("pyramidDesertyChest", <minecraft:blaze_powder>);
 vanilla.loot.removeChestLoot("pyramidJungleChest", <minecraft:blaze_powder>);
+
+# Cookingbook 
+val cookbook = <cookingbook:recipebook:1>;
+vanilla.loot.addChestLoot("dungeonChest", ironScrap.weight(20));
+vanilla.loot.addChestLoot("mineshaftCorridor", cookbook.weight(5));
+vanilla.loot.addChestLoot("villageBlacksmith", cookbook.weight(20));
+vanilla.loot.addChestLoot("pyramidDesertyChest", cookbook.weight(5));
+vanilla.loot.addChestLoot("pyramidJungleChest", cookbook.weight(5));
+
+

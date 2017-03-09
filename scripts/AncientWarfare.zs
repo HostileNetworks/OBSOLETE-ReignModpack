@@ -37,5 +37,14 @@ recipes.addShaped(<AncientWarfare:component:5>, [
 	[<ore:ingotSteel>, null, <ore:ingotSteel>]
 ]);
 
+# Chunk Loaders
+recipes.remove(<AncientWarfareAutomation:chunk_loader_simple>);
+recipes.remove(<AncientWarfareAutomation:chunk_loader_deluxe>);
+recipes.remove(<AncientWarfareAutomation:worksite_upgrade:9>);
+recipes.remove(<AncientWarfareAutomation:worksite_upgrade:10>);
+
+
+
+
 
 

@@ -18,3 +18,9 @@ recipes.addShaped(<weather2:WeatherDeflector>,
     [[<ore:ingotSteel>, <ElectriCraft:electricraft_item_crystal:5>, <ore:ingotSteel>],
     [null, <weather2:WeatherForecast>, null],
     [<ore:ingotSteel>, <EnderIO:itemMaterial:10>, <ore:ingotSteel>]]);
+
+recipes.remove(<weather2:TornadoSiren>);
+recipes.addShapeless(<weather2:TornadoSiren>,
+    [<weather2:TornadoSensor>, <minecraft:noteblock>]);
+
+

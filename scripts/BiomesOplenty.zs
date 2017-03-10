@@ -17,3 +17,9 @@ recipes.removeShaped(<minecraft:string>,[
     [<BiomesOPlenty:foliage:3>,<BiomesOPlenty:foliage:3>,<BiomesOPlenty:foliage:3>]]);
 recipes.addShaped(<minecraft:string>,[[
     <BiomesOPlenty:foliage:3>, <BiomesOPlenty:foliage:3>, <BiomesOPlenty:foliage:3>]]);
+
+# Endumium crafts into Ender Amethyst
+recipes.addShapeless(<BiomesOPlenty:gems:0>,[
+    <farlanders:Endumium Crystal>]);
+
+

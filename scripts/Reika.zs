@@ -10,3 +10,8 @@ mods.tconstruct.ToolStats.setBowDrawspeed("Bedrock", 75);
 # Set a helpful tooltip on the HSLA Gears
 <RotaryCraft:rotarycraft_item_shaftcraft:4>.addTooltip(format.yellow("Made with 1 and 2/3 of HSLA ingots in"));
 <RotaryCraft:rotarycraft_item_shaftcraft:4>.addTooltip(format.yellow("the Smeltery (Ingot:Gear ratio 5:3)"));
+
+# Another helpful tooltip for multi-directional clutch
+<RotaryCraft:rotarycraft_item_machine:83>.addTooltip(format.yellow("Tip - Redstone control can be done with directly"));
+<RotaryCraft:rotarycraft_item_machine:83>.addTooltip(format.yellow("adjacent OR Gate or Toggle Latch (both from Project"));
+<RotaryCraft:rotarycraft_item_machine:83>.addTooltip(format.yellow("RED) - otherwise vanilla Redstone is required."));

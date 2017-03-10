@@ -11,6 +11,11 @@ NEI.hide(<minechem:minechemPolytool>);
 
 
 
+## Chemical Effects ##
+
+Chemicals.removeMoleculeEffects(<minechem:minechemMolecule:1>);
+Chemicals.removeMoleculeEffects(<minechem:minechemMolecule:44>);
+
 
 ## Gating machines behind Mekanism and BC Assembly Table##
 
@@ -42,16 +47,16 @@ recipes.addShaped(<minechem:tile.chemicalSynthesizer>,[
 # TungstenPlating    
 recipes.remove(<minechem:tile.fusionWall:1>);
 recipes.addShaped(<minechem:tile.fusionWall:1>,[
-    [<GalaxySpace:item.CompressedPlates:9>,<GalaxySpace:item.CompressedPlates:9>,<GalaxySpace:item.CompressedPlates:9>],
-    [<GalaxySpace:item.CompressedPlates:9>,<Magneticraft:block_tungsten>,<GalaxySpace:item.CompressedPlates:9>],
-    [<GalaxySpace:item.CompressedPlates:9>,<RotaryCraft:rotarycraft_item_compacts:5>,<GalaxySpace:item.CompressedPlates:9>]]);
+    [<RotaryCraft:rotarycraft_item_compacts:5>,<RotaryCraft:rotarycraft_item_compacts:5>,<RotaryCraft:rotarycraft_item_compacts:5>],
+    [<RotaryCraft:rotarycraft_item_compacts:5>,<Magneticraft:block_tungsten>,<RotaryCraft:rotarycraft_item_compacts:5>],
+    [<RotaryCraft:rotarycraft_item_compacts:5>,<RotaryCraft:rotarycraft_item_compacts:5>,<RotaryCraft:rotarycraft_item_compacts:5>]]);
 
 # FusionWall
 recipes.remove(<minechem:tile.fusionWall:0>);
 recipes.addShaped(<minechem:tile.fusionWall:0>,[
-    [<GalaxySpace:item.CompressedPlates:9>,<GalaxySpace:item.CompressedPlates:9>,<GalaxySpace:item.CompressedPlates:9>],
+    [<RotaryCraft:rotarycraft_item_compacts:5>,<RotaryCraft:rotarycraft_item_compacts:5>,<RotaryCraft:rotarycraft_item_compacts:5>],
     [<ReactorCraft:reactorcraft_item_crafting:15>,<ore:blockLead>,<ReactorCraft:reactorcraft_item_crafting:15>],
-    [<GalaxySpace:item.CompressedPlates:9>,<RotaryCraft:rotarycraft_item_compacts:5>,<GalaxySpace:item.CompressedPlates:9>]]);
+    [<RotaryCraft:rotarycraft_item_compacts:5>,<RotaryCraft:rotarycraft_item_compacts:5>,<RotaryCraft:rotarycraft_item_compacts:5>]]);
 
 # Projector
 recipes.remove(<minechem:tile.blueprintProjector>);
@@ -67,4 +72,35 @@ recipes.addShaped(<minechem:tile.leadChest>,[
     [<ore:plateLead>,<ore:element_Pb>,<ore:plateLead>],
     [<ore:plateLead>,<ore:chest>,<ore:plateLead>],
     [<ore:plateLead>,<ore:element_Pb>,<ore:plateLead>]]);
-    
+
+
+
+## Sythesiser Recipes
+
+Synthesiser.removeRecipe(<minechem:minechemMolecule:69>);
+Synthesiser.removeRecipe(<minecraft:ender_pearl>);
+Synthesiser.removeRecipe(<minecraft:nether_star>);
+Synthesiser.removeRecipe(<minecraft:reeds>);
+Synthesiser.removeRecipe(<minecraft:iron_bars>);
+
+
+
+## Decomposer Recipes
+
+//Decomposer.addRecipe(redstone,0.5,[[H*64, He]]);
+//output,(chance optional),[Item or Ore Dict input];
+
+Decomposer.removeRecipe(<minechem:minechemMolecule:51>);
+Decomposer.removeRecipe(<minechem:minechemMolecule:52>);
+Decomposer.removeRecipe(<minechem:minechemMolecule:53>);
+Decomposer.removeRecipe(<minechem:minechemMolecule:54>);
+Decomposer.removeRecipe(<minechem:minechemMolecule:55>);
+Decomposer.removeRecipe(<minechem:minechemMolecule:56>);
+Decomposer.removeRecipe(<minechem:minechemMolecule:57>);
+Decomposer.removeRecipe(<minechem:minechemMolecule:58>);
+Decomposer.removeRecipe(<minechem:minechemMolecule:59>);
+Decomposer.addRecipe(<minechem:minechemElement:38>,0.1,[[<minecraft:skull>]]);
+//Decomposer.addRecipe doesn't seem to be working. May be broken
+
+
+

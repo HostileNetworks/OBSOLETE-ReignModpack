@@ -1,8 +1,8 @@
 # Modifications for RailCraft
 
-val hobbyist = <Railcraft:machine.beta:7>;
-val commercial = <Railcraft:machine.beta:8>;
-val industrial = <Railcraft:machine.beta:9>;
+val steamEngineHobbyist = <Railcraft:machine.beta:7>;
+val steamEngineCommercial = <Railcraft:machine.beta:8>;
+val steamEngineIndustrial = <Railcraft:machine.beta:9>;
 
 val plateIron = <Railcraft:part.plate:0>;
 val plateSteel = <Railcraft:part.plate:1>;
@@ -26,20 +26,39 @@ val piston = <minecraft:piston>;
 <ore:plateCopper>.add(plateCopper);
 <ore:plateLead>.add(<Railcraft:part.plate:4>);
 
-recipes.remove(hobbyist);
-recipes.addShaped(hobbyist, [[plateCopper,plateCopper,plateCopper]
-							,[heatcoil,glass,heatcoil]
-							,[gearCopper,piston,gearCopper]]);
+# Steam engine recipes
+recipes.remove(steamEngineHobbyist);
+recipes.addShaped(steamEngineHobbyist, [
+    [plateCopper,plateCopper,plateCopper],
+    [heatcoil,glass,heatcoil],
+    [gearCopper,piston,gearCopper]
+]);
 
-recipes.remove(commercial);
-recipes.addShaped(commercial, [[plateIron,plateIron,plateIron]
-							,[heatcoil,glass,heatcoil]
-							,[gearIron,piston,gearIron]]);
+recipes.remove(steamEngineCommercial);
+recipes.addShaped(steamEngineCommercial, [
+    [plateIron,plateIron,plateIron],
+    [heatcoil,glass,heatcoil],
+    [gearIron,piston,gearIron]
+]);
+# upgrade from hobbyist
+recipes.addShaped(steamEngineCommercial, [
+    [plateIron,plateIron,plateIron],
+    [null,steamEngineHobbyist,null],
+    [gearIron,null,gearIron]
+]);
 
-recipes.remove(industrial);
-recipes.addShaped(industrial, [[plateSteel,plateSteel,plateSteel]
-							,[heatcoil,glass,heatcoil]
-							,[gearSteel,piston,gearSteel]]);
+recipes.remove(steamEngineIndustrial);
+recipes.addShaped(steamEngineIndustrial, [
+    [plateSteel,plateSteel,plateSteel],
+    [heatcoil,glass,heatcoil],
+    [gearSteel,piston,gearSteel]
+]);
+# upgrade from commercial
+recipes.addShaped(steamEngineIndustrial, [
+    [plateSteel,plateSteel,plateSteel],
+    [null,steamEngineCommercial,null],
+    [gearSteel,null,gearSteel]
+]);
 
 # Add IE's Coal Coke to Blast Furnace Fuel (first is single piece, second is the block)
 mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>);

@@ -34,3 +34,15 @@ recipes.addShaped(<minecraft:string>,[
     
 # Tooltip for pump
 <ImmersiveEngineering:metalDevice2:6>.addTooltip(format.yellow("Only useful for early-game pumping."));
+
+# Recipes for upgrading capacitors (LV > MV and MV > HV)
+recipes.addShaped(<ImmersiveEngineering:metalDevice:3>, [
+    [null,null,null],
+    [<ore:ingotElectrum>,<ImmersiveEngineering:metalDevice:1>,<ore:ingotElectrum>],
+    [null,<ore:blockRedstone>,null]
+]);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:7>, [
+    [<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
+    [<ore:ingotAluminium>,<ore:blockLead>,<ore:ingotAluminium>],
+    [null,<ImmersiveEngineering:metalDevice:3>,null]
+]);

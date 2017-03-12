@@ -32,8 +32,9 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice2:5> * 8,
 recipes.addShaped(<minecraft:string>,[
     [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>]]);
     
-# Tooltip for pump
+# Useful tooltips
 <ImmersiveEngineering:metalDevice2:6>.addTooltip(format.yellow("Only useful for early-game pumping."));
+<ImmersiveEngineering:stoneDecoration:1>.addTooltip(format.yellow("3x3x3 solid cube multiblock."));
 
 # Recipes for upgrading capacitors (LV > MV and MV > HV)
 recipes.addShaped(<ImmersiveEngineering:metalDevice:3>, [

@@ -15,3 +15,7 @@ mods.tconstruct.ToolStats.setBowDrawspeed("Bedrock", 75);
 <RotaryCraft:rotarycraft_item_machine:83>.addTooltip(format.yellow("Tip - Redstone control can be done with directly"));
 <RotaryCraft:rotarycraft_item_machine:83>.addTooltip(format.yellow("adjacent OR Gate or Toggle Latch (both from Project"));
 <RotaryCraft:rotarycraft_item_machine:83>.addTooltip(format.yellow("RED) - otherwise vanilla Redstone is required."));
+
+# Fix Silver Flakes
+furnace.addRecipe(<Metallurgy:silver.ingot>, <RotaryCraft:rotarycraft_item_modextracts:19>);
+furnace.addRecipe(<Metallurgy:silver.ingot>, <RotaryCraft:rotarycraft_item_modextracts:159>);

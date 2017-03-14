@@ -44,6 +44,8 @@ wallPatterns:
 #list of structures, one per line
 uniqueStructures:
 ReignDungeonChurch
+ReignThaumCouncil
+unique_creeper_church_dulciphi
 :endUniqueStructures
 
 #list of structures, one per line

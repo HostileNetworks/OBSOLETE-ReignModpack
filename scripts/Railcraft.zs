@@ -79,6 +79,17 @@ for blockLead in <ore:blockLead>.items {
 }
 recipes.addShapeless(<Railcraft:cube:11>, [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]);
 
+# Rock Crusher balancing
+recipes.remove(<Railcraft:machine.alpha:15>);
+recipes.addShaped(<Railcraft:machine.alpha:15> * 4, [
+    [<ore:craftingPiston>,<ore:nuggetTungsten>,<ore:craftingPiston>],
+    [<ore:nuggetTungsten>,<ore:blockSteel>,<ore:nuggetTungsten>],
+    [<ore:craftingPiston>,null,<ore:craftingPiston>]
+]);
+<Railcraft:machine.alpha:15>.addTooltip(format.yellow("Low-tech crushing. Uses lots of RF! Not"));
+<Railcraft:machine.alpha:15>.addTooltip(format.yellow("for ore but useful for other things."));
+
+
 # Guns
 recipes.remove(<openmodularturrets:barrelTierTwo>);
 recipes.remove(<openmodularturrets:barrelTierThree>);

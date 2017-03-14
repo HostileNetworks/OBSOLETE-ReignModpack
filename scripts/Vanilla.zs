@@ -14,6 +14,8 @@ val ingot = <RotaryCraft:rotarycraft_item_shaftcraft:1>;
 val rod = <RotaryCraft:rotarycraft_item_shaftcraft:2>;
 val ironPlate = <Railcraft:part.plate:0>;
 
+# Add podzol to dirt oredict
+<ore:dirt>.add(<minecraft:dirt:2>);
 
 # Vanilla iron items use Steel plates instead
 recipes.remove(cauldron);
@@ -39,12 +41,15 @@ recipes.remove(<RotaryCraft:rotarycraft_item_shaftcraft:10> * 3);
 # force proper bread making
 recipes.remove(<minecraft:bread>);
 
-# clay from hardened clay
-recipes.addShaped(<minecraft:clay_ball> * 4,
-                [[<ore:gravel>, <ore:gravel>, <ore:gravel>]
-				,[<ore:dirt>, <ore:listAllwater>, <ore:dirt>]
-				,[<ore:gravel>, <ore:gravel>, <ore:gravel>]]);
+# Better clayball recipe
+recipes.removeShaped(<minecraft:clay_ball> * 4);
+recipes.addShaped(<minecraft:clay_ball> * 4, [
+    [null, <ore:gravel>, null],
+    [<ore:dirt>, <ore:listAllwater>, <ore:dirt>],
+    [null, <ore:gravel>, null]
+]);
 
+# clay from hardened clay
 recipes.addShaped(<minecraft:clay> * 2,
                 [[<ore:clayHardened>, <ore:listAllwater>, <ore:clayHardened>]]);
 

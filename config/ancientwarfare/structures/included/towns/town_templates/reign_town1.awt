@@ -75,7 +75,7 @@ house_empty_lot:4
 ExteriorSmallHutandFieldMOH:1
 ExteriorMelonPatchFieldMOH:1
 ExteriorLargeHouseandFieldsMOH:1
-cosmetic_stable:1
+ReignStable:1
 :endHouseStructures
 
 #list of structure templates w/weight, to be used to fill in random positions post-generation

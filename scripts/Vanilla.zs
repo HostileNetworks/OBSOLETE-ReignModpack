@@ -78,3 +78,8 @@ anvil.addTooltip(format.yellow("-must be undamaged-"));
 anvil2.addTooltip(format.yellow("craft back into Vanilla Anvil"));
 anvil2.addTooltip(format.yellow("for use in crafting recipes"));
 anvil2.addTooltip(format.yellow("-must be undamaged-"));
+
+
+# Add tooltip for Lapis Ore
+<ore:oreLapis>.addTooltip(format.yellow("Found in Redstone veins"));
+

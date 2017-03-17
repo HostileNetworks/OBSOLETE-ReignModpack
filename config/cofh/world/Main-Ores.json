@@ -511,7 +511,7 @@
     "material": "stone",
     "clusterSize": 16,
     "numClusters": 10,
-    "chunkChance": 512,
+    "chunkChance": 256,
     "minHeight": 24,
     "veinHeight": 22,
     "veinDiameter": 32,
@@ -560,7 +560,7 @@
     "material": "stone",
     "clusterSize": 12,
     "numClusters": 18,
-    "chunkChance": 512,
+    "chunkChance": 256,
     "minHeight": 4,
     "veinHeight": 32,
     "veinDiameter": 44,
@@ -612,7 +612,7 @@
       }
     ],
     "material": "stone",
-    "clusterSize": 3,
+    "clusterSize": 4,
     "numClusters": 1,
     "minHeight": 5,
     "maxHeight": 20,
@@ -1085,12 +1085,80 @@
       "heightMod": 5,
       "sizeVariance": 2,
       "smooth": "false",
-      "fat": "false"
+      "fat": "true"
     },
     "block": [
       {
         "name": "Thaumcraft:blockCustomOre",
         "metadata": 1,
+        "weight": 12
+      },
+      {
+        "name": "Thaumcraft:blockCustomOre",
+        "metadata": 2,
+        "weight": 12
+      },
+      {
+        "name": "Thaumcraft:blockCustomOre",
+        "metadata": 3,
+        "weight": 12
+      },
+      {
+        "name": "Thaumcraft:blockCustomOre",
+        "metadata": 4,
+        "weight": 12
+      },
+      {
+        "name": "Thaumcraft:blockCustomOre",
+        "metadata": 5,
+        "weight": 5
+      },
+      {
+        "name": "Thaumcraft:blockCustomOre",
+        "metadata": 6,
+        "weight": 5
+      },
+      {
+        "name": "minecraft:monster_egg",
+        "metadata": 0,
+        "weight": 40
+      }
+    ],
+    "material": "minecraft:stone",
+    "numClusters": 2,
+    "chunkChance": 12,
+    "minHeight": 10,
+    "maxHeight": 160,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },
+  "gemShardsRed": {
+    "template": {
+      "type": "cave",
+      "generator": "stalactite",
+      "genBody": "air",
+      "minHeight": 7,
+      "heightVariance": 4,
+      "genSize": 0,
+      "heightMod": 5,
+      "sizeVariance": 2,
+      "smooth": "false",
+      "fat": "false"
+    },
+    "block": [
+      {
+        "name": "minecraft:monster_egg",
+        "metadata": 0,
+        "weight": 20
+      },
+      {
+        "name": "redstone_ore",
+        "metadata": 0,
         "weight": 20
       },
       {
@@ -1099,8 +1167,84 @@
         "weight": 20
       },
       {
+        "name": "BiomesOPlenty:gemOre",
+        "metadata": 2,
+        "weight": 10
+      }
+    ],
+    "material": "minecraft:stone",
+    "numClusters": 2,
+    "chunkChance": 10,
+    "minHeight": 10,
+    "maxHeight": 160,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },
+  "gemShardsYellow": {
+    "template": {
+      "type": "cave",
+      "generator": "stalactite",
+      "genBody": "air",
+      "minHeight": 7,
+      "heightVariance": 4,
+      "genSize": 0,
+      "heightMod": 5,
+      "sizeVariance": 2,
+      "smooth": "false",
+      "fat": "false"
+    },
+    "block": [
+      {
+        "name": "minecraft:monster_egg",
+        "metadata": 0,
+        "weight": 20
+      },
+      {
         "name": "Thaumcraft:blockCustomOre",
-        "metadata": 3,
+        "metadata": 1,
+        "weight": 20
+      },
+      {
+        "name": "BiomesOPlenty:gemOre",
+        "metadata": 6,
+        "weight": 10
+      }
+    ],
+    "material": "minecraft:stone",
+    "numClusters": 2,
+    "chunkChance": 10,
+    "minHeight": 10,
+    "maxHeight": 160,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },
+  "gemShardsGreen": {
+    "template": {
+      "type": "cave",
+      "generator": "stalactite",
+      "genBody": "air",
+      "minHeight": 7,
+      "heightVariance": 4,
+      "genSize": 0,
+      "heightMod": 5,
+      "sizeVariance": 2,
+      "smooth": "false",
+      "fat": "false"
+    },
+    "block": [
+      {
+        "name": "minecraft:monster_egg",
+        "metadata": 0,
         "weight": 20
       },
       {
@@ -1109,38 +1253,168 @@
         "weight": 20
       },
       {
-        "name": "Thaumcraft:blockCustomOre",
-        "metadata": 5,
-        "weight": 10
+        "name": "BiomesOPlenty:gemOre",
+        "metadata": 4,
+        "weight": 20
       },
       {
-        "name": "Thaumcraft:blockCustomOre",
-        "metadata": 6,
-        "weight": 10
+        "name": "minecraft:emerald_ore",
+        "metadata": 10,
+        "weight": 5
       }
     ],
     "material": "minecraft:stone",
-    "numClusters": 4,
-    "chunkChance": 20,
-    "minHeight": 45,
+    "numClusters": 2,
+    "chunkChance": 10,
+    "minHeight": 10,
     "maxHeight": 160,
     "retrogen": "false",
-    "biomeRestriction": "whitelist",
-    "biomes": [
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },  
+  "gemShardsBlue": {
+    "template": {
+      "type": "cave",
+      "generator": "stalactite",
+      "genBody": "air",
+      "minHeight": 7,
+      "heightVariance": 4,
+      "genSize": 0,
+      "heightMod": 5,
+      "sizeVariance": 2,
+      "smooth": "false",
+      "fat": "false"
+    },
+    "block": [
       {
-        "type": "dictionary",
-        "entry": "MOUNTAIN"
+        "name": "minecraft:monster_egg",
+        "metadata": 0,
+        "weight": 20
       },
       {
-        "type": "dictionary",
-        "entry": "HILLS"
+        "name": "Thaumcraft:blockCustomOre",
+        "metadata": 3,
+        "weight": 20
+      },
+      {
+        "name": "BiomesOPlenty:gemOre",
+        "metadata": 12,
+        "weight": 20
       }
     ],
+    "material": "minecraft:stone",
+    "numClusters": 2,
+    "chunkChance": 10,
+    "minHeight": 10,
+    "maxHeight": 160,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },  
+  "gemShardsWhite": {
+    "template": {
+      "type": "cave",
+      "generator": "stalactite",
+      "genBody": "air",
+      "minHeight": 7,
+      "heightVariance": 4,
+      "genSize": 0,
+      "heightMod": 5,
+      "sizeVariance": 2,
+      "smooth": "false",
+      "fat": "false"
+    },
+    "block": [
+      {
+        "name": "minecraft:monster_egg",
+        "metadata": 0,
+        "weight": 20
+      },
+      {
+        "name": "Thaumcraft:blockCustomOre",
+        "metadata": 5,
+        "weight": 20
+      },
+      {
+        "name": "BiomesOPlenty:crystal",
+        "metadata": 0,
+        "weight": 5
+      },
+      {
+        "name": "minecraft:diamond_ore",
+        "metadata": 0,
+        "weight": 5
+      }
+    ],
+    "material": "minecraft:stone",
+    "numClusters": 2,
+    "chunkChance": 10,
+    "minHeight": 10,
+    "maxHeight": 160,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
     "dimensionRestriction": "whitelist",
     "dimensions": [
       0
     ]
   },
+  "gemShardsBlack": {
+    "template": {
+      "type": "cave",
+      "generator": "stalactite",
+      "genBody": "air",
+      "minHeight": 7,
+      "heightVariance": 4,
+      "genSize": 0,
+      "heightMod": 5,
+      "sizeVariance": 2,
+      "smooth": "false",
+      "fat": "false"
+    },
+    "block": [
+      {
+        "name": "minecraft:monster_egg",
+        "metadata": 0,
+        "weight": 20
+      },
+      {
+        "name": "Thaumcraft:blockCustomOre",
+        "metadata": 6,
+        "weight": 20
+      },
+      {
+        "name": "BiomesOPlenty:gemOre",
+        "metadata": 8,
+        "weight": 20
+      },
+      {
+        "name": "minecraft:obsidian",
+        "metadata": 0,
+        "weight": 5
+      }
+    ],
+    "material": "minecraft:stone",
+    "numClusters": 2,
+    "chunkChance": 10,
+    "minHeight": 10,
+    "maxHeight": 160,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },  
   "nether1": {
     "template": "uniform",
     "block": [
@@ -1206,8 +1480,11 @@
     },
     "clusterSize": 7,
     "numClusters": 1,
-    "chunkChance": 1,
-    "material": "stone",
+    "material": [
+      "stone",
+      "gravel",
+      "sand"     
+    ],
     "minHeight": 55,
     "maxHeight": 67,
     "retrogen": "false",

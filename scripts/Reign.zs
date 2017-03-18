@@ -200,6 +200,7 @@ recipes.addShaped(<enviromine:camelPack:75>,
 	,[rubber, rubber, rubber]]);
     
 # Advanced Camelpack
+recipes.remove(<enviromine:camelPackDeluxe>);
 recipes.addShaped(<enviromine:camelPackDeluxe>
 				,[[<Natura:barleyFood:6>,<minecraft:potion:0>,<Natura:barleyFood:6>]
 				,[<minecraft:potion:0>,<enviromine:camelPack>,<minecraft:potion:0>]

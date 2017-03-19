@@ -179,6 +179,16 @@ NEI.override_invert("Railcraft:nugget", [0]);
 NEI.override_invert("Thaumcraft:ItemNugget", [0, 1, 2]);
 
 
+
+// *********************************
+// Tinkers Construct
+// *********************************
+
+// Ball of Moss
+NEI.override_invert("TConstruct:materials", [6]);
+
+
+
 // *********************************
 // Traincraft
 // *********************************
@@ -187,6 +197,7 @@ NEI.override_invert("Thaumcraft:ItemNugget", [0, 1, 2]);
 NEI.hide("tc:steel");
 NEI.hide("tc:openFurnaceIdle");
 NEI.hide("tc:openFurnaceActive");
+
 
 
 // *********************************

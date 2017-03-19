@@ -701,8 +701,7 @@ furnace.addRecipe(<harvestcraft:fishsticksItem>,<kitchenCraftFoods:veggie:44>);
 # Dried fruit
 furnace.addRecipe(<harvestcraft:fishsticksItem>,<kitchenCraftFoods:veggie:44>);
 for item in <ore:listAllfruit>.items {furnace.addRecipe(<kitchenCraftFoods:veggie:20>,(item));}
-# Salt production in early game
-furnace.addRecipe(<harvestcraft:saltItem>,<enviromine:saltWaterBottle>);
+
 
 ##================== Crafting Additions ==================##
 

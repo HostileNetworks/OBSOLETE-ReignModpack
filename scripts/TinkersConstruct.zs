@@ -73,8 +73,7 @@ recipes.addShaped(<RotaryCraft:rotarycraft_item_modingots:1> * 9, [[<ore:blockCo
 recipes.addShaped(<TConstruct:MetalBlock:3>, [[copper, copper, copper],[copper, copper, copper],[copper, copper, copper]]);
 mods.tconstruct.Casting.addTableRecipe(<RotaryCraft:rotarycraft_item_modingots:1>, <liquid:copper.molten> * 144, <TConstruct:metalPattern:0>, false, 60);
 recipes.addShaped(<RotaryCraft:rotarycraft_item_modingots:1>, [[coppern,coppern,coppern],[coppern,coppern,coppern],[coppern,coppern,coppern]]);
-#Malechite to copper smetlery recipe
-mods.tconstruct.Smeltery.addMelting(<BiomesOPlenty:gemOre:11>, <liquid:copper.molten> * 1296, 200, <BiomesOPlenty:gemOre:11>);
+
 
 #lead
 #furnace.remove(<ThermalFoundation:material:67>);
@@ -102,7 +101,8 @@ recipes.remove(<GalacticraftCore:tile.gcBlockCore:9>);
 #remove ball o moss
 recipes.removeShaped(<TConstruct:materials:6>);
 
-### Smeltery Stuff
+### Smeltery Stuff ###
+
 #make harvest craft tools smeltery based
 recipes.remove(<harvestcraft:potItem>);
 recipes.remove(<harvestcraft:saucepanItem>);
@@ -138,6 +138,14 @@ mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.lead_crushed>, <liquid:le
 mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.nickel_crushed>, <liquid:nickel.molten> * 72, 200, <ImmersiveEngineering:ore:4>);
 mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.platinum_crushed:0>, <liquid:platinum.molten> * 72, 200, <Metallurgy:precious.ore:2>);
 mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.osmium_crushed:0>, <liquid:osmium.molten> * 72, 200, <Mekanism:OreBlock:0>);
+
+# Gems to ores
+
+#Malechite to copper smetlery recipe
+mods.tconstruct.Smeltery.addMelting(<BiomesOPlenty:gemOre:11>, <liquid:copper.molten> * 648, 200, <BiomesOPlenty:gemOre:11>);
+#Tanzanite to Aluminum
+mods.tconstruct.Smeltery.addMelting(<BiomesOPlenty:gemOre:9>, <liquid:aluminum.molten> * 648, 200, <BiomesOPlenty:gemOre:9>);
+
 
 #################
 #Casting

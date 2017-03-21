@@ -6,7 +6,7 @@ header:
 version=2.1
 name=ReignCoachingInn
 size=53,38,44
-offset=22,4,33
+offset=22,3,33
 :endheader
 
 #### VALIDATION ####
@@ -17,8 +17,8 @@ worldGenEnabled=true
 unique=false
 preserveBlocks=false
 selectionWeight=100
-clusterValue=100
-minDuplicateDistance=100
+clusterValue=200
+minDuplicateDistance=400
 dimensionWhiteList=false
 dimensionList=
 biomeWhiteList=true

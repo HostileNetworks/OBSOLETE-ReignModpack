@@ -53,7 +53,7 @@ var buttons = [<Natura:button.eucalyptus>, <Natura:button.sakura>, <Natura:butto
 for i, button in buttons {
     recipes.addShapeless(<minecraft:wooden_button>, [button]);
     recipes.addShaped(button, [[<Natura:planks>.definition.makeStack(i)]]);
-    <ore:button>.add(button);
+    button.addTooltip(format.yellow("Zombies can't fiddle with this"));
 }
 
 # Fix gate

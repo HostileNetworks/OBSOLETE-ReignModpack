@@ -380,8 +380,8 @@
     "numClusters": 28,
     "chunkChance": 512,
     "minHeight": 24,
-    "veinHeight": 40,
-    "veinDiameter": 44,
+    "veinHeight": 30,
+    "veinDiameter": 34,
     "verticalDensity": 24,
     "horizontalDensity": 24,
     "retrogen": false,
@@ -511,12 +511,12 @@
     "material": "stone",
     "clusterSize": 16,
     "numClusters": 10,
-    "chunkChance": 256,
+    "chunkChance": 384,
     "minHeight": 24,
     "veinHeight": 22,
-    "veinDiameter": 32,
-    "verticalDensity": 19,
-    "horizontalDensity": 19,
+    "veinDiameter": 12,
+    "verticalDensity": 16,
+    "horizontalDensity": 16,
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
@@ -560,10 +560,10 @@
     "material": "stone",
     "clusterSize": 12,
     "numClusters": 18,
-    "chunkChance": 256,
+    "chunkChance": 384,
     "minHeight": 4,
     "veinHeight": 32,
-    "veinDiameter": 44,
+    "veinDiameter": 24,
     "verticalDensity": 22,
     "horizontalDensity": 16,
     "retrogen": "false",
@@ -597,8 +597,12 @@
     ]
   },
   "platinum0": {
-    "template": "uniform",
-    "generator": "sparse-cluster",
+    "template": {
+      "type": "cave",
+      "ceiling": "true",
+      "genBody": "air"
+    },
+    "generator": "cluster",
     "block": [
       {
         "name": "Metallurgy:precious.ore",
@@ -612,10 +616,11 @@
       }
     ],
     "material": "stone",
-    "clusterSize": 4,
+    "clusterSize": 6,
     "numClusters": 1,
     "minHeight": 5,
-    "maxHeight": 20,
+    "maxHeight": 30,
+    "chunkChance": 8,
     "retrogen": "false",
     "biomeRestriction": "whitelist",
     "biomes": [
@@ -1077,6 +1082,7 @@
   "thaumShards": {
     "template": {
       "type": "cave",
+      "ceiling": "true",
       "generator": "stalactite",
       "genBody": "air",
       "minHeight": 7,
@@ -1140,6 +1146,7 @@
   "gemShardsRed": {
     "template": {
       "type": "cave",
+      "ceiling": "true",
       "generator": "stalactite",
       "genBody": "air",
       "minHeight": 7,
@@ -1188,6 +1195,7 @@
   "gemShardsYellow": {
     "template": {
       "type": "cave",
+      "ceiling": "true",
       "generator": "stalactite",
       "genBody": "air",
       "minHeight": 7,
@@ -1231,6 +1239,7 @@
   "gemShardsGreen": {
     "template": {
       "type": "cave",
+      "ceiling": "true",
       "generator": "stalactite",
       "genBody": "air",
       "minHeight": 7,
@@ -1279,6 +1288,7 @@
   "gemShardsBlue": {
     "template": {
       "type": "cave",
+      "ceiling": "true",
       "generator": "stalactite",
       "genBody": "air",
       "minHeight": 7,
@@ -1322,6 +1332,7 @@
   "gemShardsWhite": {
     "template": {
       "type": "cave",
+      "ceiling": "true",
       "generator": "stalactite",
       "genBody": "air",
       "minHeight": 7,
@@ -1370,6 +1381,7 @@
   "gemShardsBlack": {
     "template": {
       "type": "cave",
+      "ceiling": "true",
       "generator": "stalactite",
       "genBody": "air",
       "minHeight": 7,

@@ -1,70 +1,4 @@
 {
-  "coal": {
-    "template": {
-      "type": "fractal",
-      "generator": "large-vein",
-      "sparse": "true"
-    },
-    "block": "coal_ore",
-    "material": "stone",
-    "clusterSize": 20,
-    "numClusters": 10,
-    "chunkChance": 20,
-    "minHeight": 35,
-    "veinHeight": 22,
-    "veinDiameter": 32,
-    "verticalDensity": 16,
-    "horizontalDensity": 26,
-    "retrogen": "false",
-    "biomeRestriction": "whitelist",
-    "biomes": [
-      {
-        "type": "dictionary",
-        "entry": "WET"
-      },
-      {
-        "type": "dictionary",
-        "entry": "SANDY"
-      }
-    ],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-      1,
-      -1
-    ]
-  },
-  "coalLow": {
-    "template": "uniform",
-    "block": "coal_ore",
-    "material": "stone",
-    "clusterSize": 16,
-    "numClusters": 16,
-    "minHeight": 11,
-    "maxHeight": 70,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "whitelist",
-    "dimensions": [
-      0
-    ]
-  },
-  "coalHigh": {
-    "template": "uniform",
-    "block": "coal_ore",
-    "material": "stone",
-    "clusterSize": 16,
-    "numClusters": 16,
-    "minHeight": 70,
-    "maxHeight": 228,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "whitelist",
-    "dimensions": [
-      0
-    ]
-  },  
   "VeinIron": {
     "template": {
       "type": "fractal",
@@ -89,14 +23,14 @@
       }
     ],
     "material": "stone",
-    "clusterSize": 26,
+    "clusterSize": 16,
     "numClusters": 38,
     "minHeight": 20,
-    "veinHeight": 48,
-    "veinDiameter": 56,
+    "veinHeight": 38,
+    "veinDiameter": 46,
     "horizontalDensity": 24,
     "verticalDensity": 24,
-    "chunkChance": 512,
+    "chunkChance": 256,
     "retrogen": "false",
     "biomeRestriction": "none",
     "biomes": [],
@@ -131,7 +65,7 @@
     "chunkChance": 512,
     "minHeight": 15,
     "veinHeight": 32,
-    "veinDiameter": 56,
+    "veinDiameter": 36,
     "verticalDensity": 18,
     "horizontalDensity": 18,
     "retrogen": "false",
@@ -246,6 +180,72 @@
     "dimensions": [
       -1,
       1
+    ]
+  },
+  "coal": {
+    "template": {
+      "type": "fractal",
+      "generator": "large-vein",
+      "sparse": "true"
+    },
+    "block": "coal_ore",
+    "material": "stone",
+    "clusterSize": 20,
+    "numClusters": 10,
+    "chunkChance": 20,
+    "minHeight": 35,
+    "veinHeight": 22,
+    "veinDiameter": 32,
+    "verticalDensity": 16,
+    "horizontalDensity": 26,
+    "retrogen": "false",
+    "biomeRestriction": "whitelist",
+    "biomes": [
+      {
+        "type": "dictionary",
+        "entry": "WET"
+      },
+      {
+        "type": "dictionary",
+        "entry": "SANDY"
+      }
+    ],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+      1,
+      -1
+    ]
+  },
+  "coalLow": {
+    "template": "uniform",
+    "block": "coal_ore",
+    "material": "stone",
+    "clusterSize": 16,
+    "numClusters": 16,
+    "minHeight": 11,
+    "maxHeight": 70,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },
+  "coalHigh": {
+    "template": "uniform",
+    "block": "coal_ore",
+    "material": "stone",
+    "clusterSize": 16,
+    "numClusters": 16,
+    "minHeight": 70,
+    "maxHeight": 228,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
     ]
   },
   "clay": {

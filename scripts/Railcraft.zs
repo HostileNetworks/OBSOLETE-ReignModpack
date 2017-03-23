@@ -90,28 +90,110 @@ recipes.addShaped(<Railcraft:machine.alpha:15> * 4, [
 <Railcraft:machine.alpha:15>.addTooltip(format.yellow("for ore but useful for other things."));
 
 
-# Guns
-recipes.remove(<openmodularturrets:barrelTierTwo>);
-recipes.remove(<openmodularturrets:barrelTierThree>);
-recipes.remove(<openmodularturrets:barrelTierFour>);
-recipes.remove(<openmodularturrets:barrelTierFive>);
+# RC Lanterns use candles
 
-mods.railcraft.Rolling.addShaped(<openmodularturrets:barrelTierTwo>,
-    [[<ore:nuggetIron>]
-	,[<ore:nuggetIron>]
-	,[<ore:nuggetIron>]]);
-mods.railcraft.Rolling.addShaped(<openmodularturrets:barrelTierThree>,
-    [[<ore:nuggetBronze>]
-	,[<ore:nuggetBronze>]
-	,[<ore:nuggetBronze>]]);
-mods.railcraft.Rolling.addShaped(<openmodularturrets:barrelTierFour>,
-    [[<ore:nuggetGold>]
-	,[<ore:nuggetGold>]
-	,[<ore:nuggetGold>]]);
-mods.railcraft.Rolling.addShaped(<openmodularturrets:barrelTierFive>,
-    [[<ore:stickSteel>]
-	,[<ore:stickSteel>]
-	,[<ore:stickSteel>]]);
-	
-	
-	
+var candle = <ore:listAllcandle>;
+candle.add(<harvestcraft:pamcandleDeco1>);
+candle.add(<harvestcraft:pamcandleDeco2>);
+candle.add(<harvestcraft:pamcandleDeco3>);
+candle.add(<harvestcraft:pamcandleDeco4>);
+candle.add(<harvestcraft:pamcandleDeco5>);
+candle.add(<harvestcraft:pamcandleDeco6>);
+candle.add(<harvestcraft:pamcandleDeco7>);
+candle.add(<harvestcraft:pamcandleDeco8>);
+candle.add(<harvestcraft:pamcandleDeco9>);
+candle.add(<harvestcraft:pamcandleDeco10>);
+candle.add(<harvestcraft:pamcandleDeco11>);
+candle.add(<harvestcraft:pamcandleDeco12>);
+candle.add(<harvestcraft:pamcandleDeco13>);
+candle.add(<harvestcraft:pamcandleDeco14>);
+candle.add(<harvestcraft:pamcandleDeco15>);
+candle.add(<harvestcraft:pamcandleDeco16>);
+candle.add(<GardenStuff:candle>);
+
+# Lantern Recipes
+
+recipes.remove(<Railcraft:lantern.stone:9>);
+recipes.addShaped(<Railcraft:lantern.stone:9>
+				,[[null,<ore:slabStone>,null]
+				,[null,candle,null]
+				,[null,<ore:slabStone>,null]]);
+recipes.remove(<Railcraft:lantern.stone:0>);
+recipes.addShaped(<Railcraft:lantern.stone:0>
+				,[[null,<Railcraft:slab:28>,null]
+				,[null,candle,null]
+				,[null,<Railcraft:slab:28>,null]]);
+recipes.remove(<Railcraft:lantern.stone:1>);
+recipes.addShaped(<Railcraft:lantern.stone:1>
+				,[[null,<Railcraft:slab:26>,null]
+				,[null,candle,null]
+				,[null,<Railcraft:slab:26>,null]]);
+recipes.remove(<Railcraft:lantern.stone:2>);
+recipes.addShaped(<Railcraft:lantern.stone:2>
+				,[[null,<Railcraft:slab:27>,null]
+				,[null,candle,null]
+				,[null,<Railcraft:slab:27>,null]]);
+recipes.remove(<Railcraft:lantern.stone:3>);
+recipes.addShaped(<Railcraft:lantern.stone:3>
+				,[[null,<Railcraft:slab:24>,null]
+				,[null,candle,null]
+				,[null,<Railcraft:slab:24>,null]]);
+recipes.remove(<Railcraft:lantern.stone:4>);
+recipes.addShaped(<Railcraft:lantern.stone:4>
+				,[[null,<Railcraft:slab:23>,null]
+				,[null,candle,null]
+				,[null,<Railcraft:slab:23>,null]]);
+recipes.remove(<Railcraft:lantern.stone:5>);
+recipes.addShaped(<Railcraft:lantern.stone:5>
+				,[[null,<Railcraft:slab:29>,null]
+				,[null,candle,null]
+				,[null,<Railcraft:slab:29>,null]]);
+recipes.remove(<Railcraft:lantern.stone:6>);
+recipes.addShaped(<Railcraft:lantern.stone:6>
+				,[[null,<Railcraft:slab:25>,null]
+				,[null,candle,null]
+				,[null,<Railcraft:slab:25>,null]]);   
+recipes.remove(<Railcraft:lantern.stone:7>);
+recipes.addShaped(<Railcraft:lantern.stone:7>
+				,[[null,<Railcraft:slab:22>,null]
+				,[null,candle,null]
+				,[null,<Railcraft:slab:22>,null]]);
+recipes.remove(<Railcraft:lantern.stone:8>);
+recipes.addShaped(<Railcraft:lantern.stone:8>
+				,[[null,<ore:slabSandtone>,null]
+				,[null,candle,null]
+				,[null,<ore:slabSandstone>,null]]);
+
+# Metal Lanterns use ingots instead of slabs
+
+recipes.remove(<Railcraft:lantern.metal:0>);
+recipes.addShaped(<Railcraft:lantern.metal:0>
+				,[[null,<ore:ingotIron>,null]
+				,[null,candle,null]
+				,[null,<ore:ingotIron>,null]]);                
+recipes.remove(<Railcraft:lantern.metal:1>);
+recipes.addShaped(<Railcraft:lantern.metal:1>
+				,[[null,<ore:ingotGold>,null]
+				,[null,candle,null]
+				,[null,<ore:ingotGold>,null]]);
+recipes.remove(<Railcraft:lantern.metal:2>);
+recipes.addShaped(<Railcraft:lantern.metal:2>
+				,[[null,<ore:ingotCopper>,null]
+				,[null,candle,null]
+				,[null,<ore:ingotCopper>,null]]);
+recipes.remove(<Railcraft:lantern.metal:3>);
+recipes.addShaped(<Railcraft:lantern.metal:3>
+				,[[null,<ore:ingotTin>,null]
+				,[null,candle,null]
+				,[null,<ore:ingotTin>,null]]);
+recipes.remove(<Railcraft:lantern.metal:4>);
+recipes.addShaped(<Railcraft:lantern.metal:4>
+				,[[null,<ore:ingotLead>,null]
+				,[null,candle,null]
+				,[null,<ore:ingotLead>,null]]);
+recipes.remove(<Railcraft:lantern.metal:5>);
+recipes.addShaped(<Railcraft:lantern.metal:5>
+				,[[null,<ore:ingotSteel>,null]
+				,[null,candle,null]
+				,[null,<ore:ingotSteel>,null]]);
+

@@ -33,6 +33,9 @@ val star = <minecraft:nether_star>;
 val skull = <minecraft:skull:1>;
 val unstableblock = <ExtraUtilities:decorativeBlock1:5>;
 
+
+recipes.remove(<ExtraUtilities:golden_bag>);
+
 recipes.remove(quarry);
 recipes.addShaped(quarry,[[enderObsidian,ray,enderObsidian],
 						[enderCore,matrix,enderCore],

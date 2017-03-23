@@ -78,6 +78,16 @@ NEI.hide("etfuturum:fence_gate_dark_oak");
 NEI.override_invert("ExtraTrees:gate", [1, 2, 3, 4, 5]);
 
 
+
+// *********************************
+// Extra Utilities
+// *********************************
+
+// Golden Bag of Holding. No more player inventory space-ception
+NEI.hide("ExtraUtilities:golden_bag");
+
+
+
 // *********************************
 // Exotic Birds
 // *********************************

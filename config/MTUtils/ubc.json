@@ -5,7 +5,7 @@
 	"texturepath":"Magneticraft:tungsten_overlay"
 	},
 	{
-		"name":"MagThorium",
+	"name":"MagThorium",
 	"nameid":"Magneticraft:thorium_ore",
 	"texturepath":"Magneticraft:thorium_overlay"
 	}

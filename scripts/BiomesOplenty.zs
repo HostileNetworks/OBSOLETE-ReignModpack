@@ -9,8 +9,14 @@ recipes.addShaped(<BiomesOPlenty:jarEmpty> * 3,[
 
 recipes.addShaped(<BiomesOPlenty:flippers>,[
     [<ore:itemRubber>,null,<ore:itemRubber>],
-    [<ore:itemRubber>,null,<ore:itemRubber>]]);
-
+    [<ore:itemRubber>,null,<ore:itemRubber>],
+    [<ore:stickWood>,null,<ore:stickWood>]]);
+    
+recipes.addShaped(<BiomesOPlenty:wadingBoots>,[
+    [<ore:itemRubber>,null,<ore:itemRubber>],
+    [<ore:itemRubber>,null,<ore:itemRubber>],
+    [<ore:slabWood>,null,<ore:slabWood>]]);
+    
 recipes.removeShaped(<minecraft:string>,[
     [<BiomesOPlenty:foliage:3>,<BiomesOPlenty:foliage:3>,<BiomesOPlenty:foliage:3>],
     [<BiomesOPlenty:foliage:3>,<BiomesOPlenty:foliage:3>,<BiomesOPlenty:foliage:3>],

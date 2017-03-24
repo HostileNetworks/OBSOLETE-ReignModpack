@@ -7,7 +7,7 @@ var fossil = <UndergroundBiomes:fossilPiece:*>;
 var newdirt = <ore:newdirt>;
 var candle = <ore:listAllcandle>;
 var treeSap = <reignadditionals:treeSap>;
-var rubber = <Magneticraft:item.rubber>;
+var rubber = <reignadditionals:rawRubber>;
 val humus = <ore:fertilizer>;
 val milkbottle = <reignadditionals:milkBottle>;
 val freshmilk = <harvestcraft:freshmilkItem>;
@@ -167,9 +167,9 @@ recipes.addShapeless(<HarderWildlife:rawLeather>,
 	[<MoCreatures:hide>, <ore:itemSalt>]);   
 
 ##================================================================================
-# Treesap stuff
+# Treesap and rubber stuff
 <ore:slimeball>.add(treeSap);
-furnace.setFuel(treeSap, 100);
+<ore:itemRubber>.add(rubber);
 furnace.addRecipe(rubber, treeSap);
 recipes.addShapeless(<minecraft:torch>,
 	[<ore:stickWood>, treeSap]);

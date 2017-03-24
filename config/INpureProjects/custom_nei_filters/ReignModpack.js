@@ -78,13 +78,6 @@ NEI.hide("etfuturum:fence_gate_dark_oak");
 NEI.override_invert("ExtraTrees:gate", [1, 2, 3, 4, 5]);
 
 
-
-// *********************************
-// Extra Utilities
-// *********************************
-
-
-
 // *********************************
 // Exotic Birds
 // *********************************

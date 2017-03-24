@@ -8,8 +8,8 @@ recipes.addShaped(<BiomesOPlenty:jarEmpty> * 3,[
     [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>]]);
 
 recipes.addShaped(<BiomesOPlenty:flippers>,[
-    [<Magneticraft:item.rubber>,null,<Magneticraft:item.rubber>],
-    [<Magneticraft:item.rubber>,null,<Magneticraft:item.rubber>]]);
+    [<ore:itemRubber>,null,<ore:itemRubber>],
+    [<ore:itemRubber>,null,<ore:itemRubber>]]);
 
 recipes.removeShaped(<minecraft:string>,[
     [<BiomesOPlenty:foliage:3>,<BiomesOPlenty:foliage:3>,<BiomesOPlenty:foliage:3>],

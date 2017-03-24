@@ -58,18 +58,51 @@ recipes.addShaped(<Magneticraft:item.heatcoil_tungsten:0>,[
 # Disable Infinite Water Source block
 recipes.remove(<Magneticraft:InfiniteWater>);
 
+# Add tooltip for Tungsten Ore
+<ore:oreTungsten>.addTooltip(format.yellow("Found in Osmium deposits"));
+
+# Rubber sheet should be sheetRubber, and be made from rubber in the Rolling Machine
+<ore:itemRubber>.remove(<Magneticraft:item.rubber>);
+<ore:sheetRubber>.add(<Magneticraft:item.rubber>);
+furnace.remove(<Magneticraft:item.rubber>);
+mods.railcraft.Rolling.addShaped(<Magneticraft:item.rubber> * 3, [
+    [<ore:itemRubber>,<ore:itemRubber>,<ore:itemRubber>],
+    [<ore:itemRubber>,<ore:itemRubber>,<ore:itemRubber>]
+]);
+
 # Low Voltage Cable x4 instead of x2
 recipes.remove(<Magneticraft:item.cable_low>);
-recipes.addShaped(<Magneticraft:item.cable_low> * 4, [
-    [<ore:blockWool>,null,null],
-    [<ore:ingotCopper>,null, null],
-    [<ore:blockWool>,null,null]
+recipes.addShapeless(<Magneticraft:item.cable_low> * 4, [
+    <ore:blockWool>,<ore:ingotCopper>,<ore:blockWool>
 ]);
-recipes.addShaped(<Magneticraft:item.cable_low> * 4, [
-    [<ore:itemRubber>,null,null],
-    [<ore:ingotCopper>,null, null],
+recipes.addShapeless(<Magneticraft:item.cable_low> * 4, [
+    <ore:sheetRubber>, <ore:ingotCopper>
+]);
+
+# Cable recipe balancing
+recipes.remove(<Magneticraft:item.copper_wire>);
+recipes.addShapeless(<Magneticraft:item.copper_wire> * 4, [
+    <ore:sheetRubber>,<ore:ingotCopper>,<ore:sheetRubber>
+]);
+recipes.remove(<Magneticraft:item.cable_medium>);
+recipes.addShapeless(<Magneticraft:item.cable_medium>, [
+    <Magneticraft:item.cable_low>,<ore:sheetRubber>,<Magneticraft:item.cable_low>
+]);
+recipes.remove(<Magneticraft:item.cable_high>);
+recipes.addShapeless(<Magneticraft:item.cable_high>, [
+    <Magneticraft:item.cable_medium>,<ore:sheetRubber>,<Magneticraft:item.cable_medium>
+]);
+
+# Converyor belt recipe balancing
+recipes.remove(<Magneticraft:conveyor_low>);
+recipes.addShaped(<Magneticraft:conveyor_low> * 12, [
+    [<ore:sheetPlastic>,<ore:sheetPlastic>,<ore:sheetPlastic>],
+    [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
+    [null,null,null]
+]);
+recipes.addShaped(<Magneticraft:conveyor_low> * 6, [
+    [<ore:sheetRubber>,<ore:sheetRubber>,<ore:sheetRubber>],
+    [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
     [null,null,null]
 ]);
 
-# Add tooltip for Tungsten Ore
-<ore:oreTungsten>.addTooltip(format.yellow("Found in Osmium deposits"));

@@ -354,9 +354,11 @@ recipes.remove(<customnpcs:npcNecklace>);
 recipes.remove(<customnpcs:npcUsbStick>);
 
 # Slingshot
-recipes.addShaped(<customnpcs:npcSlingshot>,
-	[[<ore:stickWood>, <Magneticraft:item.rubber>, <ore:stickWood>],
-	[null, <ore:rodWood>, null]]);
+recipes.addShaped(<customnpcs:npcSlingshot>, [
+    [<ore:stickWood>, <ore:itemRubber>, <ore:stickWood>],
+	[null, <ore:rodWood>, null]
+]);
+
 # Bullets
 recipes.addShaped(<customnpcs:npcIronBullet>*16,
 	[[<ore:ingotIron>, <minecraft:gunpowder>]]);
@@ -402,7 +404,8 @@ NEI.hide(<customnpcs:npcEmeraldBullet>);
 NEI.hide(<customnpcs:npcDiamondBullet>);
 	
 # Tom Foolery
-recipes.addShaped(<customnpcs:npcChickenSword>,
-    [[<Magneticraft:item.rubber>]
-	,[<Magneticraft:item.rubber>]
-	,[<ore:feather>]]);
+recipes.addShaped(<customnpcs:npcChickenSword>, [
+    [<ore:itemRubber>],
+	[<ore:itemRubber>],
+	[<ore:feather>]
+]);

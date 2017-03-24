@@ -1,0 +1,21 @@
+{
+  "_name": "GraveStone:GSSpawner",
+  "stats": {
+    "opacity": 0,
+    "brightness": 6,
+    "hardness": 5.0,
+    "resistance": 25.0,
+    "sound": "metal",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "pickaxe",
+        "level": 1
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

@@ -1,0 +1,16 @@
+{
+  "_name": "RotaryCraft:rotarycraft_block_bridge",
+  "stats": {
+    "opacity": 0,
+    "brightness": 7,
+    "hardness": -1.0,
+    "resistance": 1.08E7,
+    "sound": "glass",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

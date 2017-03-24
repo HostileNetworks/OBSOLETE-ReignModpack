@@ -1,0 +1,16 @@
+{
+  "_name": "ReactorCraft:reactorcraft_block_steam",
+  "stats": {
+    "opacity": 0,
+    "brightness": 0,
+    "hardness": 0.0,
+    "resistance": 1.08E7,
+    "sound": "stone",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

@@ -1,0 +1,16 @@
+{
+  "_name": "GraveStone:GSGraveStone",
+  "stats": {
+    "opacity": 0,
+    "brightness": 0,
+    "hardness": 0.5,
+    "resistance": 9.0E7,
+    "sound": "stone",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

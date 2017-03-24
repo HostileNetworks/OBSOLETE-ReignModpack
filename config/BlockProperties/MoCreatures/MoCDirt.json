@@ -1,0 +1,22 @@
+{
+  "_name": "MoCreatures:MoCDirt",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 0.6,
+    "resistance": 3.0,
+    "sound": "gravel",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "_meta": 0,
+        "tool": "shovel",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

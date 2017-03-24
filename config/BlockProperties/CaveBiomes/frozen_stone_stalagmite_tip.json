@@ -1,0 +1,21 @@
+{
+  "_name": "CaveBiomes:frozen_stone_stalagmite_tip",
+  "stats": {
+    "opacity": 0,
+    "brightness": 0,
+    "hardness": 0.5,
+    "resistance": 2.5,
+    "sound": "glass",
+    "slipperiness": 0.98,
+    "tool_data": [
+      {
+        "tool": "pickaxe",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

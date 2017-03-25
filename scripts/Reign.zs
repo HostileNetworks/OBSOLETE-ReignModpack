@@ -205,3 +205,6 @@ recipes.addShaped(<enviromine:camelPackDeluxe>
 				,[[<Natura:barleyFood:6>,<minecraft:potion:0>,<Natura:barleyFood:6>]
 				,[<minecraft:potion:0>,<enviromine:camelPack>,<minecraft:potion:0>]
 				,[<Natura:barleyFood:6>,<minecraft:potion:0>,<Natura:barleyFood:6>]]);
+
+# Salt Clump > Salt in Furnace
+furnace.addRecipe(<Mekanism:Salt>, <reignadditionals:saltClump>);

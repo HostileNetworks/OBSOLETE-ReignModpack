@@ -121,7 +121,7 @@ recipes.remove(<Railcraft:part.gear:2>);
 recipes.remove(<Railcraft:part.gear:0>);
 recipes.remove(<Railcraft:part.gear:1>);
 recipes.remove(<Railcraft:part.gear:3>);
-recipes.remove(<RotaryCraft:rotarycraft_item_shaftcraft:4>);
+
 val woodgear = <ore:gearWood>;
 woodgear.add(<RotaryCraft:rotarycraft_item_enginecraft:9>);
 val stonegear = <ore:gearStone>;
@@ -206,11 +206,6 @@ heart.addTooltip(format.yellow("hunger drains rapidly."));
 #recipes.addShaped(<TConstruct:heartCanister:2>, [[<TConstruct:materials:8>, <TConstruct:heartCanister:1>], [<TConstruct:heartCanister>, null]]);
 
 
-# Mirrors
-recipes.remove(<Magneticraft:mirror>);
-mods.tconstruct.Casting.addTableRecipe(<Magneticraft:mirror>, <liquid:silver.molten>*288, <minecraft:glass_pane>, true, 20);
-recipes.remove(<RotaryCraft:rotarycraft_item_misccraft>);
-mods.tconstruct.Casting.addTableRecipe(<RotaryCraft:rotarycraft_item_misccraft>, <liquid:silver.molten>*360, <minecraft:glass>, true, 40);
 
 ##================================================================================
 # CHISELS

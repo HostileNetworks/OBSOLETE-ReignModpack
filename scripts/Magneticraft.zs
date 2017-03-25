@@ -106,3 +106,7 @@ recipes.addShaped(<Magneticraft:conveyor_low> * 6, [
     [null,null,null]
 ]);
 
+# Mirrors
+recipes.remove(<Magneticraft:mirror>);
+mods.tconstruct.Casting.addTableRecipe(<Magneticraft:mirror>, <liquid:silver.molten>*288, <minecraft:glass_pane>, true, 20);
+

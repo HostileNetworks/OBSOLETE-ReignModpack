@@ -44,3 +44,15 @@ recipes.addShapeless(<reignadditionals:saltClump>, [
 
 # Remove Flour > Bread recipe (too easy, we use HarvestCraft method of making bread instead. RoC's flour still stays relevant for dough)
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
+
+## Smeltery Recipes ##
+
+# Mirror must be made at smeltery
+recipes.remove(<RotaryCraft:rotarycraft_item_misccraft>);
+mods.tconstruct.Casting.addTableRecipe(<RotaryCraft:rotarycraft_item_misccraft>, <liquid:silver.molten>*360, <minecraft:glass>, true, 40);
+
+# Gears now must be made at smeltery
+recipes.remove(<RotaryCraft:rotarycraft_item_shaftcraft:4>);
+
+
+

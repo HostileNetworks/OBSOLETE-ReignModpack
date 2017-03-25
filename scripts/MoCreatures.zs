@@ -43,5 +43,9 @@ recipes.addShaped(<MoCreatures:petamulet>,
     ,[<ore:nuggetSilver>, <ore:gemDiamond>, <ore:nuggetSilver>]
     ,[null, <MoCreatures:heartdarkness>, null]]);
 
-
+recipes.remove(<MoCreatures:medallion>);
+recipes.addShaped(<MoCreatures:medallion>,
+    [[<ore:itemLeather>, null, <ore:itemLeather>]
+    ,[<ore:ingotGold>, <ore:gemTopaz>, <ore:ingotGold>]
+    ,[null, <ore:ingotGold>, null]]);
     

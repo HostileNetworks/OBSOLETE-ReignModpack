@@ -73,7 +73,7 @@
 
           <Choice value='none' displayValue='None' description='Andesite is not generated in the world.'/>
         </OptionChoice>
-        <OptionNumeric name='chslAndesiteFreq' default='1'  min='0' max='5' displayState=':= if(?enableChisel2, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupChisel2'>
+        <OptionNumeric name='chslAndesiteFreq' default='2.5'  min='0' max='5' displayState=':= if(?enableChisel2, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupChisel2'>
           <Description> Frequency multiplier for Chisel 2 Andesite distributions </Description>
           <DisplayName>Chisel 2 Andesite Freq.</DisplayName>
         </OptionNumeric>
@@ -119,7 +119,7 @@
 
           <Choice value='none' displayValue='None' description='Diorite is not generated in the world.'/>
         </OptionChoice>
-        <OptionNumeric name='chslDioriteFreq' default='1'  min='0' max='5' displayState=':= if(?enableChisel2, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupChisel2'>
+        <OptionNumeric name='chslDioriteFreq' default='2.5'  min='0' max='5' displayState=':= if(?enableChisel2, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupChisel2'>
           <Description> Frequency multiplier for Chisel 2 Diorite distributions </Description>
           <DisplayName>Chisel 2 Diorite Freq.</DisplayName>
         </OptionNumeric>
@@ -165,7 +165,7 @@
 
           <Choice value='none' displayValue='None' description='Granite is not generated in the world.'/>
         </OptionChoice>
-        <OptionNumeric name='chslGraniteFreq' default='1'  min='0' max='5' displayState=':= if(?enableChisel2, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupChisel2'>
+        <OptionNumeric name='chslGraniteFreq' default='2.5'  min='0' max='5' displayState=':= if(?enableChisel2, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupChisel2'>
           <Description> Frequency multiplier for Chisel 2 Granite distributions </Description>
           <DisplayName>Chisel 2 Granite Freq.</DisplayName>
         </OptionNumeric>
@@ -211,7 +211,7 @@
 
           <Choice value='none' displayValue='None' description='Limestone is not generated in the world.'/>
         </OptionChoice>
-        <OptionNumeric name='chslLimestoneFreq' default='1'  min='0' max='5' displayState=':= if(?enableChisel2, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupChisel2'>
+        <OptionNumeric name='chslLimestoneFreq' default='2.5'  min='0' max='5' displayState=':= if(?enableChisel2, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupChisel2'>
           <Description> Frequency multiplier for Chisel 2 Limestone distributions </Description>
           <DisplayName>Chisel 2 Limestone Freq.</DisplayName>
         </OptionNumeric>
@@ -257,7 +257,7 @@
 
           <Choice value='none' displayValue='None' description='Marble is not generated in the world.'/>
         </OptionChoice>
-        <OptionNumeric name='chslMarbleFreq' default='1'  min='0' max='5' displayState=':= if(?enableChisel2, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupChisel2'>
+        <OptionNumeric name='chslMarbleFreq' default='2.5'  min='0' max='5' displayState=':= if(?enableChisel2, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupChisel2'>
           <Description> Frequency multiplier for Chisel 2 Marble distributions </Description>
           <DisplayName>Chisel 2 Marble Freq.</DisplayName>
         </OptionNumeric>

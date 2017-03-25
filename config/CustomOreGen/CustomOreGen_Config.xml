@@ -495,7 +495,6 @@
 
     <!-- Then, the rest are free to come in. -->
 
-    <Import file='modules/custom/ReactorCraft.xml'/>
     <Import file='modules/custom/Farlanders.xml'/>
     <!-- ***************** Import Mod-provided configs ********************* -->
     <!-- NOTE: mods will overwrite these configs upon each load -->

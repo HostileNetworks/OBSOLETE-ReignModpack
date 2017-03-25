@@ -68,3 +68,6 @@ recipes.addShaped(<Mekanism:MachineBlock:1>
 			    ,[<minecraft:bucket>,casing,<minecraft:bucket>]
 				,[a1,tablet,a1]]);
     
+
+# Remove salt block (Prefer Magneticraft's one)
+recipes.remove(<Mekanism:SaltBlock>);

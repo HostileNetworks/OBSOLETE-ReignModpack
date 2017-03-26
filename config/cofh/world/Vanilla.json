@@ -17,11 +17,6 @@
         "weight": 9
       },
       {
-        "name": "ReactorCraft:reactorcraft_block_ore",
-        "metadata": 8,
-        "weight": 10
-      },      
-      {
         "name": "Mekanism:OreBlock",
         "metadata": 0,
         "weight": 1
@@ -187,7 +182,7 @@
       1
     ]
   },
-  "coalcadmium": {
+  "coal": {
     "template": {
       "type": "fractal",
       "generator": "large-vein",
@@ -196,14 +191,8 @@
     "block": [
       {
         "name": "coal_ore",
-        "metadata": 0,
-        "weight": 95
-      },
-      {
-        "name": "ReactorCraft:reactorcraft_block_ore",
-        "metadata": 2,
-        "weight": 5
-      }	  
+        "metadata": 0
+      }
     ],
     "material": "stone",
     "clusterSize": 16,
@@ -232,19 +221,13 @@
       -1
     ]
   },
-  "coalcadmiumLow": {
+  "coalLow": {
     "template": "uniform",
     "block": [
       {
         "name": "coal_ore",
-        "metadata": 0,
-        "weight": 95
-      },
-      {
-        "name": "ReactorCraft:reactorcraft_block_ore",
-        "metadata": 2,
-        "weight": 5
-      }	  
+        "metadata": 0
+      }
     ],
     "material": "stone",
     "clusterSize": 12,

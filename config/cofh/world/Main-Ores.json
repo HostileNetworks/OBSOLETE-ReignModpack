@@ -368,11 +368,6 @@
         "name": "ImmersiveEngineering:ore",
         "metadata": 2,
         "weight": 10
-      },
-      {
-        "name": "BiomesOPlenty:gemOre",
-        "metadata": 10,
-        "weight": 6
       }
     ],
     "material": "stone",
@@ -420,11 +415,6 @@
       {
         "name": "BiomesOPlenty:gemOre",
         "metadata": 12,
-        "weight": 5
-      },
-      {
-        "name": "ReactorCraft:reactorcraft_block_ore",
-        "metadata": 3,
         "weight": 5
       },
       {
@@ -661,12 +651,7 @@
 	{
       "name": "Mekanism:OreBlock",
       "metadata": 0,
-      "weight": 70
-      },
-      {
-        "name": "ReactorCraft:reactorcraft_block_ore",
-        "metadata": 8,
-        "weight": 10
+      "weight": 80
       },
       {
         "name": "Magneticraft:tungsten_ore",
@@ -1211,17 +1196,17 @@
       {
         "name": "minecraft:monster_egg",
         "metadata": 0,
-        "weight": 20
+        "weight": 40
       },
       {
         "name": "Thaumcraft:blockCustomOre",
         "metadata": 1,
-        "weight": 20
+        "weight": 40
       },
       {
-        "name": "BiomesOPlenty:gemOre",
-        "metadata": 6,
-        "weight": 10
+        "name": "Magneticraft:thorium_ore",
+        "metadata": 0,
+        "weight": 20
       }
     ],
     "material": "minecraft:stone",

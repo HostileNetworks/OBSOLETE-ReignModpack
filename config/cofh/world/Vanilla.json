@@ -187,13 +187,24 @@
       1
     ]
   },
-  "coal": {
+  "coalcadmium": {
     "template": {
       "type": "fractal",
       "generator": "large-vein",
       "sparse": "true"
     },
-    "block": "coal_ore",
+    "block": [
+      {
+        "name": "coal_ore",
+        "metadata": 0,
+        "weight": 95
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 2,
+        "weight": 5
+      }	  
+    ],
     "material": "stone",
     "clusterSize": 16,
     "numClusters": 10,
@@ -221,9 +232,20 @@
       -1
     ]
   },
-  "coalLow": {
+  "coalcadmiumLow": {
     "template": "uniform",
-    "block": "coal_ore",
+    "block": [
+      {
+        "name": "coal_ore",
+        "metadata": 0,
+        "weight": 95
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 2,
+        "weight": 5
+      }	  
+    ],
     "material": "stone",
     "clusterSize": 12,
     "numClusters": 10,

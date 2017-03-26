@@ -28,7 +28,5 @@ recipes.addShaped(<minecraft:string>,[[
 recipes.addShapeless(<BiomesOPlenty:gems:0>,[
     <farlanders:Endumium Crystal>]);
 
-#Topaz to Fluorite
-furnace.addRecipe(<ReactorCraft:reactorcraft_item_fluorite:2>*6, <ore:blockTopaz>);
     
     

@@ -9,13 +9,18 @@
       {
         "name": "minecraft:iron_ore",
         "metadata": 0,
-        "weight": 85
+        "weight": 80
       },
       {
         "name": "ImmersiveEngineering:ore",
         "metadata": 4,
-        "weight": 10
+        "weight": 9
       },
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 8,
+        "weight": 10
+      },      
       {
         "name": "Mekanism:OreBlock",
         "metadata": 0,
@@ -168,9 +173,9 @@
     "template": "uniform",
     "block": "minecraft:diamond_ore",
     "material": "stone",
-    "clusterSize": 8,
+    "clusterSize": 12,
     "numClusters": 1,
-    "chunkChance": 4,
+    "chunkChance": 20,
     "minHeight": 2,
     "maxHeight": 16,
     "retrogen": "false",

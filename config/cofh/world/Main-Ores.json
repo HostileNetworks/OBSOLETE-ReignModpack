@@ -423,6 +423,11 @@
         "weight": 5
       },
       {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 3,
+        "weight": 5
+      },
+      {
         "name": "appliedenergistics2:tile.OreQuartz",
         "metadata": 0,
         "weight": 4
@@ -468,10 +473,6 @@
       {
         "type": "dictionary",
         "entry": "SPOOKY"
-      },
-      {
-        "type": "dictionary",
-        "entry": "PLAINS"
       },
       {
         "type": "dictionary",
@@ -1180,8 +1181,8 @@
       }
     ],
     "material": "minecraft:stone",
-    "numClusters": 2,
-    "chunkChance": 10,
+    "numClusters": 1,
+    "chunkChance": 16,
     "minHeight": 10,
     "maxHeight": 160,
     "retrogen": "false",
@@ -1224,8 +1225,8 @@
       }
     ],
     "material": "minecraft:stone",
-    "numClusters": 2,
-    "chunkChance": 10,
+    "numClusters": 1,
+    "chunkChance": 16,
     "minHeight": 10,
     "maxHeight": 160,
     "retrogen": "false",
@@ -1273,8 +1274,8 @@
       }
     ],
     "material": "minecraft:stone",
-    "numClusters": 2,
-    "chunkChance": 10,
+    "numClusters": 1,
+    "chunkChance": 16,
     "minHeight": 10,
     "maxHeight": 160,
     "retrogen": "false",
@@ -1317,8 +1318,8 @@
       }
     ],
     "material": "minecraft:stone",
-    "numClusters": 2,
-    "chunkChance": 10,
+    "numClusters": 1,
+    "chunkChance": 16,
     "minHeight": 10,
     "maxHeight": 160,
     "retrogen": "false",
@@ -1355,19 +1356,19 @@
         "weight": 20
       },
       {
-        "name": "BiomesOPlenty:crystal",
-        "metadata": 0,
+        "name": "Metallurgy:fantasy.ore",
+        "metadata": 7,
         "weight": 5
       },
       {
         "name": "minecraft:diamond_ore",
         "metadata": 0,
         "weight": 5
-      }
+      }      
     ],
     "material": "minecraft:stone",
-    "numClusters": 2,
-    "chunkChance": 10,
+    "numClusters": 1,
+    "chunkChance": 20,
     "minHeight": 10,
     "maxHeight": 160,
     "retrogen": "false",
@@ -1409,14 +1410,19 @@
         "weight": 20
       },
       {
+        "name": "BiomesOPlenty:crystal",
+        "metadata": 0,
+        "weight": 5
+      },
+      {
         "name": "minecraft:obsidian",
         "metadata": 0,
         "weight": 5
       }
     ],
     "material": "minecraft:stone",
-    "numClusters": 2,
-    "chunkChance": 10,
+    "numClusters": 1,
+    "chunkChance": 16,
     "minHeight": 10,
     "maxHeight": 160,
     "retrogen": "false",

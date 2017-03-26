@@ -3,42 +3,42 @@
     "template": "uniform",
     "block": [
       {
-        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
         "metadata": 0,
         "weight": 20
       },
       {
-        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
         "metadata": 1,
         "weight": 10
       },
       {
-        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
         "metadata": 2,
         "weight": 10
       },
       {
-        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
         "metadata": 3,
         "weight": 10
       },
       {
-        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
         "metadata": 4,
         "weight": 10
       },
       {
-        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
         "metadata": 5,
         "weight": 10
       },
       {
-        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
         "metadata": 6,
         "weight": 10
       },
       {
-        "name": "ReactorCraft:reactorcraft_block_fluorite",
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
         "metadata": 7,
         "weight": 10
       }
@@ -167,6 +167,235 @@
       -1,
       -2,
       -100
+    ]
+  },
+  "OverworldFluorite": {
+    "template": {
+      "type": "cave",
+      "ceiling": "true",
+      "generator": "cluster"
+    },
+    "block": [
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+        "metadata": 0,
+        "weight": 20
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+        "metadata": 1,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+        "metadata": 2,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+        "metadata": 3,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+        "metadata": 4,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+        "metadata": 5,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+        "metadata": 6,
+        "weight": 10
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+        "metadata": 7,
+        "weight": 10
+      }
+    ],
+    "material": "minecraft:stone",
+    "numClusters": 1,
+    "clusterSize": 6,
+    "chunkChance": 8,
+    "minHeight": 10,
+    "maxHeight": 160,
+    "retrogen": "false",
+    "biomeRestriction": "whitelist",
+    "biomes": [
+      {
+        "type": "dictionary",
+        "entry": "DRY"
+      },
+      {
+        "type": "dictionary",
+        "entry": "DEAD"
+      },
+      {
+        "type": "dictionary",
+        "entry": "MOUNTAIN"
+      }
+    ],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  }, 
+  "OverworldCalcite": {
+    "template": {
+      "type": "cave",
+      "ceiling": "true",
+      "generator": "cluster"
+    },
+    "block": [
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 7
+      }
+    ],
+    "material": "minecraft:stone",
+    "numClusters": 1,
+    "clusterSize": 6,
+    "chunkChance": 12,
+    "minHeight": 10,
+    "maxHeight": 160,
+    "retrogen": "false",
+    "biomeRestriction": "whitelist",
+    "biomes": [
+      {
+        "type": "dictionary",
+        "entry": "DRY"
+      },
+      {
+        "type": "dictionary",
+        "entry": "HOT"
+      },
+      {
+        "type": "dictionary",
+        "entry": "DEAD"
+      },
+      {
+        "type": "dictionary",
+        "entry": "HILLS"
+      },
+      {
+        "type": "dictionary",
+        "entry": "MOUNTAIN"
+      }
+    ],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },  
+  "OverworldCadmiumIndium": {
+    "template": {
+      "type": "cave",
+      "ceiling": "true",
+      "generator": "cluster"
+    },
+    "block": [
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 2,
+        "weight": 20
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 3,
+        "weight": 20
+      }
+    ],
+    "material": "minecraft:stone",
+    "numClusters": 1,
+    "clusterSize": 12,
+    "chunkChance": 8,
+    "minHeight": 10,
+    "maxHeight": 160,
+    "retrogen": "false",
+    "biomeRestriction": "whitelist",
+    "biomes": [
+      {
+        "type": "dictionary",
+        "entry": "DRY"
+      },
+      {
+        "type": "dictionary",
+        "entry": "DEAD"
+      },
+      {
+        "type": "dictionary",
+        "entry": "HILLS"
+      },
+      {
+        "type": "dictionary",
+        "entry": "MOUNTAIN"
+      }
+    ],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },  
+  "OverworldUraniumVeins": {
+    "template": {
+      "type": "fractal",
+      "generator": "large-vein",
+      "sparse": true
+    },
+    "block": [
+      {
+        "name": "Magneticraft:uranium_ore",
+        "metadata": 0,
+        "weight": 30
+      },
+      {
+        "name": "ReactorCraft:reactorcraft_block_ore",
+        "metadata": 1,
+        "weight": 20
+      },
+      {
+        "name": "Magneticraft:thorium_ore",
+        "metadata": 0,
+        "weight": 30
+      },
+      {
+        "name": "Magneticraft:tungsten_ore",
+        "metadata": 0,
+        "weight": 20
+      }
+    ],
+    "material": "stone",
+    "clusterSize": 12,
+    "numClusters": 18,
+    "chunkChance": 384,
+    "minHeight": 4,
+    "veinHeight": 32,
+    "veinDiameter": 24,
+    "verticalDensity": 22,
+    "horizontalDensity": 16,
+    "retrogen": "false",
+    "biomeRestriction": "whitelist",
+    "biomes": [
+      {
+        "type": "dictionary",
+        "entry": "HOT"
+      },
+      {
+        "type": "dictionary",
+        "entry": "SANDY"
+      },
+      {
+        "type": "dictionary",
+        "entry": "MOUNTAIN"
+      }	  
+    ],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      -2
     ]
   }
 }

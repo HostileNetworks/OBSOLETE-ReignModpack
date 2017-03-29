@@ -71,3 +71,9 @@ recipes.addShaped(<Mekanism:MachineBlock:1>
 
 # Remove salt block (Prefer Magneticraft's one)
 recipes.remove(<Mekanism:SaltBlock>);
+
+# Salt Item tooltip
+<Mekanism:Salt>.addTooltip(format.yellow("Found on beaches and riverbeds"));
+<Mekanism:Salt>.addShiftTooltip("Crafts directly into harvestcraft salt.");
+<Mekanism:Salt>.addShiftTooltip("Needed for lots of food recipes");
+<Mekanism:Salt>.addShiftTooltip("like dough for bread and pies, etc.");

@@ -11,6 +11,8 @@ var rubber = <reignadditionals:rawRubber>;
 val humus = <ore:fertilizer>;
 val milkbottle = <reignadditionals:milkBottle>;
 val freshmilk = <harvestcraft:freshmilkItem>;
+val Handaxe = <reignadditionals:flintHandaxe>;
+
 
 # Milk Bottle
 recipes.addShapeless(milkbottle,
@@ -22,118 +24,30 @@ rotten.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
 
 fossil.addTooltip(format.yellow("crafts into bonemeal"));
 
+Handaxe.addTooltip(format.yellow("Don't punch a tree. Use this instead."));
+Handaxe.addTooltip(format.yellow("Also shears foliage! (50% chance of destroying the block)."));
+Handaxe.addTooltip(format.yellow("and works as a crude crafting tool. (Press 'U' for usage)."));
+
+<minecraft:flint>.addTooltip(format.yellow("craft from 2 gravel in your inventory's 2x2 grid."));
+<minecraft:flint>.addTooltip(format.yellow("can also be crafted from 3 sedimentary sands."));
+<minecraft:flint>.addTooltip(format.yellow("ie. Chert Sand, Siltstone Sand, etc. Press 'R' for recipes"));
+<minecraft:flint>.addShiftTooltip("Gravel is common along beaches and riverbeds.");
+<minecraft:flint>.addShiftTooltip("No shovel is needed. Just use your hands");
+<minecraft:flint>.addShiftTooltip("Grab 12-20 pieces for your first flint tools.");
+<minecraft:flint>.addShiftTooltip("Keep the extra for repairs.");
+
+
+
 newdirt.add(<BiomesOPlenty:hardDirt>);
 newdirt.add(<BiomesOPlenty:driedDirt>);
 newdirt.add(<BiomesOPlenty:newBopDirt:*>);
 newdirt.add(<BiomesOPlenty:hardSand>);
 newdirt.add(<etfuturum:coarse_dirt>);
 
-# RC Lanterns use candles
 
-candle.add(<harvestcraft:pamcandleDeco1>);
-candle.add(<harvestcraft:pamcandleDeco2>);
-candle.add(<harvestcraft:pamcandleDeco3>);
-candle.add(<harvestcraft:pamcandleDeco4>);
-candle.add(<harvestcraft:pamcandleDeco5>);
-candle.add(<harvestcraft:pamcandleDeco6>);
-candle.add(<harvestcraft:pamcandleDeco7>);
-candle.add(<harvestcraft:pamcandleDeco8>);
-candle.add(<harvestcraft:pamcandleDeco9>);
-candle.add(<harvestcraft:pamcandleDeco10>);
-candle.add(<harvestcraft:pamcandleDeco11>);
-candle.add(<harvestcraft:pamcandleDeco12>);
-candle.add(<harvestcraft:pamcandleDeco13>);
-candle.add(<harvestcraft:pamcandleDeco14>);
-candle.add(<harvestcraft:pamcandleDeco15>);
-candle.add(<harvestcraft:pamcandleDeco16>);
-candle.add(<GardenStuff:candle>);
-
-recipes.remove(<Railcraft:lantern.stone:9>);
-recipes.addShaped(<Railcraft:lantern.stone:9>
-				,[[null,<ore:slabStone>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<ore:slabStone>,null]]);
-recipes.remove(<Railcraft:lantern.stone:0>);
-recipes.addShaped(<Railcraft:lantern.stone:0>
-				,[[null,<Railcraft:slab:28>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:28>,null]]);
-recipes.remove(<Railcraft:lantern.stone:1>);
-recipes.addShaped(<Railcraft:lantern.stone:1>
-				,[[null,<Railcraft:slab:26>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:26>,null]]);
-recipes.remove(<Railcraft:lantern.stone:2>);
-recipes.addShaped(<Railcraft:lantern.stone:2>
-				,[[null,<Railcraft:slab:27>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:27>,null]]);
-recipes.remove(<Railcraft:lantern.stone:3>);
-recipes.addShaped(<Railcraft:lantern.stone:3>
-				,[[null,<Railcraft:slab:24>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:24>,null]]);
-recipes.remove(<Railcraft:lantern.stone:4>);
-recipes.addShaped(<Railcraft:lantern.stone:4>
-				,[[null,<Railcraft:slab:23>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:23>,null]]);
-recipes.remove(<Railcraft:lantern.stone:5>);
-recipes.addShaped(<Railcraft:lantern.stone:5>
-				,[[null,<Railcraft:slab:29>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:29>,null]]);
-recipes.remove(<Railcraft:lantern.stone:6>);
-recipes.addShaped(<Railcraft:lantern.stone:6>
-				,[[null,<Railcraft:slab:25>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:25>,null]]);   
-recipes.remove(<Railcraft:lantern.stone:7>);
-recipes.addShaped(<Railcraft:lantern.stone:7>
-				,[[null,<Railcraft:slab:22>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:22>,null]]);
-recipes.remove(<Railcraft:lantern.stone:8>);
-recipes.addShaped(<Railcraft:lantern.stone:8>
-				,[[null,<ore:slabSandtone>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<ore:slabSandstone>,null]]);
-recipes.remove(<Railcraft:lantern.metal:0>);
-recipes.addShaped(<Railcraft:lantern.metal:0>
-				,[[null,<Railcraft:slab:6>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:6>,null]]);                
-recipes.remove(<Railcraft:lantern.metal:1>);
-recipes.addShaped(<Railcraft:lantern.metal:1>
-				,[[null,<Railcraft:slab:7>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:7>,null]]);
-recipes.remove(<Railcraft:lantern.metal:2>);
-recipes.addShaped(<Railcraft:lantern.metal:2>
-				,[[null,<Railcraft:slab:40>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:40>,null]]);
-recipes.remove(<Railcraft:lantern.metal:3>);
-recipes.addShaped(<Railcraft:lantern.metal:3>
-				,[[null,<Railcraft:slab:41>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:41>,null]]);
-recipes.remove(<Railcraft:lantern.metal:4>);
-recipes.addShaped(<Railcraft:lantern.metal:4>
-				,[[null,<Railcraft:slab:42>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:42>,null]]);
-recipes.remove(<Railcraft:lantern.metal:5>);
-recipes.addShaped(<Railcraft:lantern.metal:5>
-				,[[null,<Railcraft:slab:43>,null]
-				,[null,<ore:listAllcandle>,null]
-				,[null,<Railcraft:slab:43>,null]]);
-                
 # fix logs
 
 recipes.remove(<minecraft:log:1>);
-#remove OP apples
-recipes.remove(<harvestcraft:pamappleSapling>);
 
 # Gravel in early game
 
@@ -145,11 +59,6 @@ NEI.hide(<harvestcraft:sink:1>);
 NEI.hide(<harvestcraft:sink:2>);
 NEI.hide(<harvestcraft:sink:3>);
 ##================================================================================
-# Juicer
-recipes.remove(<harvestcraft:juicerItem>);
-recipes.addShaped(<harvestcraft:juicerItem>,
-[[<ore:gearStone>],
-[<minecraft:stone_pressure_plate>]]);
 
 ## Crude Hand Axe
 recipes.addShapeless(<reignadditionals:flintHandaxe>, [<minecraft:flint>, <minecraft:flint>]);

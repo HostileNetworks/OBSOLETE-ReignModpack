@@ -640,6 +640,14 @@ recipes.addShaped(<harvestcraft:presser>,
 [[<ore:ingotIron>, <ore:gearStone>, <appliedenergistics2:tile.BlockCrank>],
   [<ore:plankWood>, <minecraft:stone_pressure_plate>, <ore:plankWood>],
   [<ore:slabStone>, <minecraft:stone_pressure_plate>, <ore:slabStone>]]);
+# Juicer
+recipes.remove(<harvestcraft:juicerItem>);
+recipes.addShaped(<harvestcraft:juicerItem>,
+[[<ore:gearStone>],
+[<minecraft:stone_pressure_plate>]]);
+
+#remove OP apple trees
+recipes.remove(<harvestcraft:pamappleSapling>);
 
 ##==================== Furnace additions ====================##
 #bread

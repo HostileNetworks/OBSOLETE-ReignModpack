@@ -354,6 +354,7 @@ comb.add(<BiomesOPlenty:food:9>);
 recipes.remove(<harvestcraft:ediblerootItem>);
 val roots = <ore:listAllroot>;
 roots.add(<BiomesOPlenty:plants:15>);
+roots.add(<CaveBiomes:roots>);
 
 # yougurt
 val yogurt = <ore:listAllfruityogurt>;

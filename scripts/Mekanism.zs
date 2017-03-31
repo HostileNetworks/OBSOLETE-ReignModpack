@@ -1,79 +1,116 @@
-#Mekanism
-import mods.buildcraft.AssemblyTable;
+############################################
+### COMMON VARIABLES
+############################################
 
 val redstone = <minecraft:redstone>;
-val bedrock = <RotaryCraft:rotarycraft_item_compacts:3>;
-val logic = <Mekanism:MachineBlock:15>;
-val robit = <Mekanism:Robit:100>;
-val casing = <Mekanism:BasicBlock:8>;
-val core = <Mekanism:TeleportationCore:0>;
-val miner = <Mekanism:MachineBlock:4>;
-val tablet = <Mekanism:EnergyTablet>;
-val chest = <Mekanism:MachineBlock:13>;
-val ingot = <Mekanism:Ingot:0>;
+val steelCasing = <Mekanism:BasicBlock:8>;
+val energyTablet = <Mekanism:EnergyTablet>;
+val ingotRefinedObsidian = <Mekanism:Ingot:0>;
 val glass = <ore:glass>;
-val steel = <Railcraft:part.plate:1>;
-
-val a1 = <Mekanism:EnrichedAlloy>;
-val a2 = <Mekanism:ReinforcedAlloy>;
-val a3 = <Mekanism:AtomicAlloy>;
-
-val c1 = <Mekanism:ControlCircuit:0>;
-val c2 = <Mekanism:ControlCircuit:1>;
-val c3 = <Mekanism:ControlCircuit:2>;
-val c4 = <Mekanism:ControlCircuit:3>;
-
-#circuits must be made on the AssemblyTable
-mods.mekanism.Infuser.removeRecipe(c1);
-recipes.remove(c2);
-recipes.remove(c3);
-recipes.remove(c4);
-
-AssemblyTable.addRecipe(c1, 1000, [ingot, redstone]);
-AssemblyTable.addRecipe(c2, 10000, [c1, a1 * 2]);
-AssemblyTable.addRecipe(c3, 100000, [c2, a2 * 2]);
-AssemblyTable.addRecipe(c4, 1000000, [c3, a3 * 2]);
-
-#portable tank is more expensive
+val steelPlate = <Railcraft:part.plate:1>;
+val alloy1 = <Mekanism:EnrichedAlloy>;
+val alloy2 = <Mekanism:ReinforcedAlloy>;
+val alloy3 = <Mekanism:AtomicAlloy>;
+val circuit1 = <Mekanism:ControlCircuit:0>;
+val circuit2 = <Mekanism:ControlCircuit:1>;
+val circuit3 = <Mekanism:ControlCircuit:2>;
+val circuit4 = <Mekanism:ControlCircuit:3>;
 val tank = <Mekanism:MachineBlock2:11>;
-recipes.remove(tank);
-recipes.addShaped(tank, [[steel,steel,steel],[glass,c1,glass],[steel,steel,steel]]);
 
-# Remove Jetpacks
-recipes.remove(<Mekanism:Jetpack:100>);
-recipes.remove(<Mekanism:ArmoredJetpack:100>);
 
-# Quartz Block in Crusher > 4x Nether Quartz
-mods.mekanism.Crusher.addRecipe(<minecraft:quartz_block>, <minecraft:quartz> * 4);
 
-# Magneticraft Tungsten dust from RoC Tungsten ingot
-mods.mekanism.Crusher.addRecipe(<RotaryCraft:rotarycraft_item_compacts:5>, <Magneticraft:item.dust:4> *2);
+############################################
+### TOOLTIPS
+############################################
 
-# metallurgic infuser gating
-recipes.remove(<Mekanism:MachineBlock:8>);
-recipes.addShaped(<Mekanism:MachineBlock:8>
-               ,[[<ore:ingotSteel>,<Magneticraft:item.heatcoil_tungsten>,<ore:ingotSteel>]
-			    ,[<ore:dustRedstone>,<ore:ingotOsmium>,<ore:dustRedstone>]
-				,[<ore:ingotSteel>,<minecraft:furnace>,<ore:ingotSteel>]]);
+############
+# Fluid Tank - Workaround for minor NEI bug not showing recipe for later tiers
+tank.addTooltip(format.yellow("For tanks after basic, check the usage"));
+tank.addTooltip(format.yellow("for previous tier to see the recipe."));
 
-# Tablet gating
-recipes.remove(<Mekanism:EnergyTablet>);
-recipes.addShaped(<Mekanism:EnergyTablet>,
-    [[a1,<ore:chipsetGold>,a1]]);
-
-# Osmium Compressor
-recipes.remove(<Mekanism:MachineBlock:1>);
-recipes.addShaped(<Mekanism:MachineBlock:1>
-               ,[[a1,tablet,a1]
-			    ,[<minecraft:bucket>,casing,<minecraft:bucket>]
-				,[a1,tablet,a1]]);
-    
-
-# Remove salt block (Prefer Magneticraft's one)
-recipes.remove(<Mekanism:SaltBlock>);
-
-# Salt Item tooltip
+############
+# Salt
 <Mekanism:Salt>.addTooltip(format.yellow("Found on beaches and riverbeds"));
 <Mekanism:Salt>.addShiftTooltip("Crafts directly into harvestcraft salt.");
 <Mekanism:Salt>.addShiftTooltip("Needed for lots of food recipes");
 <Mekanism:Salt>.addShiftTooltip("like dough for bread and pies, etc.");
+
+
+
+############################################
+### RECIPES - GATING AND BALANCING
+############################################
+
+############
+# Control Circuits
+mods.mekanism.Infuser.removeRecipe(circuit1);
+mods.buildcraft.AssemblyTable.addRecipe(circuit1, 1000, [ingotRefinedObsidian, redstone]);
+recipes.remove(circuit2);
+mods.buildcraft.AssemblyTable.addRecipe(circuit2, 10000, [circuit1, alloy1 * 2]);
+recipes.remove(circuit3);
+mods.buildcraft.AssemblyTable.addRecipe(circuit3, 100000, [circuit2, alloy2 * 2]);
+recipes.remove(circuit4);
+mods.buildcraft.AssemblyTable.addRecipe(circuit4, 1000000, [circuit3, alloy3 * 2]);
+
+############
+# Fluid Tank - Basic
+recipes.removeShaped(tank, [
+    [<ore:dustRedstone>, <ore:ingotIron>, <ore:dustRedstone>],
+    [<ore:ingotIron>, null, <ore:ingotIron>],
+    [<ore:dustRedstone>, <ore:ingotIron>, <ore:dustRedstone>]
+]);
+recipes.addShaped(tank, [
+    [steelPlate, steelPlate, steelPlate],
+    [glass, circuit1, glass],
+    [steelPlate, steelPlate, steelPlate]
+]);
+
+############
+# Metallurgic Infuser
+recipes.remove(<Mekanism:MachineBlock:8>);
+recipes.addShaped(<Mekanism:MachineBlock:8>, [
+    [<ore:ingotSteel>, <Magneticraft:item.heatcoil_tungsten>, <ore:ingotSteel>],
+    [<ore:dustRedstone>, <ore:ingotOsmium>, <ore:dustRedstone>],
+    [<ore:ingotSteel>, <minecraft:furnace>, <ore:ingotSteel>]
+]);
+
+############
+# Energy Tablet
+recipes.remove(<Mekanism:EnergyTablet>);
+recipes.addShaped(<Mekanism:EnergyTablet>, [
+    [alloy1, <ore:chipsetGold>, alloy1]
+]);
+
+############
+# Osmium Compressor
+recipes.remove(<Mekanism:MachineBlock:1>);
+recipes.addShaped(<Mekanism:MachineBlock:1>, [
+    [alloy1, energyTablet, alloy1],
+    [<minecraft:bucket>, steelCasing, <minecraft:bucket>],
+    [alloy1, energyTablet, alloy1]
+]);
+
+
+
+############################################
+### RECIPES - ADDITIONS
+############################################
+
+# Crusher - Quartz Block > 4x Nether Quartz
+mods.mekanism.Crusher.addRecipe(<minecraft:quartz_block>, <minecraft:quartz> * 4);
+
+# Crusher - RoC Tungsten Ingot > Magneticraft Tungsten dust
+mods.mekanism.Crusher.addRecipe(<RotaryCraft:rotarycraft_item_compacts:5>, <Magneticraft:item.dust:4> *2);
+
+
+
+############################################
+### RECIPES - REMOVALS
+############################################
+
+# Jetpacks
+recipes.remove(<Mekanism:Jetpack>);
+recipes.remove(<Mekanism:ArmoredJetpack>);
+
+# Salt Block (Prefer Magneticraft)
+recipes.remove(<Mekanism:SaltBlock>);

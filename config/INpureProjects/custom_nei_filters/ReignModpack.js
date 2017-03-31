@@ -49,6 +49,15 @@ NEI.hide("chisel:cloudinabottle");
 
 
 // *********************************
+// Ender IO
+// *********************************
+
+// Stirling Generator
+NEI.hide("EnderIO:blockStirlingGenerator");
+
+
+
+// *********************************
 // Enhanced Inventories
 // *********************************
 
@@ -124,6 +133,16 @@ NEI.hide("Magneticraft:item.dustBrass");
 
 
 // *********************************
+// Mekanism
+// *********************************
+
+// Jetpacks
+NEI.hide("Mekanism:Jetpack");
+NEI.hide("Mekanism:ArmoredJetpack");
+
+
+
+// *********************************
 // Metallurgy
 // *********************************
 
@@ -137,7 +156,6 @@ NEI.override_invert("Magneticraft:item.chunks", [22]);
 NEI.override_invert("Magneticraft:item.rubble", [22]);
 NEI.override_invert("Magneticraft:item.pebbles", [22]);
 NEI.override_invert("Magneticraft:item.dust", [22]);
-
 NEI.hide("Metallurgy:manganese.molten");
 NEI.hide("Metallurgy:manganese.ingot");
 NEI.hide("aobd:oreSandManganese");

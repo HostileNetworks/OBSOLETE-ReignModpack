@@ -6,6 +6,7 @@ val redstone = <minecraft:redstone>;
 val steelCasing = <Mekanism:BasicBlock:8>;
 val energyTablet = <Mekanism:EnergyTablet>;
 val ingotRefinedObsidian = <Mekanism:Ingot:0>;
+val ingotSteel = <ore:ingotSteel>;
 val glass = <ore:glass>;
 val steelPlate = <Railcraft:part.plate:1>;
 val alloy1 = <Mekanism:EnrichedAlloy>;
@@ -15,7 +16,7 @@ val circuit1 = <Mekanism:ControlCircuit:0>;
 val circuit2 = <Mekanism:ControlCircuit:1>;
 val circuit3 = <Mekanism:ControlCircuit:2>;
 val circuit4 = <Mekanism:ControlCircuit:3>;
-val tank = <Mekanism:MachineBlock2:11>;
+val tankBasic = <Mekanism:MachineBlock2:11>;
 
 
 
@@ -25,8 +26,8 @@ val tank = <Mekanism:MachineBlock2:11>;
 
 ############
 # Fluid Tank - Workaround for minor NEI bug not showing recipe for later tiers
-tank.addTooltip(format.yellow("For tanks after basic, check the usage"));
-tank.addTooltip(format.yellow("for previous tier to see the recipe."));
+tankBasic.addTooltip(format.yellow("For tanks after basic, check the usage"));
+tankBasic.addTooltip(format.yellow("for previous tier to see the recipe."));
 
 ############
 # Salt
@@ -53,13 +54,47 @@ recipes.remove(circuit4);
 mods.buildcraft.AssemblyTable.addRecipe(circuit4, 1000000, [circuit3, alloy3 * 2]);
 
 ############
+# Universal Cable - Basic
+recipes.remove(<Mekanism:PartTransmitter:0>);
+recipes.addShaped(<Mekanism:PartTransmitter:0> * 8, [
+    [null, circuit1, null],
+    [ingotSteel, <ore:ingotConductiveIron>, ingotSteel]
+]);
+# Mechanical Pipe - Basic
+recipes.remove(<Mekanism:PartTransmitter:4>);
+recipes.addShaped(<Mekanism:PartTransmitter:4> * 8, [
+    [null, circuit1, null],
+    [ingotSteel, <minecraft:bucket>, ingotSteel]
+]);
+# Pressurized Tube - Basic
+recipes.remove(<Mekanism:PartTransmitter:8>);
+recipes.addShaped(<Mekanism:PartTransmitter:8> * 8, [
+    [null, circuit1, null],
+    [ingotSteel, <ore:blockGlass>, ingotSteel]
+]);
+# Logistical Transporter
+recipes.remove(<Mekanism:PartTransmitter:12>);
+recipes.addShaped(<Mekanism:PartTransmitter:12> * 8, [
+    [null, circuit1, null],
+    [ingotSteel, <ore:chest>, ingotSteel]
+]);
+# Thermodynamic Conductor - Basic
+recipes.remove(<Mekanism:PartTransmitter:18>);
+recipes.addShaped(<Mekanism:PartTransmitter:18> * 8, [
+    [null, circuit1, null],
+    [ingotSteel, <ore:ingotCopper>, ingotSteel]
+]);
+
+
+
+############
 # Fluid Tank - Basic
-recipes.removeShaped(tank, [
+recipes.removeShaped(tankBasic, [
     [<ore:dustRedstone>, <ore:ingotIron>, <ore:dustRedstone>],
     [<ore:ingotIron>, null, <ore:ingotIron>],
     [<ore:dustRedstone>, <ore:ingotIron>, <ore:dustRedstone>]
 ]);
-recipes.addShaped(tank, [
+recipes.addShaped(tankBasic, [
     [steelPlate, steelPlate, steelPlate],
     [glass, circuit1, glass],
     [steelPlate, steelPlate, steelPlate]

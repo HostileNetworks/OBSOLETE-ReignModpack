@@ -9,7 +9,7 @@ showPlayers:false
 showHostile:false
 showMobs:false
 showItems:false
-showOther:true
+showOther:false
 showOtherTeam:false
 showWaypoints:true
 showIngameWaypoints:true
@@ -20,7 +20,7 @@ distance:1
 showCoords:true
 lockNorth:false
 zoom:0
-mapSize:0
+mapSize:1
 entityAmount:1
 chunkGrid:-5
 slimeChunks:false
@@ -43,7 +43,7 @@ showEntityHeight:false
 showFlowers:true
 keepWaypointNames:false
 waypointsDistance:500.0
-waypointsDistanceMin:0.0
+waypointsDistanceMin:10.0
 waypointTp:tp
 arrowScale:1.5
 arrowColour:0
@@ -51,11 +51,11 @@ smoothDots:true
 playerHeads:false
 heightLimit:20
 worldMap:true
+interface::0:0:false:false:true
+interface::0:135:false:false:false
+interface::120:0:true:false:false
 interface::0:50:true:false:false
-interface::0:50:true:false:false
-interface::0:50:true:false:false
-interface::0:50:true:false:false
-interface:gui.xaero_minimap:75:76:false:false:true
+interface:gui.xaero_minimap:0:0:false:false:true
 #WAYPOINTS HAVE BEEN MOVED TO xaerowaypoints.txt!
 key_gui.xaero_instant_waypoint:78
 key_gui.xaero_toggle_grid:0

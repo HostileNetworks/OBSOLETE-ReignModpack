@@ -353,6 +353,10 @@ recipes.remove(<customnpcs:npcMoney>);
 recipes.remove(<customnpcs:npcNecklace>);
 recipes.remove(<customnpcs:npcUsbStick>);
 
+# Demonic Stuff
+mods.mekanism.Infuser.addRecipe("TIN", 20, <Thaumcraft:ItemBucketDeath>, <customnpcs:npcDemonicIngot>*9);
+
+
 # Slingshot
 recipes.addShaped(<customnpcs:npcSlingshot>, [
     [<ore:stickWood>, <ore:itemRubber>, <ore:stickWood>],
@@ -392,7 +396,6 @@ recipes.addShaped(<customnpcs:npcMachineGun>,
 	[[<customnpcs:npcMachineGun>.anyDamage(), <ore:ingotIron>]]);	
 recipes.addShaped(<customnpcs:npcGunChainsaw>,
 	[[<customnpcs:npcGunChainsaw>.anyDamage(), <ore:ingotCarbide>]]);
-
 
 NEI.hide(<customnpcs:npcWoodenGun>);
 NEI.hide(<customnpcs:npcStoneGun>);

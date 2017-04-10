@@ -53,6 +53,11 @@ recipes.addShaped(<minecraft:clay_ball> * 4, [
 recipes.addShaped(<minecraft:clay> * 2,
                 [[<ore:clayHardened>, <ore:listAllwater>, <ore:clayHardened>]]);
 
+# Remove OP string to wool recipe
+recipes.removeShaped(<minecraft:string> * 4);
+
+                
+                
 ## TOOLTIPS ##
 val lever = <ore:lever>;
 lever.add(<minecraft:lever>);

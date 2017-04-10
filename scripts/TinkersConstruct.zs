@@ -127,18 +127,6 @@ woodgear.add(<RotaryCraft:rotarycraft_item_enginecraft:9>);
 val stonegear = <ore:gearStone>;
 stonegear.add(<RotaryCraft:rotarycraft_item_enginecraft:10>);
 
-# Add Ex Nihilo crushed ores to smeltery
-mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.iron_crushed>, <liquid:iron.molten> * 72, 200, <minecraft:iron_ore>);
-mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.gold_crushed>, <liquid:gold.molten> * 72, 200, <minecraft:gold_ore>);
-mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.tin_crushed>, <liquid:tin.molten> * 72, 200, <TConstruct:SearedBrick:4>);
-mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.copper_crushed>, <liquid:copper.molten> * 72, 200, <TConstruct:SearedBrick:3>);
-mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.aluminum_crushed>, <liquid:aluminum.molten> * 72, 200, <TConstruct:SearedBrick:5>);
-mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.silver_crushed>, <liquid:silver.molten> * 72, 200, <ImmersiveEngineering:ore:3>);
-mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.lead_crushed>, <liquid:lead.molten> * 72, 200, <ImmersiveEngineering:ore:2>);
-mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.nickel_crushed>, <liquid:nickel.molten> * 72, 200, <ImmersiveEngineering:ore:4>);
-mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.platinum_crushed:0>, <liquid:platinum.molten> * 72, 200, <Metallurgy:precious.ore:2>);
-mods.tconstruct.Smeltery.addMelting(<exnihilo:exnihilo.osmium_crushed:0>, <liquid:osmium.molten> * 72, 200, <Mekanism:OreBlock:0>);
-
 # Gems to ores
 
 #Malechite to copper smetlery recipe

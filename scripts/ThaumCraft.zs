@@ -257,11 +257,11 @@ mods.thaumcraft.Aspects.setEntity("shadowmobs.epion", "volatus 2, tenebrae 2");
 mods.thaumcraft.Aspects.setEntity("shadowmobs.shade", "spiritus 2, tenebrae 2, sensus 2");
 
 #Swampmobs
-mods.thaumcraft.Aspects.setEntity("shadowmobs.remobra", "bestia 1, volatus 2");
-mods.thaumcraft.Aspects.setEntity("shadowmobs.aspid", "bestia 2, venenum 2");
-mods.thaumcraft.Aspects.setEntity("shadowmobs.dweller", "bestia 2, aqua 2");
-mods.thaumcraft.Aspects.setEntity("shadowmobs.lurker", "bestia 2, aqua 2");
-mods.thaumcraft.Aspects.setEntity("shadowmobs.ettin", "humanus 1, bestia 1, perfodio 2");
-mods.thaumcraft.Aspects.setEntity("shadowmobs.ghoulzombie", "exanimis 2, fames 2");
-mods.thaumcraft.Aspects.setEntity("shadowmobs.eyewig", "bestia 2, sensus 1, tenebrae 1");
+mods.thaumcraft.Aspects.setEntity("swampmobs.remobra", "bestia 1, volatus 2");
+mods.thaumcraft.Aspects.setEntity("swampmobs.aspid", "bestia 2, venenum 2");
+mods.thaumcraft.Aspects.setEntity("swampmobs.dweller", "bestia 2, aqua 2");
+mods.thaumcraft.Aspects.setEntity("swampmobs.lurker", "bestia 2, aqua 2");
+mods.thaumcraft.Aspects.setEntity("swampmobs.ettin", "humanus 1, bestia 1, perfodio 2");
+mods.thaumcraft.Aspects.setEntity("swampmobs.ghoulzombie", "exanimis 2, fames 2");
+mods.thaumcraft.Aspects.setEntity("swampmobs.eyewig", "bestia 2, sensus 1, tenebrae 1");
 

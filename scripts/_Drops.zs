@@ -1,4 +1,6 @@
 import mods.MTUtils.Utils;
+
+##KITCHENCRAFT HERBS##
 #Basil
 Utils.clearDrops(); // Recreated HashMap drops
 Utils.setBlockDrops(null, <BiomesOPlenty:foliage:10>, [<kitchenCraftFoods:veggie:0>], [1.0], [<kitchenCraftFoods:veggie:0>]);
@@ -16,3 +18,5 @@ Utils.setBlockDrops(null, <BiomesOPlenty:foliage:11>, [<kitchenCraftFoods:veggie
 Utils.setBlockDrops(null, <BiomesOPlenty:flowers:7>, [<kitchenCraftFoods:veggie:6>], [1.0], [<kitchenCraftFoods:veggie:6>]);
 #Parsley
 Utils.setBlockDrops(null, <BiomesOPlenty:foliage:4>, [<kitchenCraftFoods:veggie:7>], [1.0], [<kitchenCraftFoods:veggie:7>]);
+
+

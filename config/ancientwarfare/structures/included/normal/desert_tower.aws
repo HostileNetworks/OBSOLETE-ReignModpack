@@ -387,7 +387,7 @@ rule:
 plugin=vanillaInventory
 number=7
 data:
-JSON:{{"val":{"lootLevel":{"val":"0","id":"pi"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"item":{"val":"minecraft:gold_ingot","id":"ss"},"damage":{"val":"0","id":"pi"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"},"teData":{"val":{"id":{"val":"Chest","id":"ss"},"Items":{"val":[{"val":{"id":{"val":"266","id":"ps"},"Damage":{"val":"0","id":"ps"},"Count":{"val":"1","id":"pb"},"Slot":{"val":"0","id":"pb"}},"id":"ct"}],"id":"ls"},"z":{"val":"-1298","id":"pi"},"y":{"val":"26","id":"pi"},"x":{"val":"536","id":"pi"}},"id":"ct"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"5","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"lootLevel":{"val":"2","id":"pi"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"item":{"val":"minecraft:gold_ingot","id":"ss"},"damage":{"val":"0","id":"pi"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"},"teData":{"val":{"id":{"val":"Chest","id":"ss"},"Items":{"val":[{"val":{"id":{"val":"266","id":"ps"},"Damage":{"val":"0","id":"ps"},"Count":{"val":"1","id":"pb"},"Slot":{"val":"0","id":"pb"}},"id":"ct"}],"id":"ls"},"z":{"val":"-1298","id":"pi"},"y":{"val":"26","id":"pi"},"x":{"val":"536","id":"pi"}},"id":"ct"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"5","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -395,7 +395,7 @@ rule:
 plugin=vanillaInventory
 number=8
 data:
-JSON:{{"val":{"lootLevel":{"val":"0","id":"pi"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"item":{"val":"minecraft:diamond","id":"ss"},"damage":{"val":"0","id":"pi"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"},"teData":{"val":{"id":{"val":"Chest","id":"ss"},"Items":{"val":[{"val":{"id":{"val":"264","id":"ps"},"Damage":{"val":"0","id":"ps"},"Count":{"val":"1","id":"pb"},"Slot":{"val":"0","id":"pb"}},"id":"ct"}],"id":"ls"},"z":{"val":"-1298","id":"pi"},"y":{"val":"26","id":"pi"},"x":{"val":"537","id":"pi"}},"id":"ct"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"5","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"lootLevel":{"val":"2","id":"pi"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"item":{"val":"minecraft:diamond","id":"ss"},"damage":{"val":"0","id":"pi"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"},"teData":{"val":{"id":{"val":"Chest","id":"ss"},"Items":{"val":[{"val":{"id":{"val":"264","id":"ps"},"Damage":{"val":"0","id":"ps"},"Count":{"val":"1","id":"pb"},"Slot":{"val":"0","id":"pb"}},"id":"ct"}],"id":"ls"},"z":{"val":"-1298","id":"pi"},"y":{"val":"26","id":"pi"},"x":{"val":"537","id":"pi"}},"id":"ct"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"5","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 
@@ -475,7 +475,7 @@ rule:
 plugin=vanillaInventory
 number=18
 data:
-JSON:{{"val":{"lootLevel":{"val":"2","id":"pi"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"item":{"val":"minecraft:gold_ingot","id":"ss"},"damage":{"val":"0","id":"pi"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"},"teData":{"val":{"id":{"val":"Chest","id":"ss"},"Items":{"val":[{"val":{"id":{"val":"266","id":"ps"},"Damage":{"val":"0","id":"ps"},"Count":{"val":"1","id":"pb"},"Slot":{"val":"0","id":"pb"}},"id":"ct"}],"id":"ls"},"z":{"val":"-1288","id":"pi"},"y":{"val":"26","id":"pi"},"x":{"val":"536","id":"pi"}},"id":"ct"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
+JSON:{{"val":{"lootLevel":{"val":"0","id":"pi"},"inventoryData":{"val":{"length":{"val":"27","id":"pi"},"inventoryContents":{"val":[{"val":{"item":{"val":"minecraft:gold_ingot","id":"ss"},"damage":{"val":"0","id":"pi"},"quantity":{"val":"1","id":"pi"},"slot":{"val":"0","id":"pi"}},"id":"ct"}],"id":"ls"}},"id":"ct"},"teData":{"val":{"id":{"val":"Chest","id":"ss"},"Items":{"val":[{"val":{"id":{"val":"266","id":"ps"},"Damage":{"val":"0","id":"ps"},"Count":{"val":"1","id":"pb"},"Slot":{"val":"0","id":"pb"}},"id":"ct"}],"id":"ls"},"z":{"val":"-1288","id":"pi"},"y":{"val":"26","id":"pi"},"x":{"val":"536","id":"pi"}},"id":"ct"},"blockName":{"val":"minecraft:chest","id":"ss"},"meta":{"val":"4","id":"pi"},"buildPass":{"val":"0","id":"pi"}},"id":"ct"}}
 :enddata
 :endrule
 

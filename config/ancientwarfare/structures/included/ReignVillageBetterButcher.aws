@@ -1,5 +1,5 @@
 # Ancient Warfare Structure Template File
-# Auto-generated structure template file. created on: 4/4/2017 at: 4:16:55
+# Auto-generated structure template file. created on: 4/11/2017 at: 3:15:11
 # Lines beginning with # denote comments
 
 header:
@@ -89,7 +89,7 @@ layer: 3
 1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1
-1,2,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1
 0,0,0,0,1,1,1,1,1,1,1
 :endlayer
@@ -121,7 +121,7 @@ layer: 5
 3,6,8,8,8,8,8,8,8,6,3
 14,6,8,8,8,8,8,8,8,6,3
 3,5,9,9,9,9,9,9,9,5,3
-3,3,12,13,12,3,3,3,3,3,0
+3,3,12,13,12,3,3,0,3,3,0
 :endlayer
 layer: 6
 0,0,0,0,0,0,0,0,0,15,0

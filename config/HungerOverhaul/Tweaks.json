@@ -43,10 +43,16 @@
       "saturationModifier": 0.6
     },
     {
+      "name": "harvestcraft:baconwrappeddatesItem",
+      "meta": 0,
+      "hunger": 5,
+      "saturationModifier": 0.8
+    },
+    {
       "name": "harvestcraft:bakedhamItem",
       "meta": 0,
       "hunger": 6,
-      "saturationModifier": 0.6
+      "saturationModifier": 0.8
     },
     {
       "name": "harvestcraft:bangersandmashItem",
@@ -167,6 +173,12 @@
       "meta": 0,
       "hunger": 20,
       "saturationModifier": 0.6
+    },
+    {
+      "name": "harvestcraft:chocolatebaconItem",
+      "meta": 0,
+      "hunger": 6,
+      "saturationModifier": 0.8
     },
     {
       "name": "harvestcraft:chocolaterollItem",
@@ -413,6 +425,12 @@
       "name": "harvestcraft:maplesausageItem",
       "meta": 0,
       "hunger": 7,
+      "saturationModifier": 0.8
+    },
+    {
+      "name": "harvestcraft:maplecandiedbaconItem",
+      "meta": 0,
+      "hunger": 5,
       "saturationModifier": 0.8
     },
     {
@@ -876,6 +894,12 @@
       "meta": 0,
       "hunger": 9,
       "saturationModifier": 0.8
+    },
+    {
+      "name": "harvestcraft:trailmixItem",
+      "meta": 0,
+      "hunger": 8,
+      "saturationModifier": 0.5
     },
     {
       "name": "harvestcraft:tunapotatoItem",

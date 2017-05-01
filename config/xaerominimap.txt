@@ -51,9 +51,9 @@ smoothDots:true
 playerHeads:false
 heightLimit:20
 worldMap:true
-interface::0:0:false:false:true
-interface::0:135:false:false:false
-interface::120:0:true:false:false
+interface::0:50:true:false:false
+interface::0:50:true:false:false
+interface::0:50:true:false:false
 interface::0:50:true:false:false
 interface:gui.xaero_minimap:0:0:false:false:true
 #WAYPOINTS HAVE BEEN MOVED TO xaerowaypoints.txt!

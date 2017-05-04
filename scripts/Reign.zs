@@ -1,7 +1,6 @@
 import mods.nei.NEI;
               
 # Tooltips
-var eggshell = <exoticbirds:eggshell>;
 var rotten = <enviromine:rottenFood>;
 var fossil = <UndergroundBiomes:fossilPiece:*>;
 var newdirt = <ore:newdirt>;
@@ -18,24 +17,21 @@ val Handaxe = <reignadditionals:flintHandaxe>;
 recipes.addShapeless(milkbottle,
 	[freshmilk, <minecraft:glass_bottle>]);
 
-eggshell.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
+# Bonemeal equivalents
+<exoticbirds:eggshell>.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
 
-rotten.addTooltip(format.yellow("Works like bonemeal! Right click a plant"));
-
-fossil.addTooltip(format.yellow("crafts into bonemeal"));
+rotten.addTooltip(format.yellow("Works like bonemeal! Right click a plant."));
+<GardenCore:compost_pile>.addTooltip("Works like bonemeal! Right click a plant");
+fossil.addTooltip(format.yellow("Crafts into bonemeal"));
 
 Handaxe.addTooltip(format.yellow("Don't punch a tree. Use this instead."));
-Handaxe.addTooltip(format.yellow("Also shears foliage! (50% chance of destroying the block)."));
-Handaxe.addTooltip(format.yellow("and works as a crude crafting tool. (Press 'U' for usage)."));
+Handaxe.addTooltip(format.yellow("Also shears foliage! Just not very well.
+Handaxe.addTooltip(format.yellow("(50% chance of success)."));
+Handaxe.addShiftTooltip(format.yellow("also works as a crude crafting tool. (Press 'U' for usage)."));
 
-<minecraft:flint>.addTooltip(format.yellow("craft from 2 gravel in your inventory's 2x2 grid."));
-<minecraft:flint>.addTooltip(format.yellow("can also be crafted from 3 sedimentary sands."));
-<minecraft:flint>.addTooltip(format.yellow("ie. Chert Sand, Siltstone Sand, etc. Press 'R' for recipes"));
-<minecraft:flint>.addShiftTooltip("Gravel is common along beaches and riverbeds.");
-<minecraft:flint>.addShiftTooltip("No shovel is needed. Just use your hands");
-<minecraft:flint>.addShiftTooltip("Grab 12-20 pieces for your first flint tools.");
-<minecraft:flint>.addShiftTooltip("Keep the extra for repairs.");
-
+<minecraft:flint>.addShiftTooltip("crafted from 2 gravel.");
+<minecraft:flint>.addShiftTooltip("or any 3 sedimentary sands");
+<minecraft:flint>.addShiftTooltip("eg. Chert Sand,etc. Press 'R' for recipes");
 
 
 newdirt.add(<BiomesOPlenty:hardDirt>);

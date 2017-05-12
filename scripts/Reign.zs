@@ -25,7 +25,7 @@ rotten.addTooltip(format.yellow("Works like bonemeal! Right click a plant."));
 fossil.addTooltip(format.yellow("Crafts into bonemeal"));
 
 Handaxe.addTooltip(format.yellow("Don't punch a tree. Use this instead."));
-Handaxe.addTooltip(format.yellow("Also shears foliage! Just not very well.
+Handaxe.addTooltip(format.yellow("Also shears foliage! Just not very well)).
 Handaxe.addTooltip(format.yellow("(50% chance of success)."));
 Handaxe.addShiftTooltip(format.yellow("also works as a crude crafting tool. (Press 'U' for usage)."));
 

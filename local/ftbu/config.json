@@ -69,7 +69,7 @@
   },
   "login": {
     "motd": [
-      "Welcome to a Hostile world"
+      ""
     ],
     "starting_items": [
       "minecraft:apple 2 0",

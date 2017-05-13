@@ -20,28 +20,6 @@ mods.tconstruct.ToolStats.setBowDrawspeed("Bedrock", 75);
 furnace.addRecipe(<Metallurgy:silver.ingot>, <RotaryCraft:rotarycraft_item_modextracts:19>);
 furnace.addRecipe(<Metallurgy:silver.ingot>, <RotaryCraft:rotarycraft_item_modextracts:159>);
 
-###
-# SALT ADJUSTMENTS
-
-# Remove oredict tags from salt. Still works in Reika mods, but stops it from being used directly by other mods
-<ore:dustSalt>.remove(<RotaryCraft:rotarycraft_item_powders:5>);
-<ore:foodSalt>.remove(<RotaryCraft:rotarycraft_item_powders:5>);
-
-# Remove RoC salt from Mekanism's Chemical Oxidizer recipes (makes it too easy to get Brine otherwise)
-mods.mekanism.chemical.Oxidizer.removeRecipe(<gas:brine>, <RotaryCraft:rotarycraft_item_powders:5>);
-
-# Rename to 'Salt Residue'
-<RotaryCraft:rotarycraft_item_powders:5>.displayName = "Salt Residue";
-
-# Craft 9x Salt Residue > Salt Clump
-recipes.addShapeless(<reignadditionals:saltClump>, [
-    <RotaryCraft:rotarycraft_item_powders:5>, <RotaryCraft:rotarycraft_item_powders:5>, <RotaryCraft:rotarycraft_item_powders:5>,
-    <RotaryCraft:rotarycraft_item_powders:5>, <RotaryCraft:rotarycraft_item_powders:5>, <RotaryCraft:rotarycraft_item_powders:5>, 
-    <RotaryCraft:rotarycraft_item_powders:5>, <RotaryCraft:rotarycraft_item_powders:5>, <RotaryCraft:rotarycraft_item_powders:5>
-]);
-
-# Salt Clump in Furnace = Mekanism (i.e. universal) Salt, done in Reign.zs
-
 # Remove Flour > Bread recipe (too easy, we use HarvestCraft method of making bread instead. RoC's flour still stays relevant for dough)
 furnace.remove(<minecraft:bread>, <RotaryCraft:rotarycraft_item_powders:9>);
 

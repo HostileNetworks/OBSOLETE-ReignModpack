@@ -134,10 +134,6 @@ recipes.addShaped(<enviromine:camelPackDeluxe>, [
     [<Natura:barleyFood:6>,<minecraft:potion:0>,<Natura:barleyFood:6>]
 ]);
 
-# Salt Clump > Salt in Furnace (Salt Clump is the intermediary salt for nerfing salt production in Reika's Drying Bed)
-furnace.addRecipe(<Mekanism:Salt>, <reignadditionals:saltClump>);
-
-
 ############################################
 ### RECIPES - REMOVALS
 ############################################

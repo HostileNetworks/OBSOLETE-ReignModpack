@@ -46,8 +46,12 @@ Handaxe.addTooltip(format.yellow("has craft uses (Press 'U' for recipes)."));
 <minecraft:flint>.addShiftTooltip("three sedimentary sands. Press 'R'");
 <minecraft:flint>.addShiftTooltip("for detailed recipes.");
 
-# Vanilla torch - 2DO
-# Will go out in the rain (and after a while? How do you re-light again?). For a better, albeit more expensive alternative, use Carpenter's Torches
+# Vanilla torch 
+<minecraft:torch>.addTooltip("Will go out in the rain");
+<minecraft:torch>.addTooltip("also slowly burns out after 7 days");
+<minecraft:torch>.addTooltip("Relight with flint and steel");
+<minecraft:torch>.addShiftTooltip("For a better, albeit more expensive");
+<minecraft:torch>.addShiftTooltip("alternative, use Carpenter's Torches");
 
 
 
